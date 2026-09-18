@@ -1,0 +1,3 @@
+# Local scratch space. Not part of the site and not part of the dataset,
+# so nothing under it is ever staged or committed.
+testCode/
