@@ -1,0 +1,30 @@
+[
+  {
+    "no": "EB-16",
+    "from": "Thakurpukur 3A",
+    "to": "Infosys Hatishala",
+    "section": "Relaunched / newer services",
+    "list": "govt",
+    "source": "manual",
+    "note": "WBTC AC-electric. Not published in the WBTC city-route table; alignment from WBTC relaunch notices and Kolbusopedia depot posts (2024 relaunch: Thakurpukur 3A <-> Infosys Hatishala).",
+    "stops": [
+      "Thakurpukur 3A",
+      "Silpara",
+      "Sakherbazar",
+      "Behala Chowrasta",
+      "Behala 14 No.",
+      "Taratala",
+      "New Alipore",
+      "Prince Anwar Shah Rd",
+      "Tollygunge",
+      "South City",
+      "Kalikapur",
+      "Ruby Hospital",
+      "Science City",
+      "Salt Lake Sector V",
+      "Narkel Bagan",
+      "Unitech",
+      "Infosys Hatishala"
+    ]
+  }
+]

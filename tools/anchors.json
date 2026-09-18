@@ -1,0 +1,422 @@
+{
+ "Howrah Station": {
+  "lat": 22.5839,
+  "lng": 88.3425
+ },
+ "Howrah Maidan": {
+  "lat": 22.59,
+  "lng": 88.33
+ },
+ "Shibpur": {
+  "lat": 22.58,
+  "lng": 88.32
+ },
+ "Esplanade": {
+  "lat": 22.5646,
+  "lng": 88.3517
+ },
+ "BBD Bagh": {
+  "lat": 22.5697,
+  "lng": 88.3477
+ },
+ "Dalhousie": {
+  "lat": 22.566,
+  "lng": 88.345
+ },
+ "Chandni Chowk": {
+  "lat": 22.567,
+  "lng": 88.36
+ },
+ "Burrabazar": {
+  "lat": 22.58,
+  "lng": 88.35
+ },
+ "MG Road": {
+  "lat": 22.573,
+  "lng": 88.35
+ },
+ "Sealdah": {
+  "lat": 22.5675,
+  "lng": 88.3697
+ },
+ "Bidhan Sarani": {
+  "lat": 22.58,
+  "lng": 88.365
+ },
+ "Shyambazar": {
+  "lat": 22.6,
+  "lng": 88.37
+ },
+ "Shobhabazar": {
+  "lat": 22.595,
+  "lng": 88.365
+ },
+ "Hatibagan": {
+  "lat": 22.598,
+  "lng": 88.37
+ },
+ "Girish Park": {
+  "lat": 22.59,
+  "lng": 88.365
+ },
+ "Sinthee": {
+  "lat": 22.61,
+  "lng": 88.37
+ },
+ "Cossipore": {
+  "lat": 22.61,
+  "lng": 88.36
+ },
+ "Chitpur": {
+  "lat": 22.605,
+  "lng": 88.36
+ },
+ "Belgachia": {
+  "lat": 22.605,
+  "lng": 88.38
+ },
+ "Dum Dum": {
+  "lat": 22.62,
+  "lng": 88.42
+ },
+ "Dum Dum Cantonment": {
+  "lat": 22.63,
+  "lng": 88.41
+ },
+ "Nagerbazar": {
+  "lat": 22.62,
+  "lng": 88.4
+ },
+ "Lake Town": {
+  "lat": 22.605,
+  "lng": 88.4
+ },
+ "Bangur Avenue": {
+  "lat": 22.61,
+  "lng": 88.405
+ },
+ "Kalindi": {
+  "lat": 22.625,
+  "lng": 88.41
+ },
+ "Birati": {
+  "lat": 22.67,
+  "lng": 88.42
+ },
+ "Madhyamgram": {
+  "lat": 22.7,
+  "lng": 88.45
+ },
+ "Barasat": {
+  "lat": 22.7221,
+  "lng": 88.4806
+ },
+ "Belghoria": {
+  "lat": 22.65,
+  "lng": 88.38
+ },
+ "Dunlop": {
+  "lat": 22.65,
+  "lng": 88.37
+ },
+ "Barrackpore": {
+  "lat": 22.76,
+  "lng": 88.37
+ },
+ "Sodepur": {
+  "lat": 22.7,
+  "lng": 88.38
+ },
+ "Khardaha": {
+  "lat": 22.72,
+  "lng": 88.38
+ },
+ "Panihati": {
+  "lat": 22.69,
+  "lng": 88.38
+ },
+ "Dakshineswar": {
+  "lat": 22.655,
+  "lng": 88.36
+ },
+ "Belur Math": {
+  "lat": 22.63,
+  "lng": 88.35
+ },
+ "Bally": {
+  "lat": 22.64,
+  "lng": 88.34
+ },
+ "Chuanas": {
+  "lat": 22.63,
+  "lng": 88.335
+ },
+ "Ultadanga": {
+  "lat": 22.59,
+  "lng": 88.39
+ },
+ "Kankurgachi": {
+  "lat": 22.58,
+  "lng": 88.39
+ },
+ "Phoolbagan": {
+  "lat": 22.575,
+  "lng": 88.39
+ },
+ "Salt Lake Sector I": {
+  "lat": 22.585,
+  "lng": 88.4
+ },
+ "Salt Lake Sector II": {
+  "lat": 22.583,
+  "lng": 88.41
+ },
+ "Salt Lake Sector III": {
+  "lat": 22.58,
+  "lng": 88.41
+ },
+ "Bidhannagar": {
+  "lat": 22.585,
+  "lng": 88.41
+ },
+ "Salt Lake Sector V": {
+  "lat": 22.5726,
+  "lng": 88.4318
+ },
+ "Karunamoyee": {
+  "lat": 22.585,
+  "lng": 88.415
+ },
+ "College More": {
+  "lat": 22.58,
+  "lng": 88.42
+ },
+ "Kestopur": {
+  "lat": 22.6,
+  "lng": 88.43
+ },
+ "Baguiati": {
+  "lat": 22.61,
+  "lng": 88.43
+ },
+ "Chinar Park": {
+  "lat": 22.61,
+  "lng": 88.45
+ },
+ "Rajarhat New Town": {
+  "lat": 22.58,
+  "lng": 88.46
+ },
+ "Action Area 1": {
+  "lat": 22.58,
+  "lng": 88.47
+ },
+ "Airport (CCU)": {
+  "lat": 22.6547,
+  "lng": 88.4467
+ },
+ "Kaikhali": {
+  "lat": 22.64,
+  "lng": 88.43
+ },
+ "Nimta": {
+  "lat": 22.64,
+  "lng": 88.42
+ },
+ "Park Street": {
+  "lat": 22.5535,
+  "lng": 88.3517
+ },
+ "Maidan": {
+  "lat": 22.56,
+  "lng": 88.345
+ },
+ "Minto Park": {
+  "lat": 22.545,
+  "lng": 88.35
+ },
+ "Rabindra Sadan": {
+  "lat": 22.545,
+  "lng": 88.345
+ },
+ "Victoria Memorial": {
+  "lat": 22.545,
+  "lng": 88.34
+ },
+ "Alipore": {
+  "lat": 22.535,
+  "lng": 88.335
+ },
+ "Majerhat": {
+  "lat": 22.52,
+  "lng": 88.33
+ },
+ "Taratala": {
+  "lat": 22.51,
+  "lng": 88.32
+ },
+ "Behala Chowrasta": {
+  "lat": 22.5,
+  "lng": 88.32
+ },
+ "Thakurpukur": {
+  "lat": 22.47,
+  "lng": 88.3
+ },
+ "Joka": {
+  "lat": 22.45,
+  "lng": 88.3
+ },
+ "Batanagar": {
+  "lat": 22.5,
+  "lng": 88.28
+ },
+ "Maheshtala": {
+  "lat": 22.5,
+  "lng": 88.26
+ },
+ "Budge Budge": {
+  "lat": 22.48,
+  "lng": 88.27
+ },
+ "Khidderpore": {
+  "lat": 22.55,
+  "lng": 88.32
+ },
+ "Garden Reach": {
+  "lat": 22.55,
+  "lng": 88.3
+ },
+ "Metiabruz": {
+  "lat": 22.55,
+  "lng": 88.29
+ },
+ "Kalighat": {
+  "lat": 22.5186,
+  "lng": 88.3426
+ },
+ "Tollygunge": {
+  "lat": 22.4989,
+  "lng": 88.3459
+ },
+ "Bhowanipore": {
+  "lat": 22.535,
+  "lng": 88.345
+ },
+ "Lansdowne": {
+  "lat": 22.525,
+  "lng": 88.345
+ },
+ "Rashbehari": {
+  "lat": 22.52,
+  "lng": 88.36
+ },
+ "Gariahat": {
+  "lat": 22.518,
+  "lng": 88.365
+ },
+ "Ballygunge": {
+  "lat": 22.525,
+  "lng": 88.365
+ },
+ "Golpark": {
+  "lat": 22.51,
+  "lng": 88.365
+ },
+ "Jadavpur": {
+  "lat": 22.499,
+  "lng": 88.371
+ },
+ "Jadavpur University": {
+  "lat": 22.498,
+  "lng": 88.37
+ },
+ "Dhakuria": {
+  "lat": 22.51,
+  "lng": 88.37
+ },
+ "Selimpur": {
+  "lat": 22.51,
+  "lng": 88.37
+ },
+ "Garia": {
+  "lat": 22.4655,
+  "lng": 88.393
+ },
+ "Narendrapur": {
+  "lat": 22.44,
+  "lng": 88.4
+ },
+ "Sonarpur": {
+  "lat": 22.44,
+  "lng": 88.42
+ },
+ "Baruipur": {
+  "lat": 22.36,
+  "lng": 88.43
+ },
+ "Rajpur": {
+  "lat": 22.42,
+  "lng": 88.42
+ },
+ "Kasba": {
+  "lat": 22.5,
+  "lng": 88.39
+ },
+ "Science City": {
+  "lat": 22.54,
+  "lng": 88.4
+ },
+ "Ruby": {
+  "lat": 22.51,
+  "lng": 88.4
+ },
+ "Rashbehari Connector": {
+  "lat": 22.49,
+  "lng": 88.4
+ },
+ "Patuli": {
+  "lat": 22.48,
+  "lng": 88.4
+ },
+ "Baghajatin": {
+  "lat": 22.48,
+  "lng": 88.38
+ },
+ "Bijoygarh": {
+  "lat": 22.49,
+  "lng": 88.37
+ },
+ "Parnasree": {
+  "lat": 22.51,
+  "lng": 88.31
+ },
+ "Santoshpur": {
+  "lat": 22.49,
+  "lng": 88.31
+ },
+ "Nangi": {
+  "lat": 22.49,
+  "lng": 88.29
+ },
+ "Akra": {
+  "lat": 22.52,
+  "lng": 88.29
+ },
+ "Budge Budge Bridge": {
+  "lat": 22.47,
+  "lng": 88.26
+ },
+ "Shakespeare Sarani": {
+  "lat": 22.545,
+  "lng": 88.355
+ },
+ "Camac Street": {
+  "lat": 22.545,
+  "lng": 88.355
+ },
+ "Loudon Street": {
+  "lat": 22.545,
+  "lng": 88.36
+ }
+}

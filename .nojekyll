@@ -1,0 +1,2 @@
+# Tells GitHub Pages to serve these files as-is, without running Jekyll.
+# Safe to keep even though the site has no underscore-prefixed assets.

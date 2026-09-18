@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BusBondhu - Kolkata's Bus Companion</title>
+<meta name="description" content="BusBondhu - find Kolkata buses between any two stops with timings, frequency, route maps and travel estimates." />
+<meta name="theme-color" content="#070b18" />
+<meta name="color-scheme" content="dark" />
+<meta name="author" content="BusBondhu" />
+
+<!-- social / share previews -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="BusBondhu" />
+<meta property="og:title" content="BusBondhu - Kolkata's Bus Companion" />
+<meta property="og:description" content="Find any bus across Kolkata between two stops. Timings, frequency, route maps and travel estimates for govt + private services." />
+<meta property="og:locale" content="en_IN" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="BusBondhu - Kolkata's Bus Companion" />
+<meta name="twitter:description" content="Find any bus across Kolkata between two stops, with route maps and travel estimates." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://tile.openstreetmap.org">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='88'>&#128652;</text></svg>">
+</head>
+<body>
+
+  <a class="skip-link" href="#results">Skip to results</a>
+
+  <noscript>
+    <div class="no-script">
+      <strong>BusBondhu needs JavaScript.</strong>
+      This tool searches and sorts live departures in your browser, so please enable JavaScript to use it.
+    </div>
+  </noscript>
+
+  <div class="orbs" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+    <span class="grain"></span>
+  </div>
+
+  <header class="hero">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">&#128652;</div>
+      <div class="brand-text">
+        <h1>Bus<span>Bondhu</span></h1>
+        <p class="tagline"><span class="bn" lang="bn">&#2476;&#2494;&#2488;&#2476;&#2472;&#2509;&#2471;&#2497;</span> &middot; Your Kolkata bus companion</p>
+      </div>
+    </div>
+
+    <div class="clock glassy" title="Live local time in Kolkata">
+      <span class="pulse-dot"></span>
+      <span class="clock-label">Kolkata</span>
+      <strong id="liveClock">--:--:--</strong>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="search-card glassy" aria-label="Bus search">
+      <div class="card-head">
+        <h2>Where are you headed today?</h2>
+        <span class="mini-note" title="Route numbers, origins, termini and stop sequences come from WBTC's official city bus route list and from Kolkata Bus-O-Pedia's catalogue of private, minibus, SD/DN, K/KB and STA services. Neither source publishes frequencies or departure times, so the headways and next-bus times on this page are clearly-labelled estimates, not official timings. Only stops we can place with confidence are plotted.">route data: WBTC + Kolkata Bus-O-Pedia &middot; times are estimates</span>
+      </div>
+
+      <form id="searchForm" autocomplete="off" novalidate>
+        <div class="field-grid">
+
+          <div class="field">
+            <label for="source">From <span class="req-none">(source)</span></label>
+            <div class="input-wrap">
+              <span class="ico">&#128205;</span>
+              <input id="source" name="source" list="stopList" placeholder="e.g. Howrah Station" spellcheck="false" />
+            </div>
+          </div>
+
+          <button type="button" class="swap-btn" id="swapBtn" title="Swap source and destination" aria-label="Swap source and destination">&#8645;</button>
+
+          <div class="field">
+            <label for="destination">To <span class="req-none">(destination)</span></label>
+            <div class="input-wrap">
+              <span class="ico">&#127937;</span>
+              <input id="destination" name="destination" list="stopList" placeholder="e.g. Salt Lake Sector V" spellcheck="false" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="timeHour">Time of travel <span class="req-none">(optional)</span></label>
+            <div class="input-wrap">
+              <span class="ico">&#128337;</span>
+              <select id="timeHour">
+                <option value="">Now &middot; auto-detect</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="ampm">AM / PM <span class="req-none">(optional)</span></label>
+            <div class="input-wrap">
+              <span class="ico">&#127749;</span>
+              <select id="ampm">
+                <option value="">Now (auto)</option>
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+              </select>
+            </div>
+          </div>
+
+        </div>
+
+        <datalist id="stopList"></datalist>
+
+        <button type="submit" class="search-btn" id="searchBtn">
+          <span class="sb-ico">&#128269;</span>
+          <span>Search buses</span>
+          <span class="sb-arrow">&rarr;</span>
+        </button>
+      </form>
+
+      <div class="quick-picks">
+        <span class="qp-label">Try:</span>
+        <button type="button" class="qp" data-from="Howrah Station" data-to="Salt Lake Sector V">Howrah &rarr; Sector V</button>
+        <button type="button" class="qp" data-from="Esplanade" data-to="Barasat">Esplanade &rarr; Barasat</button>
+        <button type="button" class="qp" data-from="Garia" data-to="Airport (CCU)">Garia &rarr; Airport</button>
+      </div>
+    </section>
+
+    <section class="results" id="results" aria-live="polite" tabindex="-1">
+
+      <div class="results-head" id="resultsHead" hidden>
+        <div class="rh-text">
+          <h3 id="rhTitle">Buses</h3>
+          <p id="rhWindow">&mdash;</p>
+          <p class="rh-count" id="rhCount" hidden></p>
+        </div>
+        <div class="filters" id="filters">
+          <button type="button" class="filter is-active" data-filter="all">All</button>
+          <button type="button" class="filter" data-filter="ac">AC</button>
+          <button type="button" class="filter" data-filter="electric">Electric</button>
+          <button type="button" class="filter" data-filter="nonac">Non-AC</button>
+        </div>
+      </div>
+
+      <div class="results-list" id="resultsList"></div>
+
+      <div class="empty-state glassy" id="emptyState">
+        <div class="es-ico">&#128678;</div>
+        <h3>Ready when you are</h3>
+        <p>Pick a source and a destination above, then hit <strong>Search buses</strong>. We'll line up every bus leaving your stop over the next 2 hours &mdash; government, private, minibus and STA services, over 500 real routes.</p>
+      </div>
+    </section>
+  </main>
+
+  <section class="support glassy" aria-label="Support the project">
+    <div class="support-inner">
+      <div class="coffee">&#9749;</div>
+      <h3>Buy me a coffee for much such cool projects.</h3>
+      <p class="support-pay">
+        <span class="pay-chip">GPay</span>
+        <span class="pay-chip">PhonePe</span>
+        at
+        <span class="pay-link">8017414711</span>
+        /
+        <a class="pay-link" href="upi://pay?pa=8017414711@yespop" title="Pay via UPI">8017414711@yespop</a>
+      </p>
+      <div class="socials">
+        <a class="social ig" href="https://instagram.com/ig_chromozome" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.26.07 1.64.07 4.85s0 3.6-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.26.06-1.64.07-4.85.07s-3.6 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.4 2.2 8.8 2.2 12 2.2Z"/><path fill="currentColor" d="M12 7.05A4.95 4.95 0 1 0 12 16.95 4.95 4.95 0 0 0 12 7.05Zm0 1.8a3.15 3.15 0 1 1 0 6.3 3.15 3.15 0 0 1 0-6.3Z"/><circle fill="currentColor" cx="17.1" cy="6.9" r="1.15"/></svg>
+          <span>@ig_chromozome</span>
+        </a>
+        <a class="social wa" href="https://wa.me/918017414711?text=Hi!%20Loved%20BusBondhu" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.74.46 3.42 1.32 4.9L2 22l5.4-1.42a9.86 9.86 0 0 0 4.64 1.18h.01c5.43 0 9.84-4.4 9.84-9.84 0-2.63-1.02-5.1-2.88-6.96A9.77 9.77 0 0 0 12.04 2Zm0 1.8c2.15 0 4.17.84 5.69 2.36a8 8 0 0 1 2.36 5.68c0 4.44-3.61 8.04-8.05 8.04a8.06 8.06 0 0 1-4.1-1.12l-.3-.17-3.2.84.85-3.12-.2-.32a8.03 8.03 0 0 1-1.24-4.29c0-4.43 3.61-8.03 8.05-8.03Zm-3.1 4.28c-.15 0-.4.06-.6.28-.2.22-.78.77-.78 1.87 0 1.1.8 2.16.9 2.3.12.15 1.56 2.5 3.86 3.4 1.9.75 2.3.6 2.72.56.4-.04 1.3-.53 1.48-1.04.18-.5.18-.94.13-1.03-.06-.09-.22-.14-.46-.26-.24-.12-1.3-.64-1.5-.71-.2-.07-.35-.11-.5.11-.14.22-.56.71-.68.86-.13.14-.26.16-.48.05-.22-.11-.94-.35-1.79-1.1a6.7 6.7 0 0 1-1.23-1.53c-.13-.22-.01-.34.09-.45.1-.1.22-.26.33-.39.11-.13.15-.22.22-.37.07-.15.04-.28-.01-.39-.06-.11-.5-1.2-.68-1.63-.18-.43-.36-.37-.5-.38l-.43-.01Z"/></svg>
+          <span>+91 80174 14711</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-foot">
+    <p>&copy; <span id="year">2026</span> <strong>BusBondhu</strong> &middot; Kolkata. All rights reserved.</p>
+    <p class="foot-sub">Made with &#10084; for the City of Joy.</p>
+  </footer>
+
+  <div class="modal-overlay" id="mapOverlay" hidden>
+    <div class="modal glassy" role="dialog" aria-modal="true" aria-labelledby="mhRoute" aria-describedby="mhSub">
+      <button type="button" class="modal-close" id="modalClose" aria-label="Close">&#10005;</button>
+
+      <div class="modal-head">
+        <div class="mh-left">
+          <div class="mh-bus" id="mhBus">&mdash;</div>
+          <div class="mh-txt">
+            <div class="mh-route" id="mhRoute">&mdash;</div>
+            <div class="mh-sub" id="mhSub">&mdash;</div>
+          </div>
+        </div>
+        <div class="mh-stats">
+          <div class="stat"><b id="mhKm">&mdash;</b><span>km</span></div>
+          <div class="stat"><b id="mhMin">&mdash;</b><span>min</span></div>
+          <div class="stat"><b id="mhArr">&mdash;</b><span>next bus</span></div>
+        </div>
+      </div>
+
+      <div class="map-shell">
+        <div id="map" class="map-box"></div>
+        <div class="map-status" id="mapStatus" hidden>
+          <span class="map-status-inner" id="mapStatusMsg">Loading map&hellip;</span>
+        </div>
+      </div>
+
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="lg-from"></i> Board here</span>
+        <span><i class="lg-to"></i> Get off here</span>
+        <span><i class="lg-mid"></i> Stops in between</span>
+        <span><i class="lg-other"></i> Other stops on route</span>
+        <span><i class="lg-line"></i> Your stretch</span>
+        <span>Hover a point to see the stop name</span>
+      </div>
+
+      <div class="modal-foot">
+        <div class="mf-title">Stops covered on your stretch <span id="mhStopCount"></span></div>
+        <ol class="stop-chain" id="mhStops"></ol>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" hidden><span id="toastMsg"></span></div>
+
+  <!-- Leaflet is vendored locally so the map never depends on a third-party CDN.
+       js/app.js will fall back to the CDN only if this file is missing. -->
+  <script src="vendor/leaflet/leaflet.js" defer></script>
+  <script src="js/data.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

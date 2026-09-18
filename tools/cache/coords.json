@@ -1,0 +1,6341 @@
+{
+ "Dahighat": null,
+ "Khidderpur": {
+  "lat": 22.5537,
+  "lng": 88.34399,
+  "src": "Khidderpur Road"
+ },
+ "Mominpur": {
+  "lat": 22.52459,
+  "lng": 88.32188,
+  "src": "Mominpur"
+ },
+ "Hazra": {
+  "lat": 22.52272,
+  "lng": 88.34992,
+  "src": "Hazra"
+ },
+ "Elgin Road": {
+  "lat": 22.5378,
+  "lng": 88.35157,
+  "src": "Elgin Road (Lala Lajpatrai Sarani)"
+ },
+ "Park Street": {
+  "lat": 22.55516,
+  "lng": 88.35012,
+  "src": "Park Street"
+ },
+ "Esplanade": {
+  "lat": 22.56329,
+  "lng": 88.35036,
+  "src": "Esplanade"
+ },
+ "Subodh Mallick Square": {
+  "lat": 22.56386,
+  "lng": 88.35969,
+  "src": "Subodh Mullick Square"
+ },
+ "Moulali": null,
+ "Sealdah": {
+  "lat": 22.56738,
+  "lng": 88.37102,
+  "src": "Sealdah"
+ },
+ "Ultadanga": {
+  "lat": 22.59613,
+  "lng": 88.38528,
+  "src": "Ultadanga"
+ },
+ "Khanna": null,
+ "Hatibagan": {
+  "lat": 22.59496,
+  "lng": 88.37093,
+  "src": "Hatibagan"
+ },
+ "Grey St": {
+  "lat": 22.5462,
+  "lng": 88.36022,
+  "src": "South Park Street Cemetery"
+ },
+ "Nimtala": {
+  "lat": 22.59228,
+  "lng": 88.35662,
+  "src": "Nimtala Ghat Street"
+ },
+ "B.K.Paul Ave": {
+  "lat": 22.49124,
+  "lng": 88.31176,
+  "src": "D.r A.k paul road"
+ },
+ "Howrah Bridge East": {
+  "lat": 22.47264,
+  "lng": 88.38881,
+  "src": "Howrah Bridge Replica"
+ },
+ "Howrah Station": {
+  "lat": 22.58297,
+  "lng": 88.34324,
+  "src": "Howrah Station Taxi Stand"
+ },
+ "Chetla": {
+  "lat": 22.51433,
+  "lng": 88.33696,
+  "src": "Chetla"
+ },
+ "Paikpara": {
+  "lat": 22.61205,
+  "lng": 88.38556,
+  "src": "Paikpara"
+ },
+ "Shyambazar": {
+  "lat": 22.60133,
+  "lng": 88.3725,
+  "src": "Shyambazar"
+ },
+ "Manicktala": {
+  "lat": 22.58415,
+  "lng": 88.3789,
+  "src": "Manicktala P.S"
+ },
+ "Padmapukur": {
+  "lat": 22.56826,
+  "lng": 88.30574,
+  "src": "Padmapukur"
+ },
+ "Darga Rd": {
+  "lat": 22.54473,
+  "lng": 88.37055,
+  "src": "Darga Road"
+ },
+ "Bondel Gate": {
+  "lat": 22.53105,
+  "lng": 88.37066,
+  "src": "Bondel Road"
+ },
+ "Kalighat": {
+  "lat": 22.51533,
+  "lng": 88.34771,
+  "src": "Kalighat"
+ },
+ "Alipur Rd": {
+  "lat": 22.73425,
+  "lng": 88.35604,
+  "src": "New Kolkata Prayag Residencies Ring Rd"
+ },
+ "Sarsuna": {
+  "lat": 22.47032,
+  "lng": 88.2811,
+  "src": "Sarsuna"
+ },
+ "Bakultala": {
+  "lat": 22.56403,
+  "lng": 88.28499,
+  "src": "BAKULTALA"
+ },
+ "Behala Chowrasta": {
+  "lat": 22.48735,
+  "lng": 88.31338,
+  "src": "Behala Chowrasta"
+ },
+ "Manton Xing": {
+  "lat": 22.49486,
+  "lng": 88.31661,
+  "src": "Manton"
+ },
+ "Behala Tram Depot": {
+  "lat": 22.49941,
+  "lng": 88.3178,
+  "src": "Behala Tram Depot"
+ },
+ "Taratala": {
+  "lat": 22.50769,
+  "lng": 88.32038,
+  "src": "Taratala"
+ },
+ "Khidirpor": {
+  "lat": 22.53762,
+  "lng": 88.31582,
+  "src": "Khidirpur"
+ },
+ "Casurina Ave": {
+  "lat": 22.5497,
+  "lng": 88.3421,
+  "src": "Casurina Avenue"
+ },
+ "BBD Bag": {
+  "lat": 22.57071,
+  "lng": 88.3487,
+  "src": "BBD Bag South"
+ },
+ "Dum Dum": {
+  "lat": 22.62111,
+  "lng": 88.3929,
+  "src": "Dum Dum"
+ },
+ "Dum Dum Station": {
+  "lat": 22.62109,
+  "lng": 88.39249,
+  "src": "Dum Dum Station Road"
+ },
+ "Chria": {
+  "lat": 22.55036,
+  "lng": 88.3766,
+  "src": "Christopher Road"
+ },
+ "Bedon Squre": {
+  "lat": 22.59046,
+  "lng": 88.36074,
+  "src": "Beadon Square"
+ },
+ "Burrabazar": {
+  "lat": 22.58199,
+  "lng": 88.35417,
+  "src": "Burrabazar Wholesale Market"
+ },
+ "Bichalighat": {
+  "lat": 22.55024,
+  "lng": 88.28533,
+  "src": "Bichali Ghat Road"
+ },
+ "HMG College": {
+  "lat": 22.58811,
+  "lng": 88.37,
+  "src": "Scottish Church College"
+ },
+ "Metiabruz": {
+  "lat": 22.54357,
+  "lng": 88.26793,
+  "src": "Metiabruz"
+ },
+ "Halder Para": {
+  "lat": 22.52133,
+  "lng": 88.3452,
+  "src": "Halder Para Lane"
+ },
+ "Abestors More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Ramnagar": {
+  "lat": 22.79314,
+  "lng": 88.38108,
+  "src": "Ramnagar"
+ },
+ "Dockyard": null,
+ "Khidderpore": {
+  "lat": 22.5387,
+  "lng": 88.31776,
+  "src": "Khidderpore"
+ },
+ "Fancy Market": {
+  "lat": 22.53904,
+  "lng": 88.323,
+  "src": "Fancy Market"
+ },
+ "Hastings": {
+  "lat": 22.54898,
+  "lng": 88.32801,
+  "src": "Hastings"
+ },
+ "J.K.Island": {
+  "lat": 22.56886,
+  "lng": 88.39973,
+  "src": "Small Lake Island"
+ },
+ "Mayo Rd": {
+  "lat": 22.73425,
+  "lng": 88.35604,
+  "src": "New Kolkata Prayag Residencies Ring Rd"
+ },
+ "S.K.Mallick Rd": {
+  "lat": 22.54522,
+  "lng": 88.36144,
+  "src": "Acre Rd"
+ },
+ "Cannel Bridge": {
+  "lat": 22.51792,
+  "lng": 88.30114,
+  "src": "Brace Bridge"
+ },
+ "Rashmoni Bazar": {
+  "lat": 22.56366,
+  "lng": 88.39219,
+  "src": "Rashmoni Bazar"
+ },
+ "Jora Mandir": {
+  "lat": 22.51726,
+  "lng": 88.37848,
+  "src": "Jora Mandir"
+ },
+ "Beliaghata": {
+  "lat": 22.55066,
+  "lng": 88.40392,
+  "src": "Beliaghata"
+ },
+ "Central Park": {
+  "lat": 22.59047,
+  "lng": 88.41562,
+  "src": "Central Park"
+ },
+ "Karunamoyee. Unnayan Bhavan": {
+  "lat": 22.5889,
+  "lng": 88.42077,
+  "src": "Unnayan Bhavan"
+ },
+ "Bikash Bhavan": {
+  "lat": 22.59114,
+  "lng": 88.41694,
+  "src": "Bikash Bhavan"
+ },
+ "Garia": {
+  "lat": 22.54313,
+  "lng": 88.36617,
+  "src": "Gariahat Road"
+ },
+ "Ganguli Bagan": {
+  "lat": 22.47992,
+  "lng": 88.38937,
+  "src": "Ganguly Bagan Estate Road"
+ },
+ "Baghajatin": {
+  "lat": 22.48274,
+  "lng": 88.38667,
+  "src": "Baghajatin"
+ },
+ "Jadavpur": {
+  "lat": 22.4955,
+  "lng": 88.3709,
+  "src": "Jadavpur"
+ },
+ "Dhakuria": {
+  "lat": 22.50911,
+  "lng": 88.37113,
+  "src": "Dhakuria"
+ },
+ "Golpark": {
+  "lat": 22.51343,
+  "lng": 88.40174,
+  "src": "Golpark"
+ },
+ "D.Park": {
+  "lat": 22.57467,
+  "lng": 88.3453,
+  "src": "Millennium Park"
+ },
+ "RB Avenue": {
+  "lat": 22.56777,
+  "lng": 88.3565,
+  "src": "ICICI Bank Ganesh Chandra Avenue, Kolkata-Branch"
+ },
+ "Elgin": {
+  "lat": 22.53737,
+  "lng": 88.34756,
+  "src": "Elgin Park"
+ },
+ "Exide": {
+  "lat": 22.54105,
+  "lng": 88.34681,
+  "src": "Exide"
+ },
+ "P.T.S": {
+  "lat": 22.63099,
+  "lng": 88.38023,
+  "src": "Sinthi R. B. T. Vidyapith(H.S)"
+ },
+ "Nabanna": {
+  "lat": 22.56757,
+  "lng": 88.31368,
+  "src": "Nabanna"
+ },
+ "Naktala": {
+  "lat": 22.47387,
+  "lng": 88.36197,
+  "src": "Naktala"
+ },
+ "Regentpark": {
+  "lat": 22.48845,
+  "lng": 88.35601,
+  "src": "Regent Park"
+ },
+ "Ranikhuti": null,
+ "Tolligunge Metro": {
+  "lat": 22.49469,
+  "lng": 88.34548,
+  "src": "Tollygunj Metro"
+ },
+ "Tollygunge Phari": {
+  "lat": 22.49864,
+  "lng": 88.34539,
+  "src": "Tollygunge"
+ },
+ "Thakurpukur": {
+  "lat": 22.46437,
+  "lng": 88.30753,
+  "src": "Thakurpukur"
+ },
+ "D.H. Road": {
+  "lat": 22.46072,
+  "lng": 88.36236,
+  "src": "H.I.G. D"
+ },
+ "Moninpor": {
+  "lat": 22.52459,
+  "lng": 88.32188,
+  "src": "Mominpur"
+ },
+ "Vidhya Sagar Satu": null,
+ "PRINCE A.SAHA RD": {
+  "lat": 22.50325,
+  "lng": 88.37917,
+  "src": "RD Memorial School"
+ },
+ "Barasat": {
+  "lat": 22.71911,
+  "lng": 88.48262,
+  "src": "Barasat"
+ },
+ "Hridaypur": {
+  "lat": 22.711,
+  "lng": 88.47,
+  "src": "Hridaypur"
+ },
+ "Madhyamgram": {
+  "lat": 22.69478,
+  "lng": 88.45302,
+  "src": "Madhyamgram"
+ },
+ "Doltala": {
+  "lat": 22.55913,
+  "lng": 88.49523,
+  "src": "Doiwala"
+ },
+ "BT College": null,
+ "Michael Nagar": null,
+ "Bankra More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Birati": {
+  "lat": 22.66258,
+  "lng": 88.42876,
+  "src": "Birati High School"
+ },
+ "Airport": {
+  "lat": 22.64351,
+  "lng": 88.43122,
+  "src": "Airport 1 No. Children's Park"
+ },
+ "Kaikhali": {
+  "lat": 22.63442,
+  "lng": 88.43462,
+  "src": "Kaikhali"
+ },
+ "Haldiram": {
+  "lat": 22.60193,
+  "lng": 88.34224,
+  "src": "Haldiram's"
+ },
+ "Teghoria": {
+  "lat": 22.63012,
+  "lng": 88.43385,
+  "src": "Teghoria"
+ },
+ "Kestopur": {
+  "lat": 22.59733,
+  "lng": 88.43385,
+  "src": "Keshtopur"
+ },
+ "Baguiati": {
+  "lat": 22.60967,
+  "lng": 88.42768,
+  "src": "Baguiati"
+ },
+ "Bangur": {
+  "lat": 22.60743,
+  "lng": 88.41035,
+  "src": "Bangur"
+ },
+ "Dum Dum Park": {
+  "lat": 22.60343,
+  "lng": 88.42304,
+  "src": "Dum Dum Park"
+ },
+ "Lake Town Xing": {
+  "lat": 22.60573,
+  "lng": 88.40296,
+  "src": "Lake Town"
+ },
+ "HUDCO": {
+  "lat": 22.59002,
+  "lng": 88.3933,
+  "src": "Hudco"
+ },
+ "Kankurgachi": {
+  "lat": 22.58046,
+  "lng": 88.3907,
+  "src": "Kankurgachi"
+ },
+ "Girish Park": {
+  "lat": 22.58714,
+  "lng": 88.36294,
+  "src": "Girish Park"
+ },
+ "CR Avenue": {
+  "lat": 22.56777,
+  "lng": 88.3565,
+  "src": "ICICI Bank Ganesh Chandra Avenue, Kolkata-Branch"
+ },
+ "MG Road": {
+  "lat": 22.60019,
+  "lng": 88.40617,
+  "src": "SAINI MG"
+ },
+ "Satyanarayan Park": {
+  "lat": 22.58256,
+  "lng": 88.48644,
+  "src": "Tata Consultancy Services - Geetanjali Park"
+ },
+ "Parnasree": {
+  "lat": 22.51019,
+  "lng": 88.30617,
+  "src": "Parnasree Lake"
+ },
+ "Khiddirpur": {
+  "lat": 22.53762,
+  "lng": 88.31582,
+  "src": "Khidirpur"
+ },
+ "Rabindra Sadan": {
+  "lat": 22.54149,
+  "lng": 88.34735,
+  "src": "Rabindra Sadan"
+ },
+ "Howrah Bridge South": {
+  "lat": 22.58509,
+  "lng": 88.34682,
+  "src": "Howrah Bridge"
+ },
+ "T.DEPOT": {
+  "lat": 22.54959,
+  "lng": 88.36406,
+  "src": "Nonapukur Tram Depot"
+ },
+ "Marine College": {
+  "lat": 22.58811,
+  "lng": 88.37,
+  "src": "Scottish Church College"
+ },
+ "T.T.XING": {
+  "lat": 22.63099,
+  "lng": 88.38023,
+  "src": "Sinthi R. B. T. Vidyapith(H.S)"
+ },
+ "NEWALIPORE": {
+  "lat": 22.51053,
+  "lng": 88.33543,
+  "src": "New Alipore"
+ },
+ "Mahabirtala": null,
+ "P A Sha Rd": {
+  "lat": 22.50325,
+  "lng": 88.37917,
+  "src": "RD Memorial School"
+ },
+ "Lake Gardens": {
+  "lat": 22.50574,
+  "lng": 88.35672,
+  "src": "Lake Gardens"
+ },
+ "SAPUIPARA": {
+  "lat": 22.5024,
+  "lng": 88.38403,
+  "src": "Safuipara Bus Stop"
+ },
+ "Kalikapur": {
+  "lat": 22.5053,
+  "lng": 88.401,
+  "src": "Kavi Sukanta"
+ },
+ "Ruby Hospital": {
+  "lat": 22.51325,
+  "lng": 88.40257,
+  "src": "Ruby Hospital"
+ },
+ "Science City": {
+  "lat": 22.54006,
+  "lng": 88.39585,
+  "src": "Science City"
+ },
+ "Chingrighata": {
+  "lat": 22.55866,
+  "lng": 88.4108,
+  "src": "Chingrighata"
+ },
+ "Sukanta Nagar": {
+  "lat": 22.70606,
+  "lng": 88.4633,
+  "src": "Sukanta Nagar Playground"
+ },
+ "Nicco Park": {
+  "lat": 22.57215,
+  "lng": 88.42083,
+  "src": "Nicco Park"
+ },
+ "Swastha Bhavan": {
+  "lat": 22.53748,
+  "lng": 88.35098,
+  "src": "Netaji Bhavan"
+ },
+ "College More": {
+  "lat": 22.60727,
+  "lng": 88.42649,
+  "src": "College More"
+ },
+ "Technopolis": {
+  "lat": 22.58043,
+  "lng": 88.43806,
+  "src": "Technopolis"
+ },
+ "New Town": {
+  "lat": 22.58828,
+  "lng": 88.47345,
+  "src": "New Town"
+ },
+ "Home Town": {
+  "lat": 22.61529,
+  "lng": 88.43241,
+  "src": "New Town Nursing Home"
+ },
+ "Narkel Bagan": {
+  "lat": 22.46505,
+  "lng": 88.37567,
+  "src": "Narkel Bagan"
+ },
+ "Unitech": {
+  "lat": 22.57505,
+  "lng": 88.48306,
+  "src": "Unitech Infospace"
+ },
+ "SAPURJI": null,
+ "Sapoorji": null,
+ "Joka": {
+  "lat": 22.45335,
+  "lng": 88.30252,
+  "src": "Joka"
+ },
+ "Cancer Hospital": {
+  "lat": 22.52673,
+  "lng": 88.38842,
+  "src": "Cancer Hospital"
+ },
+ "Kabardanga": null,
+ "Haridevpur": {
+  "lat": 22.4653,
+  "lng": 88.33113,
+  "src": "Haridevpur"
+ },
+ "Karunamoyee": {
+  "lat": 22.58638,
+  "lng": 88.42153,
+  "src": "Karunamoyee"
+ },
+ "Tollygunge": {
+  "lat": 22.49864,
+  "lng": 88.34539,
+  "src": "Tollygunge"
+ },
+ "Rashbehari": {
+  "lat": 22.51717,
+  "lng": 88.34556,
+  "src": "Rashbehari"
+ },
+ "Gariahat": {
+  "lat": 22.51948,
+  "lng": 88.36506,
+  "src": "Gariahat"
+ },
+ "SDF": {
+  "lat": 22.5691,
+  "lng": 88.4307,
+  "src": "SDF"
+ },
+ "RAIPUR CLUB": {
+  "lat": 22.48752,
+  "lng": 88.36962,
+  "src": "Raipur Road"
+ },
+ "CHAKRABERIA": {
+  "lat": 22.53373,
+  "lng": 88.35201,
+  "src": "Chakraberia Trikon Park"
+ },
+ "BIRLA TARAMONDAL": {
+  "lat": 22.53049,
+  "lng": 88.36496,
+  "src": "Birla Mandir"
+ },
+ "TOLLYGUNJ PHARI": {
+  "lat": 22.49469,
+  "lng": 88.34548,
+  "src": "Tollygunj Metro"
+ },
+ "T.T.DEPOT": {
+  "lat": 22.54959,
+  "lng": 88.36406,
+  "src": "Nonapukur Tram Depot"
+ },
+ "RANI KUTHI": {
+  "lat": 22.56382,
+  "lng": 88.35001,
+  "src": "Rani Rashmoni Avenue"
+ },
+ "Regent Park": {
+  "lat": 22.48845,
+  "lng": 88.35601,
+  "src": "Regent Park"
+ },
+ "Ajoy Nagar": {
+  "lat": 22.48828,
+  "lng": 88.35966,
+  "src": "Arabinda Nagar"
+ },
+ "Sukanta Setu": {
+  "lat": 22.49123,
+  "lng": 88.37231,
+  "src": "Sulekha Moore"
+ },
+ "E M Byepass": {
+  "lat": 22.55271,
+  "lng": 88.40597,
+  "src": "Byepass Dhaba"
+ },
+ "Eco Space": {
+  "lat": 22.60224,
+  "lng": 88.46474,
+  "src": "Eco Park"
+ },
+ "New Town (Sapoorji)": {
+  "lat": 22.58828,
+  "lng": 88.47345,
+  "src": "New Town"
+ },
+ "Topsia": {
+  "lat": 22.5418,
+  "lng": 88.38696,
+  "src": "Topsia"
+ },
+ "Behala": {
+  "lat": 22.50157,
+  "lng": 88.32094,
+  "src": "Behala"
+ },
+ "Alipore Zoo": {
+  "lat": 22.53659,
+  "lng": 88.33211,
+  "src": "Alipore Zoo"
+ },
+ "MISSION ROW XING": {
+  "lat": 22.56962,
+  "lng": 88.35327,
+  "src": "Faraday House, P17, Mission Row Extension"
+ },
+ "Baruipur": {
+  "lat": 22.34545,
+  "lng": 88.46423,
+  "src": "Greater Kolkata College of Engineering and Management"
+ },
+ "Shibanipith": null,
+ "Malancha Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Harinavi": {
+  "lat": 22.58192,
+  "lng": 88.37736,
+  "src": "Harinath Dey Road"
+ },
+ "Mission Gate": {
+  "lat": 22.57172,
+  "lng": 88.35147,
+  "src": "Old Mission Church"
+ },
+ "Kamalgazi": null,
+ "Dhalai Bridge": {
+  "lat": 22.51792,
+  "lng": 88.30114,
+  "src": "Brace Bridge"
+ },
+ "Patuli": {
+  "lat": 22.47193,
+  "lng": 88.38975,
+  "src": "Patuli"
+ },
+ "Peerless Hospital": {
+  "lat": 22.481,
+  "lng": 88.39371,
+  "src": "Peerless Hospital and Research Center Limited Blood Bank"
+ },
+ "Metropolitan": {
+  "lat": 22.55256,
+  "lng": 88.40638,
+  "src": "Metropolitan"
+ },
+ "KBKC More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Karunamoyee (Salt Lake)": {
+  "lat": 22.56906,
+  "lng": 88.40902,
+  "src": "Vivekananda Yuba Bharati Krirangan"
+ },
+ "Santragachi": {
+  "lat": 22.58221,
+  "lng": 88.27981,
+  "src": "Santragachi"
+ },
+ "BT Road": {
+  "lat": 22.60128,
+  "lng": 88.38415,
+  "src": "Kolkata"
+ },
+ "Dunlop": {
+  "lat": 22.6478,
+  "lng": 88.37664,
+  "src": "Indian Statistical Institute Kolkata"
+ },
+ "Sodepur": {
+  "lat": 22.69615,
+  "lng": 88.4496,
+  "src": "Sodepur Road"
+ },
+ "Titagarh": {
+  "lat": 22.74521,
+  "lng": 88.39068,
+  "src": "Titagarh Alias"
+ },
+ "Barrackpore": {
+  "lat": 22.76416,
+  "lng": 88.37761,
+  "src": "Barrackpore"
+ },
+ "Salt Lake Depot Gate": {
+  "lat": 22.58003,
+  "lng": 88.42954,
+  "src": "Salt Lake Bus Depot"
+ },
+ "Aliah University": {
+  "lat": 22.59044,
+  "lng": 88.48572,
+  "src": "Aliah University"
+ },
+ "Daber More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Eco Park": {
+  "lat": 22.60224,
+  "lng": 88.46474,
+  "src": "Eco Park"
+ },
+ "City Centre II": {
+  "lat": 22.62328,
+  "lng": 88.4504,
+  "src": "City Centre 2"
+ },
+ "Belghoria Exp Way": null,
+ "Dakshineswar": {
+  "lat": 22.65483,
+  "lng": 88.35758,
+  "src": "Dakshineswar Kali Hindu Temple"
+ },
+ "Bally Halt": {
+  "lat": 22.57418,
+  "lng": 88.38505,
+  "src": "Sir Gurudas Banerjee Halt"
+ },
+ "Rajchandrapur": {
+  "lat": 22.46078,
+  "lng": 88.33,
+  "src": "Ramchandrapur"
+ },
+ "Hazra Park": {
+  "lat": 22.52484,
+  "lng": 88.34614,
+  "src": "Hazra Park Durgotsab"
+ },
+ "Rabindrasadan": {
+  "lat": 22.54149,
+  "lng": 88.34735,
+  "src": "Rabindra Sadan"
+ },
+ "Lake Town (Jaya Cinema)": {
+  "lat": 22.60126,
+  "lng": 88.40755,
+  "src": "Aqua Java Air"
+ },
+ "Barrabazar": {
+  "lat": 22.59016,
+  "lng": 88.35118,
+  "src": "Barra Bazar"
+ },
+ "Kadapara": null,
+ "Beliaghata Xing": {
+  "lat": 22.56337,
+  "lng": 88.37417,
+  "src": "Sealdah Beliaghata Flyover"
+ },
+ "James Long Sarani": {
+  "lat": 22.5104,
+  "lng": 88.32304,
+  "src": "James Long Sarani"
+ },
+ "Ramkrishna Ashram": {
+  "lat": 22.52336,
+  "lng": 88.352,
+  "src": "Ramkrishna Mission Seva Prathisthan's Blood Bank"
+ },
+ "Motilal Gupta Road": {
+  "lat": 22.48719,
+  "lng": 88.33208,
+  "src": "Motilal Gupta Road"
+ },
+ "Siriti More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Rubi Hospital": {
+  "lat": 22.56914,
+  "lng": 88.36579,
+  "src": "Lady Dufferin Victoria Hospital, Kolkata"
+ },
+ "V.I.P.Road": {
+  "lat": 22.57487,
+  "lng": 88.38988,
+  "src": "Pantaloons/V.I.P. Market"
+ },
+ "Peerless": {
+  "lat": 22.56244,
+  "lng": 88.35157,
+  "src": "The Peerless Inn"
+ },
+ "VIP Bazar": {
+  "lat": 22.52468,
+  "lng": 88.39623,
+  "src": "VIP Bazar"
+ },
+ "NABADIGANTA MORE": {
+  "lat": 22.46396,
+  "lng": 88.40857,
+  "src": "Nabadiganta Apartment"
+ },
+ "C.C": {
+  "lat": 22.59038,
+  "lng": 88.40646,
+  "src": "CC Block"
+ },
+ "Chinar Park": {
+  "lat": 22.62366,
+  "lng": 88.44105,
+  "src": "Chinar Park"
+ },
+ "Dum Dum 11A Stand": {
+  "lat": 22.64476,
+  "lng": 88.43873,
+  "src": "Airport Bus Stand (lines VS1, VS2, AC37A, AC39, AC43, AC49A)"
+ },
+ "Nager Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Akhankha More": {
+  "lat": 22.61925,
+  "lng": 88.46438,
+  "src": "Akankha More"
+ },
+ "Jatragachi": null,
+ "Wipro": {
+  "lat": 22.57891,
+  "lng": 88.42653,
+  "src": "Wipro"
+ },
+ "Lal Bazar": {
+  "lat": 22.59778,
+  "lng": 88.365,
+  "src": "Amrit Lal Bose Ln"
+ },
+ "COLUTALA XING": {
+  "lat": 22.51813,
+  "lng": 88.33335,
+  "src": "Alipore Chetla X-ing"
+ },
+ "M.G.RD": {
+  "lat": 22.60448,
+  "lng": 88.37841,
+  "src": "R.G. Kar Medical College & Hospital"
+ },
+ "Lake Town": {
+  "lat": 22.60573,
+  "lng": 88.40296,
+  "src": "Lake Town"
+ },
+ "Jessor Road": {
+  "lat": 22.6081,
+  "lng": 88.39424,
+  "src": "Jessore Road"
+ },
+ "Laketown Xing": {
+  "lat": 22.60218,
+  "lng": 88.40501,
+  "src": "Laketown High School"
+ },
+ "Patipukur": {
+  "lat": 22.60655,
+  "lng": 88.39525,
+  "src": "Patipukur"
+ },
+ "Howrah Maidan": {
+  "lat": 22.58386,
+  "lng": 88.334,
+  "src": "Howrah Maidan"
+ },
+ "Golf Green": {
+  "lat": 22.49133,
+  "lng": 88.36184,
+  "src": "Golf Green"
+ },
+ "Selimpur": {
+  "lat": 22.50568,
+  "lng": 88.36829,
+  "src": "Selimpur Road Bye Lane"
+ },
+ "SAPUIPARA KALIKAPUR": {
+  "lat": 22.5024,
+  "lng": 88.38403,
+  "src": "Safuipara Bus Stop"
+ },
+ "EM BYEPASS": {
+  "lat": 22.47435,
+  "lng": 88.38869,
+  "src": "EM Bypass"
+ },
+ "NICCO PK": null,
+ "C.C.2": {
+  "lat": 22.58742,
+  "lng": 88.40821,
+  "src": "City Centre Gate C"
+ },
+ "AIRPORT PORT GATE NO.3": null,
+ "Kundghat": {
+  "lat": 22.48137,
+  "lng": 88.34582,
+  "src": "Kudghat"
+ },
+ "Swasthya Bhawan": {
+  "lat": 22.57084,
+  "lng": 88.42639,
+  "src": "Swasthya Bhawan"
+ },
+ "E.M.Bye Pass": null,
+ "VIP Road": {
+  "lat": 22.63098,
+  "lng": 88.43441,
+  "src": "VIP Road"
+ },
+ "Durganagar": null,
+ "Rajchandra- pur": {
+  "lat": 22.5477,
+  "lng": 88.2855,
+  "src": "Rameshwar Pur Road"
+ },
+ "Amtala": null,
+ "Pailan": null,
+ "Carzon Park": {
+  "lat": 22.5462,
+  "lng": 88.36022,
+  "src": "South Park Street Cemetery"
+ },
+ "Rabindra Sarovar": {
+  "lat": 22.51164,
+  "lng": 88.35225,
+  "src": "Rabindra Sarobar Stadium"
+ },
+ "Deshapriya Park": {
+  "lat": 22.51844,
+  "lng": 88.35352,
+  "src": "Deshapriya Park"
+ },
+ "Ballygunge": {
+  "lat": 22.52803,
+  "lng": 88.36591,
+  "src": "Ballygunge"
+ },
+ "Kasba PS": {
+  "lat": 22.50444,
+  "lng": 88.37217,
+  "src": "Kasba"
+ },
+ "Bosepukur": {
+  "lat": 22.51917,
+  "lng": 88.38475,
+  "src": "Bosepukur Sitala Mandir"
+ },
+ "Uttar Panchannagram": {
+  "lat": 22.53067,
+  "lng": 88.39542,
+  "src": "Uttar Panchana Gram"
+ },
+ "Chowbaga": {
+  "lat": 22.52908,
+  "lng": 88.42127,
+  "src": "Chowbaga Canal Road"
+ },
+ "Bantala": {
+  "lat": 22.52572,
+  "lng": 88.44108,
+  "src": "bantala road"
+ },
+ "Leather Complex": {
+  "lat": 22.49711,
+  "lng": 88.5159,
+  "src": "Kolkata Leather Complex"
+ },
+ "Katatala": {
+  "lat": 22.47205,
+  "lng": 88.30927,
+  "src": "Kadamtala Dakshinpara Rd"
+ },
+ "Bhojerhat": null,
+ "Paglahat": null,
+ "Borali Ghat": {
+  "lat": 22.5993,
+  "lng": 88.3566,
+  "src": "Shobha Bazar Ghat"
+ },
+ "Nalmuri": null,
+ "Ghatakpukur": null,
+ "Dalhousie": null,
+ "Babughat": {
+  "lat": 22.5679,
+  "lng": 88.34129,
+  "src": "Babughat ferry to Howrah"
+ },
+ "Princep Ghat": {
+  "lat": 22.55667,
+  "lng": 88.3312,
+  "src": "Princep Ghat-I"
+ },
+ "Babubazar": {
+  "lat": 22.53811,
+  "lng": 88.31906,
+  "src": "Babu Bazar"
+ },
+ "BNR More": {
+  "lat": 22.54155,
+  "lng": 88.31138,
+  "src": "BNR South Colony"
+ },
+ "Mudiali": {
+  "lat": 22.51007,
+  "lng": 88.34663,
+  "src": "Mudiali Club"
+ },
+ "Kachhi Sarab": {
+  "lat": 22.48918,
+  "lng": 88.32961,
+  "src": "Swamiji Sarak"
+ },
+ "Garden Reach": {
+  "lat": 22.54496,
+  "lng": 88.31514,
+  "src": "Garden Reach Road"
+ },
+ "Fatehpur": {
+  "lat": 22.54129,
+  "lng": 88.28437,
+  "src": "Fathepur 2nd Lane"
+ },
+ "H M Ghosh College": {
+  "lat": 22.61773,
+  "lng": 88.36935,
+  "src": "Taradevi Harak Chand Kankaria Jain College"
+ },
+ "Dackbanglow More": {
+  "lat": 22.71139,
+  "lng": 88.47549,
+  "src": "Dakbunglow More"
+ },
+ "B.T. Colleg": {
+  "lat": 22.55389,
+  "lng": 88.30627,
+  "src": "UCO Bank and SnT building"
+ },
+ "Salt Lake": {
+  "lat": 22.58003,
+  "lng": 88.42954,
+  "src": "Salt Lake Bus Depot"
+ },
+ "Park Circus": {
+  "lat": 22.54078,
+  "lng": 88.37388,
+  "src": "Park Circus"
+ },
+ "Rabindra Tirtha": {
+  "lat": 22.57942,
+  "lng": 88.47288,
+  "src": "rabindra tirtha"
+ },
+ "Nababpur": null,
+ "Nimta": {
+  "lat": 22.59228,
+  "lng": 88.35662,
+  "src": "Nimtala Ghat Street"
+ },
+ "Dankuni": {
+  "lat": 22.71041,
+  "lng": 88.21988,
+  "src": "Dankuni - Furfura New Line (u/c)"
+ },
+ "Rajabazar": {
+  "lat": 22.57424,
+  "lng": 88.37344,
+  "src": "Rajabazar"
+ },
+ "College Street": {
+  "lat": 22.5726,
+  "lng": 88.36218,
+  "src": "College Street"
+ },
+ "Central": {
+  "lat": 22.57249,
+  "lng": 88.35874,
+  "src": "Central"
+ },
+ "Khasmallick": null,
+ "Rajpur Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Narendrapur": null,
+ "Hiland Park": {
+  "lat": 22.48478,
+  "lng": 88.38839,
+  "src": "Hiland Park"
+ },
+ "EM Bypass": {
+  "lat": 22.47435,
+  "lng": 88.38869,
+  "src": "EM Bypass"
+ },
+ "Mukundapur": {
+  "lat": 22.49214,
+  "lng": 88.39644,
+  "src": "Mukundapur"
+ },
+ "VIP Bazar. Uttar Panchannagram": null,
+ "Topsia More": {
+  "lat": 22.53951,
+  "lng": 88.37883,
+  "src": "Topsia Road"
+ },
+ "4 No Bridge": {
+  "lat": 22.60734,
+  "lng": 88.36968,
+  "src": "Chitpore Bridge"
+ },
+ "Chittaranjan Hospital": {
+  "lat": 22.52527,
+  "lng": 88.34664,
+  "src": "Chittaranjan National Cancer Institute Hospital"
+ },
+ "CIT Road": {
+  "lat": 22.58616,
+  "lng": 88.39003,
+  "src": "CIT Road"
+ },
+ "Khardah": {
+  "lat": 22.72528,
+  "lng": 88.37282,
+  "src": "Khardah"
+ },
+ "Kamarhati": {
+  "lat": 22.68129,
+  "lng": 88.36545,
+  "src": "Kamarhati Municipality children's park"
+ },
+ "Rathtala": {
+  "lat": 22.60011,
+  "lng": 88.32145,
+  "src": "Rathtala Playground"
+ },
+ "Bonhooghly": null,
+ "Tobin Road": null,
+ "Sinthee More": {
+  "lat": 22.63193,
+  "lng": 88.37787,
+  "src": "Sinthee More Ground"
+ },
+ "Chiria More": {
+  "lat": 22.61872,
+  "lng": 88.3793,
+  "src": "Chiria more"
+ },
+ "Rajballavpara": null,
+ "Sovabazar": {
+  "lat": 22.59753,
+  "lng": 88.35493,
+  "src": "Sovabazar Ahiritola"
+ },
+ "Barrackpore Chiria More": {
+  "lat": 22.61872,
+  "lng": 88.3793,
+  "src": "Chiria more"
+ },
+ "Barrackpore Station": {
+  "lat": 22.78173,
+  "lng": 88.36325,
+  "src": "Barrackpore Air Force Station"
+ },
+ "Subhash Colony": {
+  "lat": 22.48832,
+  "lng": 88.34994,
+  "src": "Netaji Subhash Chandra Bose Road"
+ },
+ "Wireless More": {
+  "lat": 22.48198,
+  "lng": 88.34726,
+  "src": "Wireless Park"
+ },
+ "Mohanpur": {
+  "lat": 22.77297,
+  "lng": 88.39657,
+  "src": "Mohanpur Alias"
+ },
+ "Debpukur": null,
+ "Chapuria": null,
+ "Mathrangi": null,
+ "Nilgunge": null,
+ "Rangapur": null,
+ "Kokapur": null,
+ "Jagannathpur": {
+  "lat": 22.47711,
+  "lng": 88.26212,
+  "src": "Jagannathpur"
+ },
+ "Barbaria": null,
+ "Bally Ghat": null,
+ "Belur Math": {
+  "lat": 22.6313,
+  "lng": 88.35058,
+  "src": "Belur Math"
+ },
+ "Bhattanagar": null,
+ "Toll Tax": {
+  "lat": 22.56528,
+  "lng": 88.37991,
+  "src": "Sales Tax Office"
+ },
+ "College ghat": {
+  "lat": 22.56204,
+  "lng": 88.30607,
+  "src": "College Ghat"
+ },
+ "Danshekh Lane": {
+  "lat": 22.55316,
+  "lng": 88.3802,
+  "src": "Swarga Rath Kolkata"
+ },
+ "Hanskhali": null,
+ "Bishnupur": {
+  "lat": 22.41451,
+  "lng": 88.28394,
+  "src": "BAPS Shri Swaminarayan Mandir Kolkata"
+ },
+ "Khariberia": {
+  "lat": 22.47847,
+  "lng": 88.26858,
+  "src": "Khanberia"
+ },
+ "Bhasha 14no": {
+  "lat": 22.62691,
+  "lng": 88.4362,
+  "src": "Phase 1 Office, Bhaskar Roy Enclave, AWHO"
+ },
+ "Silpara": {
+  "lat": 22.58294,
+  "lng": 88.36746,
+  "src": "Sibnarayan Das Ln"
+ },
+ "Sakherbazar": {
+  "lat": 22.47489,
+  "lng": 88.30994,
+  "src": "Sakherbazar"
+ },
+ "Majerhat": {
+  "lat": 22.51915,
+  "lng": 88.32366,
+  "src": "Majerhat"
+ },
+ "Ekbalpur": {
+  "lat": 22.53248,
+  "lng": 88.3214,
+  "src": "Ekbalpur Lane"
+ },
+ "Ganganagar": null,
+ "Mickelnagar": null,
+ "Bank of India": {
+  "lat": 22.57582,
+  "lng": 88.36502,
+  "src": "Bank of India"
+ },
+ "Bowbazar": {
+  "lat": 22.57049,
+  "lng": 88.36156,
+  "src": "Bowbazar"
+ },
+ "GPO": {
+  "lat": 22.57273,
+  "lng": 88.43392,
+  "src": "IEMLabs - Cyber Security & Ethical Hacking Course in Kolkata"
+ },
+ "Strand Road": {
+  "lat": 22.58118,
+  "lng": 88.34973,
+  "src": "Strand Road"
+ },
+ "Habra": null,
+ "Ashoknagar": {
+  "lat": 22.82676,
+  "lng": 88.62862,
+  "src": "Ashoknagar Road"
+ },
+ "Guma": {
+  "lat": 22.80858,
+  "lng": 88.60089,
+  "src": "Guma"
+ },
+ "Bira": {
+  "lat": 22.78975,
+  "lng": 88.57223,
+  "src": "Bira"
+ },
+ "Duttapukur": {
+  "lat": 22.76973,
+  "lng": 88.54537,
+  "src": "Duttapukur"
+ },
+ "Airport 1no": {
+  "lat": 22.62319,
+  "lng": 88.44373,
+  "src": "Holiday Inn Kolkata Airport"
+ },
+ "Watgangemore": null,
+ "Sakherbajar": {
+  "lat": 22.47485,
+  "lng": 88.30996,
+  "src": "Sakher Bazar"
+ },
+ "3A Bus Stand": {
+  "lat": 22.45674,
+  "lng": 88.30457,
+  "src": "3A bus stand"
+ },
+ "Pilan": null,
+ "Rajarhat": {
+  "lat": 22.60202,
+  "lng": 88.478,
+  "src": "Rajarhat"
+ },
+ "Tahelarampur Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Amratal": {
+  "lat": 22.51377,
+  "lng": 88.39226,
+  "src": "Amrapali Medical Center and Nursing Home Pvt Ltd"
+ },
+ "Magurkhali Bridge": {
+  "lat": 22.51792,
+  "lng": 88.30114,
+  "src": "Brace Bridge"
+ },
+ "Dhamua": null,
+ "Basundharia": null,
+ "Suryapur": {
+  "lat": 22.76999,
+  "lng": 88.39389,
+  "src": "Surjapur Alias"
+ },
+ "Ranabelia Ghat": {
+  "lat": 22.5993,
+  "lng": 88.3566,
+  "src": "Shobha Bazar Ghat"
+ },
+ "Barasat/ Ecospace": {
+  "lat": 22.71717,
+  "lng": 88.48097,
+  "src": "Barasat Government College"
+ },
+ "Jdavpur": null,
+ "Anwar Shah Road": {
+  "lat": 22.50308,
+  "lng": 88.36775,
+  "src": "Prince Anwar Shah Road"
+ },
+ "Hazra Crossing": {
+  "lat": 22.52272,
+  "lng": 88.34992,
+  "src": "Hazra"
+ },
+ "Carry Road": {
+  "lat": 22.56793,
+  "lng": 88.30353,
+  "src": "Carry Road"
+ },
+ "Belepole": {
+  "lat": 22.57813,
+  "lng": 88.30546,
+  "src": "Belepole Students athaletic club"
+ },
+ "Kona Expressway": {
+  "lat": 22.56765,
+  "lng": 88.30919,
+  "src": "Kona Expressway"
+ },
+ "NH6": null,
+ "Salap": {
+  "lat": 22.50519,
+  "lng": 88.32477,
+  "src": "Sahapur Main Road"
+ },
+ "KWIC": null,
+ "EM Byapss": {
+  "lat": 22.47435,
+  "lng": 88.38869,
+  "src": "EM Bypass"
+ },
+ "Belaghata": {
+  "lat": 22.56565,
+  "lng": 88.39072,
+  "src": "Belaghata deshbondhu school for girls"
+ },
+ "Chinghreeghata": null,
+ "Gariahgat": {
+  "lat": 22.51964,
+  "lng": 88.36562,
+  "src": "Gariahat"
+ },
+ "Lake Kali Bari": {
+  "lat": 22.46363,
+  "lng": 88.37757,
+  "src": "Basana Kali Bari pond"
+ },
+ "Lalkuthi": {
+  "lat": 22.76666,
+  "lng": 88.36951,
+  "src": "lalkuti  bus stop"
+ },
+ "BKP": {
+  "lat": 22.59487,
+  "lng": 88.35838,
+  "src": "BK Pal Avenue"
+ },
+ "Talpukur": {
+  "lat": 22.76569,
+  "lng": 88.38423,
+  "src": "Talpukur"
+ },
+ "Sukchar Monument": {
+  "lat": 22.57066,
+  "lng": 88.34534,
+  "src": "The Black Hole Monument"
+ },
+ "Panihati": {
+  "lat": 22.70883,
+  "lng": 88.37411,
+  "src": "Panihati"
+ },
+ "Vivekananda Rd": {
+  "lat": 22.56141,
+  "lng": 88.40825,
+  "src": "Vivekananda Park"
+ },
+ "Satya Narayan Park": {
+  "lat": 22.48325,
+  "lng": 88.37836,
+  "src": "Shri Shri Satya Narayan Ramthakur Seva Ashram"
+ },
+ "Rabinrasadan": {
+  "lat": 22.54149,
+  "lng": 88.34735,
+  "src": "Rabindra Sadan"
+ },
+ "Karidanga": null,
+ "Chandipur": null,
+ "Bhushighata": null,
+ "Bamanpukur": null,
+ "Minakhan": null,
+ "Joypur": {
+  "lat": 22.50561,
+  "lng": 88.36367,
+  "src": "Jodhpur Park"
+ },
+ "Malancha": null,
+ "Chaital": {
+  "lat": 22.69708,
+  "lng": 88.44127,
+  "src": "Chaitali Lodge"
+ },
+ "Battala": {
+  "lat": 22.45059,
+  "lng": 88.38651,
+  "src": "Battala shib Mandir Playground"
+ },
+ "Nimchabari": null,
+ "Bhebia": null,
+ "Kantala": null,
+ "Bodra": null,
+ "Champahati": null,
+ "6 Crossing": {
+  "lat": 22.51364,
+  "lng": 88.39928,
+  "src": "Ruby Crossing"
+ },
+ "Makardaha": null,
+ "Domjur": {
+  "lat": 22.61533,
+  "lng": 88.28344,
+  "src": "Kolkata West International City"
+ },
+ "Rajapur": {
+  "lat": 22.48961,
+  "lng": 88.3916,
+  "src": "Purba Rajpur"
+ },
+ "Dakshinbari": {
+  "lat": 22.47205,
+  "lng": 88.30927,
+  "src": "Kadamtala Dakshinpara Rd"
+ },
+ "Bargachia": null,
+ "Kalitala Bazar": {
+  "lat": 22.50634,
+  "lng": 88.39854,
+  "src": "Kalitala Road North"
+ },
+ "Ichanagari": null,
+ "Jagatballavpur": null,
+ "Dilakhash": null,
+ "Sukanta Park": {
+  "lat": 22.69688,
+  "lng": 88.45132,
+  "src": "Sukanta Sayar Children's Park"
+ },
+ "Mandirtala": {
+  "lat": 22.56961,
+  "lng": 88.31708,
+  "src": "Mandirtala ground"
+ },
+ "Vidyasagar Setu": {
+  "lat": 22.54634,
+  "lng": 88.32986,
+  "src": "Vidyasagar Flyover"
+ },
+ "PTS More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Minto Park": {
+  "lat": 22.54195,
+  "lng": 88.35471,
+  "src": "Minto Park"
+ },
+ "Beckbagan": {
+  "lat": 22.54083,
+  "lng": 88.35922,
+  "src": "Beckbagan"
+ },
+ "DLF": {
+  "lat": 22.58264,
+  "lng": 88.44942,
+  "src": "DLF"
+ },
+ "Mathpukur": {
+  "lat": 22.54867,
+  "lng": 88.40052,
+  "src": "Mathpukur"
+ },
+ "Axis Mall": {
+  "lat": 22.5795,
+  "lng": 88.45992,
+  "src": "Axis Mall"
+ },
+ "Madhyamgram Chowrasta": {
+  "lat": 22.48735,
+  "lng": 88.31338,
+  "src": "Behala Chowrasta"
+ },
+ "Adibasi Bhavan": {
+  "lat": 22.53748,
+  "lng": 88.35098,
+  "src": "Netaji Bhavan"
+ },
+ "Betore More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Toll Plaza": {
+  "lat": 22.52314,
+  "lng": 88.36367,
+  "src": "Park Plaza Kolkata Ballygunge"
+ },
+ "Shibrampur": {
+  "lat": 22.48288,
+  "lng": 88.27196,
+  "src": "Shibrampur"
+ },
+ "Raja Rammohan Roy Rd": {
+  "lat": 22.48811,
+  "lng": 88.32418,
+  "src": "Raja Rammohan Roy Road"
+ },
+ "Sasthir More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Manton": {
+  "lat": 22.49486,
+  "lng": 88.31661,
+  "src": "Manton"
+ },
+ "Behala PS": {
+  "lat": 22.50157,
+  "lng": 88.32094,
+  "src": "Behala"
+ },
+ "Sonamukhi Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Mint": {
+  "lat": 22.51597,
+  "lng": 88.32295,
+  "src": "Mint"
+ },
+ "Gopalnagar": {
+  "lat": 22.44068,
+  "lng": 88.3196,
+  "src": "Gopalnagar"
+ },
+ "S.C.Mallick Square": {
+  "lat": 22.54315,
+  "lng": 88.35886,
+  "src": "Benjamin Moliere Square"
+ },
+ "Canal Bridge(East)": {
+  "lat": 22.57387,
+  "lng": 88.37754,
+  "src": "Canal East Road"
+ },
+ "CITRd. Xing": {
+  "lat": 22.51813,
+  "lng": 88.33335,
+  "src": "Alipore Chetla X-ing"
+ },
+ "Phool Bagan": {
+  "lat": 22.67961,
+  "lng": 88.37109,
+  "src": "Phool Bagan Play Ground"
+ },
+ "Bagpota": {
+  "lat": 22.46105,
+  "lng": 88.27947,
+  "src": "Bagpota"
+ },
+ "Kestor More": {
+  "lat": 22.60727,
+  "lng": 88.42649,
+  "src": "College More"
+ },
+ "Khudiram Park (Sarsuna)": {
+  "lat": 22.62944,
+  "lng": 88.42678,
+  "src": "Khudiram Bose Sarani"
+ },
+ "Panchanantala": {
+  "lat": 22.51284,
+  "lng": 88.36783,
+  "src": "Panchanantala Road"
+ },
+ "Muchipara": {
+  "lat": 22.56666,
+  "lng": 88.36534,
+  "src": "Muchipara Police Station"
+ },
+ "Tollygunge Metro Stn": {
+  "lat": 22.49469,
+  "lng": 88.34548,
+  "src": "Tollygunj Metro"
+ },
+ "Sealdah (Rajabazar T.D. )": {
+  "lat": 22.57417,
+  "lng": 88.37381,
+  "src": "Rajabazar Tram Depot"
+ },
+ "Roy Bahadur Road": {
+  "lat": 22.48601,
+  "lng": 88.38213,
+  "src": "Bahadur Maath"
+ },
+ "Burashibtala": null,
+ "New Alipore": {
+  "lat": 22.51116,
+  "lng": 88.32811,
+  "src": "New Alipore"
+ },
+ "Shibtala Math": {
+  "lat": 22.54506,
+  "lng": 88.37805,
+  "src": "Shibtala Math"
+ },
+ "C.I.T. Road Xing": {
+  "lat": 22.51813,
+  "lng": 88.33335,
+  "src": "Alipore Chetla X-ing"
+ },
+ "Ananda Palit": {
+  "lat": 22.55634,
+  "lng": 88.37096,
+  "src": "Ananda Palit Road"
+ },
+ "College Street Xing": {
+  "lat": 22.58834,
+  "lng": 88.36783,
+  "src": "Bethune College"
+ },
+ "Bura Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Chitpur": {
+  "lat": 22.61616,
+  "lng": 88.37114,
+  "src": "Chitpur"
+ },
+ "M.G. Road Xing": {
+  "lat": 22.60605,
+  "lng": 88.37467,
+  "src": "M.G.M. Rubber Company"
+ },
+ "Rajabazar Tram Depot": {
+  "lat": 22.57417,
+  "lng": 88.37381,
+  "src": "Rajabazar Tram Depot"
+ },
+ "Chandi Ghosh Rd": {
+  "lat": 22.47628,
+  "lng": 88.31103,
+  "src": "Chandi Charan Ghosh Rd"
+ },
+ "Chourasta": {
+  "lat": 22.48736,
+  "lng": 88.31336,
+  "src": "Behala Chourasta"
+ },
+ "Water Gate": {
+  "lat": 22.61368,
+  "lng": 88.27508,
+  "src": "Kolkata West Gate"
+ },
+ "B B Ganguly St": {
+  "lat": 22.5682,
+  "lng": 88.36493,
+  "src": "Bepin Baru Ganguly St / Amhurst St"
+ },
+ "BBD.BAGB.B.Ganguli St.Sealdah": {
+  "lat": 22.56738,
+  "lng": 88.37102,
+  "src": "Sealdah"
+ },
+ "Phoolbagn": {
+  "lat": 22.57216,
+  "lng": 88.38942,
+  "src": "Phoolbagan"
+ },
+ "Sakhar Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "RB Av xing": null,
+ "Science City Chingrighata": {
+  "lat": 22.54006,
+  "lng": 88.39585,
+  "src": "Science City"
+ },
+ "Techopolic": {
+  "lat": 22.58043,
+  "lng": 88.43806,
+  "src": "Technopolis"
+ },
+ "Aliah Univercity": {
+  "lat": 22.59044,
+  "lng": 88.48572,
+  "src": "Aliah University"
+ },
+ "Parnashree": {
+  "lat": 22.50902,
+  "lng": 88.29914,
+  "src": "Parnashree Pally"
+ },
+ "Kasba Depot Gate": {
+  "lat": 22.51578,
+  "lng": 88.40088,
+  "src": "Hemanta Mukhopadhyay Gate 2"
+ },
+ "PNB": {
+  "lat": 22.59128,
+  "lng": 88.3995,
+  "src": "PNB"
+ },
+ "Quality": null,
+ "P.A.Sh Rd": {
+  "lat": 22.50325,
+  "lng": 88.37917,
+  "src": "RD Memorial School"
+ },
+ "Lords Beckary": {
+  "lat": 22.49798,
+  "lng": 88.31516,
+  "src": "Becharam chatterjee Road"
+ },
+ "E.M.Byepass": {
+  "lat": 22.55271,
+  "lng": 88.40597,
+  "src": "Byepass Dhaba"
+ },
+ "Sc.City": {
+  "lat": 22.54006,
+  "lng": 88.39585,
+  "src": "Science City"
+ },
+ "S.Ave": {
+  "lat": 22.58231,
+  "lng": 88.35407,
+  "src": "Cotton St (Utkalmani Gopabandhu Ave)"
+ },
+ "Ranikuthi": {
+  "lat": 22.7667,
+  "lng": 88.54303,
+  "src": "Rajkuthi"
+ },
+ "Tollygunge T.Depot": {
+  "lat": 22.49398,
+  "lng": 88.34617,
+  "src": "Tollygunge Tram Depot"
+ },
+ "Santoshpur": {
+  "lat": 22.52406,
+  "lng": 88.27107,
+  "src": "Santoshpur"
+ },
+ "VIP. Nagar": {
+  "lat": 22.5237,
+  "lng": 88.39886,
+  "src": "VIP Nagar"
+ },
+ "Since City": {
+  "lat": 22.50158,
+  "lng": 88.36171,
+  "src": "South City Mall"
+ },
+ "Metro politon Hou. Est": {
+  "lat": 22.67656,
+  "lng": 88.37359,
+  "src": "ESI Hospital"
+ },
+ "EM ByPass Connector": {
+  "lat": 22.50349,
+  "lng": 88.3694,
+  "src": "Kalikapur Road (Prince Anwar Shah Bypass Connector)"
+ },
+ "Colutola St": {
+  "lat": 22.57532,
+  "lng": 88.3597,
+  "src": "Colootola Street"
+ },
+ "C.R.Ave": {
+  "lat": 22.54468,
+  "lng": 88.36188,
+  "src": "Ustad Enayet Khan Ave"
+ },
+ "Philips": {
+  "lat": 22.55306,
+  "lng": 88.35337,
+  "src": "Philips Arena"
+ },
+ "Tata Medical Centre": {
+  "lat": 22.57762,
+  "lng": 88.48008,
+  "src": "Tata Medical Centre"
+ },
+ "Central Jail": {
+  "lat": 22.52517,
+  "lng": 88.33957,
+  "src": "Alipore Central Jail"
+ },
+ "Paikpara Xing": {
+  "lat": 22.61205,
+  "lng": 88.38556,
+  "src": "Paikpara"
+ },
+ "Shyam Bazar": {
+  "lat": 22.59799,
+  "lng": 88.36949,
+  "src": "Shyam Bazar"
+ },
+ "Grey Street": {
+  "lat": 22.56015,
+  "lng": 88.35296,
+  "src": "Kolkata New market"
+ },
+ "Colutala Street": {
+  "lat": 22.56015,
+  "lng": 88.35296,
+  "src": "Kolkata New market"
+ },
+ "BB Ganguly Xing": null,
+ "BKP Chiriamore": {
+  "lat": 22.76162,
+  "lng": 88.36622,
+  "src": "Chiriamore"
+ },
+ "SLD Gate": {
+  "lat": 22.57914,
+  "lng": 88.34692,
+  "src": "Canning Street Sluice Gate"
+ },
+ "Weble House": {
+  "lat": 22.5761,
+  "lng": 88.36389,
+  "src": "Indian Coffee House"
+ },
+ "Chinrighata": {
+  "lat": 22.55866,
+  "lng": 88.4108,
+  "src": "Chingrighata"
+ },
+ "EMBypass": {
+  "lat": 22.57132,
+  "lng": 88.40431,
+  "src": "EM Bypass"
+ },
+ "Ranirashmoni Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Paribesh Bhavan": {
+  "lat": 22.56251,
+  "lng": 88.40887,
+  "src": "Paribesh Bhavan"
+ },
+ "K.B.K.C": {
+  "lat": 22.51888,
+  "lng": 88.37178,
+  "src": "B.K.Dutt Memorial Medical Centre"
+ },
+ "Panchayat Bhawa": {
+  "lat": 22.57509,
+  "lng": 88.43377,
+  "src": "Mi Service Center, Sech Bhawan, Kolkata, West Bengal (Infotel)"
+ },
+ "Tank No. 16": {
+  "lat": 22.56557,
+  "lng": 88.372,
+  "src": "Platform No. 15 & Platform No. 16"
+ },
+ "Techno India": {
+  "lat": 22.57565,
+  "lng": 88.42824,
+  "src": "Techno India College"
+ },
+ "Malanch More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Hiland Willow/ Picnic Park": {
+  "lat": 22.62195,
+  "lng": 88.48282,
+  "src": "Hiland Willows"
+ },
+ "Dinobandhu Andrews College": {
+  "lat": 22.46851,
+  "lng": 88.37845,
+  "src": "Dinbandhu Andrews College"
+ },
+ "Bldg. More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "C.A.Island": {
+  "lat": 22.56886,
+  "lng": 88.39973,
+  "src": "Small Lake Island"
+ },
+ "Labony": {
+  "lat": 22.58297,
+  "lng": 88.40562,
+  "src": "Labony"
+ },
+ "Seva Hospital": {
+  "lat": 22.87846,
+  "lng": 88.01337,
+  "src": "Seva Hospital, Hooghly"
+ },
+ "Baisaki": {
+  "lat": 22.59708,
+  "lng": 88.42152,
+  "src": "Baishaki"
+ },
+ "Bhavan": {
+  "lat": 22.57758,
+  "lng": 88.40463,
+  "src": "Bhavan's Gangabux Kanoria Vidyamandir"
+ },
+ "Ariadaha": {
+  "lat": 22.67089,
+  "lng": 88.37232,
+  "src": "Techno India School, Ariadaha"
+ },
+ "Alambazar": null,
+ "Baghajatin Rd": {
+  "lat": 22.48274,
+  "lng": 88.38667,
+  "src": "Baghajatin"
+ },
+ "Baranagar": {
+  "lat": 22.63613,
+  "lng": 88.37842,
+  "src": "Baranagar Police Station"
+ },
+ "Bibir Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Cossipore": {
+  "lat": 22.61735,
+  "lng": 88.37373,
+  "src": "Cossipore"
+ },
+ "Bag Bazar": {
+  "lat": 22.60159,
+  "lng": 88.36366,
+  "src": "Bag Bazar"
+ },
+ "M.G.Road Jn": {
+  "lat": 22.60605,
+  "lng": 88.37467,
+  "src": "M.G.M. Rubber Company"
+ },
+ "Chandi Ghosh": {
+  "lat": 22.47945,
+  "lng": 88.34991,
+  "src": "Chandi Ghosh Road"
+ },
+ "Kudghat": {
+  "lat": 22.48137,
+  "lng": 88.34582,
+  "src": "Kudghat"
+ },
+ "Pearless Hospital": {
+  "lat": 22.481,
+  "lng": 88.39371,
+  "src": "Peerless Hospital and Research Center Limited Blood Bank"
+ },
+ "Baghbazar": {
+  "lat": 22.60159,
+  "lng": 88.36366,
+  "src": "Bag Bazar"
+ },
+ "Sakuntala Park": {
+  "lat": 22.48561,
+  "lng": 88.28689,
+  "src": "Sakuntala Nursing Home"
+ },
+ "Raidighi": {
+  "lat": 22.48461,
+  "lng": 88.2959,
+  "src": "Raidighi"
+ },
+ "Nutan Para": {
+  "lat": 22.5202,
+  "lng": 88.3497,
+  "src": "Nutan Park"
+ },
+ "WIPRO Xing": {
+  "lat": 22.5792,
+  "lng": 88.43077,
+  "src": "Wipro Tower 5"
+ },
+ "Balikhal": null,
+ "Sreenagar": null,
+ "3 No. Gate": {
+  "lat": 22.51286,
+  "lng": 88.31094,
+  "src": "CPT Colony gate no 3"
+ },
+ "City Center": {
+  "lat": 22.57642,
+  "lng": 88.41415,
+  "src": "HB Community Center"
+ },
+ "Nabadiganta": {
+  "lat": 22.58093,
+  "lng": 88.43703,
+  "src": "Nabadiganta"
+ },
+ "More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "SLD": {
+  "lat": 22.5838,
+  "lng": 88.43518,
+  "src": "Kolkata@99"
+ },
+ "Arabinda Pally": {
+  "lat": 22.48828,
+  "lng": 88.35966,
+  "src": "Arabinda Nagar"
+ },
+ "Panchanan Gram": {
+  "lat": 22.53102,
+  "lng": 88.39586,
+  "src": "Uttara Panchanna Gram"
+ },
+ "Lohapoll": {
+  "lat": 22.56351,
+  "lng": 88.41561,
+  "src": "Loha Pool"
+ },
+ "Middle Rd": {
+  "lat": 22.54875,
+  "lng": 88.32833,
+  "src": "Middle Road"
+ },
+ "S N Banerjee Rd": {
+  "lat": 22.60385,
+  "lng": 88.34727,
+  "src": "5/1, S. N. Banerjee Lane, Salkia"
+ },
+ "SDFCollege More": {
+  "lat": 22.63193,
+  "lng": 88.37787,
+  "src": "Sinthee More Ground"
+ },
+ "Hidco Bhavan": {
+  "lat": 22.58003,
+  "lng": 88.47302,
+  "src": "HIDCO Bhaban"
+ },
+ "Ultadanga - Salt Lake-Ultadanga": {
+  "lat": 22.59479,
+  "lng": 88.39815,
+  "src": "Ultadanga Flyover"
+ },
+ "C A Island": {
+  "lat": 22.56886,
+  "lng": 88.39973,
+  "src": "Small Lake Island"
+ },
+ "City Centre I": {
+  "lat": 22.5871,
+  "lng": 88.40789,
+  "src": "City Centre"
+ },
+ "4 No Tank": {
+  "lat": 22.58299,
+  "lng": 88.4679,
+  "src": "4 No Water Tank"
+ },
+ "Ramkrishna Mission": {
+  "lat": 22.52336,
+  "lng": 88.352,
+  "src": "Ramkrishna Mission Seva Prathisthan's Blood Bank"
+ },
+ "C.G.O. Complex": {
+  "lat": 22.51617,
+  "lng": 88.37842,
+  "src": "Basant Bahar Housing Complex"
+ },
+ "Purta Bhavan": {
+  "lat": 22.59089,
+  "lng": 88.41731,
+  "src": "Purta Bhavan"
+ },
+ "Unnayan Bhavan": {
+  "lat": 22.5889,
+  "lng": 88.42077,
+  "src": "Unnayan Bhavan"
+ },
+ "Lock Gate": {
+  "lat": 22.60782,
+  "lng": 88.36992,
+  "src": "Lock Gate Road Flyover"
+ },
+ "R.S. Software": {
+  "lat": 22.57686,
+  "lng": 88.43493,
+  "src": "RS Software"
+ },
+ "SDG": {
+  "lat": 22.75154,
+  "lng": 88.37103,
+  "src": "Barrackpore S.D. Hospital (Dr. B.N. Bose) Hospital Blood Bank"
+ },
+ "Police Camp": {
+  "lat": 22.56935,
+  "lng": 88.40381,
+  "src": "Kolkata Police Rowing Academy"
+ },
+ "G.D. Island": {
+  "lat": 22.56428,
+  "lng": 88.39849,
+  "src": "I.D & B.G. Hospital, Beliaghata"
+ },
+ "Falguni": null,
+ "Vidyasagar Island": {
+  "lat": 22.54634,
+  "lng": 88.32986,
+  "src": "Vidyasagar Flyover"
+ },
+ "Ultadanga 15 No. Bus Stand": {
+  "lat": 22.59265,
+  "lng": 88.38875,
+  "src": "15 No Bus Stand (S30)"
+ },
+ "Chowrastha": {
+  "lat": 22.48735,
+  "lng": 88.31338,
+  "src": "Behala Chowrasta"
+ },
+ "Motilal Gupta Rd": {
+  "lat": 22.4817,
+  "lng": 88.32494,
+  "src": "Motilal Gupta Rd"
+ },
+ "D P Sasmal Rd": {
+  "lat": 22.59351,
+  "lng": 88.38834,
+  "src": "Dr Majumder Homoeo World"
+ },
+ "Janakalyan": {
+  "lat": 22.48462,
+  "lng": 88.31266,
+  "src": "Janakalyan"
+ },
+ "Bakrakpur College": {
+  "lat": 22.60187,
+  "lng": 88.40488,
+  "src": "East Calcutta Girls' College"
+ },
+ "Barakpur Chiriamore": {
+  "lat": 22.76162,
+  "lng": 88.36622,
+  "src": "Chiriamore"
+ },
+ "Khardha Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Ranindra Sarani": {
+  "lat": 22.58034,
+  "lng": 88.35701,
+  "src": "Rabindra Sarani"
+ },
+ "Vivekananda Bridge": {
+  "lat": 22.56141,
+  "lng": 88.40825,
+  "src": "Vivekananda Park"
+ },
+ "Bally": {
+  "lat": 22.51934,
+  "lng": 88.37198,
+  "src": "Ballygunge Junction"
+ },
+ "Municipality": {
+  "lat": 22.49908,
+  "lng": 88.2277,
+  "src": "MUNICIPALITY"
+ },
+ "Liluah": {
+  "lat": 22.6209,
+  "lng": 88.3394,
+  "src": "Liluah"
+ },
+ "Salkia Chowrastha": {
+  "lat": 22.48735,
+  "lng": 88.31338,
+  "src": "Behala Chowrasta"
+ },
+ "Nilganj Bazar": {
+  "lat": 22.59009,
+  "lng": 88.36864,
+  "src": "Tulshi Bhavan, House of Nilanjan Das"
+ },
+ "Kazibari": {
+  "lat": 22.72265,
+  "lng": 88.50837,
+  "src": "Kazipara"
+ },
+ "Narayanpur More": {
+  "lat": 22.63193,
+  "lng": 88.37787,
+  "src": "Sinthee More Ground"
+ },
+ "State University": {
+  "lat": 22.4961,
+  "lng": 88.36713,
+  "src": "Jadavpur University Staff Quarters"
+ },
+ "Sinthee": {
+  "lat": 22.63193,
+  "lng": 88.37787,
+  "src": "Sinthee More Ground"
+ },
+ "DumDum Chiria More": {
+  "lat": 22.61872,
+  "lng": 88.3793,
+  "src": "Chiria more"
+ },
+ "DumDum Stn": {
+  "lat": 22.61985,
+  "lng": 88.39271,
+  "src": "Dumdum Metro"
+ },
+ "Champadali More": {
+  "lat": 22.72097,
+  "lng": 88.48201,
+  "src": "Haritala More"
+ },
+ "Barasat Depot": {
+  "lat": 22.7325,
+  "lng": 88.49376,
+  "src": "Barasat EMU Car Shed"
+ },
+ "Kazipara": {
+  "lat": 22.72265,
+  "lng": 88.50837,
+  "src": "Kazipara"
+ },
+ "Jeevan Deep": {
+  "lat": 22.58352,
+  "lng": 88.36133,
+  "src": "Jeevan Jyoti Nursing Home, Kolkata"
+ },
+ "Wellington Square": {
+  "lat": 22.59243,
+  "lng": 88.36791,
+  "src": "Black Square"
+ },
+ "R.G.KAR Hospital": {
+  "lat": 22.60448,
+  "lng": 88.37841,
+  "src": "R.G. Kar Medical College & Hospital"
+ },
+ "Kolkata Station": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Akra Rabindranagar": {
+  "lat": 22.63906,
+  "lng": 88.40291,
+  "src": "Rabindranagar Children'S Park"
+ },
+ "Paharpur": {
+  "lat": 22.54374,
+  "lng": 88.28622,
+  "src": "Paharpur Road"
+ },
+ "Nature's Park": {
+  "lat": 22.55267,
+  "lng": 88.35262,
+  "src": "Nature's Basket"
+ },
+ "Taratala Depot": {
+  "lat": 22.50769,
+  "lng": 88.32038,
+  "src": "Taratala"
+ },
+ "Sahapur P.Pump": {
+  "lat": 22.5071,
+  "lng": 88.32296,
+  "src": "Sahapur Post Office"
+ },
+ "RB Avenue xing": null,
+ "Bijan Setu": {
+  "lat": 22.5838,
+  "lng": 88.33536,
+  "src": "Bijay Krishna Girls College"
+ },
+ "Paribesh Bhaban": {
+  "lat": 22.56251,
+  "lng": 88.40887,
+  "src": "Paribesh Bhavan"
+ },
+ "Eden City": {
+  "lat": 22.56461,
+  "lng": 88.34234,
+  "src": "Eden Gardens"
+ },
+ "Nungi": null,
+ "Batamore": {
+  "lat": 22.49947,
+  "lng": 88.23153,
+  "src": "bata more bus stop"
+ },
+ "Dakghar": null,
+ "Jalkol": null,
+ "Mollar Gate": {
+  "lat": 22.61368,
+  "lng": 88.27508,
+  "src": "Kolkata West Gate"
+ },
+ "Rampur": {
+  "lat": 22.48752,
+  "lng": 88.36962,
+  "src": "Raipur Road"
+ },
+ "Jingira Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Behala Airport": {
+  "lat": 22.50544,
+  "lng": 88.29401,
+  "src": "Behala Airport"
+ },
+ "Sabeda Bagan": {
+  "lat": 22.56166,
+  "lng": 88.34219,
+  "src": "Mohun Bagan Ground"
+ },
+ "Sinthi": {
+  "lat": 22.63099,
+  "lng": 88.38023,
+  "src": "Sinthi R. B. T. Vidyapith(H.S)"
+ },
+ "Mayo Road": {
+  "lat": 22.56198,
+  "lng": 88.34784,
+  "src": "Mayo Road"
+ },
+ "Tollplaza": null,
+ "Bidhannagar College": {
+  "lat": 22.58443,
+  "lng": 88.40552,
+  "src": "Bidhannagar College"
+ },
+ "City Centre 1": {
+  "lat": 22.58819,
+  "lng": 88.40765,
+  "src": "City Centre 1"
+ },
+ "Bhavans": {
+  "lat": 22.53748,
+  "lng": 88.35098,
+  "src": "Netaji Bhavan"
+ },
+ "Nayabad": {
+  "lat": 22.45659,
+  "lng": 88.26544,
+  "src": "Naoabad"
+ },
+ "Garia Station": {
+  "lat": 22.52105,
+  "lng": 88.36469,
+  "src": "Gariahat Police Station"
+ },
+ "Panchasayar": {
+  "lat": 22.47605,
+  "lng": 88.39708,
+  "src": "Panchasayar"
+ },
+ "Peerless Hosp": {
+  "lat": 22.481,
+  "lng": 88.39371,
+  "src": "Peerless Hospital and Research Center Limited Blood Bank"
+ },
+ "D. Park": {
+  "lat": 22.57467,
+  "lng": 88.3453,
+  "src": "Millennium Park"
+ },
+ "Pk St": {
+  "lat": 22.5462,
+  "lng": 88.36022,
+  "src": "South Park Street Cemetery"
+ },
+ "Budge Budge": {
+  "lat": 22.51504,
+  "lng": 88.28688,
+  "src": "Budge Budge Trunk Road"
+ },
+ "Charial": {
+  "lat": 22.50308,
+  "lng": 88.31293,
+  "src": "Chartala More"
+ },
+ "Pujali CESC Plant": null,
+ "Achipur": null,
+ "Khedderpur": {
+  "lat": 22.5537,
+  "lng": 88.34399,
+  "src": "Khidderpur Road"
+ },
+ "ITC More": {
+  "lat": 22.55153,
+  "lng": 88.34998,
+  "src": "ITC Centre"
+ },
+ "Metiabruz S.S. Hospital": {
+  "lat": 22.54402,
+  "lng": 88.26969,
+  "src": "Unipon Hospital and Medical Sciences Pvt.Ltd -Kolkata"
+ },
+ "Santoshpur Railway Gate": null,
+ "Garden Reach Water Plant": {
+  "lat": 22.54358,
+  "lng": 88.30607,
+  "src": "Inland Waterways Authority of India"
+ },
+ "Jinjira Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Taratala State Garage": {
+  "lat": 22.51476,
+  "lng": 88.30562,
+  "src": "State Garage CSTC"
+ },
+ "Pathakpara": {
+  "lat": 22.5069,
+  "lng": 88.31612,
+  "src": "Pathakpara Road"
+ },
+ "Behala 14 No. B.T.": {
+  "lat": 22.50203,
+  "lng": 88.31811,
+  "src": "14 No Bus Stop"
+ },
+ "Naihati": null,
+ "Bhatpara": null,
+ "Shyamnagar": {
+  "lat": 22.60133,
+  "lng": 88.3725,
+  "src": "Shyambazar"
+ },
+ "Hela Battala": {
+  "lat": 22.45059,
+  "lng": 88.38651,
+  "src": "Battala shib Mandir Playground"
+ },
+ "P.T.S. Danersekh Lane": {
+  "lat": 22.58753,
+  "lng": 88.43866,
+  "src": "Tarulia 1st Lane"
+ },
+ "Podra": {
+  "lat": 22.5517,
+  "lng": 88.35068,
+  "src": "Anandi Lal Poddar Sarani"
+ },
+ "Champatala": {
+  "lat": 22.7197,
+  "lng": 88.48782,
+  "src": "Champadali"
+ },
+ "Sankrail": null,
+ "Sankrail Bharat Co-Op": null,
+ "Sapoorjee": null,
+ "Swastha Bhaban": {
+  "lat": 22.54547,
+  "lng": 88.35005,
+  "src": "Arobindo Bhaban"
+ },
+ "Joinpur": {
+  "lat": 22.50561,
+  "lng": 88.36367,
+  "src": "Jodhpur Park"
+ },
+ "Kalkapur": {
+  "lat": 22.5053,
+  "lng": 88.401,
+  "src": "Kavi Sukanta"
+ },
+ "Sanpui Para": {
+  "lat": 22.61434,
+  "lng": 88.39066,
+  "src": "Paik Para"
+ },
+ "Jadavpur Thana": {
+  "lat": 22.50296,
+  "lng": 88.36773,
+  "src": "Jadavpur Thana"
+ },
+ "Tollygunge Karunamoyee": {
+  "lat": 22.49864,
+  "lng": 88.34539,
+  "src": "Tollygunge"
+ },
+ "Maidan Metro": {
+  "lat": 22.58315,
+  "lng": 88.34115,
+  "src": "Howrah Metro"
+ },
+ "Tikiapara": {
+  "lat": 22.59858,
+  "lng": 88.32403,
+  "src": "Tikiapara"
+ },
+ "Telecom": {
+  "lat": 22.6053,
+  "lng": 88.38474,
+  "src": "Shree Balajee Telecom"
+ },
+ "Tegharia": {
+  "lat": 22.6214,
+  "lng": 88.43277,
+  "src": "Tegharia"
+ },
+ "Appolo Hospital": {
+  "lat": 22.51651,
+  "lng": 88.35309,
+  "src": "B.N Basu Memorial Clinic Appolo Nursing Home"
+ },
+ "Bengal Chemical": {
+  "lat": 22.58007,
+  "lng": 88.4013,
+  "src": "Bengal Chemical"
+ },
+ "Raghunathpur": {
+  "lat": 22.61883,
+  "lng": 88.43243,
+  "src": "Raghunathpur"
+ },
+ "Airport Terminal": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Dharmatala": {
+  "lat": 22.56061,
+  "lng": 88.35317,
+  "src": "Dharmatala"
+ },
+ "Chowrasta": {
+  "lat": 22.48735,
+  "lng": 88.31338,
+  "src": "Behala Chowrasta"
+ },
+ "Salt Lake Sector V": {
+  "lat": 22.58094,
+  "lng": 88.42909,
+  "src": "Salt Lake Sector V"
+ },
+ "Sealdah Station": {
+  "lat": 22.56529,
+  "lng": 88.3702,
+  "src": "Sealdah Station"
+ },
+ "Building More": {
+  "lat": 22.56147,
+  "lng": 88.4088,
+  "src": "Paribesh Bhavan"
+ },
+ "Chandni Market": {
+  "lat": 22.56626,
+  "lng": 88.36817,
+  "src": "Kole Market"
+ },
+ "Dumdum Park": {
+  "lat": 22.60273,
+  "lng": 88.41925,
+  "src": "Dumdum Park"
+ },
+ "Wellington": null,
+ "Fort William": {
+  "lat": 22.55316,
+  "lng": 88.34195,
+  "src": "Fort William Golf Course"
+ },
+ "Hazra More": {
+  "lat": 22.52272,
+  "lng": 88.34992,
+  "src": "Hazra"
+ },
+ "Sreebhumi": {
+  "lat": 22.60032,
+  "lng": 88.40259,
+  "src": "Sreebhumi Sporting club"
+ },
+ "DLF1": {
+  "lat": 22.58264,
+  "lng": 88.44942,
+  "src": "DLF"
+ },
+ "Behala 14no": {
+  "lat": 22.50157,
+  "lng": 88.32094,
+  "src": "Behala"
+ },
+ "Khanna Cinema": {
+  "lat": 22.51799,
+  "lng": 88.35439,
+  "src": "Priya Cinema"
+ },
+ "Dhapa Mathpukur": {
+  "lat": 22.54867,
+  "lng": 88.40052,
+  "src": "Mathpukur"
+ },
+ "Central Metro": {
+  "lat": 22.58817,
+  "lng": 88.41261,
+  "src": "Central Park Metro Depot"
+ },
+ "Maidan": {
+  "lat": 22.55055,
+  "lng": 88.34147,
+  "src": "Maidan"
+ },
+ "Bhowanipore": {
+  "lat": 22.53258,
+  "lng": 88.34544,
+  "src": "Bhowanipore"
+ },
+ "Ruby Crossing": {
+  "lat": 22.51361,
+  "lng": 88.40177,
+  "src": "Ruby Crossing"
+ },
+ "Saltlake Karunamoyee": {
+  "lat": 22.48515,
+  "lng": 88.33495,
+  "src": "Karunamoyee Ghat Road"
+ },
+ "Dhulagarh": null,
+ "Belgachia": {
+  "lat": 22.60592,
+  "lng": 88.38639,
+  "src": "Belgachia"
+ },
+ "Acropolis Mall": {
+  "lat": 22.51532,
+  "lng": 88.39324,
+  "src": "Acropolis Mall"
+ },
+ "Ballygunge Phari": {
+  "lat": 22.52488,
+  "lng": 88.36581,
+  "src": "Ballygunge Phari"
+ },
+ "Haldirams": {
+  "lat": 22.53291,
+  "lng": 88.36498,
+  "src": "Haldirams"
+ },
+ "Jadavpur 8B": {
+  "lat": 22.49565,
+  "lng": 88.37061,
+  "src": "Jadavpur 8B"
+ },
+ "Alampur": null,
+ "Stadium Island": {
+  "lat": 22.56611,
+  "lng": 88.34165,
+  "src": "Netaji Indoor Stadium"
+ },
+ "Vivekananda Road": {
+  "lat": 22.58589,
+  "lng": 88.36514,
+  "src": "Vivekananda Road"
+ },
+ "Keshtopur": {
+  "lat": 22.59733,
+  "lng": 88.43385,
+  "src": "Keshtopur"
+ },
+ "Ranihati": null,
+ "Beleghata": {
+  "lat": 22.55068,
+  "lng": 88.40401,
+  "src": "Beleghata"
+ },
+ "Fortis hospital": {
+  "lat": 22.52032,
+  "lng": 88.40095,
+  "src": "Fortis Hospitals"
+ },
+ "Bangur Avenue": {
+  "lat": 22.60592,
+  "lng": 88.41111,
+  "src": "Bangur Avenue"
+ },
+ "Mani Square": {
+  "lat": 22.57777,
+  "lng": 88.40055,
+  "src": "Mani Square Mall"
+ },
+ "Tata Cancer Hospital": {
+  "lat": 22.52527,
+  "lng": 88.34664,
+  "src": "Chittaranjan National Cancer Institute Hospital"
+ },
+ "Belilious Road": {
+  "lat": 22.58761,
+  "lng": 88.33435,
+  "src": "Belilious Road"
+ },
+ "Bikash Bhawan": {
+  "lat": 22.57509,
+  "lng": 88.43377,
+  "src": "Mi Service Center, Sech Bhawan, Kolkata, West Bengal (Infotel)"
+ },
+ "City Centre 2": {
+  "lat": 22.62328,
+  "lng": 88.4504,
+  "src": "City Centre 2"
+ },
+ "Deshoprio Park": {
+  "lat": 22.51844,
+  "lng": 88.35352,
+  "src": "Deshapriya Park"
+ },
+ "Diamond Harbour": {
+  "lat": 22.53762,
+  "lng": 88.32747,
+  "src": "Diamond Harbour Road"
+ },
+ "Girishpark": {
+  "lat": 22.58714,
+  "lng": 88.36294,
+  "src": "Girish Park"
+ },
+ "Mallick Bazar": {
+  "lat": 22.5468,
+  "lng": 88.3614,
+  "src": "Mallick Bazaar"
+ },
+ "Airport 3no": {
+  "lat": 22.62319,
+  "lng": 88.44373,
+  "src": "Holiday Inn Kolkata Airport"
+ },
+ "Ankurhati": null,
+ "Apollo Hospital": {
+  "lat": 22.57465,
+  "lng": 88.40154,
+  "src": "Apollo Gleneagles Hospital Limited Blood Bank"
+ },
+ "Behala 14 number": {
+  "lat": 22.50203,
+  "lng": 88.31811,
+  "src": "14 No Bus Stop"
+ },
+ "Brace Bridge": {
+  "lat": 22.51792,
+  "lng": 88.30114,
+  "src": "Brace Bridge"
+ },
+ "Dakshineshwar": null,
+ "Diamond Plaza": {
+  "lat": 22.61549,
+  "lng": 88.41247,
+  "src": "Diamond Plaza"
+ },
+ "Fortis": {
+  "lat": 22.51817,
+  "lng": 88.35591,
+  "src": "Fortis Healthcare"
+ },
+ "Kalindi More": {
+  "lat": 22.60943,
+  "lng": 88.40055,
+  "src": "Kalindi"
+ },
+ "Mallick Fatak": {
+  "lat": 22.5468,
+  "lng": 88.3614,
+  "src": "Mallick Bazaar"
+ },
+ "Medical College": {
+  "lat": 22.56383,
+  "lng": 88.36849,
+  "src": "Medical College and Hospital"
+ },
+ "Saltlake Gate": {
+  "lat": 22.59054,
+  "lng": 88.4116,
+  "src": "De Sovrani"
+ },
+ "Shipping Corporation": {
+  "lat": 22.49755,
+  "lng": 88.37482,
+  "src": "Kolkata Municipal Corporation Childrens Park"
+ },
+ "South City": {
+  "lat": 22.50158,
+  "lng": 88.36171,
+  "src": "South City Mall"
+ },
+ "Ahiritola": {
+  "lat": 22.5964,
+  "lng": 88.3533,
+  "src": "Ahiritola Ghat"
+ },
+ "Alipore Court": {
+  "lat": 22.52379,
+  "lng": 88.33272,
+  "src": "Alipore District and Sessions Court"
+ },
+ "B.K.Paul More": {
+  "lat": 22.49124,
+  "lng": 88.31176,
+  "src": "D.r A.k paul road"
+ },
+ "Colony More": {
+  "lat": 22.72316,
+  "lng": 88.47847,
+  "src": "Colony More"
+ },
+ "Golabarai PS / Pilkhana More": null,
+ "Kazipara More / Avani Mall": null,
+ "Nagerbazar": null,
+ "PG Hospital": {
+  "lat": 22.54,
+  "lng": 88.34176,
+  "src": "SSKM College and Hospital"
+ },
+ "Saltlake Stadium": {
+  "lat": 22.59054,
+  "lng": 88.4116,
+  "src": "De Sovrani"
+ },
+ "Shanpur More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Shibpur Bazar": {
+  "lat": 22.56186,
+  "lng": 88.31442,
+  "src": "Betaitala Bazar"
+ },
+ "Barabazar / Posta Bazar": {
+  "lat": 22.58137,
+  "lng": 88.35284,
+  "src": "Barabazar"
+ },
+ "Bataitala Phari": {
+  "lat": 22.52488,
+  "lng": 88.36581,
+  "src": "Ballygunge Phari"
+ },
+ "Chapadali More": {
+  "lat": 22.72097,
+  "lng": 88.48201,
+  "src": "Haritala More"
+ },
+ "Garia Bus Stand": {
+  "lat": 22.47125,
+  "lng": 88.37725,
+  "src": "45 BUS STAND"
+ },
+ "Gouripur": {
+  "lat": 22.59451,
+  "lng": 88.37739,
+  "src": "Chowman Gouribari"
+ },
+ "Jhinjhira Bazar": {
+  "lat": 22.51723,
+  "lng": 88.29781,
+  "src": "Jhinjhira Bazaar"
+ },
+ "Jorabagan": {
+  "lat": 22.5904,
+  "lng": 88.35712,
+  "src": "Jorabagan Mullick Bari"
+ },
+ "Netaji Nagar": {
+  "lat": 22.77082,
+  "lng": 88.54176,
+  "src": "Netaji Nagar"
+ },
+ "Sealdah Court": {
+  "lat": 22.56555,
+  "lng": 88.36968,
+  "src": "Sealdah Court"
+ },
+ "Shirakole": null,
+ "Ultadanga HUDCO": {
+  "lat": 22.59613,
+  "lng": 88.38528,
+  "src": "Ultadanga"
+ },
+ "45 bus stand": {
+  "lat": 22.47125,
+  "lng": 88.37725,
+  "src": "45 BUS STAND"
+ },
+ "AMRI Hospital": {
+  "lat": 22.56833,
+  "lng": 88.41166,
+  "src": "AMRI Hospital"
+ },
+ "Amtala Phari": {
+  "lat": 22.56347,
+  "lng": 88.30161,
+  "src": "Amtala Phari"
+ },
+ "Berachampa": null,
+ "Danesh Shaikh Lane": {
+  "lat": 22.56289,
+  "lng": 88.29589,
+  "src": "Danesh Sheikh Lane"
+ },
+ "Ecopark": {
+  "lat": 22.60224,
+  "lng": 88.46474,
+  "src": "Eco Park"
+ },
+ "Kadamtala": {
+  "lat": 22.59277,
+  "lng": 88.31506,
+  "src": "kadamtala sports ground"
+ },
+ "Lokenath Mandir": {
+  "lat": 22.5637,
+  "lng": 88.29623,
+  "src": "Lokenath Baba Mandir"
+ },
+ "Malapara": null,
+ "Narayana Hospital": {
+  "lat": 22.53538,
+  "lng": 88.35189,
+  "src": "Sri Lakshmi Narayana Trust Maternity Home and Hospital"
+ },
+ "Ramgarh": {
+  "lat": 22.47568,
+  "lng": 88.37493,
+  "src": "Ramgarh Lake"
+ },
+ "Swabhumi": {
+  "lat": 22.57086,
+  "lng": 88.40115,
+  "src": "Swabhumi"
+ },
+ "Bagnan": {
+  "lat": 22.58406,
+  "lng": 88.39533,
+  "src": "Bagmari Muslim Burial Ground"
+ },
+ "Bansdroni": {
+  "lat": 22.47077,
+  "lng": 88.36181,
+  "src": "Bansdroni"
+ },
+ "Dasnagar": {
+  "lat": 22.60193,
+  "lng": 88.31071,
+  "src": "Dasnagar Children Park"
+ },
+ "Derozio College": {
+  "lat": 22.63345,
+  "lng": 88.4583,
+  "src": "Derozio memorial college"
+ },
+ "Kulpi": {
+  "lat": 22.51281,
+  "lng": 88.34887,
+  "src": "Bombay Kulfi"
+ },
+ "Rajarhat Chowmatha": {
+  "lat": 22.62669,
+  "lng": 88.48898,
+  "src": "Rajarhat Chowmatha"
+ },
+ "Rashbihari crossing": {
+  "lat": 22.51364,
+  "lng": 88.39928,
+  "src": "Ruby Crossing"
+ },
+ "Reckjuani": {
+  "lat": 22.62611,
+  "lng": 88.47804,
+  "src": "Reckjoani BPHC"
+ },
+ "Saltlake P.N.B": {
+  "lat": 22.58484,
+  "lng": 88.40655,
+  "src": "Kendriya Vidyalaya Saltlake No.1"
+ },
+ "Sarisha More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Sishu Mangal": {
+  "lat": 22.58684,
+  "lng": 88.39607,
+  "src": "Bidhan Sishu Udyan"
+ },
+ "Amta": {
+  "lat": 22.60497,
+  "lng": 88.37617,
+  "src": "Tala Amra Kajan Park"
+ },
+ "Deganga": null,
+ "Dostipur": null,
+ "Exide Crossing": {
+  "lat": 22.54105,
+  "lng": 88.34681,
+  "src": "Exide"
+ },
+ "Garia Metro": {
+  "lat": 22.47619,
+  "lng": 88.39301,
+  "src": "New Garia Metro Railway Car Shed"
+ },
+ "Habra Station": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Malancha Cinema": {
+  "lat": 22.51799,
+  "lng": 88.35439,
+  "src": "Priya Cinema"
+ },
+ "Medica Hospital": {
+  "lat": 22.49439,
+  "lng": 88.40084,
+  "src": "Medica Super Specialty Hospital Blood Bank"
+ },
+ "Unitech Gate 1": {
+  "lat": 22.57445,
+  "lng": 88.47996,
+  "src": "Unitech Gate 1"
+ },
+ "Baishnabghata": {
+  "lat": 22.471,
+  "lng": 88.37159,
+  "src": "Baishnabghata Bye Lane"
+ },
+ "Belpukur": null,
+ "Bhasa Swami Narayan Temple": null,
+ "Bishnupur PS": {
+  "lat": 22.41451,
+  "lng": 88.28394,
+  "src": "BAPS Shri Swaminarayan Mandir Kolkata"
+ },
+ "Bongaon": null,
+ "Dalanghata": null,
+ "Elgin Crossing": {
+  "lat": 22.51364,
+  "lng": 88.39928,
+  "src": "Ruby Crossing"
+ },
+ "Ghusighata": null,
+ "Gouribari": {
+  "lat": 22.59458,
+  "lng": 88.37914,
+  "src": "Gouribari Sarbojanin"
+ },
+ "Hedua More": {
+  "lat": 22.58801,
+  "lng": 88.36894,
+  "src": "hedua park"
+ },
+ "IIM Joka": {
+  "lat": 22.4441,
+  "lng": 88.30171,
+  "src": "IIM Calcutta"
+ },
+ "Joka ESI": {
+  "lat": 22.45261,
+  "lng": 88.3009,
+  "src": "ESIC Hospital's Blood Bank"
+ },
+ "Joka Khalpole": {
+  "lat": 22.4441,
+  "lng": 88.30171,
+  "src": "IIM Calcutta"
+ },
+ "Kholapota": null,
+ "Lansdowne": {
+  "lat": 22.53944,
+  "lng": 88.3546,
+  "src": "Lansdowne Road (Sarat Bose Road)"
+ },
+ "M.G Road crossing": {
+  "lat": 22.54154,
+  "lng": 88.35187,
+  "src": "Camac Street;ACJ Boss Road Crossing"
+ },
+ "New Barrackpore": {
+  "lat": 22.68607,
+  "lng": 88.44464,
+  "src": "New Barrackpore"
+ },
+ "Newtown Bus Stand": {
+  "lat": 22.56571,
+  "lng": 88.51432,
+  "src": "Shapoorji Bus Stand"
+ },
+ "Panchla": {
+  "lat": 22.50219,
+  "lng": 88.39859,
+  "src": "Panchanangram Canal"
+ },
+ "Park Circus 7 Point": {
+  "lat": 22.54333,
+  "lng": 88.36614,
+  "src": "Park Circus 7-point;JBS Haldane Avenue"
+ },
+ "Quest Mall": {
+  "lat": 22.53903,
+  "lng": 88.36566,
+  "src": "Quest Mall"
+ },
+ "Salua Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Sarberia": null,
+ "Sarkarpool": null,
+ "Westin": {
+  "lat": 22.59225,
+  "lng": 88.47521,
+  "src": "The Westin"
+ },
+ "Airport domestic Terminus": {
+  "lat": 22.64566,
+  "lng": 88.4399,
+  "src": "Domestic Terminal"
+ },
+ "Anandapur": {
+  "lat": 22.51426,
+  "lng": 88.40989,
+  "src": "Anandapur"
+ },
+ "Bamanghata": null,
+ "Bharat Sevashram Hospital": {
+  "lat": 22.52199,
+  "lng": 88.36988,
+  "src": "Bharat Sevashram Sangha Hospital"
+ },
+ "Bhawani Bhawan": {
+  "lat": 22.62836,
+  "lng": 88.43653,
+  "src": "Bhawani Enclave"
+ },
+ "Bhawanipur": {
+  "lat": 22.52611,
+  "lng": 88.3478,
+  "src": "The Bhawanipur House"
+ },
+ "CIT More": {
+  "lat": 22.56285,
+  "lng": 88.39626,
+  "src": "CIT More"
+ },
+ "Gabberia": {
+  "lat": 22.54744,
+  "lng": 88.35067,
+  "src": "Gabber's Bar and Kitchen"
+ },
+ "Hatugunge": null,
+ "Japani Gate": {
+  "lat": 22.57904,
+  "lng": 88.42612,
+  "src": "Japani Gate Salt Lake Mini Bus Terminus"
+ },
+ "Kalagachia": {
+  "lat": 22.45553,
+  "lng": 88.28221,
+  "src": "Kalagachhia"
+ },
+ "Kapathat": {
+  "lat": 22.68129,
+  "lng": 88.36545,
+  "src": "Kamarhati Municipality children's park"
+ },
+ "Karanjali": null,
+ "Leninnagar": null,
+ "Mathkal": null,
+ "Mollargate": null,
+ "Noongola": null,
+ "Palmer Bazar": {
+  "lat": 22.56366,
+  "lng": 88.37801,
+  "src": "Palmer Bazar Rd"
+ },
+ "Rampur Quarter": {
+  "lat": 22.57374,
+  "lng": 88.39101,
+  "src": "Central Government Staff Quarter"
+ },
+ "S.M. Nagar": {
+  "lat": 22.63554,
+  "lng": 88.40897,
+  "src": "Subhas Nagar Children's Park"
+ },
+ "Sector V (Saltlake)": {
+  "lat": 22.57984,
+  "lng": 88.43767,
+  "src": "Technopolis"
+ },
+ "Shibpur Toll Plaza": null,
+ "Sulekha": {
+  "lat": 22.49155,
+  "lng": 88.37267,
+  "src": "Sulekha"
+ },
+ "Sushrut Eye hospital": {
+  "lat": 22.58964,
+  "lng": 88.40893,
+  "src": "Vasan Eye Care Hospital, Kolkata"
+ },
+ "TCS Gitanjali": {
+  "lat": 22.46947,
+  "lng": 88.37001,
+  "src": "Gitanjali"
+ },
+ "Airport 2 No. Gate": {
+  "lat": 22.6418,
+  "lng": 88.4315,
+  "src": "Airport No. 1 Gate"
+ },
+ "Baduria": null,
+ "Bandha Ghat / Salkia Chowrasta": null,
+ "Barasat Titumir Bus Stand": {
+  "lat": 22.69299,
+  "lng": 88.46366,
+  "src": "Madhyamgram CTC bus stand"
+ },
+ "Bidhannagar Station": {
+  "lat": 22.57016,
+  "lng": 88.41367,
+  "src": "Bidhannagar South Police Station"
+ },
+ "Boyermari": null,
+ "Chunavati": null,
+ "Don Bosco": {
+  "lat": 22.61906,
+  "lng": 88.35219,
+  "src": "Don Bosco School Liluah"
+ },
+ "Dumdum Chiriamore": {
+  "lat": 22.76162,
+  "lng": 88.36622,
+  "src": "Chiriamore"
+ },
+ "Gurusaday Road": {
+  "lat": 22.53754,
+  "lng": 88.35885,
+  "src": "Gurusaday Datta Road"
+ },
+ "Ichapur More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Jalan complex": {
+  "lat": 22.49711,
+  "lng": 88.5159,
+  "src": "Kolkata Leather Complex"
+ },
+ "Kadambagachi": {
+  "lat": 22.70908,
+  "lng": 88.53991,
+  "src": "Kadambagachi Health Centre"
+ },
+ "Kaltala": {
+  "lat": 22.50634,
+  "lng": 88.39854,
+  "src": "Kalitala Road North"
+ },
+ "Kanmari More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Kanthalberia": {
+  "lat": 22.31241,
+  "lng": 88.69303,
+  "src": "Kathalberia"
+ },
+ "Kona More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Lake Mall": {
+  "lat": 22.5165,
+  "lng": 88.34885,
+  "src": "Lake Mall"
+ },
+ "Lauhati": null,
+ "Mahamayatala": null,
+ "Mathbari": null,
+ "Michaelnagar": {
+  "lat": 22.67468,
+  "lng": 88.44452,
+  "src": "Michaelnagar Playground"
+ },
+ "Nabanna Bus Terminus": {
+  "lat": 22.56596,
+  "lng": 88.31315,
+  "src": "Nabanna Bus Stand"
+ },
+ "Narayanpur": null,
+ "Nature Park": {
+  "lat": 22.5465,
+  "lng": 88.35662,
+  "src": "Nature Study Park"
+ },
+ "Nawabpur": null,
+ "Panpur More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Park Circus 4 number bridge": null,
+ "Rajpur": {
+  "lat": 22.48961,
+  "lng": 88.3916,
+  "src": "Purba Rajpur"
+ },
+ "Tea Board": {
+  "lat": 22.55593,
+  "lng": 88.3545,
+  "src": "Tegia Tea Center"
+ },
+ "Unsani": null,
+ "- Dakbanglow More": {
+  "lat": 22.71139,
+  "lng": 88.47549,
+  "src": "Dakbunglow More"
+ },
+ "- Joygachhi": null,
+ "Baisakhi More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Baisnabghata": {
+  "lat": 22.471,
+  "lng": 88.37159,
+  "src": "Baishnabghata Bye Lane"
+ },
+ "Ballygaunj Station": {
+  "lat": 22.51934,
+  "lng": 88.37198,
+  "src": "Ballygunge Junction"
+ },
+ "Ballyghat": null,
+ "Ballykhal": null,
+ "Bamangachi": {
+  "lat": 22.74949,
+  "lng": 88.5093,
+  "src": "Bamangachi"
+ },
+ "Bankra": {
+  "lat": 22.56543,
+  "lng": 88.36087,
+  "src": "Bankar Raj Street"
+ },
+ "Barasat Champadali": {
+  "lat": 22.7197,
+  "lng": 88.48782,
+  "src": "Champadali"
+ },
+ "Beleghata Building More": {
+  "lat": 22.56285,
+  "lng": 88.39626,
+  "src": "CIT More"
+ },
+ "Belepol": {
+  "lat": 22.57813,
+  "lng": 88.30546,
+  "src": "Belepole Students athaletic club"
+ },
+ "Betore": null,
+ "Bhabani Bhawan": {
+  "lat": 22.57509,
+  "lng": 88.43377,
+  "src": "Mi Service Center, Sech Bhawan, Kolkata, West Bengal (Infotel)"
+ },
+ "Bhagabanpur": null,
+ "Bhangankhali": null,
+ "Bichali Ghat": {
+  "lat": 22.55024,
+  "lng": 88.28533,
+  "src": "Bichali Ghat Road"
+ },
+ "Bithari": {
+  "lat": 22.51648,
+  "lng": 88.37941,
+  "src": "Banku Bihari Chatterjee Road"
+ },
+ "Boralighat": null,
+ "Canning Station": {
+  "lat": 22.57914,
+  "lng": 88.34692,
+  "src": "Canning Street Sluice Gate"
+ },
+ "Chongda More": {
+  "lat": 22.85926,
+  "lng": 88.67324,
+  "src": "Chowngda More"
+ },
+ "City center 1": {
+  "lat": 22.57642,
+  "lng": 88.41415,
+  "src": "HB Community Center"
+ },
+ "City Centre": {
+  "lat": 22.5871,
+  "lng": 88.40789,
+  "src": "City Centre"
+ },
+ "Dashadrone": null,
+ "Debipur": null,
+ "Dhamakhali": null,
+ "Dockghat": null,
+ "Doordarshan Bhawan": {
+  "lat": 22.4949,
+  "lng": 88.35973,
+  "src": "Doordarshan Kendra"
+ },
+ "Guma Chowmatha": {
+  "lat": 22.5253,
+  "lng": 88.41109,
+  "src": "Chowbagha Road"
+ },
+ "Hatuganj": null,
+ "Highland park": {
+  "lat": 22.48507,
+  "lng": 88.3891,
+  "src": "Highland Park Road"
+ },
+ "Kachua More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Kachuberia": null,
+ "Kalipark": {
+  "lat": 22.72265,
+  "lng": 88.50837,
+  "src": "Kazipara"
+ },
+ "Kasba Post Office": {
+  "lat": 22.57459,
+  "lng": 88.36235,
+  "src": "Kolkata University Post Office"
+ },
+ "Khosdelpur": null,
+ "Kultali": null,
+ "Lords More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Matla Bridge": {
+  "lat": 22.30559,
+  "lng": 88.67934,
+  "src": "Matla Setu Bridge"
+ },
+ "Milan More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Mourigram": null,
+ "Noapara": {
+  "lat": 22.64298,
+  "lng": 88.39508,
+  "src": "Noapara-Barasat Metro (Line-4)"
+ },
+ "Park Circus station": {
+  "lat": 22.53974,
+  "lng": 88.37386,
+  "src": "Park Circus Station Ticket Counter"
+ },
+ "Puratan Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Sales Tax": {
+  "lat": 22.56606,
+  "lng": 88.38,
+  "src": "Sales Tax"
+ },
+ "Salkia Chowrasta / Bandha Ghat": null,
+ "Saltlake 4no. Tank": {
+  "lat": 22.58224,
+  "lng": 88.42421,
+  "src": "Saltlake EE Block Bus Stop"
+ },
+ "Saltlake C.A. Block": {
+  "lat": 22.59054,
+  "lng": 88.4116,
+  "src": "De Sovrani"
+ },
+ "Sarisha": null,
+ "Shakuntala Park": {
+  "lat": 22.48508,
+  "lng": 88.28958,
+  "src": "Shakuntala Park Bus Terminal"
+ },
+ "Shyampur": {
+  "lat": 22.59732,
+  "lng": 88.36924,
+  "src": "Shyampukur St."
+ },
+ "Sibanipith": null,
+ "Sodepur Station": {
+  "lat": 22.72062,
+  "lng": 88.37331,
+  "src": "Khardah Police Station"
+ },
+ "Southern Avenue": {
+  "lat": 22.54785,
+  "lng": 88.29437,
+  "src": "Southern CESC power station"
+ },
+ "Sova Bazar": {
+  "lat": 22.59027,
+  "lng": 88.36379,
+  "src": "Sovabazar Metro crossing"
+ },
+ "State Garage": {
+  "lat": 22.51476,
+  "lng": 88.30562,
+  "src": "State Garage CSTC"
+ },
+ "Sukhchar": null,
+ "Swarupnagar": null,
+ "Ultodanga": {
+  "lat": 22.59613,
+  "lng": 88.38528,
+  "src": "Ultadanga"
+ },
+ "Uluberia": null,
+ "Uttar Chandipur": {
+  "lat": 22.53067,
+  "lng": 88.39542,
+  "src": "Uttar Panchana Gram"
+ },
+ "Uttar Sonakhali": {
+  "lat": 22.53067,
+  "lng": 88.39542,
+  "src": "Uttar Panchana Gram"
+ },
+ "- Chakhna": null,
+ "10 no. pole": {
+  "lat": 22.48798,
+  "lng": 88.36671,
+  "src": "Pond No. 10"
+ },
+ "Airport (Covers All The Gates)": null,
+ "Airport gate 3": null,
+ "Akankha More": {
+  "lat": 22.61925,
+  "lng": 88.46438,
+  "src": "Akankha More"
+ },
+ "Amdanga": null,
+ "Amity University (Ecospace)": {
+  "lat": 22.59591,
+  "lng": 88.48787,
+  "src": "Amity University, Kolkata"
+ },
+ "Andul Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Antara Mental Hospital": null,
+ "Asuttola": null,
+ "Aturia": null,
+ "Awalsiddhi": null,
+ "Bablatala": null,
+ "Baksara": {
+  "lat": 22.57742,
+  "lng": 88.29159,
+  "src": "Baksara Water Tank Playground"
+ },
+ "Bandha Ghat": {
+  "lat": 22.5993,
+  "lng": 88.3566,
+  "src": "Shobha Bazar Ghat"
+ },
+ "Bangur Hospital": {
+  "lat": 22.49918,
+  "lng": 88.34663,
+  "src": "M.R. Bangur Hospital Blood Bank"
+ },
+ "Bankra Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Barrackpore Chiriamore": {
+  "lat": 22.76162,
+  "lng": 88.36622,
+  "src": "Chiriamore"
+ },
+ "Basirhat": null,
+ "Bata More": {
+  "lat": 22.49947,
+  "lng": 88.23153,
+  "src": "bata more bus stop"
+ },
+ "Beleghata Sales Tax": {
+  "lat": 22.56606,
+  "lng": 88.38,
+  "src": "Sales Tax"
+ },
+ "Belgachia Metro": {
+  "lat": 22.60613,
+  "lng": 88.38687,
+  "src": "Belgachia Metro"
+ },
+ "Bhowanipur": {
+  "lat": 22.53258,
+  "lng": 88.34544,
+  "src": "Bhowanipore"
+ },
+ "Bira Chowmatha": {
+  "lat": 22.78176,
+  "lng": 88.5751,
+  "src": "Bira Choumatha"
+ },
+ "Biradingi More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Birati Station": {
+  "lat": 22.67662,
+  "lng": 88.435,
+  "src": "birati railway station"
+ },
+ "Bokchora": null,
+ "Camac Street": {
+  "lat": 22.55086,
+  "lng": 88.35415,
+  "src": "Camac Street"
+ },
+ "Canning": {
+  "lat": 22.57914,
+  "lng": 88.34692,
+  "src": "Canning Street Sluice Gate"
+ },
+ "Canning Street": {
+  "lat": 22.57914,
+  "lng": 88.34692,
+  "src": "Canning Street Sluice Gate"
+ },
+ "Chadni": {
+  "lat": 22.56777,
+  "lng": 88.3565,
+  "src": "ICICI Bank Ganesh Chandra Avenue, Kolkata-Branch"
+ },
+ "Chadni Chowk": {
+  "lat": 22.56701,
+  "lng": 88.35416,
+  "src": "Chandni Chowk"
+ },
+ "Chaital Ghat": {
+  "lat": 22.58343,
+  "lng": 88.35374,
+  "src": "Chaitam Sett St"
+ },
+ "Chakdulalpur": null,
+ "Chowbagha": {
+  "lat": 22.5253,
+  "lng": 88.41109,
+  "src": "Chowbagha Road"
+ },
+ "Chowhati": null,
+ "City Center 2": {
+  "lat": 22.56772,
+  "lng": 88.43453,
+  "src": "Dr J. J Medical Center"
+ },
+ "Dakshin Ramkrishnapur": {
+  "lat": 22.5186,
+  "lng": 88.35348,
+  "src": "Dakshin Kolkata Sarbojanin"
+ },
+ "Dogachia": null,
+ "Doltala More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Entally": {
+  "lat": 22.55514,
+  "lng": 88.368,
+  "src": "Entali"
+ },
+ "FD island": {
+  "lat": 22.56886,
+  "lng": 88.39973,
+  "src": "Small Lake Island"
+ },
+ "Gobindopur": {
+  "lat": 22.50202,
+  "lng": 88.35777,
+  "src": "Gobindapur Road"
+ },
+ "Gopalpur House": {
+  "lat": 22.62177,
+  "lng": 88.43273,
+  "src": "Bhatia House"
+ },
+ "GST Bhawan": {
+  "lat": 22.57509,
+  "lng": 88.43377,
+  "src": "Mi Service Center, Sech Bhawan, Kolkata, West Bengal (Infotel)"
+ },
+ "Hakimpur": null,
+ "Haritala": {
+  "lat": 22.72097,
+  "lng": 88.48201,
+  "src": "Haritala More"
+ },
+ "Hazra xing": {
+  "lat": 22.52272,
+  "lng": 88.34992,
+  "src": "Hazra"
+ },
+ "Helencha": null,
+ "Hide Road": {
+  "lat": 22.52371,
+  "lng": 88.30542,
+  "src": "Hide Road"
+ },
+ "Hospital More": {
+  "lat": 22.56914,
+  "lng": 88.36579,
+  "src": "Lady Dufferin Victoria Hospital, Kolkata"
+ },
+ "Jadu babu r bajar": null,
+ "Jala Biswanathpur": {
+  "lat": 22.49755,
+  "lng": 88.37482,
+  "src": "Kolkata Municipal Corporation Childrens Park"
+ },
+ "Jinjira Bajar": {
+  "lat": 22.49982,
+  "lng": 88.31697,
+  "src": "Behala Notun Bajar"
+ },
+ "Jodhpur Park": {
+  "lat": 22.50561,
+  "lng": 88.36367,
+  "src": "Jodhpur Park"
+ },
+ "Jogi Battala": {
+  "lat": 22.45059,
+  "lng": 88.38651,
+  "src": "Battala shib Mandir Playground"
+ },
+ "Kakdwip Bus Stand": {
+  "lat": 22.56257,
+  "lng": 88.3496,
+  "src": "Esplanade Bus Stand to Airport (line VS2)"
+ },
+ "Kakdwip Station (Bamuner More)": null,
+ "Kalatala": {
+  "lat": 22.50428,
+  "lng": 88.39837,
+  "src": "Purbachal Kalitala Road"
+ },
+ "Kalupur": null,
+ "Kamal Talkies": {
+  "lat": 22.54047,
+  "lng": 88.3229,
+  "src": "Ram Kamal Street"
+ },
+ "Kamdebpur": null,
+ "Katlia More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Keorapukur": {
+  "lat": 22.46466,
+  "lng": 88.33533,
+  "src": "Kewrapukur"
+ },
+ "Khardaha": null,
+ "Khejurtala": {
+  "lat": 22.70308,
+  "lng": 88.48256,
+  "src": "Khejurtala Playground"
+ },
+ "Khilkapur": null,
+ "Kolkata Leather Complex": {
+  "lat": 22.49711,
+  "lng": 88.5159,
+  "src": "Kolkata Leather Complex"
+ },
+ "Kona expressway crossing (Nibra)": null,
+ "Laketown(VIP)": {
+  "lat": 22.58751,
+  "lng": 88.39158,
+  "src": "DVC Headquarters, Kolkata"
+ },
+ "Mahisbathan": null,
+ "Mallikbagan": {
+  "lat": 22.60768,
+  "lng": 88.3217,
+  "src": "Malirbagan Playground"
+ },
+ "Malncha": {
+  "lat": 22.5176,
+  "lng": 88.33511,
+  "src": "Ahindra Mancha"
+ },
+ "Manikpir bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Mugkalyan": null,
+ "Murarishah Chowmatha": {
+  "lat": 22.5253,
+  "lng": 88.41109,
+  "src": "Chowbagha Road"
+ },
+ "Natun Rastar More": {
+  "lat": 22.58432,
+  "lng": 88.30782,
+  "src": "Natun rastar mor"
+ },
+ "Nibra Crossing": {
+  "lat": 22.51364,
+  "lng": 88.39928,
+  "src": "Ruby Crossing"
+ },
+ "Nirman": {
+  "lat": 22.60002,
+  "lng": 88.39388,
+  "src": "Nirman Community Center"
+ },
+ "Noorpur": null,
+ "NRS Hospital": {
+  "lat": 22.56491,
+  "lng": 88.36837,
+  "src": "NRS Hospital"
+ },
+ "ONGC More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Padmapukur More": {
+  "lat": 22.53154,
+  "lng": 88.35246,
+  "src": "Padmapukur Park"
+ },
+ "Park Circus 4 number": {
+  "lat": 22.54375,
+  "lng": 88.36832,
+  "src": "The Calcutta Gymkhana Club"
+ },
+ "Philips More": {
+  "lat": 22.55306,
+  "lng": 88.35337,
+  "src": "Philips Arena"
+ },
+ "Picnic Garden": {
+  "lat": 22.52893,
+  "lng": 88.37527,
+  "src": "Picnic Garden Road"
+ },
+ "Prince Anwar Shah Connector": {
+  "lat": 22.50349,
+  "lng": 88.3694,
+  "src": "Kalikapur Road (Prince Anwar Shah Bypass Connector)"
+ },
+ "Raichak More": {
+  "lat": 22.63193,
+  "lng": 88.37787,
+  "src": "Sinthee More Ground"
+ },
+ "Raj Bhawan": {
+  "lat": 22.59309,
+  "lng": 88.41389,
+  "src": "Arunachal Bhawan"
+ },
+ "Rajabajar Tram Depot": {
+  "lat": 22.57417,
+  "lng": 88.37381,
+  "src": "Rajabazar Tram Depot"
+ },
+ "RG Kar": {
+  "lat": 22.60448,
+  "lng": 88.37841,
+  "src": "R.G. Kar Medical College & Hospital"
+ },
+ "RG Kar Hospital": {
+  "lat": 22.60448,
+  "lng": 88.37841,
+  "src": "R.G. Kar Medical College & Hospital"
+ },
+ "Sahararhat": null,
+ "Saheb Colony": {
+  "lat": 22.49975,
+  "lng": 88.31732,
+  "src": "Haji Saheb"
+ },
+ "Salkia Chowrasta": {
+  "lat": 22.48735,
+  "lng": 88.31338,
+  "src": "Behala Chowrasta"
+ },
+ "Santragachi Station": {
+  "lat": 22.58242,
+  "lng": 88.27682,
+  "src": "Santragachi Station Road"
+ },
+ "Saptapally More": {
+  "lat": 22.63193,
+  "lng": 88.37787,
+  "src": "Sinthee More Ground"
+ },
+ "Sarapul": {
+  "lat": 22.50519,
+  "lng": 88.32477,
+  "src": "Sahapur Main Road"
+ },
+ "Shapooji housing": {
+  "lat": 22.56696,
+  "lng": 88.51383,
+  "src": "Shapoorji Pallonji Sukhobrishti Housing Complex"
+ },
+ "Shikharpur": null,
+ "Shirakol": null,
+ "Shyambazar 5 point": null,
+ "Sonakhali Bus Stand": {
+  "lat": 22.56257,
+  "lng": 88.3496,
+  "src": "Esplanade Bus Stand to Airport (line VS2)"
+ },
+ "Sushrut Hospital": {
+  "lat": 22.56914,
+  "lng": 88.36579,
+  "src": "Lady Dufferin Victoria Hospital, Kolkata"
+ },
+ "Tangra More": {
+  "lat": 22.56306,
+  "lng": 88.39633,
+  "src": "CIT More"
+ },
+ "Tank No.10": {
+  "lat": 22.58218,
+  "lng": 88.42397,
+  "src": "Tank No 10"
+ },
+ "Tentulia": {
+  "lat": 22.54217,
+  "lng": 88.37903,
+  "src": "Tentultala Pukur"
+ },
+ "Vedic Village": {
+  "lat": 22.60519,
+  "lng": 88.52875,
+  "src": "Vedic Village"
+ },
+ "Wireless Gate": {
+  "lat": 22.48198,
+  "lng": 88.34726,
+  "src": "Wireless Park"
+ },
+ "58 Gate": {
+  "lat": 22.57914,
+  "lng": 88.34692,
+  "src": "Canning Street Sluice Gate"
+ },
+ "Addhabazar": null,
+ "Adhata More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Agarhati": null,
+ "Agarpara": null,
+ "Airport Gate": {
+  "lat": 22.6418,
+  "lng": 88.4315,
+  "src": "Airport No. 1 Gate"
+ },
+ "Akra Fatak": {
+  "lat": 22.50273,
+  "lng": 88.3175,
+  "src": "Debdaru Fatak"
+ },
+ "Alipur Zoo": {
+  "lat": 22.53659,
+  "lng": 88.33211,
+  "src": "Alipore Zoo"
+ },
+ "Antila Bridge": {
+  "lat": 22.51792,
+  "lng": 88.30114,
+  "src": "Brace Bridge"
+ },
+ "Arupota": null,
+ "Asharu Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Babughat / Esplanade": {
+  "lat": 22.56512,
+  "lng": 88.33978,
+  "src": "Babughat bus stand"
+ },
+ "Badartala": {
+  "lat": 22.46049,
+  "lng": 88.36489,
+  "src": "Badamtala pond"
+ },
+ "Bagdah": null,
+ "Bamangachhi": {
+  "lat": 22.74949,
+  "lng": 88.5093,
+  "src": "Bamangachi"
+ },
+ "Banstala": {
+  "lat": 22.58266,
+  "lng": 88.35679,
+  "src": "Adi Banstala Ln"
+ },
+ "Bantul More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Baranagar Road Station": {
+  "lat": 22.63613,
+  "lng": 88.37842,
+  "src": "Baranagar Police Station"
+ },
+ "Barasat Dak bunglow": {
+  "lat": 22.22644,
+  "lng": 88.45254,
+  "src": "Dakshin Barasat‎"
+ },
+ "Baruipur Station / Kachari Bazar": null,
+ "Bashirhat": null,
+ "Basudebpur": null,
+ "Beck Bagan": {
+  "lat": 22.56166,
+  "lng": 88.34219,
+  "src": "Mohun Bagan Ground"
+ },
+ "Behala 14 No": {
+  "lat": 22.50203,
+  "lng": 88.31811,
+  "src": "14 No Bus Stop"
+ },
+ "Beleghata ID hospital": {
+  "lat": 22.5645,
+  "lng": 88.3984,
+  "src": "ID Hospital"
+ },
+ "Belgharia Station": null,
+ "Belghoria Expressway": null,
+ "Beraberi": null,
+ "Bhebia Chowmatha": {
+  "lat": 22.5253,
+  "lng": 88.41109,
+  "src": "Chowbagha Road"
+ },
+ "Bibirhat": null,
+ "Bidhannagar Road Station": {
+  "lat": 22.57016,
+  "lng": 88.41367,
+  "src": "Bidhannagar South Police Station"
+ },
+ "Biramnagar": null,
+ "Bisalakshmitala": null,
+ "Boardghar": null,
+ "Bow bazar": {
+  "lat": 22.57621,
+  "lng": 88.36602,
+  "src": "Bow Bazar North"
+ },
+ "Champadali": {
+  "lat": 22.7197,
+  "lng": 88.48782,
+  "src": "Champadali"
+ },
+ "Chanda": null,
+ "Chandpara Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Charnock Hospital": {
+  "lat": 22.62577,
+  "lng": 88.43508,
+  "src": "Charnock Hospital Pvt Ltd"
+ },
+ "Colony Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Dankuni Housing": {
+  "lat": 22.68312,
+  "lng": 88.297,
+  "src": "Leo Packers and Movers Kolkata"
+ },
+ "Deorah More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Dhulor bandh": {
+  "lat": 22.58428,
+  "lng": 88.3618,
+  "src": "Bandhan Bank"
+ },
+ "Dhulorbandh": null,
+ "Digha": {
+  "lat": 22.75656,
+  "lng": 88.52873,
+  "src": "Digha"
+ },
+ "Don Bosco Crossing": {
+  "lat": 22.61906,
+  "lng": 88.35219,
+  "src": "Don Bosco School Liluah"
+ },
+ "Dongaria": null,
+ "Dumdum Station": null,
+ "Duttapara": {
+  "lat": 22.59365,
+  "lng": 88.35667,
+  "src": "Dutta Para Lane"
+ },
+ "Gaighata P.S": {
+  "lat": 22.58415,
+  "lng": 88.3789,
+  "src": "Manicktala P.S"
+ },
+ "Gandharbapur": null,
+ "Gangadharpur": null,
+ "Garcha Road": {
+  "lat": 22.5258,
+  "lng": 88.36602,
+  "src": "Garcha Road"
+ },
+ "Garia 5no. Bus stand": {
+  "lat": 22.46643,
+  "lng": 88.37844,
+  "src": "Garia 5no. bus terminus"
+ },
+ "Garia 6no. Bus stand": {
+  "lat": 22.47125,
+  "lng": 88.37725,
+  "src": "45 BUS STAND"
+ },
+ "Ghoshpur": null,
+ "Ghushighata": null,
+ "Goaldaha": null,
+ "Godrej Waterside": {
+  "lat": 22.5734,
+  "lng": 88.4377,
+  "src": "Godrej Waterside"
+ },
+ "Golabari": {
+  "lat": 22.59324,
+  "lng": 88.34413,
+  "src": "Golabari Police Station"
+ },
+ "Golabari More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Golfgreen": {
+  "lat": 22.49133,
+  "lng": 88.36184,
+  "src": "Golf Green"
+ },
+ "Hamidpur": null,
+ "Hanspukur": {
+  "lat": 22.44764,
+  "lng": 88.29019,
+  "src": "Hanspukuria"
+ },
+ "Hasnabad": null,
+ "Hind Cinema": {
+  "lat": 22.51799,
+  "lng": 88.35439,
+  "src": "Priya Cinema"
+ },
+ "Hoglashi More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "ILS hospital": {
+  "lat": 22.5893,
+  "lng": 88.41094,
+  "src": "ILS Hospitals"
+ },
+ "Iswarigacha": null,
+ "Jadavpur University": {
+  "lat": 22.56115,
+  "lng": 88.4131,
+  "src": "Jadavpur University"
+ },
+ "Jadurhati": null,
+ "Joramandir": {
+  "lat": 22.6133,
+  "lng": 88.42946,
+  "src": "Joramandir"
+ },
+ "Joygram": {
+  "lat": 22.56159,
+  "lng": 88.4027,
+  "src": "Joramandir Bazar"
+ },
+ "Joypul Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Kajoler More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Kakdip": null,
+ "Kalaberia": null,
+ "Kalitala Housing": {
+  "lat": 22.50634,
+  "lng": 88.39854,
+  "src": "Kalitala Road North"
+ },
+ "Kalyangarh": {
+  "lat": 22.79,
+  "lng": 88.38031,
+  "src": "Kalyangram Park"
+ },
+ "Kapileshwar": null,
+ "Karigari Bhawan": {
+  "lat": 22.55922,
+  "lng": 88.49156,
+  "src": "Karigari Bhawan"
+ },
+ "Kathgola": {
+  "lat": 22.57671,
+  "lng": 88.38999,
+  "src": "Kathgola"
+ },
+ "Kazipara Railgate": {
+  "lat": 22.50676,
+  "lng": 88.30828,
+  "src": "Kajipara Road"
+ },
+ "Khalore More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Kharibari": {
+  "lat": 22.6463,
+  "lng": 88.55204,
+  "src": "Kharibari"
+ },
+ "Khiderpur Tram Depot": {
+  "lat": 22.54976,
+  "lng": 88.36338,
+  "src": "Tram Depot"
+ },
+ "Kolaghat": null,
+ "Kushangra": null,
+ "Kustia More": {
+  "lat": 22.53457,
+  "lng": 88.37983,
+  "src": "Kustia Road"
+ },
+ "Labony Estate": {
+  "lat": 22.51436,
+  "lng": 88.40565,
+  "src": "Kasba Industrial Estate"
+ },
+ "Lal bazar": {
+  "lat": 22.59778,
+  "lng": 88.365,
+  "src": "Amrit Lal Bose Ln"
+ },
+ "Lal Kuthi": {
+  "lat": 22.56309,
+  "lng": 88.29265,
+  "src": "Lal Kuthi"
+ },
+ "M.R Bangur Hospital": {
+  "lat": 22.49918,
+  "lng": 88.34663,
+  "src": "M.R. Bangur Hospital Blood Bank"
+ },
+ "Mahishbathan": null,
+ "Maiti Para": {
+  "lat": 22.61434,
+  "lng": 88.39066,
+  "src": "Paik Para"
+ },
+ "Malangapara": null,
+ "Mallickpur": null,
+ "Manikpir": null,
+ "Mathkol": null,
+ "Mecheda": null,
+ "Mirhati More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Motigunge": null,
+ "Moyna Checkpost": null,
+ "Muchibazar": null,
+ "Naihati Station": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Nakpul": {
+  "lat": 22.52032,
+  "lng": 88.34856,
+  "src": "Nakuleshwar Bhattacherjee Road"
+ },
+ "Nandakumar": null,
+ "Nanu Babur Bazar": null,
+ "Narayantala": {
+  "lat": 22.6088,
+  "lng": 88.42377,
+  "src": "Narayantala Road (West)"
+ },
+ "Narendrapur Ramkrishna Mission": {
+  "lat": 22.52336,
+  "lng": 88.352,
+  "src": "Ramkrishna Mission Seva Prathisthan's Blood Bank"
+ },
+ "Natunhat": null,
+ "Nazat": {
+  "lat": 22.57957,
+  "lng": 88.35137,
+  "src": "Armenian Orthodox Holy Church of Nazareth"
+ },
+ "Nazrul Tirtha": {
+  "lat": 22.58167,
+  "lng": 88.45324,
+  "src": "Nazrul Tirtha"
+ },
+ "Neelgunge": null,
+ "New Market": {
+  "lat": 22.5589,
+  "lng": 88.35493,
+  "src": "New Market"
+ },
+ "Nibra": {
+  "lat": 22.52255,
+  "lng": 88.34582,
+  "src": "Nibaran Banerjee Road"
+ },
+ "Nimpith": null,
+ "Nischintipur": null,
+ "Nonachandanpukur": {
+  "lat": 22.76661,
+  "lng": 88.3774,
+  "src": "Nonachandanpukur Municipal Market"
+ },
+ "Noul Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Nuntia More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "P.N.B. More": {
+  "lat": 22.5498,
+  "lng": 88.35031,
+  "src": "Biggies Burgers ‘n’ More"
+ },
+ "Paschim Chowbhaga": {
+  "lat": 22.53263,
+  "lng": 88.40302,
+  "src": "Paschim Chowbaga Road"
+ },
+ "Patharpratima": null,
+ "Polerhat": null,
+ "R.N.Chowdhury Road": {
+  "lat": 22.55569,
+  "lng": 88.37309,
+  "src": "CIT Road (Nani Gopal Roy Chowdhury Avenue)"
+ },
+ "Rabindra Sadan (Exide more)": null,
+ "Rajabazar (Saltlake)": {
+  "lat": 22.57424,
+  "lng": 88.37344,
+  "src": "Rajabazar"
+ },
+ "Rajchandrapur (Ballyhalt)": {
+  "lat": 22.4593,
+  "lng": 88.32021,
+  "src": "IBI Ban, Kolkata 100104"
+ },
+ "Rasapunja": {
+  "lat": 22.43806,
+  "lng": 88.26754,
+  "src": "Rasapunja"
+ },
+ "Sajirhat": {
+  "lat": 22.69634,
+  "lng": 88.43935,
+  "src": "Sajirhat Jheel"
+ },
+ "Saltlake 13no. Tank": {
+  "lat": 22.58224,
+  "lng": 88.42421,
+  "src": "Saltlake EE Block Bus Stop"
+ },
+ "Saltlake 14no. Tank": {
+  "lat": 22.58224,
+  "lng": 88.42421,
+  "src": "Saltlake EE Block Bus Stop"
+ },
+ "Sangrampur": null,
+ "Santoshpur Station": {
+  "lat": 22.52886,
+  "lng": 88.25142,
+  "src": "Akra Station Road"
+ },
+ "Sarkar Bazar": {
+  "lat": 22.56501,
+  "lng": 88.38539,
+  "src": "Sarkar Bazar"
+ },
+ "Shamali": null,
+ "Shamukpota": null,
+ "Shapoorji": {
+  "lat": 22.56696,
+  "lng": 88.51383,
+  "src": "Shapoorji Pallonji Sukhobrishti Housing Complex"
+ },
+ "Shasati More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Sova bajar": {
+  "lat": 22.49982,
+  "lng": 88.31697,
+  "src": "Behala Notun Bajar"
+ },
+ "Tank 10": {
+  "lat": 22.58218,
+  "lng": 88.42397,
+  "src": "Tank No 10"
+ },
+ "TATA Medical": {
+  "lat": 22.57762,
+  "lng": 88.48008,
+  "src": "Tata Medical Centre"
+ },
+ "Tollygunj Karunamoyee": {
+  "lat": 22.49469,
+  "lng": 88.34548,
+  "src": "Tollygunj Metro"
+ },
+ "Tollygunj Metro": {
+  "lat": 22.49469,
+  "lng": 88.34548,
+  "src": "Tollygunj Metro"
+ },
+ "Tollygunj Tram Depot": {
+  "lat": 22.57841,
+  "lng": 88.4187,
+  "src": "47/1 BUS DEPOT (SALTLAKE - TOLLYGUNJ METRO)"
+ },
+ "Ultadanga Station": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Vandergacha": null,
+ "10 No. Tank": {
+  "lat": 22.58218,
+  "lng": 88.42397,
+  "src": "Tank No 10"
+ },
+ "8 No. Kalibari More": null,
+ "8no. Kalibari": {
+  "lat": 22.50068,
+  "lng": 88.37497,
+  "src": "Viveknagar Kalibari Math"
+ },
+ "Acropolis": {
+  "lat": 22.5152,
+  "lng": 88.39326,
+  "src": "Acropolis"
+ },
+ "Adharmanik": null,
+ "Ahiritola (Rajabazar)": {
+  "lat": 22.5964,
+  "lng": 88.3533,
+  "src": "Ahiritola Ghat"
+ },
+ "Akankha": {
+  "lat": 22.61926,
+  "lng": 88.46442,
+  "src": "Akankha Island"
+ },
+ "Akanksha More": {
+  "lat": 22.61925,
+  "lng": 88.46438,
+  "src": "Akankha More"
+ },
+ "Aminpur": null,
+ "Amjhara": null,
+ "APC College": {
+  "lat": 22.69738,
+  "lng": 88.43856,
+  "src": "APC College"
+ },
+ "Apollo": {
+  "lat": 22.559,
+  "lng": 88.4953,
+  "src": "Apollo"
+ },
+ "Ashoknagar Railgate": {
+  "lat": 22.8409,
+  "lng": 88.65368,
+  "src": "1 Railgate More"
+ },
+ "Ashoknagar Station": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Ashwini Nagar": {
+  "lat": 22.48583,
+  "lng": 88.35735,
+  "src": "Aswini Nagar"
+ },
+ "Atharobanki": null,
+ "B.Garden": {
+  "lat": 22.55718,
+  "lng": 88.30104,
+  "src": "B.Garden"
+ },
+ "B.N.R. Hospital": {
+  "lat": 22.60448,
+  "lng": 88.37841,
+  "src": "R.G. Kar Medical College & Hospital"
+ },
+ "Badamtala": {
+  "lat": 22.46049,
+  "lng": 88.36489,
+  "src": "Badamtala pond"
+ },
+ "Bagaria": null,
+ "Bagjola": null,
+ "Bagna more": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Baisakhi": null,
+ "Bakhrahat": null,
+ "Bakkhali": null,
+ "Bakshara": null,
+ "Bakul tala": {
+  "lat": 22.55896,
+  "lng": 88.3628,
+  "src": "Tal Tala"
+ },
+ "Bamunia": null,
+ "Baragachia": null,
+ "Barasat University": {
+  "lat": 22.73175,
+  "lng": 88.49904,
+  "src": "Brainware University"
+ },
+ "Barisha": {
+  "lat": 22.47925,
+  "lng": 88.31185,
+  "src": "Barisha Baro Bari Rd"
+ },
+ "Barrackpore Cantonment": {
+  "lat": 22.76416,
+  "lng": 88.37761,
+  "src": "Barrackpore"
+ },
+ "Baruipur Fultala Central Terminus": null,
+ "Basanti": {
+  "lat": 22.53467,
+  "lng": 88.40009,
+  "src": "Basanti Highway"
+ },
+ "Basanti Chowmatha": {
+  "lat": 22.53467,
+  "lng": 88.40009,
+  "src": "Basanti Highway"
+ },
+ "Basirhat Court": {
+  "lat": 22.57186,
+  "lng": 88.34577,
+  "src": "Bankshall Court, Kolkata"
+ },
+ "Basirhat Puratan Bazar": null,
+ "Basirhat Trimohini": null,
+ "Batanagar": {
+  "lat": 22.51327,
+  "lng": 88.22299,
+  "src": "Batanagar"
+ },
+ "Bekbagan": {
+  "lat": 22.54083,
+  "lng": 88.35922,
+  "src": "Beckbagan"
+ },
+ "Beleghata CIT More": {
+  "lat": 22.56285,
+  "lng": 88.39626,
+  "src": "CIT More"
+ },
+ "Belgharia expressway": null,
+ "Belghoria Station": null,
+ "Belsingha": {
+  "lat": 22.59703,
+  "lng": 88.38013,
+  "src": "Beliāghāta Canal"
+ },
+ "Beltala": {
+  "lat": 22.74869,
+  "lng": 88.3845,
+  "src": "Beltala"
+ },
+ "Bergum": {
+  "lat": 22.4996,
+  "lng": 88.35246,
+  "src": "Anjuman Ara Begum Row"
+ },
+ "Beri Gopalpur": {
+  "lat": 22.62319,
+  "lng": 88.44373,
+  "src": "Holiday Inn Kolkata Airport"
+ },
+ "Betai Bandar More": null,
+ "Betaitala": {
+  "lat": 22.56201,
+  "lng": 88.31273,
+  "src": "Betaitala"
+ },
+ "Bethpukur": {
+  "lat": 22.93286,
+  "lng": 88.63883,
+  "src": "Beli Pukur"
+ },
+ "Bhabla Station": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Bhadura": {
+  "lat": 22.58679,
+  "lng": 88.36911,
+  "src": "Sisir Bhaduri Sarani"
+ },
+ "Bhandargacha": null,
+ "Bhandergacha": null,
+ "Bhasa Panchrasta Bazar": {
+  "lat": 22.57402,
+  "lng": 88.41271,
+  "src": "Bijan Bhavan"
+ },
+ "Bhebia Chowrasta": {
+  "lat": 22.48735,
+  "lng": 88.31338,
+  "src": "Behala Chowrasta"
+ },
+ "Bhojherhat": null,
+ "Bhubaneshwari": null,
+ "Bhyabla Halt": {
+  "lat": 22.57418,
+  "lng": 88.38505,
+  "src": "Sir Gurudas Banerjee Halt"
+ },
+ "Bibibazar": {
+  "lat": 22.57402,
+  "lng": 88.41271,
+  "src": "Bijan Bhavan"
+ },
+ "Bidyut Bhawan": {
+  "lat": 22.57509,
+  "lng": 88.43377,
+  "src": "Mi Service Center, Sech Bhawan, Kolkata, West Bengal (Infotel)"
+ },
+ "Bira Joypul Chowmatha": {
+  "lat": 22.78176,
+  "lng": 88.5751,
+  "src": "Bira Choumatha"
+ },
+ "Birla More": {
+  "lat": 22.53049,
+  "lng": 88.36496,
+  "src": "Birla Mandir"
+ },
+ "BNR": {
+  "lat": 22.54155,
+  "lng": 88.31138,
+  "src": "BNR South Colony"
+ },
+ "Boldeghata": null,
+ "Boubazar": {
+  "lat": 22.58021,
+  "lng": 88.35454,
+  "src": "boubazar police station"
+ },
+ "Boyra": null,
+ "Bratachari Ashram (Baguiati Big Bazar)": null,
+ "Burul": {
+  "lat": 22.49178,
+  "lng": 88.31376,
+  "src": "Buruial ground"
+ },
+ "Burul Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Calcium More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Chalki Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Chamrail": null,
+ "Chanditala": {
+  "lat": 22.48802,
+  "lng": 88.34798,
+  "src": "Chanditala Lane"
+ },
+ "Chandpara B.D.O. Office": {
+  "lat": 22.56879,
+  "lng": 88.34442,
+  "src": "Old Post Office Street"
+ },
+ "Chandua Bazar": {
+  "lat": 22.47613,
+  "lng": 88.37669,
+  "src": "Ramgarh Bazar"
+ },
+ "Chapaberia": {
+  "lat": 22.76848,
+  "lng": 88.55502,
+  "src": "Chaltaberia"
+ },
+ "Chapatala": null,
+ "Charabidya": null,
+ "Charial More": {
+  "lat": 22.50308,
+  "lng": 88.31293,
+  "src": "Chartala More"
+ },
+ "Chiriamore Dumdum": {
+  "lat": 22.76162,
+  "lng": 88.36622,
+  "src": "Chiriamore"
+ },
+ "Chitpur Bridge": {
+  "lat": 22.60734,
+  "lng": 88.36968,
+  "src": "Chitpore Bridge"
+ },
+ "Christopher Road": {
+  "lat": 22.55036,
+  "lng": 88.3766,
+  "src": "Christopher Road"
+ },
+ "Culture More": {
+  "lat": 22.54067,
+  "lng": 88.35398,
+  "src": "Artsy Coffee & Culture"
+ },
+ "Dakbungalow Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Dakshin Akhratala": {
+  "lat": 22.5186,
+  "lng": 88.35348,
+  "src": "Dakshin Kolkata Sarbojanin"
+ },
+ "Dakshin Durgapur": {
+  "lat": 22.52223,
+  "lng": 88.32042,
+  "src": "Durgapur Siding Road"
+ },
+ "Dalhousie / BBD Bag": {
+  "lat": 22.57318,
+  "lng": 88.34961,
+  "src": "BBD Bag North"
+ },
+ "Desapriya Park": {
+  "lat": 22.51844,
+  "lng": 88.35352,
+  "src": "Deshapriya Park"
+ },
+ "Deshbandhu Road": {
+  "lat": 22.56405,
+  "lng": 88.39004,
+  "src": "Deshbandhu"
+ },
+ "Deular More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Dhapa": {
+  "lat": 22.54782,
+  "lng": 88.40023,
+  "src": "Dhapa"
+ },
+ "Dharampur": null,
+ "Dhukrijhara": null,
+ "Dhulasimla": null,
+ "Dhuri Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Diamond plaza Mall": {
+  "lat": 22.61569,
+  "lng": 88.41253,
+  "src": "PVR Diamond Plaza"
+ },
+ "Dighirpar": {
+  "lat": 22.62075,
+  "lng": 88.38342,
+  "src": "Dighirpar Lake"
+ },
+ "Domjur BDO Office": null,
+ "Duttabazar": {
+  "lat": 22.60739,
+  "lng": 88.39098,
+  "src": "Duttabagan"
+ },
+ "Duttaphulia": null,
+ "Esplanade L20": {
+  "lat": 22.56329,
+  "lng": 88.35036,
+  "src": "Esplanade"
+ },
+ "Esplanade L20 bus terminus": {
+  "lat": 22.56256,
+  "lng": 88.3498,
+  "src": "Esplanade"
+ },
+ "Fariapukur": null,
+ "Gabbuni": null,
+ "Gadamara": null,
+ "Gadiara": null,
+ "Gaighata Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Ganrapota": null,
+ "Garchumuk": null,
+ "Garfa Road": {
+  "lat": 22.50615,
+  "lng": 88.38398,
+  "src": "Garfa Main Road"
+ },
+ "Gazipur": null,
+ "Ghatboar": null,
+ "Ghola Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Ghoraras Beltala": {
+  "lat": 22.52572,
+  "lng": 88.3506,
+  "src": "Beltala Sishu Uddyan"
+ },
+ "Goakhali More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Gobardanga Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Gobindapur": {
+  "lat": 22.50735,
+  "lng": 88.36008,
+  "src": "Gobindapur Road"
+ },
+ "Gokulpur": {
+  "lat": 22.6169,
+  "lng": 88.43363,
+  "src": "New Life Nursing Home, Kolkata"
+ },
+ "Gopalpur More": {
+  "lat": 22.61925,
+  "lng": 88.46438,
+  "src": "Akankha More"
+ },
+ "Goundia Raghunathpur": null,
+ "Gourhati More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Hajratala": null,
+ "Haltu Bazar": {
+  "lat": 22.51078,
+  "lng": 88.38187,
+  "src": "Haltu"
+ },
+ "Hanskhali Pole": null,
+ "Hapania": null,
+ "Harindanga": null,
+ "Harishpur": null,
+ "Hathatgange": null,
+ "Hatiara": {
+  "lat": 22.60187,
+  "lng": 88.45311,
+  "src": "Hatiara Road"
+ },
+ "Hatthuba": null,
+ "Howrah Court": {
+  "lat": 22.58103,
+  "lng": 88.33655,
+  "src": "Howrah District Court"
+ },
+ "Hyatt Regency": {
+  "lat": 22.57039,
+  "lng": 88.40522,
+  "src": "Hyatt Regency"
+ },
+ "IBM": {
+  "lat": 22.57184,
+  "lng": 88.43455,
+  "src": "IBM"
+ },
+ "ID Hospital": {
+  "lat": 22.5645,
+  "lng": 88.3984,
+  "src": "ID Hospital"
+ },
+ "Jagadishpur": null,
+ "Jagat Cinema": {
+  "lat": 22.51799,
+  "lng": 88.35439,
+  "src": "Priya Cinema"
+ },
+ "Jalaberia": null,
+ "James long Crossing": {
+  "lat": 22.50153,
+  "lng": 88.32092,
+  "src": "Mohananda Crossing BUs Stop"
+ },
+ "Jamtala": null,
+ "Jamtala Boropole": null,
+ "Jangalpur": null,
+ "Jaygram": null,
+ "Jhilpar": null,
+ "Jogesh Chandra College": {
+  "lat": 22.5013,
+  "lng": 88.3503,
+  "src": "Jogesh Chandra Chaudhuri College"
+ },
+ "Jorabattala": null,
+ "Joynagar": null,
+ "Joypur bill": {
+  "lat": 22.51488,
+  "lng": 88.36137,
+  "src": "Kolkata Apartment"
+ },
+ "Julpia": null,
+ "Jyangra": {
+  "lat": 22.61765,
+  "lng": 88.43464,
+  "src": "Jyangra Choumatha"
+ },
+ "Kadambagacchi": {
+  "lat": 22.70464,
+  "lng": 88.53499,
+  "src": "Karea Kadambagachhi"
+ },
+ "Kakdwip": null,
+ "Kalitala": {
+  "lat": 22.60056,
+  "lng": 88.30413,
+  "src": "Kalitala Playground"
+ },
+ "Kalyan Nagar": {
+  "lat": 22.71853,
+  "lng": 88.38922,
+  "src": "Kalyan nagar vidya pith for girls school"
+ },
+ "Kalyangarh More": {
+  "lat": 22.8409,
+  "lng": 88.65368,
+  "src": "1 Railgate More"
+ },
+ "Kanchiara": null,
+ "Kanchrapara": null,
+ "Kankinara": null,
+ "Kanmari Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Kantamari": null,
+ "Kanthalibar": null,
+ "Kanthi": null,
+ "Karbala More": {
+  "lat": 22.58779,
+  "lng": 88.37375,
+  "src": "Karbala Tank Ln"
+ },
+ "Kartikpur": null,
+ "Kashinagar": null,
+ "Katalia": null,
+ "Katiahat Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Katlamari": null,
+ "Kazipara Depot": {
+  "lat": 22.60558,
+  "lng": 88.38466,
+  "src": "West Bengal Transport Corporation - Belgachia Depot"
+ },
+ "Kendua": {
+  "lat": 22.47675,
+  "lng": 88.38102,
+  "src": "Kendua Mahendragarh High School"
+ },
+ "Kendua Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Khalpol": {
+  "lat": 22.56564,
+  "lng": 88.38254,
+  "src": "Beleghata Khalpar"
+ },
+ "Khardaha Municipality": {
+  "lat": 22.68129,
+  "lng": 88.36545,
+  "src": "Kamarhati Municipality children's park"
+ },
+ "Kholakhali Hat": {
+  "lat": 22.52403,
+  "lng": 88.39203,
+  "src": "Naskar Hat Road"
+ },
+ "Khorop": null,
+ "Kolashim Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Korapara": null,
+ "Krishnachandrapur": null,
+ "Krishnamati": null,
+ "Kulgachia": null,
+ "Kulpukur": null,
+ "Kultali Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Laboni": null,
+ "Lalpur": {
+  "lat": 22.60545,
+  "lng": 88.406,
+  "src": "Regional Labour Institute"
+ },
+ "Langolpota": null,
+ "Lebukhali": null,
+ "Machhlandapur": null,
+ "Machhlandapur Station": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Madartala": {
+  "lat": 22.49723,
+  "lng": 88.35245,
+  "src": "Madar Tala Colony"
+ },
+ "Madhabpur": null,
+ "Mahishali Jagadishpur More": null,
+ "Mahjerhat": {
+  "lat": 22.51905,
+  "lng": 88.32213,
+  "src": "Majherhat"
+ },
+ "Malatipur": null,
+ "Mandalerhat": null,
+ "Mandirbazar": null,
+ "Mathurapur Station": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Mayo Road crossing": {
+  "lat": 22.54154,
+  "lng": 88.35187,
+  "src": "Camac Street;ACJ Boss Road Crossing"
+ },
+ "Metro cash and carry": {
+  "lat": 22.49651,
+  "lng": 88.39901,
+  "src": "Metro Cash & Carry"
+ },
+ "Milk Colony": {
+  "lat": 22.49723,
+  "lng": 88.35245,
+  "src": "Madar Tala Colony"
+ },
+ "Mohani more": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Mollarchak": null,
+ "Mondonkathi": null,
+ "Mondonpara": null,
+ "Moonbeam": {
+  "lat": 22.62802,
+  "lng": 88.46705,
+  "src": "Moonbeam Housing Complex"
+ },
+ "Mudiali More": {
+  "lat": 22.51008,
+  "lng": 88.34645,
+  "src": "Mudiali Club"
+ },
+ "Munshirhat": null,
+ "Muragacha": null,
+ "N.S.H.M. Campus": {
+  "lat": 22.96643,
+  "lng": 88.52904,
+  "src": "Garden High Scool IISER Kolkata Campus"
+ },
+ "Nabadiganta Bus Terminus": {
+  "lat": 22.57688,
+  "lng": 88.43923,
+  "src": "Nabadiganta Bus Terminus"
+ },
+ "Nagarukhra": {
+  "lat": 22.94357,
+  "lng": 88.63806,
+  "src": "More Supermarket (Nagarukhra, Kolkata)"
+ },
+ "Nahata": null,
+ "Najrul Tirtha": {
+  "lat": 22.58167,
+  "lng": 88.45324,
+  "src": "Nazrul Tirtha"
+ },
+ "Namkhana": {
+  "lat": 22.56357,
+  "lng": 88.34967,
+  "src": "Namkhana Ticket Booking Counter"
+ },
+ "Narkelbagan (Biswa Bangla)": {
+  "lat": 22.57885,
+  "lng": 88.47166,
+  "src": "Biswa Bangla Gate"
+ },
+ "Naskarpara": {
+  "lat": 22.5049,
+  "lng": 88.37609,
+  "src": "Naskarpara Para Playground"
+ },
+ "Natun Rasta": {
+  "lat": 22.58432,
+  "lng": 88.30782,
+  "src": "Natun rastar mor"
+ },
+ "Natunpukur": null,
+ "Nazirgunge": {
+  "lat": 22.55538,
+  "lng": 88.28277,
+  "src": "Nazirgunj Ghat"
+ },
+ "Newtown Bus Terminus": {
+  "lat": 22.58099,
+  "lng": 88.39119,
+  "src": "S-3B Bus Terminus"
+ },
+ "Nilgaunj": {
+  "lat": 22.76161,
+  "lng": 88.4293,
+  "src": "Nilganj"
+ },
+ "Nilgaunj Depot": {
+  "lat": 22.60558,
+  "lng": 88.38466,
+  "src": "West Bengal Transport Corporation - Belgachia Depot"
+ },
+ "Nilgunge Hut": {
+  "lat": 22.55229,
+  "lng": 88.35277,
+  "src": "Pizza Hut"
+ },
+ "Nimdighi": null,
+ "Nimta Bazar": null,
+ "Nodakhali": null,
+ "Nungi More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "P.G. Hospital/Rabindra Sadan": null,
+ "Paltapara": null,
+ "Panchkari More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Panchpota School More": {
+  "lat": 22.4591,
+  "lng": 88.41768,
+  "src": "Biswabani School"
+ },
+ "Park Circus 7 Point crossing": {
+  "lat": 22.54362,
+  "lng": 88.36676,
+  "src": "Park Circus - Seven Point"
+ },
+ "Park Circus tram Depot": {
+  "lat": 22.54191,
+  "lng": 88.36667,
+  "src": "Park Circus Tram Depot"
+ },
+ "Pateswari Mandir": {
+  "lat": 22.53049,
+  "lng": 88.36496,
+  "src": "Birla Mandir"
+ },
+ "Patshimulia": null,
+ "Petkulchand Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Phillips More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Phuleshwar": null,
+ "Pifa Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Pilkhana More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Pitambara": {
+  "lat": 22.5189,
+  "lng": 88.33487,
+  "src": "Pitambar Ghatak Lane"
+ },
+ "Podra Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Polerhat more": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Pramodnagar": null,
+ "Priyor More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Rabindra Sarobar Stadium": {
+  "lat": 22.51164,
+  "lng": 88.35225,
+  "src": "Rabindra Sarobar Stadium"
+ },
+ "Radha Chemical More": null,
+ "Radhadashi": null,
+ "Rahana Bazar": {
+  "lat": 22.5922,
+  "lng": 88.3675,
+  "src": "Ramananda Lane"
+ },
+ "Rajabajar": {
+  "lat": 22.57424,
+  "lng": 88.37344,
+  "src": "Rajabazar"
+ },
+ "Rajendrapur": null,
+ "Rajgunge": null,
+ "Ramganga": {
+  "lat": 22.51413,
+  "lng": 88.39913,
+  "src": "Genesis Hospital, Kolkata"
+ },
+ "Ramkrishna Math": {
+  "lat": 22.63062,
+  "lng": 88.35441,
+  "src": "Ramkrishna Mission Charitable Dispensary"
+ },
+ "Rashmoni More": {
+  "lat": 22.56382,
+  "lng": 88.35001,
+  "src": "Rani Rashmoni Avenue"
+ },
+ "Rudrapur": null,
+ "Sabedabagan": null,
+ "Sadarpur": null,
+ "Sahebbagan": null,
+ "Saheed Nagar": {
+  "lat": 22.48828,
+  "lng": 88.35966,
+  "src": "Arabinda Nagar"
+ },
+ "Sahitya Parishad": {
+  "lat": 22.59119,
+  "lng": 88.37248,
+  "src": "Sahitya Parishad Street"
+ },
+ "Sakherbzar": {
+  "lat": 22.47485,
+  "lng": 88.30996,
+  "src": "Sakher Bazar"
+ },
+ "Saltlake": {
+  "lat": 22.58224,
+  "lng": 88.42421,
+  "src": "Saltlake EE Block Bus Stop"
+ },
+ "Saltlake 12no. Tank": {
+  "lat": 22.58224,
+  "lng": 88.42421,
+  "src": "Saltlake EE Block Bus Stop"
+ },
+ "Saltlake 16no. Tank": {
+  "lat": 22.58224,
+  "lng": 88.42421,
+  "src": "Saltlake EE Block Bus Stop"
+ },
+ "Saltlake 9no. Tank": {
+  "lat": 22.58224,
+  "lng": 88.42421,
+  "src": "Saltlake EE Block Bus Stop"
+ },
+ "Sankizahan": null,
+ "Santragachhi station": {
+  "lat": 22.58242,
+  "lng": 88.27682,
+  "src": "Santragachi Station Road"
+ },
+ "Santragachi Bus Terminus": {
+  "lat": 22.58099,
+  "lng": 88.39119,
+  "src": "S-3B Bus Terminus"
+ },
+ "Sarat Colony": {
+  "lat": 22.53954,
+  "lng": 88.35471,
+  "src": "Sarat Bose Road"
+ },
+ "Sehagori": null,
+ "Shalimar Station": {
+  "lat": 22.56235,
+  "lng": 88.31004,
+  "src": "Shalimar Station"
+ },
+ "Shanpur": {
+  "lat": 22.56858,
+  "lng": 88.29421,
+  "src": "Shibpur"
+ },
+ "Sherpur Kalibari": {
+  "lat": 22.50068,
+  "lng": 88.37497,
+  "src": "Viveknagar Kalibari Math"
+ },
+ "Shimultala": null,
+ "Shirishtala": null,
+ "Sindrani": {
+  "lat": 22.52571,
+  "lng": 88.33054,
+  "src": "Lakshmipat Singhania Academy"
+ },
+ "Sonarpur Station": null,
+ "South Bishnupur": {
+  "lat": 22.41451,
+  "lng": 88.28394,
+  "src": "BAPS Shri Swaminarayan Mandir Kolkata"
+ },
+ "Sukantanagar": {
+  "lat": 22.56036,
+  "lng": 88.4162,
+  "src": "Sukantanagar Sporting Club Ground"
+ },
+ "Sukea Street": {
+  "lat": 22.57636,
+  "lng": 88.35156,
+  "src": "Sukea Lane"
+ },
+ "Sukhobrishti More": {
+  "lat": 22.56696,
+  "lng": 88.51383,
+  "src": "Shapoorji Pallonji Sukhobrishti Housing Complex"
+ },
+ "Swarupnagar BDO Office": null,
+ "Tangra": {
+  "lat": 22.55651,
+  "lng": 88.37959,
+  "src": "Tangra North"
+ },
+ "Tantipara": null,
+ "Tentulia Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Tentultala": {
+  "lat": 22.54217,
+  "lng": 88.37903,
+  "src": "Tentultala Pukur"
+ },
+ "Thakurpukur Bazar Thakurpukur 3A": {
+  "lat": 22.47485,
+  "lng": 88.30996,
+  "src": "Sakher Bazar"
+ },
+ "Tulsighata": null,
+ "U.E.M. Campus": {
+  "lat": 22.57487,
+  "lng": 88.43231,
+  "src": "Bose Institute Unified Academic Campus"
+ },
+ "Uluberia Checkpost": null,
+ "Uluberia Station": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Vandergachha": null,
+ "Yogendranath High School": {
+  "lat": 22.52582,
+  "lng": 88.37007,
+  "src": "South Point High School"
+ },
+ "- Barasat Dakbunglow More": {
+  "lat": 22.71139,
+  "lng": 88.47549,
+  "src": "Dakbunglow More"
+ },
+ "- Garh Bhawanipur": {
+  "lat": 22.52611,
+  "lng": 88.3478,
+  "src": "The Bhawanipur House"
+ },
+ "- Garia Bazar": {
+  "lat": 22.47266,
+  "lng": 88.39775,
+  "src": "New Garia"
+ },
+ "- Gohalberia": null,
+ "- Gurjorpur": null,
+ "- Howrah Station Burrabazar Satyanarayan Park Chitpur Mechua Bazar MG Road Central Avenue Mahajati Sadan Ram Mandir Girish Park Vivekananda Road Maniktala Bagmari Bazar Kankurgachi Ultadanga VIP Road Lake Town Dumdum Park Keshtopur Baguihati Teghoria Kaikhali Airport Birati Gouripur BT College New Barrackpore Doltala Madhyamgram Chowmatha Madhyamgram Station Sajirhat APC College Murragachha Wireless More Mohanpur": null,
+ "- Ichapur Jaltank": null,
+ "- Jhikira": null,
+ "- Kathilabar": null,
+ "- Madhyamgram station": {
+  "lat": 22.69387,
+  "lng": 88.45246,
+  "src": "Madhyamgram station Playground"
+ },
+ "- Sukhobrishti": {
+  "lat": 22.57005,
+  "lng": 88.51075,
+  "src": "SukhoBrishti"
+ },
+ "(Zeeshan Crossing/Darga Road)": null,
+ "1 no. railgate bazar": {
+  "lat": 22.8409,
+  "lng": 88.65368,
+  "src": "1 Railgate More"
+ },
+ "10 Mile Bazar": {
+  "lat": 22.5731,
+  "lng": 88.35563,
+  "src": "BSNL Telephone Exchange Terreti Bazar"
+ },
+ "10 No. Majhipara": {
+  "lat": 22.48798,
+  "lng": 88.36671,
+  "src": "Pond No. 10"
+ },
+ "10 number Tank": {
+  "lat": 22.58224,
+  "lng": 88.42421,
+  "src": "Saltlake EE Block Bus Stop"
+ },
+ "10no. Pole": null,
+ "2 No. Tank": {
+  "lat": 22.58952,
+  "lng": 88.40144,
+  "src": "Tank No 2"
+ },
+ "206 Bus Stand": {
+  "lat": 22.56257,
+  "lng": 88.3496,
+  "src": "Esplanade Bus Stand to Airport (line VS2)"
+ },
+ "5 no. kalimath": {
+  "lat": 22.47648,
+  "lng": 88.39548,
+  "src": "Panchasayar Lake No. 5"
+ },
+ "58-Gate": {
+  "lat": 22.57914,
+  "lng": 88.34692,
+  "src": "Canning Street Sluice Gate"
+ },
+ "7 point crossing Park Circus": {
+  "lat": 22.54362,
+  "lng": 88.36676,
+  "src": "Park Circus - Seven Point"
+ },
+ "Acharipara": null,
+ "Adampur": {
+  "lat": 22.50219,
+  "lng": 88.3665,
+  "src": "Jadavpur University Main Hostel"
+ },
+ "Adhata": null,
+ "Agarpara Station": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Agunshi More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Airport (Covers All 4 Gates)": null,
+ "Airport 3 gate": null,
+ "Airport 3no. Gate": {
+  "lat": 22.6418,
+  "lng": 88.4315,
+  "src": "Airport No. 1 Gate"
+ },
+ "Airport Gate 2.5": {
+  "lat": 22.64833,
+  "lng": 88.43583,
+  "src": "AIRPORT AREA ENTRY GATE#2.5"
+ },
+ "Airport Gate No. 2": {
+  "lat": 22.6418,
+  "lng": 88.4315,
+  "src": "Airport No. 1 Gate"
+ },
+ "Airport Gate No. 2.5": {
+  "lat": 22.64833,
+  "lng": 88.43583,
+  "src": "AIRPORT AREA ENTRY GATE#2.5"
+ },
+ "Airport Gate-1": {
+  "lat": 22.6418,
+  "lng": 88.4315,
+  "src": "Airport No. 1 Gate"
+ },
+ "Airport Gate-3": null,
+ "Akansha": null,
+ "Akansha More": {
+  "lat": 22.61925,
+  "lng": 88.46438,
+  "src": "Akankha More"
+ },
+ "Akash Vani Bhawan": null,
+ "Akashbani Bhaban": {
+  "lat": 22.54547,
+  "lng": 88.35005,
+  "src": "Arobindo Bhaban"
+ },
+ "Akhratala": null,
+ "Akra Rabindra Nagar": {
+  "lat": 22.53188,
+  "lng": 88.25713,
+  "src": "Akra Shakigarh Rabindra Bidyapith playground"
+ },
+ "Akra Station": {
+  "lat": 22.52958,
+  "lng": 88.25084,
+  "src": "Akra Station Road"
+ },
+ "Akta Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Al Ameen Mission": null,
+ "Alambazar More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Alliah University": {
+  "lat": 22.59044,
+  "lng": 88.48572,
+  "src": "Aliah University"
+ },
+ "Alochaya": {
+  "lat": 22.56432,
+  "lng": 88.38885,
+  "src": "Alochaya"
+ },
+ "Alpan Diary": {
+  "lat": 22.57142,
+  "lng": 88.34748,
+  "src": "Diaries Exhibition"
+ },
+ "Amherst Street": {
+  "lat": 22.5734,
+  "lng": 88.36732,
+  "src": "Amherst Street"
+ },
+ "Amkola": null,
+ "Amrabati": {
+  "lat": 22.51377,
+  "lng": 88.39226,
+  "src": "Amrapali Medical Center and Nursing Home Pvt Ltd"
+ },
+ "Amragachhi": null,
+ "Amragari": {
+  "lat": 22.54181,
+  "lng": 88.32152,
+  "src": "AMAR BARI"
+ },
+ "Amta College More": {
+  "lat": 22.57493,
+  "lng": 88.4339,
+  "src": "College More"
+ },
+ "Amta New Market": {
+  "lat": 22.56015,
+  "lng": 88.35296,
+  "src": "Kolkata New market"
+ },
+ "Amta Station": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Anandapalit": {
+  "lat": 22.55634,
+  "lng": 88.37096,
+  "src": "Ananda Palit Road"
+ },
+ "Anantapur": {
+  "lat": 22.51397,
+  "lng": 88.40306,
+  "src": "Akash Tower"
+ },
+ "Anchna": null,
+ "Angrail": null,
+ "Antila": null,
+ "Anwarsah Road": {
+  "lat": 22.60128,
+  "lng": 88.38415,
+  "src": "Kolkata"
+ },
+ "Aquatica": null,
+ "Arambag": null,
+ "Arapanch": null,
+ "Argori More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Ariadaha (Dakshineswar)": null,
+ "Arsadmiya Ghat": {
+  "lat": 22.5993,
+  "lng": 88.3566,
+  "src": "Shobha Bazar Ghat"
+ },
+ "Asharu": {
+  "lat": 22.58661,
+  "lng": 88.35393,
+  "src": "Asharam Bhiwaniwala Hospital"
+ },
+ "Ashok Nagar": {
+  "lat": 22.48455,
+  "lng": 88.34698,
+  "src": "Ashok Nagar"
+ },
+ "Ashokenagar Railgate": {
+  "lat": 22.8409,
+  "lng": 88.65368,
+  "src": "1 Railgate More"
+ },
+ "Ashoknagar 5 No. More": {
+  "lat": 22.8409,
+  "lng": 88.65368,
+  "src": "1 Railgate More"
+ },
+ "Ashoknagar Chowrangi": {
+  "lat": 22.56048,
+  "lng": 88.35076,
+  "src": "Chowringhee Road"
+ },
+ "Asuthwatala": null,
+ "Atharobanki More": {
+  "lat": 22.63193,
+  "lng": 88.37787,
+  "src": "Sinthee More Ground"
+ },
+ "Atlas More": {
+  "lat": 22.57052,
+  "lng": 88.43078,
+  "src": "National Atlas and Thematic Mapping Organisation"
+ },
+ "Aturia Bazar.)": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Authpur": {
+  "lat": 22.57661,
+  "lng": 88.39019,
+  "src": "iTech® - Apple Authorised Store™"
+ },
+ "Awalsiddhi Chowmatha": {
+  "lat": 22.5253,
+  "lng": 88.41109,
+  "src": "Chowbagha Road"
+ },
+ "Axis Mall / Hometown": {
+  "lat": 22.5795,
+  "lng": 88.45992,
+  "src": "Axis Mall"
+ },
+ "B.E. College": {
+  "lat": 22.55755,
+  "lng": 88.30682,
+  "src": "B.E.College"
+ },
+ "B.N Bose Hospital": {
+  "lat": 22.75154,
+  "lng": 88.37103,
+  "src": "Barrackpore S.D. Hospital (Dr. B.N. Bose) Hospital Blood Bank"
+ },
+ "Babanpur": null,
+ "Baburhat": {
+  "lat": 22.56512,
+  "lng": 88.33978,
+  "src": "Babughat bus stand"
+ },
+ "Badarhat": null,
+ "Badir More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Badu Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Baduria Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Baganda": null,
+ "Bagirhat": null,
+ "Bagjola Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Bagmari Bazar": {
+  "lat": 22.58406,
+  "lng": 88.39533,
+  "src": "Bagmari Muslim Burial Ground"
+ },
+ "Bagmore": {
+  "lat": 22.58406,
+  "lng": 88.39533,
+  "src": "Bagmari Muslim Burial Ground"
+ },
+ "Bagnan Library More": null,
+ "Bagnan Station": {
+  "lat": 22.60151,
+  "lng": 88.38221,
+  "src": "Kolkata Station Bus Terminal"
+ },
+ "Bagnan Thana More": null,
+ "Bagulakhali": null,
+ "Baharu": {
+  "lat": 22.47822,
+  "lng": 88.31041,
+  "src": "shreyan's aahare bahare"
+ },
+ "Bahirsona More": {
+  "lat": 22.55469,
+  "lng": 88.35062,
+  "src": "Bahrisons Booksellers Kolkata"
+ },
+ "Baidyapur Kanchkal": {
+  "lat": 22.47788,
+  "lng": 88.38221,
+  "src": "Lalit Kanchan Kali Bari"
+ },
+ "Baikunthapur": null,
+ "Bajitpur": null,
+ "Bajkul": {
+  "lat": 22.52706,
+  "lng": 88.3518,
+  "src": "Bakul Bagan Row"
+ },
+ "Bakeshwar": null,
+ "Balaka Housing (EcoPark)": {
+  "lat": 22.57396,
+  "lng": 88.45435,
+  "src": "Balaka Housing Society"
+ },
+ "Balakhali": null,
+ "Balia": {
+  "lat": 22.58049,
+  "lng": 88.36927,
+  "src": "Balai Singh Ln"
+ },
+ "Bally bridge": {
+  "lat": 22.51792,
+  "lng": 88.30114,
+  "src": "Brace Bridge"
+ },
+ "Bally halt station": {
+  "lat": 22.51934,
+  "lng": 88.37198,
+  "src": "Ballygunge Junction"
+ },
+ "Balti": {
+  "lat": 22.58049,
+  "lng": 88.36927,
+  "src": "Balai Singh Ln"
+ },
+ "Baltikuri": null,
+ "Baltikuri more": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Baluhati": {
+  "lat": 22.60967,
+  "lng": 88.42768,
+  "src": "Baguiati"
+ },
+ "Bamangachi Chowmatha": {
+  "lat": 22.74582,
+  "lng": 88.52,
+  "src": "Bamangachi Choumatha"
+ },
+ "Bamondanga": null,
+ "Bamunmura": null,
+ "Banamalipur": null,
+ "Banbania": null,
+ "Banbania Chowmatha": {
+  "lat": 22.5253,
+  "lng": 88.41109,
+  "src": "Chowbagha Road"
+ },
+ "Bandar": {
+  "lat": 22.64731,
+  "lng": 88.4373,
+  "src": "Jai Hind"
+ },
+ "Bantala Leather Complex": {
+  "lat": 22.49711,
+  "lng": 88.5159,
+  "src": "Kolkata Leather Complex"
+ },
+ "Banungachi Station Road": {
+  "lat": 22.78173,
+  "lng": 88.36325,
+  "src": "Barrackpore Air Force Station"
+ },
+ "Baranagar Municipality": {
+  "lat": 22.6636,
+  "lng": 88.37624,
+  "src": "Kamarhati Municipality Office"
+ },
+ "Barasat Algaria": {
+  "lat": 22.71717,
+  "lng": 88.48097,
+  "src": "Barasat Government College"
+ },
+ "Barasat Bus stand": {
+  "lat": 22.69299,
+  "lng": 88.46366,
+  "src": "Madhyamgram CTC bus stand"
+ },
+ "Barasat Champadali More": {
+  "lat": 22.72097,
+  "lng": 88.48201,
+  "src": "Haritala More"
+ },
+ "Barasat Chapadali": {
+  "lat": 22.72419,
+  "lng": 88.48378,
+  "src": "Barasat Junction"
+ },
+ "Barasat Dakbunglow": {
+  "lat": 22.71139,
+  "lng": 88.47549,
+  "src": "Dakbunglow More"
+ },
+ "Barasat District Hospital": {
+  "lat": 22.72176,
+  "lng": 88.49252,
+  "src": "Barasat District Hospital"
+ },
+ "Barasat Kazipara": {
+  "lat": 22.72265,
+  "lng": 88.50837,
+  "src": "Kazipara"
+ },
+ "Barasat Kazipara depot": {
+  "lat": 22.72265,
+  "lng": 88.50837,
+  "src": "Kazipara"
+ },
+ "Barasat Moyna Check Post": null,
+ "Barasat State University": {
+  "lat": 22.73175,
+  "lng": 88.49904,
+  "src": "Brainware University"
+ },
+ "Barbadia": null,
+ "Barda": {
+  "lat": 22.65461,
+  "lng": 88.42499,
+  "src": "Kendriya Vihar Kolkata Phase 2"
+ },
+ "Bargram More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Baria": null,
+ "Barnaberia": null,
+ "Barrackpore Chira More": {
+  "lat": 22.76568,
+  "lng": 88.38272,
+  "src": "Jaffapur More"
+ },
+ "Barrackpore Dhobi Ghat": {
+  "lat": 22.6678,
+  "lng": 88.3957,
+  "src": "Surya Ganga Ghat"
+ },
+ "Barrackpore Talpukur": {
+  "lat": 22.76569,
+  "lng": 88.38423,
+  "src": "Talpukur"
+ },
+ "Bartala Bazar": {
+  "lat": 22.58276,
+  "lng": 88.35292,
+  "src": "Bartala Street"
+ },
+ "Baruipur Fultala": {
+  "lat": 22.34545,
+  "lng": 88.46423,
+  "src": "Greater Kolkata College of Engineering and Management"
+ },
+ "Baruipur Kachari Bazar": null,
+ "Baruipur Rabindra Bhawan": {
+  "lat": 22.54149,
+  "lng": 88.34735,
+  "src": "Rabindra Sadan"
+ },
+ "Barunda": null,
+ "Basanti Bridge": {
+  "lat": 22.53467,
+  "lng": 88.40009,
+  "src": "Basanti Highway"
+ },
+ "Bashiram Bazar": {
+  "lat": 22.59403,
+  "lng": 88.36251,
+  "src": "Shobha Bazar"
+ },
+ "Bashirhat (Malancha)": null,
+ "Bashirhat Court": {
+  "lat": 22.57186,
+  "lng": 88.34577,
+  "src": "Bankshall Court, Kolkata"
+ },
+ "Basirhat 72 Bus Stand": null,
+ "Basirhat Chowmatha": {
+  "lat": 22.5253,
+  "lng": 88.41109,
+  "src": "Chowbagha Road"
+ },
+ "Bastala": {
+  "lat": 22.533,
+  "lng": 88.39639,
+  "src": "Ritwik Ghatak"
+ },
+ "Bazetaraf": null,
+ "Bazetorof": null,
+ "Beadon Street": {
+  "lat": 22.59046,
+  "lng": 88.36074,
+  "src": "Beadon Square"
+ },
+ "Behala 14": {
+  "lat": 22.50203,
+  "lng": 88.31811,
+  "src": "14 No Bus Stop"
+ },
+ "Behala Rabindranagar": {
+  "lat": 22.63906,
+  "lng": 88.40291,
+  "src": "Rabindranagar Children'S Park"
+ },
+ "Belari Mollah More": null,
+ "Beledanga": null,
+ "Beleghata CIT Building": {
+  "lat": 22.56285,
+  "lng": 88.39626,
+  "src": "CIT More"
+ },
+ "Belgacchia": {
+  "lat": 22.60592,
+  "lng": 88.38639,
+  "src": "Belgachia"
+ },
+ "Belgachi": {
+  "lat": 22.60592,
+  "lng": 88.38639,
+  "src": "Belgachia"
+ },
+ "Belgachia/ BBD bag/ Sealdah": null,
+ "Belgharia": {
+  "lat": 22.66033,
+  "lng": 88.38398,
+  "src": "Belgharia Head Post Office"
+ },
+ "Belgharia Rathtala": {
+  "lat": 22.51356,
+  "lng": 88.38122,
+  "src": "Rathtala Mor"
+ },
+ "Belgharia Teachers' Colony": null,
+ "Beliaghata Bazar": {
+  "lat": 22.56501,
+  "lng": 88.38539,
+  "src": "Sarkar Bazar"
+ },
+ "Beliaghata Bridge": {
+  "lat": 22.56337,
+  "lng": 88.37417,
+  "src": "Sealdah Beliaghata Flyover"
+ },
+ "Benar More": {
+  "lat": 22.55047,
+  "lng": 88.36188,
+  "src": "More"
+ },
+ "Beraberia": null,
+ "Berachampa Crossing": {
+  "lat": 22.51364,
+  "lng": 88.39928,
+  "src": "Ruby Crossing"
+ },
+ "Betai": {
+  "lat": 22.56186,
+  "lng": 88.31442,
+  "src": "Betaitala Bazar"
+ },
+ "Betai Bondor More": null
+}

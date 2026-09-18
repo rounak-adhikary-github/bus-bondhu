@@ -1,0 +1,27 @@
+[
+ {
+  "no": "EB-16",
+  "stops": [
+   "Thakurpukur",
+   "Silpara",
+   "Sakherbazar",
+   "Behala Chowrasta",
+   "Behala 14 No",
+   "Taratala",
+   "New Alipore",
+   "Prince Anwar Shah Rd",
+   "Tollygunge",
+   "South City",
+   "Kalikapur",
+   "Ruby Hospital",
+   "Science City",
+   "Salt Lake Sector V",
+   "Narkel Bagan",
+   "Unitech",
+   "Infosys Hatishala"
+  ],
+  "section": "Relaunched / newer services",
+  "list": "govt",
+  "source": "manual"
+ }
+]

@@ -1,0 +1,2632 @@
+[
+  {
+    "no": "3",
+    "stops": [
+      "Dahighat",
+      "Khidderpur",
+      "Mominpur",
+      "Hazra",
+      "Elgin Road",
+      "Park street",
+      "Esplanade",
+      "Subod Mallick Squre",
+      "Moulali",
+      "Sealdah"
+    ]
+  },
+  {
+    "no": "15",
+    "stops": [
+      "Ultadanga",
+      "Khanna",
+      "Hatibagan",
+      "Grey St",
+      "Nimtala Ghat St",
+      "B.K.Paul Ave",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "33",
+    "stops": [
+      "Chetla",
+      "Paikpara",
+      "Shyambazar",
+      "Khanna",
+      "Manicktala",
+      "Sealdha",
+      "Moulali",
+      "Padmapukur",
+      "Darga Rd",
+      "Bondel Gate",
+      "Hazra",
+      "Kalighat",
+      "Alipur Rd",
+      "Chetla",
+      "Paikpara"
+    ]
+  },
+  {
+    "no": "7A",
+    "stops": [
+      "Sarsuna",
+      "Bakultala",
+      "Chowrasta",
+      "Manton Xing",
+      "Behala Tram Depot",
+      "Taratala Xing",
+      "Mominpor",
+      "Khidirpor",
+      "Casurina Ave",
+      "Esplanade",
+      "B.B.D.Bag",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "11A",
+    "stops": [
+      "Dum Dum",
+      "Dum Dum Stn",
+      "Chria",
+      "Shyambazar",
+      "Manicktala",
+      "Bedon Squre",
+      "Howrah Bridge East",
+      "Barabazar",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "14A",
+    "stops": [
+      "Bichalighat",
+      "HMG College",
+      "Metiabruj",
+      "Halder Para",
+      "Abestors More",
+      "Ramnagar More",
+      "Dockyard",
+      "Khiderpore",
+      "Fancy Market",
+      "Hastings",
+      "J.K.Island",
+      "Mayo Rd",
+      "Esplanade",
+      "S.K.Mallick Rd",
+      "Moulali",
+      "Sealdah",
+      "Cannel Bridge",
+      "Rashmoni Bazar",
+      "Jora Mandir",
+      "Beliaghata Main Road",
+      "Central Park",
+      "Karunamoyee. Unnayan Bhavan",
+      "Bikash Bhavan"
+    ]
+  },
+  {
+    "no": "5-N",
+    "stops": [
+      "Garia",
+      "Ganguli Bagan",
+      "Baghajatin",
+      "Jadavpur",
+      "dhakuria",
+      "Golpark",
+      "D.Park",
+      "R.B.Ave",
+      "Hazra",
+      "Elgin",
+      "Exide",
+      "P.T.S",
+      "Nabanna"
+    ]
+  },
+  {
+    "no": "6-N",
+    "stops": [
+      "Garia",
+      "Naktala",
+      "Regentpark",
+      "Ranikhuti",
+      "Tolligunge Metro",
+      "Tollygunge Phari",
+      "R.B.Ave",
+      "Hazra",
+      "Elgin",
+      "Exide",
+      "PTS",
+      "Nabanna"
+    ]
+  },
+  {
+    "no": "12N",
+    "stops": [
+      "Thakurpukur",
+      "Thakurpukur 3A",
+      "D.H Road",
+      "Taratala Xing",
+      "Moninpor",
+      "Khidderpore",
+      "Hestings",
+      "Vidhya Sagar Satu",
+      "Nabanna"
+    ]
+  },
+  {
+    "no": "AC-1",
+    "stops": [
+      "Jadavpore",
+      "JADAVPUR P.S",
+      "PRINCE A.SAHA RD",
+      "TOLLYGUNGE PHARI",
+      "HAZRA",
+      "ELGIN",
+      "ESPL",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "AC-2",
+    "stops": [
+      "Barasat",
+      "Hridaypur",
+      "Madhyamgram Chowrasta Xing",
+      "Doltala",
+      "New Barrackpur B.T. College",
+      "Michael Nagar",
+      "Bankra More",
+      "Birati More",
+      "Airport Gate No. 1",
+      "Kaikhali",
+      "Haldiram",
+      "Teghoria",
+      "Kestopur",
+      "Baguihati",
+      "Bangur",
+      "Dum Dum Park",
+      "Lake Town Xing",
+      "HUDCO",
+      "Ultadanga",
+      "Kankurgachi",
+      "Manicktala",
+      "Girish Park",
+      "C.R. Avn. Xing",
+      "M.G.Road Xing",
+      "Satyanarayan Park",
+      "Howrah Bridge (East)",
+      "Howrah Station"
+    ]
+  },
+  {
+    "no": "AC-4",
+    "stops": [
+      "Parnasree",
+      "Taratala Xing",
+      "Mominpur",
+      "Khiddirpur",
+      "Hestings",
+      "PTS",
+      "Rabindra Sadan",
+      "Park Street",
+      "Esplanade",
+      "BBD Bag",
+      "Howrah Bridge South",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "AC-4A",
+    "stops": [
+      "Parnashri",
+      "PARNASREE",
+      "T.DEPOT",
+      "MARINE COLLEGE",
+      "T.T.XING",
+      "NEWALIPORE",
+      "MAHABIRTALA",
+      "P A Sha Rd",
+      "LAKE GARDENS",
+      "JADAVPUR P.S",
+      "SAPUIPARA",
+      "KALIKAPUR",
+      "RUBY",
+      "S.CITY",
+      "CHINGRIGHATA",
+      "SUKANTA NAGAR",
+      "NICCO PARK",
+      "SWASTHA BHAVAN",
+      "COLLEGE MORE",
+      "TECHONOPOLIS",
+      "NEWTOWN",
+      "HOMETOWN",
+      "NARKELBAGAN",
+      "UNITECH",
+      "SAPURJI",
+      "Sapoorji"
+    ]
+  },
+  {
+    "no": "AC-4B",
+    "stops": [
+      "Joka",
+      "Thakurpukur",
+      "Cancer Hospital",
+      "Kabardanga",
+      "Haridevpur",
+      "Karunamoyee",
+      "Tollygunge Metro",
+      "Rashbehari Xing",
+      "Gariahat",
+      "Ruby",
+      "Chingrihata",
+      "SDF",
+      "College More",
+      "Technopolis",
+      "New Town"
+    ]
+  },
+  {
+    "no": "AC-5",
+    "stops": [
+      "Garia",
+      "RAIPUR CLUB",
+      "BAGHAJATIN",
+      "JADAVPUR",
+      "GOLPARK",
+      "GARIAHAT",
+      "R.B.AVE",
+      "HAZRA",
+      "CHAKRABERIA",
+      "ELGIN",
+      "BIRLA TARAMONDAL",
+      "PARK ST",
+      "ESPL",
+      "BBD BAG",
+      "HOWRAH BRIDGE",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "AC-6",
+    "stops": [
+      "Garia",
+      "HOWRAH STN",
+      "HOWRAH BRIDGE EAST",
+      "B.B.D. BAG",
+      "ESPL",
+      "PARK ST",
+      "ELGIN",
+      "HAZRA",
+      "RASHBEHARI AVE",
+      "TOLLYGUNJ PHARI",
+      "T.T.DEPOT",
+      "RANI KUTHI",
+      "REGENT PARK",
+      "NAKTALA",
+      "GARIA",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "AC-9",
+    "stops": [
+      "Jadavpore",
+      "AJOYNAGAR",
+      "RUBY",
+      "CHINGRIHATA",
+      "BELIAGHATA CON",
+      "CENTRAL PARK",
+      "Karunamoyee"
+    ]
+  },
+  {
+    "no": "AC-9B",
+    "stops": [
+      "Jadavpore",
+      "Sukanta Setu",
+      "Ajoynagar",
+      "E M Byepass",
+      "Sc. City",
+      "Chingrihata",
+      "SDF",
+      "College More",
+      "New Town",
+      "Narkel Bagan",
+      "Eco Space"
+    ]
+  },
+  {
+    "no": "AC-12",
+    "stops": [
+      "New Town (Sapoorji)",
+      "Narkel Bagan",
+      "Newtown",
+      "SDF",
+      "Chingrihata",
+      "SC City",
+      "Topsia",
+      "Exide",
+      "Esplanade",
+      "BBD Bag",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "AC-12D",
+    "stops": [
+      "Joka",
+      "THAKURPUKUR",
+      "BEHALA",
+      "MOMINPUR",
+      "ZOO",
+      "PTS",
+      "RABINDRA SADAN",
+      "ESPLANADE",
+      "MISSION ROW XING",
+      "BBD BAG",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "AC-14",
+    "stops": [
+      "Baruipur New Terminus",
+      "Shibanipit",
+      "Baruipur",
+      "Padmapukur",
+      "Malancha Bazar",
+      "Harinavi",
+      "Mission Gate",
+      "Kamalgazi More",
+      "Dhalai Bridge",
+      "Patuli",
+      "Peerless Hospital",
+      "Ajay Nagar",
+      "Ruby",
+      "Sc. City",
+      "Metropolitan",
+      "KBKC More",
+      "Central Park",
+      "Karunamoyee (Salt Lake)"
+    ]
+  },
+  {
+    "no": "AC-20",
+    "stops": [
+      "Santragachi",
+      "PTS",
+      "Esplanade",
+      "CR Avenue",
+      "Shyambazar",
+      "BT Road",
+      "Dunlop",
+      "Sodpur",
+      "Titagarh",
+      "Barrackpore"
+    ]
+  },
+  {
+    "no": "AC-23A",
+    "stops": [
+      "Salt Lake Depot Gate",
+      "College More",
+      "New Town",
+      "Unitech",
+      "Eco Space",
+      "Aliah University",
+      "Daber More",
+      "ECO Park",
+      "City Centre II",
+      "Haldiram",
+      "Airport Gate No. 1",
+      "Belghoria Exp. Way",
+      "Dakshineswar",
+      "Ballyhalt",
+      "Rajchandrapur"
+    ]
+  },
+  {
+    "no": "AC-24",
+    "stops": [
+      "Patuli",
+      "RUBY",
+      "GARIAHAT",
+      "HAZRA",
+      "EXIDE",
+      "PARK STREET",
+      "ESPL",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "AC-24A",
+    "stops": [
+      "Kamalgazi",
+      "Dhalai Bridge",
+      "Patuli",
+      "Peerless Hospital",
+      "Ajay Nagar",
+      "Kalikapur",
+      "Ruby Hospital",
+      "Gariahat",
+      "Rashbehari Xing",
+      "Hazra Park",
+      "Rabindrasadan",
+      "Park Street",
+      "Esplanade",
+      "BBD Bag",
+      "Howrah Bridge East",
+      "Howrah Station"
+    ]
+  },
+  {
+    "no": "AC-30",
+    "stops": [
+      "Lake Town (Jaya Cinema)",
+      "HUDCO",
+      "Ultadanga",
+      "Kankurgachi",
+      "Manicktala",
+      "Girish Park",
+      "C.R. Avn. Xing",
+      "M.G.Road Xing",
+      "Barrabazar",
+      "Howrah Station"
+    ]
+  },
+  {
+    "no": "AC-30S (IT Spl.)",
+    "stops": [
+      "Ultadanga",
+      "Kadapara",
+      "Beliaghata Xing",
+      "Chingrihata",
+      "SDF",
+      "College More",
+      "New Town Bus Terminus",
+      "Narkel Bagan",
+      "Unitech",
+      "Sapoorji"
+    ]
+  },
+  {
+    "no": "AC-31",
+    "stops": [
+      "Behala Chowrastha",
+      "James long Sarani",
+      "Ramkrishna Ashram",
+      "Motilal Gupta Road",
+      "Siriti More",
+      "Karunamoyee",
+      "Lake Gardens",
+      "Jadavpur"
+    ]
+  },
+  {
+    "no": "AC-37",
+    "stops": [
+      "Garia",
+      "Patuli",
+      "Rubi Hospital",
+      "Science City",
+      "Chingrihata",
+      "HUDCO",
+      "V.I.P.Road",
+      "Airport",
+      "Doltala",
+      "Madhyamgram Chowrasta Xing",
+      "Hridaypur",
+      "Barasat"
+    ]
+  },
+  {
+    "no": "AC-37A",
+    "stops": [
+      "Garia",
+      "PATULI",
+      "PEERLESS",
+      "KALIKAPUR",
+      "RUBY",
+      "VIP BAZAR",
+      "S.CITY",
+      "CHINGRIGHATA",
+      "NICCO PARK",
+      "SASTHYABHAVAN",
+      "SDF",
+      "TECHNOPOLIS",
+      "NEW TOWN",
+      "HOME TOWN",
+      "NARKELBAGAN",
+      "ECO PARK",
+      "NABADIGANTA MORE",
+      "C.C",
+      "CHINAR PARK",
+      "AIRPORT GATE NO.1",
+      "AIRPORT GATE NO",
+      "Air Port"
+    ]
+  },
+  {
+    "no": "AC-38",
+    "stops": [
+      "Dum Dum 11A Stand",
+      "Nager Bazar",
+      "Airport Gate No. 1",
+      "Chiner Park",
+      "Akhankha More",
+      "Eco Park",
+      "Jatragachi",
+      "New Town Central Stand",
+      "College More",
+      "Wipro",
+      "Karunamoyee"
+    ]
+  },
+  {
+    "no": "AC-39",
+    "stops": [
+      "Howrah",
+      "HOWRAH STN",
+      "HOWRAH BRIDGE EAST",
+      "BBD BAG",
+      "ESPLANADE EAST",
+      "LALBAZAR",
+      "COLUTALA XING",
+      "M.G.RD",
+      "GIRISH PARK",
+      "MANICKTALA",
+      "KANKURGACHI",
+      "ULTADANGA",
+      "LAKETOWN",
+      "BAGUIHATI",
+      "KAIKHALI",
+      "AIRPORT GATE NO",
+      "Air Port"
+    ]
+  },
+  {
+    "no": "AC-40",
+    "stops": [
+      "Airport Gate No. 1",
+      "Nager Bazar",
+      "Jessor Road",
+      "Laketown Xing",
+      "Patipukur",
+      "Shyambazar",
+      "Girish Park",
+      "M.G. Road",
+      "Burrabazar",
+      "Howrah Stn",
+      "Howrah Maidan"
+    ]
+  },
+  {
+    "no": "AC-43",
+    "stops": [
+      "Golf Green",
+      "LAKE GARDENS",
+      "JADAVPUR P.S",
+      "SALIMPUR",
+      "SAPUIPARA KALIKAPUR",
+      "RUBY",
+      "EM BYEPASS",
+      "SC CITY",
+      "CHINGRIHATA",
+      "NICCO PK",
+      "SWASTHA BHAVAN",
+      "COLLEGE MORE",
+      "TECHONOPOLIS",
+      "NEW TOWN",
+      "HOME TOWN",
+      "NARKEL BAGAN",
+      "C.C.2",
+      "KAIKHALI",
+      "AIRPORT GATE NO.1",
+      "AIRPORT PORT GATE NO.3",
+      "Air Port"
+    ]
+  },
+  {
+    "no": "AC-47",
+    "stops": [
+      "Kundghat",
+      "Tollygunge Tram Depot",
+      "Rashbehari Xing",
+      "Gariahat",
+      "Ruby",
+      "Science City",
+      "Chingrihata",
+      "Swasthya Bhawan",
+      "SDF",
+      "New Town",
+      "Narkel Bagan",
+      "Unitech",
+      "Sapoorji"
+    ]
+  },
+  {
+    "no": "AC-50A",
+    "stops": [
+      "Garia",
+      "Patuli",
+      "E.M.Bye Pass",
+      "Sc. City",
+      "Chingrihata",
+      "HUDCO",
+      "VIP Road",
+      "Kaikhali",
+      "Airport Gate No. 1",
+      "Durganagar",
+      "Belghoria Exp. Way",
+      "Dakshineswar",
+      "Ballyhalt",
+      "Rajchandra- pur"
+    ]
+  },
+  {
+    "no": "AC-52",
+    "stops": [
+      "Amtala",
+      "Pailan",
+      "Joka",
+      "Thakurpukur",
+      "Behala",
+      "Taratala Xing",
+      "Khidirpore",
+      "Carzon Park",
+      "BBD Bag",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "C2A",
+    "stops": [
+      "Tollygunge",
+      "Tollygunge Phari",
+      "Rabindra Sarovar",
+      "Rashbehari",
+      "Deshapriya Park",
+      "Gariahat",
+      "Ballygunge Station",
+      "Kasba PS",
+      "Bosepukur",
+      "Ruby Hospital",
+      "VIP Bazar",
+      "Uttar Panchannagram",
+      "Science City",
+      "Chowbaga",
+      "Bantala Bazar",
+      "Leather Complex",
+      "Kantatala",
+      "Bhojerhat",
+      "Paglarhat",
+      "Borali Ghat",
+      "Nalmuri",
+      "Ghatatkpukur"
+    ]
+  },
+  {
+    "no": "C7",
+    "stops": [
+      "Howrah",
+      "Barabazar",
+      "Dalhousie",
+      "Esplanade",
+      "Babughat",
+      "Princep Ghat",
+      "Hastings",
+      "Khidderpore",
+      "Babubazar",
+      "BNR More",
+      "Muduali",
+      "Kachhi sarab",
+      "Garden Reach",
+      "Ramnagar",
+      "Fatehpur",
+      "H M Ghosh College"
+    ]
+  },
+  {
+    "no": "C8",
+    "stops": [
+      "Barasat",
+      "Dackbanglow More",
+      "Madhyamgram",
+      "B.T. Colleg",
+      "Birati",
+      "Airpport",
+      "Chinar Park",
+      "Eco Park",
+      "Narkelbagn",
+      "Newtown",
+      "Sec5",
+      "Chingrighata",
+      "Science City",
+      "Ruby",
+      "Rashbihari",
+      "Tollygunge",
+      "Kabardanga",
+      "Joka"
+    ]
+  },
+  {
+    "no": "C23",
+    "stops": [
+      "Park Circus",
+      "Science City",
+      "Chingrighata",
+      "SDF",
+      "Technopolis",
+      "Rabindra Tirtha",
+      "Nababpur",
+      "Chiner Park",
+      "Airport",
+      "Durganagar",
+      "Nimta",
+      "Dakshineswar",
+      "Bally Halt",
+      "Rajchandrapur",
+      "Dankuni"
+    ]
+  },
+  {
+    "no": "C24",
+    "stops": [
+      "Rajabazar",
+      "College Street",
+      "MG Road",
+      "Central",
+      "Burrabazar",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "C26",
+    "stops": [
+      "Baruipur",
+      "Shibanipith",
+      "Baruipur Hospital",
+      "Baruipur Station",
+      "Padmapukur",
+      "Khasmallick",
+      "Harinavi",
+      "Rajpur Bazar",
+      "Narendrapur",
+      "Kamalgazi",
+      "Dhalai Bridge",
+      "Patuli More",
+      "Peerless Hospital",
+      "Hiland Park",
+      "Ajaynagar",
+      "EM Bypass",
+      "Mukundapur",
+      "Kalikapur",
+      "Ruby Hospital",
+      "VIP Bazar. Uttar Panchannagram",
+      "Science City",
+      "Topsia More",
+      "4no. Bridge",
+      "Chittaranjan Hospital",
+      "CIT Road",
+      "Moulali More",
+      "Esplanade",
+      "Dalhousie",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "C28",
+    "stops": [
+      "Barrackpur",
+      "Titagarh",
+      "Khardah",
+      "Sodepur Girja",
+      "Kamarhati",
+      "Rathtala More",
+      "Dunlop More",
+      "Bonhooghly",
+      "Tobin Road",
+      "Sinthee More",
+      "Chiria More",
+      "Shyambazar",
+      "Rajballavpara",
+      "Sovabazar",
+      "Girish Park",
+      "MG Road",
+      "Barabazar",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "C29",
+    "stops": [
+      "Barrackpur",
+      "Barrackpore Chiria More",
+      "Barrackpore Station",
+      "Subhash Colony",
+      "Wireless More",
+      "Mohanpur",
+      "Debpukur",
+      "Chapuria",
+      "Mathrangi",
+      "Nilgunge",
+      "Rangapur",
+      "Kokapur",
+      "Jagannathpur",
+      "Barbaria",
+      "Barasat"
+    ]
+  },
+  {
+    "no": "C31",
+    "stops": [
+      "Karunamoyee",
+      "SDF",
+      "Technopolis",
+      "Rabindra Tirtha",
+      "Nababpur",
+      "Chiner Park",
+      "Airport",
+      "Durganagar",
+      "Nimta",
+      "Dakshineswar",
+      "Bally Ghat",
+      "Belurmath",
+      "Bhattanagar"
+    ]
+  },
+  {
+    "no": "C36",
+    "stops": [
+      "Rajabazar",
+      "Esplanade",
+      "Rabindra Sadan",
+      "PTS",
+      "Toll Tax",
+      "College ghat",
+      "D. Sekh Lane",
+      "Hanskhali"
+    ]
+  },
+  {
+    "no": "C37",
+    "stops": [
+      "Amtala",
+      "Bishnupur",
+      "Khariberia",
+      "Bhasha 14no",
+      "Pailan",
+      "Joka Bridge",
+      "Thakurpukur",
+      "Shilpara",
+      "Sakher Bazar",
+      "Behala",
+      "Majherhat",
+      "Mominpore",
+      "Ekbalpur",
+      "Khidderpore",
+      "Hastings",
+      "Esplanade",
+      "Dalhousie",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "C42",
+    "stops": [
+      "Ganganagar",
+      "BT College",
+      "Mickelnagar",
+      "Birati",
+      "Airport 1 No. Gate",
+      "Kaikhali",
+      "Baguiati",
+      "Kestopur",
+      "Laketown",
+      "Ultadanga",
+      "Kankurgachi",
+      "Maniktala",
+      "Rajabazar",
+      "Sealdha",
+      "Bank of India",
+      "Bowbazar",
+      "Central Avenue",
+      "BBD Bag",
+      "GPO",
+      "Stand Road",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "C43",
+    "stops": [
+      "Habra",
+      "Ashoknagar",
+      "Guma",
+      "Bira",
+      "Duttapukur",
+      "Barasat",
+      "Madhyamgram",
+      "Airport 1no",
+      "Chinar Park",
+      "Eco Park",
+      "Narkelbagn",
+      "Newtown",
+      "Sec5",
+      "Chingrighata",
+      "Science City",
+      "Ruby",
+      "Ajaynagar",
+      "Peerless",
+      "Patuli",
+      "Garia"
+    ]
+  },
+  {
+    "no": "C46",
+    "stops": [
+      "Baruipur",
+      "Hastings",
+      "Watgangemore",
+      "Taratala",
+      "Behala Tram Depot",
+      "Sakherbajar",
+      "3A Bus Stand",
+      "Pilan",
+      "Kheriberia",
+      "Amtala",
+      "Rajarhat",
+      "Tahelarampur bazar",
+      "Amratal",
+      "Magurkhali Bridge",
+      "Dhamua",
+      "Basundharia",
+      "Suryapur",
+      "Ranabelia ghat",
+      "Nabanna"
+    ]
+  },
+  {
+    "no": "C48",
+    "stops": [
+      "Barasat/ Ecospace",
+      "Madhyamgram",
+      "Airport 1 No",
+      "Chinar Park",
+      "Eco Park",
+      "Aliah",
+      "Ecospace",
+      "Narkelbagan",
+      "Newtown",
+      "Sector 5",
+      "Chingrighata",
+      "Science City",
+      "Ruby",
+      "Ajaynagar",
+      "Peerless",
+      "Patuli",
+      "Garia",
+      "Narendrapur",
+      "Harinavi",
+      "Padmapukur",
+      "Baruipur"
+    ]
+  },
+  {
+    "no": "D17",
+    "stops": [
+      "Garia",
+      "Jdavpur",
+      "Anwar Shah Road",
+      "Hazra Crossing",
+      "Rabindra Sadan",
+      "PTS",
+      "Toll Tax",
+      "Carryroad",
+      "Belepole",
+      "Santragachi",
+      "Kona Express",
+      "NH6",
+      "Salap",
+      "KWIC"
+    ]
+  },
+  {
+    "no": "D1A",
+    "stops": [
+      "Barasat",
+      "Dackbanglow More",
+      "Madhyamgram",
+      "B. T. College",
+      "Airport",
+      "Baguiati",
+      "Birati",
+      "Kestopur",
+      "Laketown",
+      "Ultadanga",
+      "EM Byapss",
+      "Belaghata",
+      "Chinghreeghata",
+      "Science City",
+      "Ruby",
+      "Gariahgat",
+      "Rashbihari",
+      "Tollygunge"
+    ]
+  },
+  {
+    "no": "E-1",
+    "stops": [
+      "Jadavpore",
+      "Jadavpur",
+      "Dhakuria",
+      "Golpark",
+      "Lake Kali Bari",
+      "RB Avenue",
+      "Hazra",
+      "Elgin",
+      "Rabindra Sadan",
+      "Park St",
+      "Esplanade",
+      "B.B.D.Bag",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "E-4",
+    "stops": [
+      "Parnasree",
+      "Taratala Xing",
+      "Mominpur",
+      "Khiderpur",
+      "Casurina Ave",
+      "Esplanade",
+      "BBD Bag",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "E-32",
+    "stops": [
+      "Neilgunj",
+      "Nilgunge Depot",
+      "Mohanpur",
+      "Lalkuthi",
+      "BKP",
+      "Chiriamore",
+      "Talpukur",
+      "Titagarh P.S",
+      "Khardha",
+      "Sukchar Manument",
+      "Panihati",
+      "Kamarhati",
+      "Rathtala",
+      "Dunlop",
+      "SinthiMore",
+      "Shyambazar",
+      "Gray St",
+      "Vivekananda Rd",
+      "MG Rd",
+      "Satya Narayan Park",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "E36",
+    "stops": [
+      "Habra",
+      "Ashoknagar",
+      "Guma",
+      "Bira",
+      "Duttapukur",
+      "Barasat",
+      "Dackbanglow More",
+      "Madhyamgram",
+      "B.T. College",
+      "Mickel Nagar",
+      "Airport 1 no",
+      "Baguiati",
+      "Kestopur",
+      "Laketown",
+      "Ultadanga",
+      "Kankugachi",
+      "Maniktala",
+      "Girish Park",
+      "LalBazar",
+      "Esplanade",
+      "Rabinrasadan",
+      "PTS",
+      "Toll Tax",
+      "Carry Road",
+      "Belepore",
+      "Santragachi"
+    ]
+  },
+  {
+    "no": "E 36 Spl",
+    "stops": [
+      "Barasat",
+      "Dackbanglow More",
+      "Madhyamgram",
+      "B. T. College",
+      "Birati",
+      "Airport",
+      "Baguiati",
+      "Kestopur",
+      "Laketown",
+      "Ultadanga",
+      "Kankugachi",
+      "Maniktala",
+      "Girish Park",
+      "LalBazar",
+      "Esplanade",
+      "PTS",
+      "Carryroad",
+      "Belepole",
+      "Santragachi"
+    ]
+  },
+  {
+    "no": "E 37A",
+    "stops": [
+      "Barasat",
+      "Dackbanglow More",
+      "Madhyamgram",
+      "B. T. College",
+      "Birati",
+      "Airport",
+      "Baguiati",
+      "Kestopur",
+      "Laketown",
+      "Ultadanga",
+      "Kankugachi",
+      "Maniktala",
+      "Girish Park",
+      "LalBazar",
+      "Esplanade"
+    ]
+  },
+  {
+    "no": "E43A",
+    "stops": [
+      "Howrah",
+      "Dalhousie",
+      "Esplanade",
+      "Moulali More",
+      "Park Circus",
+      "Topsia More",
+      "Science City",
+      "Bantala",
+      "Katatala",
+      "Karidanga",
+      "Bhojerhat",
+      "Paglahat",
+      "Baralighat",
+      "Ghatakpukur",
+      "Chandipur",
+      "Bhushighata",
+      "Bamanpukur",
+      "Minakhan",
+      "Joypur",
+      "Malancha",
+      "Chaital",
+      "Battala",
+      "Nimchabari",
+      "Bhebia"
+    ]
+  },
+  {
+    "no": "E75",
+    "stops": [
+      "Barasat",
+      "Dackbalglow More",
+      "Madhyamgram",
+      "B.T. College",
+      "Mickel Nagar",
+      "Birati",
+      "Airpport",
+      "Chinar Park",
+      "Eco Park",
+      "Narkelbagn",
+      "Newtown",
+      "Sec5",
+      "Chingrighata",
+      "Science City",
+      "Bantala",
+      "Kantala",
+      "Karaidanga",
+      "Bhojerhat",
+      "Paglahat",
+      "Baralighat",
+      "Ghatakpukur",
+      "Bodra",
+      "Champahati",
+      "Baruipur"
+    ]
+  },
+  {
+    "no": "E77",
+    "stops": [
+      "Esplanade",
+      "Rabindra Sadan",
+      "PTS",
+      "Toll Tax",
+      "Carry Road",
+      "Belepole",
+      "Santragachi",
+      "6 Crossing",
+      "Salap More",
+      "Makardaha",
+      "Domjur",
+      "Rajapur",
+      "Dakshinbari",
+      "Bargachia",
+      "Kalitala bazar",
+      "Ichanagari",
+      "Jagatballavpur",
+      "Dilakhash",
+      "Sukanta Park"
+    ]
+  },
+  {
+    "no": "EB1",
+    "stops": [
+      "Nabanna",
+      "Mandirtala",
+      "Vidyasagar Setu",
+      "PTS More",
+      "Rabindra Sadan",
+      "Minto Park",
+      "Beckbagan",
+      "Park Circus",
+      "Science City",
+      "Chingrighata",
+      "Wipro More",
+      "College More",
+      "DLF 1",
+      "Newtown"
+    ]
+  },
+  {
+    "no": "EB3",
+    "stops": [
+      "Tollygunge",
+      "Rashbehari",
+      "Deshapriya Park",
+      "Gariahat",
+      "Ruby Hospital",
+      "Science City",
+      "Mathpukur",
+      "Chingrighata",
+      "Nicco Park",
+      "Wipro More",
+      "SDF More",
+      "College More",
+      "DLF 1",
+      "Newtown",
+      "Axis Mall",
+      "Narkelbagan",
+      "Unitech Gate 2",
+      "DLF 2",
+      "Eco space"
+    ]
+  },
+  {
+    "no": "EB-12",
+    "stops": [
+      "Barasat",
+      "Hridaypur",
+      "Madhyamgram Chowrasta",
+      "New Barrackpur B.T. College",
+      "Bankra More",
+      "Airport Gate 1",
+      "City Centre II",
+      "Eco Park",
+      "Aliah University",
+      "Eco Space",
+      "Adibasi Bhavan",
+      "Sapoorji"
+    ]
+  },
+  {
+    "no": "EB-14",
+    "stops": [
+      "Santragachi",
+      "Betore More",
+      "Mandirtala",
+      "Toll Plaza",
+      "P.T.S",
+      "Rabindra Sadan",
+      "Beckbagan",
+      "Topsia Road Xing",
+      "Sc. City",
+      "Chingrihata",
+      "Nicco Park",
+      "Swastha Bhawan",
+      "College More",
+      "Technopolish",
+      "New Town",
+      "Narkelbagan",
+      "Unitech",
+      "Eco Space"
+    ]
+  },
+  {
+    "no": "M-7B",
+    "stops": [
+      "Shibrampur",
+      "Bakultala",
+      "Behala Chowrastha",
+      "Raja Rammohan Roy Rd",
+      "Karunamoyee",
+      "Tollygunge Metro",
+      "Rashbehari Xing",
+      "Exide",
+      "Park Street",
+      "Esplanade",
+      "Mission Row Xing",
+      "BBD Bag",
+      "Howrah Station"
+    ]
+  },
+  {
+    "no": "M-7C",
+    "stops": [
+      "Sasthir More",
+      "Bakultala",
+      "Chowrasta",
+      "Manton",
+      "Behala P.S",
+      "Taratala Xing",
+      "Mominpur",
+      "Kidderpore",
+      "Casurina Ave",
+      "Esplanade",
+      "BBD Bag",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "M-7D",
+    "stops": [
+      "Sonamukhi Bazar",
+      "Sarsuna",
+      "Behala chowrasta",
+      "Behala Tram Depot",
+      "Taratala Xing",
+      "Mint",
+      "Mominpur",
+      "Gopalnagar",
+      "Hazra",
+      "Elgin",
+      "Park Street",
+      "Esplanade",
+      "S.C.Mallick Square",
+      "Moulali",
+      "Sealdah",
+      "Canal Bridge(East)",
+      "Rashmoni Bazar",
+      "Beliaghata",
+      "CITRd. Xing",
+      "Phool Bagan",
+      "Kankurgachi"
+    ]
+  },
+  {
+    "no": "M-7E",
+    "stops": [
+      "Bagpota",
+      "Kestor More",
+      "Sarsuna",
+      "Behala",
+      "Taratala Xing",
+      "Mominpore",
+      "Khidirpore",
+      "Casurina Ave",
+      "Esplanade",
+      "BBD Bag",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "M-7K",
+    "stops": [
+      "Khudiram Park (Sarsuna)",
+      "Sarsuna",
+      "Behala Chowrastha",
+      "Panchanantala",
+      "Muchipara Xing",
+      "Karunamoyee",
+      "Tollygunge Metro Stn",
+      "Rashbehari Avn",
+      "Park Street",
+      "Esplanade",
+      "Moulali",
+      "Sealdah (Rajabazar T.D. )"
+    ]
+  },
+  {
+    "no": "M-14",
+    "stops": [
+      "Behala",
+      "Roy Bahadur Road",
+      "Burashibtala Main Road",
+      "New Alipore Petrol Pump",
+      "Chetla",
+      "Rashbehari Xing",
+      "Gariahat",
+      "Ruby",
+      "Science City",
+      "Chingrihata",
+      "SDF",
+      "College More",
+      "New Town"
+    ]
+  },
+  {
+    "no": "M-24",
+    "stops": [
+      "Shibtala Math",
+      "C.I.T. Road Xing",
+      "Ananda Palit",
+      "Moulali",
+      "Sealdah",
+      "M.G. Road",
+      "College Street Xing",
+      "Burrabazar",
+      "Howrah Station"
+    ]
+  },
+  {
+    "no": "MIDI - 1",
+    "stops": [
+      "Howrah Maidan",
+      "Howrah Station",
+      "Bura Bazar",
+      "Chitpur Crossing",
+      "M.G. Road Xing",
+      "College Street",
+      "Sealdah",
+      "Rajabazar Tram Depot"
+    ]
+  },
+  {
+    "no": "S-2",
+    "stops": [
+      "Kundghat",
+      "Chandi Ghosh Rd",
+      "Tollygunge Tram Depot",
+      "Tollygunge Phari",
+      "Rashbehari Ave",
+      "Hazra",
+      "Elgin",
+      "Espl",
+      "B.B.D. Bag",
+      "Howrah Bridge East",
+      "Howrah Bridge",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "S-3A",
+    "stops": [
+      "Thakurpukur",
+      "Thakurpukur 3A Bus Stand",
+      "Thakurpukur Bazar",
+      "Silpara",
+      "Chourasta",
+      "Menton",
+      "Behala Tram Depot",
+      "Taratala More",
+      "Mouminpur",
+      "Khidirpore",
+      "Water Gate",
+      "Espl",
+      "BBD Bag",
+      "B.B.Ganguly St",
+      "Sealdh",
+      "Sealdah"
+    ]
+  },
+  {
+    "no": "S-3B",
+    "stops": [
+      "Behala",
+      "Taratala More",
+      "Mominpur",
+      "Khidirpur",
+      "Water Gate",
+      "Esplanade",
+      "BBD.BAGB.B.Ganguli St.Sealdah",
+      "Rajabazar",
+      "Phoolbagn",
+      "Kankurgachi"
+    ]
+  },
+  {
+    "no": "S-3W",
+    "stops": [
+      "Joka",
+      "Thakurpukur 3A Stand",
+      "Thakurpukur Bazar",
+      "Sakhar Bazar",
+      "Behala Chorasta",
+      "Behala Tram Depot",
+      "Taratala xing",
+      "New Alipore",
+      "Chetla",
+      "RB Av xing",
+      "Gariahat",
+      "Kasba P.S",
+      "Ruby",
+      "VIP Bazar",
+      "Science City Chingrighata",
+      "Sukanta Nagar",
+      "Nicco Park",
+      "SDF",
+      "College More",
+      "Techopolic",
+      "New Town",
+      "Home Town",
+      "Narkel Bagan",
+      "Ecispace",
+      "Aliah Univercity",
+      "Eco Space"
+    ]
+  },
+  {
+    "no": "S-4",
+    "stops": [
+      "Parnashree",
+      "Taratala Xing",
+      "Tollygunge Phari",
+      "Rashbehari",
+      "Gariahat",
+      "Kasba Depot Gate",
+      "VIP Bazar",
+      "Sc. City",
+      "Chingri Ghata",
+      "HUDCO",
+      "PNB",
+      "Quality",
+      "Karunamoyee"
+    ]
+  },
+  {
+    "no": "S-4C",
+    "stops": [
+      "Haridebpur",
+      "Haridevpur",
+      "Karunamoyee",
+      "Tollygunge Tram depot",
+      "Tollygunge Phari",
+      "Rashbehari Avenue Xing",
+      "Hazra",
+      "Rabindra Sadan",
+      "Park Street",
+      "Esplanade",
+      "BBD Bag",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "S-4D",
+    "stops": [
+      "Parnashri",
+      "Parnasree",
+      "Taratala Xing",
+      "New Alipore",
+      "P.A.Sh Rd",
+      "Lords Beckary",
+      "Jadavpur PS",
+      "Sapuipara",
+      "Kalikapur",
+      "Ruby Hospital",
+      "E.M.Byepass",
+      "Sc.City",
+      "Chingrihata",
+      "Nicco Park",
+      "SDF",
+      "Technopolis",
+      "New Town Bus Stand",
+      "Home Town",
+      "Narkel Bagan",
+      "Eco Space"
+    ]
+  },
+  {
+    "no": "S-5",
+    "stops": [
+      "Garia",
+      "Ganguli Bagan",
+      "Baghajatin",
+      "Jadavpur",
+      "Dhakuria",
+      "Golpark",
+      "S.Ave",
+      "D.Park",
+      "R.B.Ave",
+      "Hazra",
+      "Elgin Rd",
+      "Park Street",
+      "Espl",
+      "BBD.BAG",
+      "Burra Bazar",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "S-7",
+    "stops": [
+      "Garia",
+      "Naktala",
+      "Regent Park",
+      "Ranikuthi",
+      "Tollygunge T.Depot",
+      "Tollygunge Phari",
+      "Rashbehari Ave",
+      "Hazra",
+      "Elgin",
+      "Park St",
+      "Esplanade",
+      "BBD Bag",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "S-9",
+    "stops": [
+      "Jadavpore",
+      "Sukanta Setu",
+      "Santoshpur",
+      "Ruby Hospital",
+      "VIP. Nagar",
+      "Since City",
+      "Metro politon Hou. Est",
+      "EM ByPass Connector",
+      "KBKC More",
+      "Central Park",
+      "Karunamoyee"
+    ]
+  },
+  {
+    "no": "S-9A",
+    "stops": [
+      "Dunlop",
+      "Tobin Rd",
+      "Sinthi More",
+      "Chiriamore",
+      "Shyambazar",
+      "Grey St",
+      "Vivekananda Rd",
+      "M.G.Road",
+      "Colutala St",
+      "C.R.Ave",
+      "BBD Bag",
+      "Espl",
+      "Park street",
+      "Hazra",
+      "Rashbehari Ave",
+      "Deshapriya Park",
+      "Gariahat",
+      "Ballygunge Stn",
+      "Ballygunge"
+    ]
+  },
+  {
+    "no": "S-9C",
+    "stops": [
+      "Kamalgazi",
+      "Patuli",
+      "Peerless Hospital",
+      "Ajoy Nagar",
+      "Kalikapur",
+      "Ruby Xing",
+      "V.I.P. Bazar",
+      "Science City",
+      "Metropolitan",
+      "Chingrighata",
+      "NICCO Park",
+      "Swastha Bhawan",
+      "College More",
+      "SDF",
+      "Philips",
+      "Technopolis",
+      "New Town",
+      "DLF",
+      "Home Town",
+      "Narkel Bagan",
+      "Tata Medical Centre",
+      "Eco Space"
+    ]
+  },
+  {
+    "no": "S-10",
+    "stops": [
+      "Airport",
+      "Airport 3 no. gate",
+      "Airport 1 No. gate",
+      "Central Jail",
+      "Nager Bazar",
+      "Dum Dum Stn",
+      "Chiria More",
+      "Paikpara Xing",
+      "Shyam Bazar",
+      "Grey Street",
+      "Vivekananda Rd",
+      "M.G.Road",
+      "Colutala Street",
+      "BB Ganguly Xing",
+      "Esplanade",
+      "Mayo Rd",
+      "PTS",
+      "Toll Plaza",
+      "Nabanna"
+    ]
+  },
+  {
+    "no": "S-10A",
+    "stops": [
+      "Ballygunge",
+      "Ballygunge Stn",
+      "Gariahat",
+      "Deshapriya Park",
+      "RB Avenue",
+      "Hazra",
+      "Elgin",
+      "Parkstreet",
+      "Esplanade",
+      "BBD Bag",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "S-11",
+    "stops": [
+      "Neilgunj",
+      "Nilgunge Depot",
+      "Mohanpur",
+      "Lalkuthi",
+      "BKP Chiriamore",
+      "Talpukur",
+      "Titagarh P.S",
+      "Khardha",
+      "Panihati",
+      "Rathtala",
+      "Dunlop",
+      "SinthiMore",
+      "Shyambazar",
+      "Gray St",
+      "Vivekananda Rd",
+      "MG Rd",
+      "Kalutala",
+      "BB Ganguly St",
+      "Esplanade"
+    ]
+  },
+  {
+    "no": "S-12",
+    "stops": [
+      "New Town",
+      "SLD Gate",
+      "Weble House",
+      "Nicco Park",
+      "Chinrighata",
+      "EMBypass",
+      "Ranirashmoni Bazar",
+      "Sealdha",
+      "Moulali",
+      "S.Mullick Sq",
+      "Esplanade",
+      "BBD Bag",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "S-12D",
+    "stops": [
+      "Thakurpukur",
+      "Thakurpukur 3A Bus Stand",
+      "Thakurpukur Bazar",
+      "Silpara",
+      "Chowrasta",
+      "Menton",
+      "Khiddirpor",
+      "Casurina Ave",
+      "Espl",
+      "BBd Bag",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "S-12E",
+    "stops": [
+      "Howrah Station",
+      "BBD Bag",
+      "Esplanade",
+      "Subodh Mallick Square",
+      "Moulali",
+      "Sealdah",
+      "Cannel Bridge",
+      "Rashmoni Bazar",
+      "Beliaghata Xing",
+      "Paribesh Bhavan",
+      "K.B.K.C",
+      "Panchayat Bhawa",
+      "Tank No. 16",
+      "Techno India",
+      "Technopolish",
+      "New Town",
+      "Narkelbagan",
+      "Eco Space",
+      "Aliah University",
+      "Malanch More",
+      "Hiland Willow/ Picnic Park"
+    ]
+  },
+  {
+    "no": "S-14",
+    "stops": [
+      "Garia",
+      "Dinobandhu Andrews College",
+      "Patuli",
+      "Peerless",
+      "Ajoy Nagar",
+      "Kaikhali",
+      "Ruby",
+      "VIP Bazar",
+      "Sc. City",
+      "Metropolitan",
+      "Bldg. More",
+      "KBKC More",
+      "Central Park",
+      "Karunamoyee"
+    ]
+  },
+  {
+    "no": "S-16",
+    "stops": [
+      "Thakurpukur",
+      "Thakurpukur 3A Bus Stand",
+      "Thakurpukur Bazar",
+      "Silpara",
+      "Chowrasta",
+      "Menton",
+      "Behala Tram Depot",
+      "Taratala More",
+      "Mominpore",
+      "Khiddirpor",
+      "Water Gate",
+      "Espl",
+      "Subodh Mullick Square",
+      "Moulali",
+      "Sealdha",
+      "Rajabazar",
+      "Manicktala",
+      "Kankurgachi",
+      "Hudco",
+      "PNB",
+      "C.A.Island",
+      "Labony",
+      "Seva Hospital",
+      "Baisaki",
+      "Bhavan",
+      "Karunamoyee",
+      "Salt Lake"
+    ]
+  },
+  {
+    "no": "S-17A",
+    "stops": [
+      "Ariadaha",
+      "Dakshineswar",
+      "Alambazar",
+      "Bonhooghly",
+      "Baghajatin Rd",
+      "Baranagar Bazar",
+      "Bibir Bazar",
+      "Cossipur",
+      "Bag Bazar",
+      "Sovabazar",
+      "M.G.Road Jn",
+      "Colutala St",
+      "B.B.Ganguly St",
+      "B.B.D.Bag",
+      "Espl",
+      "Parkstreet",
+      "Elgin Rd",
+      "Hazra Rd",
+      "R.B.Ave",
+      "Tollygunge Phari",
+      "Tollygunge Tram Depot",
+      "Chandi Ghosh",
+      "Kudghat",
+      "Kundghat"
+    ]
+  },
+  {
+    "no": "S-21",
+    "stops": [
+      "Garia",
+      "Bagbazar",
+      "Shyambazar",
+      "Khanna",
+      "HUDCO",
+      "EM bypass",
+      "Ruby",
+      "Kalikapur",
+      "Ajoynagar",
+      "Pearless Hospital",
+      "Patuli P.S",
+      "Garia",
+      "Baghbazar"
+    ]
+  },
+  {
+    "no": "S-22",
+    "stops": [
+      "Karunamoyee",
+      "Sakuntala Park",
+      "Raidighi",
+      "Bakultala",
+      "Nutan Para",
+      "Behala Chowrasta",
+      "Manton",
+      "Behala P.S",
+      "Taratala Xing",
+      "New Alipore",
+      "Chetla",
+      "R.B.Ave",
+      "Gariahat",
+      "Kasba P.S",
+      "Rubi",
+      "Science City",
+      "Chingrighata",
+      "Sukanta Nagar",
+      "Nicco Park",
+      "SDF",
+      "College More",
+      "WIPRO Xing",
+      "Karunamoyee",
+      "Sakuntala Park"
+    ]
+  },
+  {
+    "no": "S-23A",
+    "stops": [
+      "Rajchandrapur",
+      "Balihalt",
+      "Balikhal",
+      "Nimtala",
+      "Dakshineswar",
+      "Dunlop",
+      "Durganagar",
+      "Sreenagar",
+      "3 No. Gate",
+      "Airport Gate No",
+      "Chinar Park",
+      "City Center",
+      "Nabadiganta",
+      "More",
+      "Eco Park",
+      "Narkel Bagan",
+      "New Town Central Stand",
+      "Technopolis",
+      "College More",
+      "SDF",
+      "Nicco Park",
+      "SLD",
+      "Karunamoyee"
+    ]
+  },
+  {
+    "no": "S-24",
+    "stops": [
+      "Kamalgazi",
+      "Patuli",
+      "Arabinda Pally",
+      "Peerless Hospital",
+      "Ajoynagar",
+      "Kalikapur",
+      "Ruby",
+      "Panchanan Gram",
+      "EM Byepass",
+      "Topsia Rd. Xing",
+      "Lohapoll",
+      "Middle Rd",
+      "Moulali",
+      "S.N.Banarjee Rd",
+      "Esplanade",
+      "BBD Bag",
+      "Burra Bazar",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "S-24N",
+    "stops": [
+      "Patuli",
+      "Arabinda Pally",
+      "Peerless Hospital",
+      "Ajoynagar",
+      "Kalikapur",
+      "Ruby",
+      "Panchanan Gram",
+      "EM Byepass",
+      "Topsia Rd. Xing",
+      "Lohapoll",
+      "Middle Rd",
+      "Moulali",
+      "S.N.Banarjee Rd",
+      "Esplanade",
+      "Rabindra Sadan",
+      "P.T.S",
+      "Nabanna"
+    ]
+  },
+  {
+    "no": "S-30 (IT. Spl.)",
+    "stops": [
+      "Ultadanga",
+      "Ultadanga 15 No.Bus Stand",
+      "Kadapara",
+      "Chingrighata",
+      "Nicco Park",
+      "SDFCollege More",
+      "Techonopolis",
+      "New Town bus Stand",
+      "Hidco Bhavan",
+      "Narkel Bagan",
+      "Tata Medical Centre",
+      "Eco Space"
+    ]
+  },
+  {
+    "no": "S-30A",
+    "stops": [
+      "Ultadanga - Salt Lake-Ultadanga",
+      "Ultadanga 15 No.Bus Stand",
+      "HUDCO",
+      "PNB",
+      "C.A. Island",
+      "City Centre I",
+      "4 No. Tank",
+      "Ramkrishna Mission",
+      "C.G.O. Complex",
+      "Purta Bhawan",
+      "Unnayan Bhawan",
+      "Kanunamoyee",
+      "WIPRO",
+      "Lock Gate",
+      "Technopolis",
+      "Philips",
+      "R.S. Software",
+      "College More",
+      "SDG",
+      "NICCO Park",
+      "Police Camp",
+      "G.D. Island",
+      "Falguni",
+      "Vidyasagar Island",
+      "C.A. Island",
+      "PNB",
+      "HUDCO",
+      "Ultadanga 15 No. Bus Stand"
+    ]
+  },
+  {
+    "no": "S-31",
+    "stops": [
+      "Jadavpore",
+      "Chowrastha",
+      "James Long Sarani",
+      "Ramkrishna Ashram",
+      "Motilal Gupta Rd",
+      "Siriti More",
+      "Karunamoyee",
+      "D.P.Sasmal Rd",
+      "Lake Gardens",
+      "Jadavpur",
+      "Janakalyan"
+    ]
+  },
+  {
+    "no": "S-32",
+    "stops": [
+      "Barrackpore",
+      "Barrackpore Court",
+      "Bakrakpur College",
+      "Barakpur Chiriamore",
+      "Talpukur",
+      "Titagarh P.S",
+      "Khardha Bazar",
+      "Sukchar Manument",
+      "Panihati",
+      "Kamarhati",
+      "Rathtala",
+      "Dunlop Bridge",
+      "Tobin Rd",
+      "Sinthi More",
+      "Chiria More",
+      "Shyambazar",
+      "Grey St",
+      "Vivekananda Rd",
+      "Ranindra Sarani",
+      "Howrah Bridge",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "S-32A",
+    "stops": [
+      "Dunlop",
+      "Dakshineswar",
+      "Vivekananda Bridge",
+      "Bally Bazar",
+      "Municipality",
+      "Belur Math",
+      "Liluah",
+      "Salkia Chowrastha",
+      "Howrah Maidan",
+      "Howrah Station"
+    ]
+  },
+  {
+    "no": "S-34B",
+    "stops": [
+      "Barrackpur Court",
+      "Chiria More",
+      "Lalkuthi",
+      "Mohanpur",
+      "Nilgunge Bazar",
+      "Kazibari More",
+      "Narayanpur More",
+      "W. B. State University (Barasat)"
+    ]
+  },
+  {
+    "no": "S-34C",
+    "stops": [
+      "State University",
+      "Kazibari",
+      "Nilgunge Depot",
+      "Barrackpore Stn",
+      "Dunlop",
+      "Sinthee",
+      "DumDum Chiria More",
+      "DumDum Stn",
+      "Nager Bazar"
+    ]
+  },
+  {
+    "no": "S - 37",
+    "stops": [
+      "Garia",
+      "Patuli",
+      "Ruby",
+      "Sc. City",
+      "HUDCO",
+      "Baguihati",
+      "Airport Gate 1",
+      "Madhyamgram",
+      "Champadali More",
+      "Barasat Depot",
+      "Kazipara",
+      "Barasat"
+    ]
+  },
+  {
+    "no": "S-45",
+    "stops": [
+      "Sakuntala Park",
+      "Raidighi",
+      "Bakultala",
+      "Nutan para",
+      "Chowrasta",
+      "Manton",
+      "Behala P.S",
+      "Taratala Xing",
+      "MOMINPUR",
+      "ALIPORE ZOO",
+      "P.T.S",
+      "RABINDRA SADAN",
+      "Jeevan Deep",
+      "Parkstreet",
+      "ESPLANADE",
+      "Welington Sq",
+      "MOULALI",
+      "SEALDAH",
+      "Rajabazar",
+      "Manicktala",
+      "Khanna",
+      "SHYAMBAZAR",
+      "R.G.KAR Hospital",
+      "Kolkata Stn"
+    ]
+  },
+  {
+    "no": "S-46",
+    "stops": [
+      "Karunamoyee",
+      "Akra Rabindranagar",
+      "Santoshpur Stn",
+      "Paharpur",
+      "Nature's Park",
+      "Taratala Depot",
+      "Taratala Xing",
+      "Sahapur P.Pump",
+      "Chetla",
+      "RB Avenue xing",
+      "Gariahat",
+      "Bijan Setu",
+      "Rubi",
+      "Science City",
+      "Paribesh Bhaban",
+      "Central Park",
+      "Karunamoyee",
+      "Akra Rabindranagar"
+    ]
+  },
+  {
+    "no": "S-47",
+    "stops": [
+      "Eden City",
+      "Eden City Gate",
+      "Nungimore",
+      "Batamore",
+      "Dakghar",
+      "Jalkol",
+      "Mollar Gate",
+      "Rampur",
+      "Jingirabazar",
+      "Taratala Depot",
+      "Taratala Xing",
+      "Momonpore",
+      "Khidirpore",
+      "Casurina Ave",
+      "Espl",
+      "BBD Bag",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "S-47A",
+    "stops": [
+      "Behala Airport",
+      "Parnasree",
+      "Taratala Xing",
+      "Mominpur",
+      "khidirpore",
+      "Casurina Ave",
+      "Esplanade",
+      "BBD Bag",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "S-57",
+    "stops": [
+      "Ariadaha",
+      "Sabeda Bagan",
+      "Dunlop",
+      "Sinthi",
+      "Shyambazar",
+      "C.R. Avenue",
+      "Central Metro Stn",
+      "Lalbazar",
+      "Esplanade",
+      "Mayo Road",
+      "PTS",
+      "Tollplaza",
+      "Nabanna"
+    ]
+  },
+  {
+    "no": "S-58",
+    "stops": [
+      "Barrackpur Court",
+      "Titagarh",
+      "Sodepur",
+      "Dunlop",
+      "Sinthi More",
+      "Shyambazar",
+      "Khanna",
+      "Ultadanga",
+      "HUDCO",
+      "PNB",
+      "Bidhannagar College",
+      "City Centre 1",
+      "Bhavans",
+      "Karunamoyee"
+    ]
+  },
+  {
+    "no": "S-5C",
+    "stops": [
+      "Nayabad",
+      "Nayabad Stand",
+      "Garia STn",
+      "Panchasayar",
+      "Peerless Hosp",
+      "Ajoynagar",
+      "Sukanta Setu",
+      "Jadavpore",
+      "Dhakuria",
+      "Gariahat",
+      "D. Park",
+      "RB Avenue",
+      "Hazra",
+      "Elgin Rd",
+      "Pk St",
+      "Esplanade",
+      "BBD Bag",
+      "Howrah Bridge East",
+      "Howrah Stn",
+      "Howrah"
+    ]
+  },
+  {
+    "no": "S-61",
+    "stops": [
+      "Taratala",
+      "Jingira Bazar",
+      "Mollar Gate",
+      "Dakghar",
+      "Nungi",
+      "Eden City",
+      "Budge Budge Hospital",
+      "Charial",
+      "Pujali CESC Plant",
+      "Achipur"
+    ]
+  },
+  {
+    "no": "S - 62",
+    "stops": [
+      "Patuli",
+      "Ruby",
+      "Kasba P.S",
+      "Gariahat",
+      "Rashbehari Xing",
+      "Chetla",
+      "Mominpur",
+      "Khedderpur",
+      "ITC More",
+      "Ramnagar",
+      "Metiabruz"
+    ]
+  },
+  {
+    "no": "S-63",
+    "stops": [
+      "Metiabruz S.S. Hospital",
+      "Battala",
+      "Santoshpur Railway Gate",
+      "Garden Reach Water Plant",
+      "Jinjira Bazar",
+      "Taratala State Garage",
+      "Taratala Xing",
+      "Pathakpara",
+      "Behala 14 No. B.T."
+    ]
+  },
+  {
+    "no": "S-64",
+    "stops": [
+      "Naihati Bus Terminus",
+      "Bhatpara",
+      "Shyamnagar",
+      "Lalkuthi",
+      "Nilgunge Bazar",
+      "Hela Battala",
+      "Hridaypur",
+      "Airport Gate No. 1",
+      "Baguihati",
+      "Ultadanga",
+      "PNB",
+      "Karunamoyee",
+      "College More",
+      "New Town Bus Terminus"
+    ]
+  },
+  {
+    "no": "S-65",
+    "stops": [
+      "Sealdah",
+      "Esplanade",
+      "Rabindra Sadan",
+      "P.T.S. Danersekh Lane",
+      "Bakultala",
+      "Podra",
+      "Champatala",
+      "Sankrail Station",
+      "Sankrail Bharat Co-Op"
+    ]
+  },
+  {
+    "no": "ST-16",
+    "stops": [
+      "Sapoorjee",
+      "Technopolis",
+      "Swastha Bhaban",
+      "Chingrighata",
+      "Science City",
+      "Ruby",
+      "Garia",
+      "Joinpur"
+    ]
+  },
+  {
+    "no": "ST-6",
+    "stops": [
+      "Salt Lake",
+      "Chingrighata",
+      "Science City",
+      "Ruby",
+      "Kalkapur",
+      "Sanpui Para",
+      "Jadavpur Thana",
+      "Anwar Shah Rd",
+      "Tollygunge",
+      "Tollygunge Karunamoyee"
+    ]
+  },
+  {
+    "no": "T12",
+    "stops": [
+      "Howrah",
+      "Dalhousie",
+      "Esplanade",
+      "Moulali More",
+      "Park Circus",
+      "Topsia More",
+      "Science City",
+      "Bantala",
+      "Katatala",
+      "Karidanga",
+      "Bhojerhat",
+      "Paglahat",
+      "Baralighat",
+      "Ghatakpukur",
+      "Chandipur",
+      "Bhushighata",
+      "Bamanpukur",
+      "Minakhan",
+      "Joypur",
+      "Malancha"
+    ]
+  },
+  {
+    "no": "T2",
+    "stops": [
+      "BBD Bag",
+      "Esplanade",
+      "Park Street",
+      "Maidan Metro",
+      "Rabindra Sadan",
+      "PTS More",
+      "Hastings",
+      "Vidyasagar Setu",
+      "Madirtala"
+    ]
+  },
+  {
+    "no": "T8",
+    "stops": [
+      "Tikiapara",
+      "Esplanade",
+      "Park Street",
+      "Maidan Metro",
+      "Rabindra Sadan",
+      "PTS More",
+      "Toll Tax",
+      "Carryroad",
+      "Belepore",
+      "Telecom",
+      "BBD Bag"
+    ]
+  },
+  {
+    "no": "V1",
+    "stops": [
+      "Tollygunge",
+      "Rashbehari",
+      "Gariahat",
+      "Ballygunge Station",
+      "Ruby Hospital",
+      "Science City",
+      "Chingrighata",
+      "Ultadanga",
+      "Laketown",
+      "Kestopur",
+      "Baguiati",
+      "Tegharia",
+      "Kaikhali",
+      "Airport"
+    ]
+  },
+  {
+    "no": "V-1 (L)",
+    "stops": [
+      "Tollygunge",
+      "Tollygunge Phari",
+      "Rashbehari Xing",
+      "Gariahat",
+      "Ruby",
+      "VIP Bazar",
+      "Science City",
+      "Chingrihata",
+      "Appolo Hospital",
+      "Bengal Chemical",
+      "HUDCO",
+      "Bangur",
+      "Raghunathpur",
+      "Kaikhali",
+      "Airport Terminal"
+    ]
+  },
+  {
+    "no": "VS-1",
+    "stops": [
+      "Airport",
+      "Koikhali",
+      "Baguihati",
+      "ultadanga",
+      "kankurgachi",
+      "Grish park",
+      "Lalbazar",
+      "Dharmatala"
+    ]
+  },
+  {
+    "no": "VS-12",
+    "stops": [
+      "New Town",
+      "Santragachi"
+    ]
+  },
+  {
+    "no": "VS-2",
+    "stops": [
+      "Airport",
+      "Koikhali",
+      "Baguihati",
+      "ultadanga",
+      "kankurgachi",
+      "Grish park",
+      "M.G. Rd",
+      "Howrah"
+    ]
+  }
+]
