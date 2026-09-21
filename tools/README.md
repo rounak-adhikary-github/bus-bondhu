@@ -14,7 +14,19 @@ node tools/1b-kolbusopedia.js  # catalogue pages -> ordered stop sequences
 node tools/2-geocode.js        # both sources    -> canonical stops + coordinates
 node tools/3-emit.js           # merged          -> js/data.js
 node tools/verify-coords.js    # audit the coordinates (worth running)
+node tools/audit/dupes.js      # audit the stop names (worth running)
 ```
+
+Stage 2 also writes `tools/cache/alias-map.json` — every spelling that should
+resolve to a canonical stop, mapped to the name it canonicalises to. Stage 3
+folds that into the emitted `STOP_ALIASES`, which is what keeps a merged-away
+spelling like `Sec V` searchable after it has stopped being a stop.
+
+Every spelling declared in a `GROUPS` entry is recorded, **not just the ones a
+source happened to use**. The table is the statement that those spellings mean
+the same stop, so all of them should be findable — `salt lake sector 5` and
+`saltlake sector v` are declared but never published, and recording only
+encountered spellings left a search for them returning nothing.
 
 Stages 1b and 2 re-read everything from disk, so the only network step is the
 three `curl`s (and Photon, if `tools/cache/coords.json` has gaps).
@@ -26,8 +38,8 @@ three `curl`s (and Photon, if `tools/cache/coords.json` has gaps).
 | route numbers, origins, termini, stop sequences | **WBTC's official city bus route list** and **Kolkata Bus-O-Pedia's** private / minibus / C / D / E / K / KB / M / MM / MN / SD / DN / STA catalogue, attributed per route as `src` |
 | route `km` | derived from the mapped stops (see below) |
 | route `duration` | derived: `km ÷ 17 km/h` |
-| `headway`, `first`, `last` | **assumed defaults** (neither source publishes frequencies or timings) |
 | stop coordinates | hand-verified anchors + geocoded values that pass validation |
+| `headway`, `first`, `last` | **not emitted.** Neither source publishes frequencies or departure times, so the dataset holds no clock times and the app shows none. |
 
 ## Why a route number appears once
 
@@ -54,6 +66,39 @@ different places and stay separate. Two traps worth knowing:
   terminus) is the Karunamoyee-side hub — **not** the same place.
 - Bare `Chowrasta` is ambiguous (Behala / Madhyamgram / Salkia). Don't merge it.
 
+**Only ever declare a group key once.** `GROUPS` is read into a last-write-wins
+map, so a second entry for the same name silently overrides the first and splits
+whatever the first one had collected. A duplicated `"Peerless": ["peerless"]`
+below `"Peerless Hospital": ["peerless", ...]` was doing exactly that, and the
+same hospital was shipping as two stops.
+
+**Declare every spelling you want to be findable.** Listing a variant in a group
+is what makes it searchable, so if people plausibly type it, put it in the list —
+including the numeral and the spelled-out form of a sector (`sector 5`, `sec v`,
+`sector five`). They do not need to appear in any source list to be recorded.
+
+## Merging names that look like duplicates
+
+`tools/audit/dupes.js` re-checks the emitted dataset and enforces three rules:
+
+1. **No two stops may normalise to the same string** (case, spaces and
+   punctuation ignored). This is what caught `P. T. S`/`PTS`, `S. D. F`/`SDF`,
+   `C.I.T.Road`/`CIT Road`, `City Center-1`/`City Centre 1`/`City Centre I`,
+   `DumDum Chiria More`/`Dumdum Chiriamore` and `Dumdum Canton`/`Dumdum
+   Cantonment`. `keyOf()` keeps spaces, so `p t s` and `pts` were different keys
+   and the group never fired.
+2. **A pair that appears on the same route is never merged** — that is proof they
+   are two stops. `Kakdwip` and `Kakdwip Bus Stand` both appear on SD-11, SD-19,
+   SD-50 and SD-82, so they stay apart. The same test keeps `<village>` and
+   `<village> Bazar` separate, which matters because the lists often call at both.
+3. **A merge must be corroborated** by a coordinate: either both sides share a
+   point or they sit under ~600 m apart. That is why `Acropolis` joins
+   `Acropolis Mall` (14 m) and `Nabadiganta` joins `Nabadiganta Bus Terminus`
+   (504 m), while `Fortis` and `Fortis hospital` stay apart at 4.6 km.
+
+The deliberate non-merges are listed in a comment at the end of `GROUPS` so a
+future pass does not "tidy" them up.
+
 ## Locality search (`STOP_AREAS`)
 
 People ask for “Sector V”, not for “SDF”. `3-emit.js` emits a small
@@ -61,6 +106,13 @@ locality → member-stops map, and `js/app.js` indexes every route that stops at
 any member under the locality name — while still plotting the exact stop it
 uses, and still showing that stop in the row (`Thakurpukur → SDF`). A locality
 only becomes searchable when it is itself a real stop name.
+
+**A locality is often also a real stop** — `Joka`, `Thakurpukur`, `New Town` and
+`Salt Lake Sector V` all are. `buildIndexes()` in `js/app.js` must therefore
+*add* the routes that reach the other members, not replace the list: resetting it
+threw away every route that serves the stop by name, and the guard that skipped
+them as "already indexed" made the loss permanent. Searching `Joka` returned 2 of
+its 24 buses until this was fixed.
 
 ## Coordinates: verified only
 
@@ -87,16 +139,21 @@ Then it drops the ones that turn out to be unplaceable after all:
 - **Wrong locality.** A geocoded stop that sits far from both neighbours on a
   route whose other stops are close together is simply in the wrong place.
 
-As of the last build: **595 of 2011 stops (30%)** are plotted — 200
+As of the last build: **481 of 1896 stops (25%)** are plotted — 193
 hand-anchored, the rest geocoded and checked. The percentage is low because the
 newer sources add hundreds of rural halts (Kona Expressway, Bongaon, Basirhat,
-Kakdwip) whose positions we cannot corroborate; per route the average is 69%,
+Kakdwip) whose positions we cannot corroborate; per route the average is 66%,
 which is what the map actually shows. 1,603 names are cached in
 `tools/cache/coords.json`; `GEOCODE_BUDGET=0 node tools/2-geocode.js` rebuilds
 entirely from that cache, with no network calls. That check is not decorative — blind
 geocoding put `Narkel Bagan` 16 km away in Baghajatin, `Garia` 9 km from Garia,
 and collapsed unrelated places (`Shyambazar`/`Shyamnagar`,
 `Cannel Bridge`/`Dhalai Bridge`) onto identical points.
+
+Coverage is lower than it was (595 → 481) because the merge pass and the
+"generic match" rule both stopped promoting junk: a coordinate that 46 unrelated
+stops all claim is a geocoder fallback, not a position. Every rejection is listed
+with its reason in `tools/cache/geocode-rejections.txt`.
 
 ## Route length, robustly
 

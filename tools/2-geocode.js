@@ -69,6 +69,11 @@ const GROUPS = {
 
   // ---- north / airport corridor ----
   "Dum Dum Station": ["dum dum stn", "dum dum station"],
+  // the catalogue truncates "Cantonment"; naming it in full lets it pick up
+  // the hand-verified anchor that already exists under that spelling
+  "Dumdum Cantonment": ["dumdum canton", "dumdum cantonment", "dum dum cantonment"],
+  // Dum Dum's Chiria More — a different place from Barrackpore Chiria More
+  "Dumdum Chiria More": ["dumdum chiria more", "dumdum chiriamore", "dum dum chiria more", "dum dum chiriamore"],
   "Nager Bazar": ["nager bazar"],
   "Michael Nagar": ["mickel nagar", "michael nagar"],
   "Birati": ["birati", "birati more"],
@@ -130,7 +135,8 @@ const GROUPS = {
   "Nicco Park": ["nicco park"],
   "Sukanta Nagar": ["sukanta nagar"],
   "College More": ["college more"],
-  "SDF": ["sdf", "sdf more"],
+  "PTS": ["pts", "p t s", "p.t.s"],
+  "SDF": ["sdf", "sdf more", "s d f"],
   "Technopolis": ["technopolis", "technopolish", "techonopolis", "technopolis new town"],
   "New Town": ["new town", "newtown", "new town bus stand", "new town bus terminus", "new town central stand"],
   "Narkel Bagan": ["narkel bagan", "narkelbagan", "narkelbagn"],
@@ -138,25 +144,52 @@ const GROUPS = {
   // Amity University sits inside Ecospace, and the catalogue names the stop
   // after the university while WBTC names it after the tech park
   "Eco Space": ["eco space", "ecospace", "ecispace", "amity university", "amity university ecospace", "amity"],
-  // WBTC calls this terminus "Joka"; the catalogue spells it out
-  "Thakurpukur 3A": ["thakurpukur 3a", "thakurpukur 3a bus stand", "3a bus stand", "thakurpukur 3a bus stand joka"],
+  // WBTC calls this terminus "Joka"; the catalogue spells it out. Kept separate
+  // from "Joka" (0.8 km away) and from "Thakurpukur" — the app's Joka locality
+  // covers all three, which is what a passenger searching "Joka" wants.
+  "Thakurpukur 3A": [
+    "thakurpukur 3a", "thakurpukur 3a bus stand", "3a bus stand", "thakurpukur 3a bus stand joka",
+    "thakurpukur 3a stand", "joka 3a bus stand", "joka 3a",
+  ],
+  "Thakurpukur Bazar": ["thakurpukur bazar", "thakurpukur bajar", "thakurpukur market"],
+  // The ESI hospital, the tram depot and the bridge are all the Joka stop as
+  // far as a passenger is concerned; IIM Joka and Joka Khalpole are further
+  // south on the same road and stay separate so the route line keeps its shape.
+  "Joka": [
+    "joka", "joka esi", "joka esi hospital", "joka esi hosp", "joka tram depot",
+    "joka bridge", "joka bazar", "joka more",
+  ],
   "Unitech": ["unitech", "unitech gate 2"],
   "Home Town": ["home town", "hometown"],
   "Aliah University": ["aliah", "aliah university"],
   "Rabindra Tirtha": ["rabindra tirtha"],
   "Nababpur": ["nababpur"],
-  "DLF": ["dlf 1", "dlf 2", "dlf"],
+  // DLF lives in the "duplicates the coordinate audit turned up" block further
+  // down — one entry per stop, because a second one silently wins.
   "Axis Mall": ["axis mall"],
   "Karunamoyee": ["karunamoyee", "karunamayee", "kanunamoyee"],
   "Central Park": ["central park"],
-  "City Centre II": ["city centre ii"],
-  "City Centre I": ["city centre i"],
+  // Salt Lake City Centre 1 and the New Town City Centre 2, spelled with
+  // arabic or roman numerals, "Center" or "Centre", and sometimes with the
+  // number dropped. All four spellings of each are the same mall.
+  "City Centre 1": ["city centre 1", "city centre i", "city center-1", "city center 1", "city center"],
+  "City Centre 2": ["city centre 2", "city centre ii", "city center-2", "city center 2"],
   "KBKC More": ["kbkc more"],
   "Metropolitan": ["metropolitan"],
-  // "Sec5"/"Sector 5" is the literal Sector V stop used by C8 & friends.
-  // "Salt Lake" on its own (S-16's terminus) is the Karunamoyee-side hub.
-  "Salt Lake Sector V": ["sec5", "sector 5", "salt lake sector v", "sector v", "salt lake sector 5"],
-  "Salt Lake": ["salt lake"],
+  // "Sec V" / "Sec5" / "Sector 5" / "Sector V" are all the same place the
+  // published lists spell "Salt Lake Sector V" — the free text abbreviates it
+  // four different ways, which used to leave "Sec V" and "Salt Lake Sector V"
+  // as two separate stops, so a search from one missed buses listed at the other.
+  // "Salt Lake" on its own (S-16's terminus) is the Karunamoyee-side hub and is
+  // deliberately NOT part of this group.
+  "Salt Lake Sector V": [
+    "sec5", "sec 5", "secv", "sec v", "sector 5", "sector v", "salt lake sector v",
+    "saltlake sector v", "salt lake sec v", "saltlake sec v", "salt lake sector 5",
+    "salt lake sector v saltlake", "saltlake sector v saltlake",
+    "sector v saltlake", "sec v saltlake", "saltlake sector 5", "sl sector v",
+    "sector five", "sec five", "salt lake sector five", "saltlake sector five",
+  ],
+  "Salt Lake": ["salt lake", "salt lake city"],
   "HUDCO": ["hudco"],
   "PNB": ["pnb"],
   "C A Island": ["c a island", "ca island"],
@@ -164,7 +197,7 @@ const GROUPS = {
   "Seva Hospital": ["seva hospital"],
   "Baisakhi Bhavan": ["baisaki bhavan", "baisakhi bhavan"],
   "Wipro": ["wipro", "wipro more"],
-  "Swastha Bhavan": ["swastha bhavan", "swastha bhawan", "sasthyabhavan"],
+  "Swastha Bhavan": ["swastha bhavan", "swastha bhawan", "sasthyabhavan", "swasthya bhawan", "swasthya bhavan"],
   "Unnayan Bhavan": ["unnayan bhawan"],
   "Purta Bhavan": ["purta bhawan"],
   "SLD Gate": ["sld gate", "sl d gate"],
@@ -191,12 +224,13 @@ const GROUPS = {
   "Behala": ["behala"],
   "Behala Tram Depot": ["behala tram depot"],
   "Behala PS": ["behala ps"],
-  "Behala 14 No": ["behala 14 no"],
+  // the catalogue writes this stop four ways: "Behala 14", "Behala 14 No",
+  // "Behala 14no" and "Behala 14 number"
+  "Behala 14 No": ["behala 14 no", "behala 14", "behala 14no", "behala 14 number", "behala 14 no."],
   "Behala Airport": ["behala airport"],
   "Manton": ["menton", "manton"],
   "James Long Sarani": ["james long sarani", "james long sarani crossing"],
-  "Sarsuna": ["sarsuna"],
-  "Bakultala": ["bakultala"],
+  "Sarsuna": ["sarsuna", "sarsuna bus terminus"],
   "Sakuntala Park": ["sakuntala park"],
   "Raidighi": ["raidighi"],
   "Nutan Para": ["nutan para"],
@@ -208,14 +242,17 @@ const GROUPS = {
   "Watgangemore": ["watgangemore"],
   "Lohapoll": ["lohapoll"],
   "Middle Rd": ["middle rd"],
-  "Thakurpukur": ["thakurpukur", "thakurpukur 3a bus stand", "thakurpukur 3a", "thakurpukur bazar", "thakurpukur 3a stand"],
+  // "Thakurpukur" is the DH Road stop. The bus stand at Joka ("Thakurpukur 3A")
+  // and the market ("Thakurpukur Bazar") are separate stops with their own
+  // groups above — this entry used to list all three, which silently made the
+  // earlier groups dead entries and collapsed the whole Joka corridor to a
+  // single point.
+  "Thakurpukur": ["thakurpukur", "thakurpukur more"],
   "Silpara": ["silpara", "shilpara"],
-  "Sakherbazar": ["sakherbazar", "sakher bazar"],
   "Kabardanga": ["kabardanga"],
   "Haridevpur": ["haridevpur", "haridebpur"],
   "Siriti More": ["siriti more", "siriti more"],
   "Ramkrishna Ashram": ["ramkrishna ashram", "ramkrishna ashram"],
-  "Joka": ["joka", "joka esi hospital", "joka tram depot", "joka bridge"],
   "Pailan": ["pailan"],
   "Amtala": ["amtala"],
   "Bishnupur": ["bishnupur"],
@@ -234,13 +271,13 @@ const GROUPS = {
   "Fatehpur": ["fatehpur"],
   "BNR More": ["bnr more"],
   "Babubazar": ["babubazar"],
-  "Santragachi": ["santragachi"],
+  "Santragachi": ["santragachi", "santragachi bus terminus"],
   "Belepole": ["belepole", "belepore"],
   "Toll Tax": ["toll tax"],
   "Carry Road": ["carryroad", "carry road"],
   "Toll Plaza": ["toll plaza"],
   "Vidyasagar Setu": ["vidyasagar setu"],
-  "Nabanna": ["nabanna"],
+  "Nabanna": ["nabanna", "nabanna bus terminus"],
   "Mandirtala": ["mandirtala", "madirtala"],
   "Hastings": ["hastings", "hestings"],
   "Watgunge": ["watgunge"],
@@ -284,7 +321,6 @@ const GROUPS = {
   "Bantala": ["bantala", "bantala bazar"],
   "Katatala": ["katatala", "kantatala"],
   "Karidanga": ["karidanga", "karaidanga"],
-  "Bhojerhat": ["bhojerhat"],
   "Paglahat": ["paglahat", "paglarhat"],
   "Baralighat": ["baralighat"],
   "Ghatakpukur": ["ghatakpukur", "ghatatkpukur"],
@@ -301,7 +337,9 @@ const GROUPS = {
   "Garia Station": ["garia stn"],
   "Nayabad": ["nayabad", "nayabad stand"],
   "Panchasayar": ["panchasayar"],
-  "Peerless": ["peerless"],
+  // NB: "peerless" is deliberately NOT re-declared here. A second entry would
+  // win last-write-wins and split it away from "Peerless Hospital", which is
+  // how the same hospital ended up as two stops.
   "Dinobandhu Andrews College": ["dinobandhu andrews college"],
   "Arabinda Pally": ["arabinda pally"],
   "Sukanta Setu": ["sukanta setu"],
@@ -309,15 +347,17 @@ const GROUPS = {
   "Panchanan Gram": ["panchanan gram"],
   "Hiland Park": ["hiland park"],
   "Mukundapur": ["mukundapur"],
-  "Kalikapur": ["kalikapur"],
   "Anwar Shah Road": ["anwar shah road", "anwar shah rd"],
   "D P Sasmal Rd": ["d p sasmal rd", "dpsasmal rd"],
   "Jeevan Deep": ["jeevan deep"],
   "Wellington Square": ["welington sq", "wellington sq", "wellington square"],
+  // Beckbagan / Beck Bagan Row — the catalogue drops the "c" and WBTC keeps it
+  "Beckbagan": ["beckbagan", "bekbagan", "beck bagan", "beckbagan row", "beck bagan row", "beckbagan st"],
+  "Minto Park": ["minto park", "mintopark"],
   "Chittaranjan Hospital": ["chittaranjan hospital"],
   "Bowbazar": ["bowbazar"],
-  "4 No Bridge": ["4no bridge", "4 no bridge"],
-  "CIT Road": ["cit road", "c i t road xing"],
+  "4 No Bridge": ["4no bridge", "4 no bridge", "bridge no.4", "bridge no 4"],
+  "CIT Road": ["cit road", "c i t road xing", "c.i.t.road", "citrd. xing", "cit road xing"],
   "Ananda Palit": ["ananda palit"],
   "Shibtala Math": ["shibtala math"],
   "Taratala Depot": ["taratala depot"],
@@ -331,7 +371,6 @@ const GROUPS = {
   "Charial": ["charial"],
   "Maheshtala": ["maheshtala"],
   "Batanagar": ["batanagar"],
-  "Nangi": ["nangi"],
   "Akra": ["akra"],
   "Akra Rabindranagar": ["akra rabindranagar"],
   "Paharpur": ["paharpur"],
@@ -376,7 +415,6 @@ const GROUPS = {
   "Subhash Colony": ["subhash colony"],
   "Barrackpore Station": ["barrackpore station", "barrackpore stn"],
   "Kazibari": ["kazibari", "kazibari more"],
-  "Barbaria": ["barbaria"],
   "Narayanpur More": ["narayanpur more"],
   "State University": ["w b state university barasat", "state university"],
   "Shibrampur": ["shibrampur"],
@@ -412,7 +450,6 @@ const GROUPS = {
   "Strand Road": ["stand road", "strand road"],
   "GPO": ["gpo"],
   "Kolkata Station": ["kolkata stn"],
-  "R G Kar Hospital": ["r g kar hospital"],
   "Sealdah Canal Bridge": ["sealdah canal bridge"],
   "Bank of India": ["bank of india"],
   "S N Banerjee Rd": ["snbanarjee rd", "s n banerjee rd"],
@@ -423,6 +460,47 @@ const GROUPS = {
   "T T Depot": ["t t depot"],
   "Chandi Ghosh Rd": ["chandi ghosh rd"],
   "Dilkhusa": ["dilkhusa"],
+
+  // ---- duplicates the coordinate audit turned up ----
+  // Every pair here is one stop that both published lists name differently, so
+  // the pair was competing for a single map point and one of them lost its dot.
+  "R G Kar Hospital": ["r g kar hospital", "rg kar hospital", "rg kar", "r.g.kar hospital", "r g kar", "rgkar hospital"],
+  "Rabindra Sarovar": ["rabindra sarovar", "rabindra sarobar", "rabindra sarobar stadium", "rabindra sarovar stadium"],
+  "EM Bypass": ["em bypass", "em byepass", "e m bypass", "embypass", "eastern metropolitan bypass"],
+  "Baishnabghata": ["baishnabghata", "baisnabghata", "baishnabghata patuli", "baisnabghata patuli"],
+  "DLF": ["dlf", "dlf 1", "dlf1", "dlf 2", "dlf2", "dlf gate 1", "dlf gate 2"],
+  "Tank 10": ["tank 10", "tank no10", "10 no tank", "10 number tank", "tank no 10", "tank number 10"],
+  "M.R Bangur Hospital": ["m r bangur hospital", "mr bangur hospital", "bangur hospital", "m.r bangur hospital"],
+  "Beleghata ID Hospital": ["beleghata id hospital", "id hospital", "beleghata id hospital more", "i d hospital"],
+  "Barasat State University": ["barasat state university", "barasat university", "state university barasat"],
+  "Basirhat Court": ["basirhat court", "bashirhat court"],
+  "Sakherbazar": ["sakherbazar", "sakher bazar", "sakherbzar", "sakherbajar", "sakhar bazar", "sakher bazar more"],
+  "Ballygunge Phari": ["ballygunge phari", "ballygunj phari", "ballygunge pharri"],
+  "Akankha More": ["akankha more", "akankha", "akansha", "akansha more", "akanksha", "akanksha more", "akhankha more", "akankha island"],
+
+  // ---- the same stop under a fuller or shorter name ----
+  // Each of these pairs is one place the lists describe two ways. They were
+  // checked against the map: every pair below either shares a point or sits
+  // under 600 m apart. Pairs that stayed separate on purpose are called out
+  // in the comment at the bottom, so a future pass does not "fix" them.
+  "Acropolis Mall": ["acropolis mall", "acropolis"],
+  "Westin": ["westin", "the westin"],
+  "Esplanade L20": ["esplanade l20", "esplanade l20 bus terminus"],
+  "Dhola": ["dhola", "dhola bus stop"],
+  "Nabadiganta": ["nabadiganta", "nabadiganta bus terminus"],
+  "Shishumangal Hospital": ["shishumangal hospital", "shishu mangal", "sishu mangal", "shishumangal"],
+
+  // Deliberately NOT merged, though the names look like pairs:
+  //   Kakdwip / Kakdwip Bus Stand        — 4 SD-series routes call at both
+  //   Ruby Crossing / Ruby Hospital      — the junction and the hospital, 440 m
+  //   Taratala / Taratala Depot          — the stop and the depot, 260 m
+  //   Fortis / Fortis hospital           — 4.6 km apart, so not the same site
+  //   Apollo / Apollo Hospital           — 9.8 km apart
+  //   P.N.B. More / PNB                  — 7.2 km apart
+  //   M.G Road crossing / MG Road        — 3.5 km apart along the same road
+  //   CIT More / CIT Road                — two junctions on the same road
+  //   "<village>" / "<village> Bazar"    — the bazar is its own halt, and the
+  //                                        lists often call at both in turn
 };
 
 const VARIANT = new Map();
@@ -432,19 +510,43 @@ Object.entries(GROUPS).forEach(([canonical, variants]) => {
 
 const MISSING_DISPLAY = new Map(); // key -> raw display name (used when no alias matched)
 
+/* Every spelling a source actually used, mapped onto the name it resolves to.
+   Once "Sec V" has been merged into "Salt Lake Sector V" the short form is gone
+   from the dataset — so it is kept here and shipped to the app, which lets a
+   search for the old spelling still find the stop. */
+const ALIAS_MAP = new Map();
+
+/* A declared spelling is a statement that it means the same stop, so every one
+   of them should be searchable — not only the spellings that happen to turn up
+   in WBTC's or kolbusopedia's lists. "salt lake sector 5" and "saltlake sector
+   v" are declared above but never published, so recording only encountered
+   spellings left them unsearchable and a search for them found nothing. */
+Object.entries(GROUPS).forEach(([canonical, variants]) => {
+  variants.forEach((v) => {
+    const typed = String(v).replace(/\s+/g, " ").trim();
+    if (typed && typed !== canonical && !ALIAS_MAP.has(typed)) ALIAS_MAP.set(typed, canonical);
+  });
+});
+
 function canonicalise(raw) {
   const k = keyOf(raw);
   if (!k) return null;
-  if (VARIANT.has(k)) return VARIANT.get(k);
-  if (MISSING_DISPLAY.has(k)) return MISSING_DISPLAY.get(k);
-  // Title-case unknown names without destroying acronyms / route-ish tokens
-  const pretty = raw
-    .replace(/\s+/g, " ")
-    .trim()
-    .replace(/\b([A-Z]{2,})\b/g, (m) => m) // keep acronyms
-    .replace(/^./, (c) => c.toUpperCase());
-  MISSING_DISPLAY.set(k, pretty);
-  return pretty;
+  let out;
+  if (VARIANT.has(k)) out = VARIANT.get(k);
+  else if (MISSING_DISPLAY.has(k)) out = MISSING_DISPLAY.get(k);
+  else {
+    // Title-case unknown names without destroying acronyms / route-ish tokens
+    const pretty = raw
+      .replace(/\s+/g, " ")
+      .trim()
+      .replace(/\b([A-Z]{2,})\b/g, (m) => m) // keep acronyms
+      .replace(/^./, (c) => c.toUpperCase());
+    MISSING_DISPLAY.set(k, pretty);
+    out = pretty;
+  }
+  const typed = String(raw).replace(/\s+/g, " ").trim();
+  if (typed && typed !== out && !ALIAS_MAP.has(typed)) ALIAS_MAP.set(typed, out);
+  return out;
 }
 
 /* ---- clean routes, from BOTH sources ----
@@ -511,6 +613,11 @@ console.log("canonical stops across both sources:", stopSet.size);
 
 const unaliased = [...MISSING_DISPLAY.keys()].length;
 console.log("stop names not covered by the alias table:", unaliased);
+
+/* Ship the alias table forward: stage 3 folds it into the emitted data so the
+   app can resolve a spelling that no longer exists as a stop of its own. */
+fs.writeFileSync("tools/cache/alias-map.json", JSON.stringify(Object.fromEntries(ALIAS_MAP), null, 1));
+console.log("alias spellings recorded:", ALIAS_MAP.size);
 
 /* ------------------------------------------------------------
    Geocode (cached). Photon, biased hard to central Kolkata.

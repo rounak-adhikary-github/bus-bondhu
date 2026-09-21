@@ -177,6 +177,7 @@ main {
    SEARCH CARD
    ============================================================ */
 .search-card {
+  position: relative; z-index: 30;
   border-radius: var(--radius);
   padding: 26px 26px 22px;
   animation: rise 0.7s var(--ease) both;
@@ -188,6 +189,9 @@ main {
 .mini-note {
   font-size: 0.7rem; color: var(--txt-faint); border: 1px dashed var(--glass-brd);
   padding: 5px 11px; border-radius: 999px; cursor: help; white-space: nowrap;
+  /* a nowrap pill is wider than a phone screen, and body clips overflow-x, so
+     without this the note gets sliced off mid-word */
+  max-width: 100%;
 }
 
 .field-grid {
@@ -213,12 +217,20 @@ main {
   box-shadow: var(--shadow-neu-in), 0 0 0 4px rgba(255, 183, 3, 0.12);
   transform: translateY(-1px);
 }
+/* The -1px lift above is a transform, and a transform opens a stacking context.
+   That would trap the dropdown's own z-index inside this wrapper, letting the
+   *next* field paint straight over the open list. Lifting the wrapper too keeps
+   the whole subtree — list included — above its siblings. */
+.input-wrap:focus-within,
+.input-wrap.has-combo.is-open { z-index: 5; }
 .input-wrap .ico { padding: 0 4px 0 14px; font-size: 0.95rem; opacity: 0.85; }
 .input-wrap input,
 .input-wrap select {
   flex: 1; min-width: 0; width: 100%;
   background: transparent; border: 0; outline: none;
-  color: var(--txt); font-family: inherit; font-size: 0.95rem;
+  color: var(--txt); font-family: inherit;
+  /* 16px exactly: anything smaller makes iOS Safari zoom the page on focus */
+  font-size: 1rem;
   padding: 14px 14px 14px 8px;
 }
 .input-wrap select { cursor: pointer; appearance: none; padding-right: 34px; }
@@ -230,6 +242,61 @@ main {
 }
 .input-wrap:has(input)::after { display: none; }
 .input-wrap input::placeholder { color: var(--txt-faint); }
+
+/* ---------- stop picker: a real list, not <datalist> ----------
+   The native <datalist> this used to rely on is ignored outright by iOS Safari
+   and by several Android browsers, which is why the dropdown did nothing on a
+   phone. The suggestions are drawn in the DOM instead, so every browser gets
+   the same list, with 46px rows that are comfortable to tap. */
+.input-wrap.has-combo input { padding-right: 42px; }
+
+.input-wrap.has-combo::after {
+  content: ""; position: absolute; right: 17px; top: 50%;
+  width: 8px; height: 8px; margin-top: -6px;
+  border-right: 2px solid var(--txt-faint); border-bottom: 2px solid var(--txt-faint);
+  transform: rotate(45deg);
+  transition: transform 0.25s var(--ease), border-color 0.25s var(--ease);
+  pointer-events: none;
+}
+.input-wrap.has-combo.is-open::after {
+  transform: rotate(-135deg); margin-top: -1px; border-color: var(--accent);
+}
+
+.combo {
+  position: absolute; left: 0; right: 0; top: calc(100% + 8px);
+  z-index: 70; padding: 6px;
+  max-height: 292px; overflow-y: auto; overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 14px;
+  background: rgba(10, 15, 33, 0.97);
+  border: 1px solid var(--glass-brd);
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  animation: comboIn 0.16s var(--ease) both;
+}
+.combo[hidden] { display: none; }
+.combo.flip { top: auto; bottom: calc(100% + 8px); animation-name: comboInUp; }
+@keyframes comboIn   { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+@keyframes comboInUp { from { opacity: 0; transform: translateY(6px); }  to { opacity: 1; transform: none; } }
+
+.combo-head {
+  padding: 7px 12px 8px; font-size: 0.68rem; letter-spacing: 0.4px;
+  text-transform: uppercase; color: var(--txt-faint);
+}
+.combo-empty { padding: 6px 12px 12px; font-size: 0.82rem; line-height: 1.5; color: var(--txt-dim); }
+
+.combo-opt {
+  display: flex; align-items: center; gap: 10px;
+  min-height: 46px; padding: 10px 12px; border-radius: 10px;
+  font-size: 0.92rem; color: var(--txt); cursor: pointer;
+  touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+  transition: background 0.15s var(--ease), color 0.15s var(--ease);
+}
+.combo-opt .co-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.combo-opt .co-note { flex: none; font-size: 0.68rem; color: var(--txt-faint); }
+.combo-opt.is-active, .combo-opt:hover { background: rgba(255, 183, 3, 0.13); }
+.combo-opt.is-alias .co-name { color: var(--cyan); }
 
 .swap-btn {
   align-self: end; margin-bottom: 6px;
@@ -400,25 +467,9 @@ main {
 .tag.nonac { color: var(--txt-dim); background: rgba(255, 255, 255, 0.06); border-color: var(--glass-brd-soft); }
 .tag.via { color: var(--txt-dim); background: rgba(255, 255, 255, 0.05); border-color: var(--glass-brd-soft); text-transform: none; letter-spacing: 0; font-weight: 500; }
 
-/* frequency highlight */
-.freq-badge {
-  display: inline-flex; align-items: center; gap: 6px;
-  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.3px;
-  padding: 5px 11px; border-radius: 999px;
-  color: #1a1200;
-  background: linear-gradient(100deg, #fde047, var(--accent));
-  box-shadow: 0 0 0 0 rgba(255, 183, 3, 0.6);
-  animation: freqPulse 2.4s ease-in-out infinite;
-}
-@keyframes freqPulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 183, 3, 0.55); }
-  50% { box-shadow: 0 0 0 8px rgba(255, 183, 3, 0); }
-}
-.freq-badge .bolt { font-size: 0.8rem; }
-
-/* right side timing */
+/* right side: how long the ride is (no departure times — none are published) */
 .bus-time { text-align: right; min-width: 118px; }
-.bus-time .next {
+.bus-time .ride {
   font-family: "Baloo Da 2", "Poppins", sans-serif;
   font-size: 1.35rem; font-weight: 700; color: var(--accent); line-height: 1;
   font-variant-numeric: tabular-nums;
@@ -427,7 +478,6 @@ main {
   display: block; font-size: 0.72rem; color: var(--txt-dim); margin-top: 5px;
 }
 .bus-time .in b { color: var(--cyan); font-weight: 600; }
-.bus-time .eta { display: block; font-size: 0.68rem; color: var(--txt-faint); margin-top: 4px; }
 .bus-time .go {
   display: inline-flex; align-items: center; gap: 5px; margin-top: 9px;
   font-size: 0.7rem; color: var(--txt-dim);
@@ -737,7 +787,7 @@ main {
   .swap-btn:active { transform: rotate(270deg) scale(0.96); }
   .bus-row { grid-template-columns: auto 1fr; }
   .bus-time { grid-column: 1 / -1; text-align: left; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; min-width: 0; }
-  .bus-time .in, .bus-time .eta { margin-top: 0; }
+  .bus-time .in { margin-top: 0; }
   .bus-time .go { margin-top: 0; }
   .modal-head { padding-right: 0; }
   .mh-stats { width: 100%; }
@@ -747,6 +797,8 @@ main {
 @media (max-width: 520px) {
   .hero { padding-top: 24px; }
   .search-card { padding: 20px 16px; }
+  /* let the source note wrap onto two lines rather than run off the card */
+  .mini-note { white-space: normal; border-radius: 14px; line-height: 1.5; }
   .bus-row { padding: 15px 14px; gap: 12px; }
   .bus-no { min-width: 78px; font-size: 1.25rem; padding: 10px; }
   .map-box { height: 300px; }

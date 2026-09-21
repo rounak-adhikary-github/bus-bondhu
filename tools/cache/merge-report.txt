@@ -1,0 +1,229 @@
+variant -> surviving name (228)
+- Barasat Dakbunglow More  ->  Barasat Dakbunglow
+- Dakbanglow More  ->  Dackbanglow More
+- Madhyamgram station  ->  Madhyamgram
+- Sukhobrishti  ->  Sukhobrishti More
+10 no. pole  ->  10no. Pole
+58-Gate  ->  58 Gate
+8no. Kalibari  ->  8 No. Kalibari More
+Adhata  ->  Adhata More
+Agarpara Station  ->  Agarpara
+Ahiritola (Rajabazar)  ->  Ahiritola
+Alambazar More  ->  Alambazar
+Amta Station  ->  Amta
+Ananda Palit  ->  Anandapalit
+Ariadaha (Dakshineswar)  ->  Ariadaha
+Ashok Nagar  ->  Ashoknagar
+Ashoknagar Station  ->  Ashoknagar
+Atharobanki More  ->  Atharobanki
+B.K.Paul Ave  ->  B.K.Paul More
+Bagnan Station  ->  Bagnan
+Bagnan Thana More  ->  Bagnan
+Baisakhi  ->  Baisakhi More
+Bakul tala  ->  Bakultala
+Bally  ->  Bally Halt
+Bally Ghat  ->  Ballyghat
+Bally halt station  ->  Bally Halt
+Baltikuri more  ->  Baltikuri
+Bamangachhi  ->  Bamangachi
+Bangur  ->  Bangur Avenue
+Bankra More  ->  Bankra
+Baranagar Road Station  ->  Baranagar
+Barasat Champadali More  ->  Barasat Champadali
+Barasat Dak bunglow  ->  Barasat Dakbunglow
+Barrabazar  ->  Burrabazar
+Barrackpore Station  ->  Barrackpore
+Baruipur Station / Kachari Bazar  ->  Baruipur Kachari Bazar
+Bashirhat (Malancha)  ->  Bashirhat
+Behala  ->  Behala PS
+Belaghata  ->  Beliaghata
+Belepol  ->  Belepole
+Belgacchia  ->  Belgachia
+Belgachi  ->  Belgachia
+Belgharia  ->  Belgharia Station
+Berachampa Crossing  ->  Berachampa
+Betore More  ->  Betore
+Bhagabanpur More  ->  Bhagabanpur
+Bichalighat  ->  Bichali Ghat
+Bidhan Nagar College  ->  Bidhannagar College
+Bidhannagar Road Station  ->  Bidhannagar Station
+Bidhannagar Station (Circular Route)  ->  Bidhannagar Station
+Birati Station  ->  Birati
+Bishnupur PS  ->  Bishnupur
+Bongaon 1no. Railgate Bazar  ->  Bongaon 1 No. Railgate Bazar
+Bonhoogly (ISI)  ->  Bonhoogly
+Boralighat  ->  Borali Ghat
+Botanical Garden (B garden)  ->  Botanical Garden
+Bow bazar  ->  Bowbazar
+C.A.Island  ->  C A Island
+Canning  ->  Canning Station
+Canning Street  ->  Canning Station
+Chadni Chowk  ->  Chandni Chowk
+Chakla(Sohai)  ->  Chakla (
+Champadali  ->  Champadali More
+Chapadali(shuttle)  ->  Chapadali More
+Charial  ->  Charial More
+Chinarpark  ->  Chinar Park
+Chowbagha  ->  Chowbaga
+D. Park  ->  D.Park
+Dakghar (Bagmari)  ->  Dakghar
+Dakghar (Chattabazar)  ->  Dakghar
+Darga Road  ->  Darga Rd
+Das nagar  ->  Dasnagar
+Desapriya Park  ->  Deshapriya Park
+Deshbandhu  ->  Deshbandhu Road
+Dhruba Bazar  ->  Dhrubabazar
+Dhulor bandh  ->  Dhulorbandh
+Doltala More  ->  Doltala
+Don Bosco Crossing  ->  Don Bosco
+Don Bosco More  ->  Don Bosco
+Dum Dum  ->  Dum Dum Station
+Dum Dum Park  ->  Dumdum Park
+DumDum Stn  ->  Dum Dum Station
+Dumdum Station  ->  Dum Dum Station
+Dunlop (Baranagar road Station)  ->  Dunlop
+Dutta pukur  ->  Duttapukur
+Eastern Club (East Enclave Housing Complex)  ->  Eastern Club
+Ecopark  ->  Eco Park
+Elgin Crossing  ->  Elgin
+Elgin Road  ->  Elgin
+Exide Crossing  ->  Exide
+Gaighata  ->  Gaighata P.S
+Gaighata (Habra)  ->  Gaighata P.S
+Garcha  ->  Garcha Road
+Garia More  ->  Garia
+Garia Station  ->  Garia
+Garia Station (Naktala)  ->  Garia
+Gariahgat  ->  Gariahat
+Girishpark  ->  Girish Park
+Goakhali  ->  Goakhali More
+Gobindapur  ->  Gobindopur
+Golabari More  ->  Golabari
+Golf Green  ->  Golfgreen
+Gopalpur  ->  Gopalpur More
+Gourhati  ->  Gourhati More
+Habra Station  ->  Habra
+Haroa (upto Kholapota)  ->  Haroa
+Hazra Crossing  ->  Hazra
+Hazra More  ->  Hazra
+Hela Battala More  ->  Hela Battala
+Helabattala  ->  Hela Battala
+Hindu Kabristan Crossing ( Tiljala )  ->  Hindu Kabristan
+Howrah Maidan (Amtala Phari)  ->  Howrah Maidan
+Howrah Station (30 min stop)  ->  Howrah Station
+Hridaypur More  ->  Hridaypur
+Hudco More  ->  HUDCO
+Ichapur  ->  Ichapur More
+Jadavpur Thana  ->  Jadavpur
+Jafarpur(Barasat)  ->  Jafarpur
+Jaguli More  ->  Jaguli
+Japanigate  ->  Japani Gate
+Jora Mandir  ->  Joramandir
+Kakdwip Station (Bamuner More)  ->  Kakdwip
+Kali Park  ->  Kalipark
+Kalindi More  ->  Kalindi
+Kalyangarh More  ->  Kalyangarh
+Karbala  ->  Karbala More
+Kasba Thana  ->  Kasba PS
+Keshtopur  ->  Kestopur
+Khardaha  ->  Khardah
+Kona  ->  Kona More
+Kona Expressway More  ->  Kona Expressway
+Kona expressway crossing (Nibra)  ->  Kona Expressway
+Lake Town (Jaya Cinema)  ->  Lake Town
+Lake Town VIP  ->  Lake Town
+Laketown VIP  ->  Lake Town
+Laketown(VIP)  ->  Lake Town
+Lal Kuthi  ->  Lalkuthi
+Lal bazar  ->  Lal Bazar
+Lansdowne Crossing  ->  Lansdowne
+Liluah Station  ->  Liluah
+Machhlandapur Station  ->  Machhlandapur
+Madhabpur More  ->  Madhabpur
+Mahjerhat  ->  Majerhat
+Mallickbazar  ->  Mallick Bazar
+Manikpir More  ->  Manikpir
+Mathrangi More  ->  Mathrangi
+Mayo Rd  ->  Mayo Road
+Mayo Road crossing  ->  Mayo Road
+Metro cash and carry  ->  Metro Cash & Carry
+Michaelnagar  ->  Michael Nagar
+Mirhati  ->  Mirhati More
+Mollar Gate  ->  Mollargate
+Mudiali More  ->  Mudiali
+NEWALIPORE  ->  New Alipore
+Nagarukhra More  ->  Nagarukhra
+Nager Bazar  ->  Nagerbazar
+Naihati Station  ->  Naihati
+Najrul Tirtha  ->  Nazrul Tirtha
+Naktala ( Garia )  ->  Naktala
+Namkhana Station  ->  Namkhana
+Narayanpur More  ->  Narayanpur
+Narit More  ->  Narit
+Narkelbagan (Biswa Bangla)  ->  Narkel Bagan
+Natun Rasta  ->  Natun Rastar More
+Nibra  ->  Nibra Crossing
+Nibra More  ->  Nibra Crossing
+Nilgunge Road  ->  Nilgunge
+Nungi  ->  Nungi More
+Nuntia  ->  Nuntia More
+P. G. Hospital  ->  PG Hospital
+Padmapukur More  ->  Padmapukur
+Palbazar (Jadavpur Station)  ->  Palbazar
+Park Circus (Ruby Hospital)  ->  Park Circus
+Park Circus 7 Point crossing  ->  Park Circus 7 Point
+Park Circus station  ->  Park Circus
+Parnashree  ->  Parnasree
+Philips  ->  Philips More
+Polerhat more  ->  Polerhat
+Prafulla Nagar  ->  Prafullanagar
+Pramod Nagar  ->  Pramodnagar
+Rabindra Sadan (Exide more)  ->  Rabindra Sadan
+Rabindrasadan  ->  Rabindra Sadan
+Rabinrasadan  ->  Rabindra Sadan
+Rabinrasadan (Exide)  ->  Rabindra Sadan
+Raichak  ->  Raichak More
+Rajabajar  ->  Rajabazar
+Rajabajar Tram Depot  ->  Rajabazar Tram Depot
+Rajabazar (Dankuni)  ->  Rajabazar
+Rajabazar (Saltlake)  ->  Rajabazar
+Rajchandrapur (Ballyhalt)  ->  Rajchandrapur
+Rash Behari Avenue  ->  Rashbehari
+Rashbehari Crossing ( Kalighat )  ->  Rashbehari
+S.M.Nagar  ->  S.M. Nagar
+Saheb Colony More  ->  Saheb Colony
+Sakherbazar (Behala)  ->  Sakherbazar
+Saltlake  ->  Salt Lake
+Santoshpur Station  ->  Santoshpur
+Santragachhi station  ->  Santragachi
+Santragachi (Newtown Version)  ->  Santragachi
+Santragachi Station  ->  Santragachi
+Sarisha  ->  Sarisha More
+Sarkarbazar  ->  Sarkar Bazar
+Satya Narayan Park  ->  Satyanarayan Park
+Sealdah (Rajabazar T.D. )  ->  Sealdah
+Sealdah Station  ->  Sealdah
+Sealdah Stn  ->  Sealdah
+Sealdah(Rajabajar)  ->  Sealdah
+Sehagori More  ->  Sehagori
+Shalimar  ->  Shalimar Station
+Shanpur  ->  Shanpur More
+Sinthee  ->  Sinthee More
+Sodepur Station  ->  Sodepur
+Sonarpur Station  ->  Sonarpur
+Sova Bazar  ->  Sovabazar
+Sukantanagar  ->  Sukanta Nagar
+TOLLYGUNJ PHARI  ->  Tollygunge Phari
+Tangra  ->  Tangra More
+Tank no. 4  ->  Tank 4
+Tegharia  ->  Teghoria
+Thakurpukur 3A (Joka)  ->  Thakurpukur 3A
+Tolligunge Metro  ->  Tollygunj Metro
+Tollygunge Metro Stn  ->  Tollygunj Metro
+Topsia  ->  Topsia More
+Ukiler Hat  ->  Ukilerhat
+Ultadanga Station  ->  Ultadanga
+Ultodanga  ->  Ultadanga
+Uluberia Station  ->  Uluberia
+Unitech Gate 1  ->  Unitech Gate No. 1
+Vivekananda Rd  ->  Vivekananda Road

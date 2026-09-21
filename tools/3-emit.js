@@ -16,10 +16,13 @@
    WHAT IS DERIVED
      - km via the verified stops x a road factor; duration from km at an
        assumed average city speed
-   WHAT IS AN ASSUMED DEFAULT (no source publishes frequencies)
-     - headway, first, last — flagged `est: true` and labelled in the UI
+   WHAT IS ABSENT
+     - frequencies and departure times. Neither published list carries them and
+       no authoritative timetable for these services exists, so nothing here
+       pretends to know when a bus leaves.
    COORDINATES
-     Anchored stops only, plus geocoded stops that survive the neighbour test.
+     Anchored stops only, plus geocoded stops that survive the neighbour test
+     and are not a generic match several other stops also claim.
      A stop with no coordinate is still fully searchable; it just isn't plotted.
    ============================================================ */
 const fs = require("fs");
@@ -103,11 +106,36 @@ const STOP_FIXES = [
   [/^Casurina Ave$/i, ["Casurina Avenue"]],
   [/^B\.T\.Colleg$/i, ["BT College"]],
   [/^Airpport$/i, ["Airport"]],
+  // Every gate of the airport is the same destination for a bus passenger, and
+  // the published lists spell them six different ways ("Airport 3no", "Airport
+  // Gate No. 2.5", "Airport Gate-1", "Airport domestic Terminus"). Collapsing
+  // them means a search for the airport finds every bus that goes there; the
+  // gate-level geocodes were junk anyway (one sat 3.5 km off).
+  [/^Airport\b/i, ["Airport"]],
+  [/^Newtown\b/i, ["New Town"]],
+  [/^Sapoorji\b|^Shapoorji\b|^Sapurji\b|^Sapooji\b|^Shapooji\b/i, ["Sapoorji"]],
+  [/^TATA Medical\b|^Tata Medical\b|^Tata Cancer\b|^Tata Memorial\b/i, ["Tata Medical Centre"]],
+  [/^Behala 14\b/i, ["Behala 14 No"]],
+  // "Chiria More" is on the Barrackpore stretch; the catalogue sometimes puts
+  // the locality first, sometimes last, and shortens both halves
+  [/^(Chiria More|Chiriamore) Barrackpore$/i, ["Barrackpore Chiria More"]],
+  [/^Barrackpore Chiriamore$|^Barakpur Chiriamore$|^Barrackpur Chiria ?more$/i, ["Barrackpore Chiria More"]],
+  [/^BKP Chiriamore$/i, ["Barrackpore Chiria More"]],
+  // two published stops the source table glued into one string
+  [/^Thakurpukur Bazar Thakurpukur 3A$/i, ["Thakurpukur Bazar", "Thakurpukur 3A"]],
+  [/^Bhabani Bhawan Hazra$/i, ["Bhabani Bhawan", "Hazra"]],
+  [/^Exide Rabindra Sadan$/i, ["Exide", "Rabindra Sadan"]],
+  [/^Karunamoyee\.?\s+Unnayan Bhavan$/i, ["Karunamoyee", "Unnayan Bhavan"]],
+  [/^SDFCollege More$/i, ["SDF", "College More"]],
   [/^More$/, []],
   [/^Sanpui Para$/i, ["Sapuipara"]],
   [/^Metro politon Hou\. Est$/i, ["Metropolitan"]],
   [/^22\.?\s*$/i, []],
 ];
+
+/* Old spellings that these fixes renamed away, kept so the app can still
+   resolve them. Populated by fixStops and the anchor renames below. */
+const fixRenames = new Map();
 
 function fixStops(seq) {
   const out = [];
@@ -115,6 +143,8 @@ function fixStops(seq) {
     let placed = false;
     for (const [re, repl] of STOP_FIXES) {
       if (re.test(raw)) {
+        // a one-for-one fix is a rename, so remember the old spelling
+        if (repl.length === 1 && repl[0] !== raw) fixRenames.set(raw, repl[0]);
         repl.forEach((r) => { if (out[out.length - 1] !== r) out.push(r); });
         placed = true;
         break;
@@ -153,6 +183,7 @@ const LEGACY_MAP = {
 const ANCHORS = {};
 Object.entries(legacy).forEach(([name, c]) => {
   const canonical = LEGACY_MAP[name] || name;
+  if (canonical !== name) fixRenames.set(name, canonical);
   if (c && typeof c.lat === "number") ANCHORS[canonical] = [c.lat, c.lng];
 });
 
@@ -370,6 +401,14 @@ const haversine = (a, b) => {
 /* ---- apply the text fixes, build the vocabulary ---- */
 let routes = merged.map((r) => ({ ...r, stops: fixStops(r.stops) })).filter((r) => r.stops.length >= 2);
 
+/* Run the same fixes over every spelling any source used, including routes that
+   lost the dedupe above. A dropped duplicate can hold the only copy of an old
+   name ("BKP Chiriamore" exists nowhere else), and that spelling should still
+   resolve in the app. fixStops records what it renamed into fixRenames. */
+const everySpelling = new Set();
+all.forEach((r) => r.stops.forEach((s) => everySpelling.add(s)));
+everySpelling.forEach((s) => fixStops([s]));
+
 const freq = new Map();
 routes.forEach((r) => new Set(r.stops).forEach((s) => freq.set(s, (freq.get(s) || 0) + 1)));
 
@@ -387,8 +426,47 @@ Object.keys(ANCHORS).forEach((name) => {
 /*    apart are NOT one place (Garia vs Garia Station), so they   */
 /*    stay separate.                                             */
 /* ------------------------------------------------------------ */
-const NOISE = /\b(station|stn|more|crossing|busstand|busterminus|terminus|stand|stop|halt|ps|thana|corner)\b/g;
-const coreKey = (name) => keyOf(name).replace(NOISE, " ").replace(/\s+/g, " ").trim();
+const NOISE = /\b(station|stn|more|crossing|busstand|busterminus|terminus|stand|stop|halt|ps|thana|corner|number|no|nums|num|road|rd|street|st|avenue|ave|row|lane|ln)\b/g;
+const coreKey = (name) =>
+  keyOf(name)
+    // "Behala 14 no", "Behala 14no", "Behala 14 number" -> "behala 14"
+    .replace(/(\d)\s*no\b/g, "$1")
+    .replace(/\bno\s*(?=\d)/g, "")
+    .replace(/(\d)\s*(?:number|num|nums)\b/g, "$1")
+    .replace(NOISE, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+/* Names that look alike but are genuinely different places. Kolkata has two
+   Santoshpurs, two Bishnupurs and two Padmapukurs; "Amta" (Howrah) is not
+   "Amtala" (South 24 Parganas); the Karunamoyee in Tollygunge is not the one in
+   Salt Lake. Orthographic similarity alone must never join these. */
+const NEVER_MERGE = [
+  /\bamta\b.*\bamtala\b|\bamtala\b.*\bamta\b/,
+  /^tollygunge karunamoyee$/i,
+  /^karunamoyee$/i,
+  /^salt lake$/i,
+  /^salt lake sector/i,
+  /^garia$/i,
+  /^garia station$/i,
+  /^new town$/i,
+  /^new barrackpore$/i,
+  /^barasat$/i,
+  /^santoshpur$/i,
+  /^bishnupur$/i,
+  /^padmapukur$/i,
+  /^mohanpur$/i,
+  /^exide$/i,
+  /^rabindra sadan$/i,
+  /^hazra$/i,
+  /^lansdowne$/i,
+  /^chowrasta$/i,
+  /^behala$/i,
+  /^bally$/i,
+  /^dum dum$/i,
+  /^sinthee$/i,
+];
+const isProtected = (name) => NEVER_MERGE.some((re) => re.test(name));
 
 /* Every way a name could be looked up:
      - as written ("Eco Space")
@@ -438,11 +516,145 @@ for (const name of freq.keys()) {
   });
 }
 
+/* ------------------------------------------------------------ */
+/* 3b. the long tail: one place, two spellings                   */
+/*     The stem pass above only catches names that differ by a   */
+/*     noise word or a space. The published lists are free text, */
+/*     so they also carry plain mis-spellings — "Bekbagan" vs    */
+/*     "Beckbagan", "Belgacchia" vs "Belgachia", "Sakherbzar" vs */
+/*     "Sakherbazar", "Baguihati" vs "Baguiati". Join those by   */
+/*     edit distance, scaled to the length of the name so short  */
+/*     names ("Amta" / "Amtala") are never at risk, and checked  */
+/*     against the geocoder's own answer for both spellings so a */
+/*     pair that is demonstrably kilometres apart stays split.    */
+/* ------------------------------------------------------------ */
+const flat = (s) => coreKey(s).replace(/ /g, "");
+
+/* bounded Levenshtein: gives up as soon as it exceeds `max` */
+function editDistance(a, b, max) {
+  if (a === b) return 0;
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  let prev = new Array(b.length + 1);
+  let cur = new Array(b.length + 1);
+  for (let j = 0; j <= b.length; j++) prev[j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    cur[0] = i;
+    let best = cur[0];
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
+      if (cur[j] < best) best = cur[j];
+    }
+    if (best > max) return max + 1;
+    const t = prev; prev = cur; cur = t;
+  }
+  return prev[b.length];
+}
+
+/* Is a cached coordinate actually evidence about this name?
+   Photon answers a lot of these rural halts with whatever it has: "Hoglashi
+   More" came back as a feature called "More", "Malncha" as "Ahindra Mancha",
+   "Kaltala" as "Kalitala Road North". Those are not answers, they are noise,
+   and treating them as evidence would let the fuzzy pass merge any two names
+   at all. So a coordinate only counts when the feature it matched at least
+   resembles the name we asked for. */
+function geocodeTrust(name) {
+  const c = coords[name];
+  if (!c || !c.src) return false;
+  const a = flat(name), b = flat(c.src);
+  if (a.length < 4 || b.length < 4) return false;
+  if (b.startsWith(a.slice(0, Math.min(5, a.length)))) return true;
+  return editDistance(a, b, 3) <= 3;
+}
+
+/** a coordinate we are willing to reason from, for this spelling */
+const trustedCoord = (n) => {
+  if (located[n]) return located[n];
+  return geocodeTrust(n) ? coords[n] : null;
+};
+
+const allNames = [...freq.keys()];
+const byFirst = new Map();                       // first letter -> names
+allNames.forEach((n) => {
+  const f = flat(n)[0] || "";
+  if (!byFirst.has(f)) byFirst.set(f, []);
+  byFirst.get(f).push(n);
+});
+
+const digitsOf = (s) => (s.match(/\d+/g) || []).join("|");
+
+/* A one-letter difference only counts as a mis-spelling when something other
+   than the spelling agrees. Here that means a trustworthy coordinate on *both*
+   sides, close together. It is deliberately strict: it is what keeps "Kantala"
+   and "Kaltala" (two different villages, neither of which the geocoder could
+   actually find) apart, and "Matia Bridge" from "Matla Bridge" (the Matla is a
+   river 40 km away). A pair this pass declines to join stays as published,
+   which is the safe direction to fail in. */
+const fuzzyPairs = [];
+for (const [, bucket] of byFirst) {
+  for (let i = 0; i < bucket.length; i++) {
+    const a = bucket[i];
+    const fa = flat(a);
+    if (fa.length < 6) continue;
+    for (let j = i + 1; j < bucket.length; j++) {
+      const b = bucket[j];
+      const fb = flat(b);
+      if (fa === fb) continue;                   // already joined by the stem pass
+      const minLen = Math.min(fa.length, fb.length);
+      const maxLen = Math.max(fa.length, fb.length);
+      // one keystroke apart on a name of 7+ letters, two on a name of 12+
+      let max = -1;
+      if (minLen >= 12 && maxLen <= 20) max = 2;
+      else if (minLen >= 7) max = 1;
+      if (max < 0) continue;
+      if (isProtected(a) || isProtected(b)) continue;
+      // a different number is a different stop: "Saltlake 13no. Tank" is not
+      // "Saltlake 4no. Tank", and "Park Circus 4 number" is not "Park Circus"
+      if (digitsOf(a) !== digitsOf(b)) continue;
+      const ca = trustedCoord(a), cb = trustedCoord(b);
+      if (!ca || !cb) continue;
+      if (haversine([ca.lat, ca.lng], [cb.lat, cb.lng]) > SYNONYM_MAX_KM) continue;
+      const d = editDistance(fa, fb, max);
+      if (d > max) continue;
+      union(a, b);
+      fuzzyPairs.push([a, b, d]);
+    }
+  }
+}
+if (fuzzyPairs.length) {
+  console.log("fuzzy spelling merges:", fuzzyPairs.length);
+  fuzzyPairs.forEach(([a, b, d]) => console.log(`    ${a}  ~  ${b}   (edit distance ${d})`));
+  fs.writeFileSync(
+    "tools/cache/fuzzy-report.txt",
+    fuzzyPairs.map(([a, b, d]) => `${a}  ~  ${b}  (d=${d})`).sort().join("\n") + "\n"
+  );
+}
+
 const groups = new Map();
 for (const name of freq.keys()) {
   const root = find(name);
   if (!groups.has(root)) groups.set(root, []);
   groups.get(root).push(name);
+}
+
+/* Which spelling survives a merge. A placed name beats an unplaced one, and
+   among equals the published list's own conventions decide: "Behala 14 No" is
+   the stop, "Behala 14no" and "behala 14" are the same place typed carelessly.
+   Without this the winner was whichever spelling happened to be busiest, so the
+   UI showed "Behala 14no" and "- Dakbanglow More". */
+function displayScore(name) {
+  let score = 0;
+  const letters = name.replace(/[^A-Za-z]/g, "");
+  if (name === name.toUpperCase() && letters.length > 1) score -= 3;       // "SDF MORE"
+  if (name === name.toLowerCase() && letters.length > 1) score -= 3;       // "behala 14"
+  if (/^[^A-Za-z0-9]/.test(name)) score -= 2;                              // "- Dakbanglow More"
+  if (/[.,)]\s*$/.test(name)) score -= 2;                                  // "Aturia Bazar.)"
+  if (/\s{2,}/.test(name)) score -= 1;
+  if (/[a-z][A-Z]/.test(name)) score -= 1;                                 // "DumDum", "SakherBazar"
+  const words = name.split(/\s+/);
+  const cased = words.filter((w) => /^[A-Z]/.test(w)).length;
+  score += cased / words.length;                                           // title case is the house style
+  return score;
 }
 
 const rename = new Map();   // variant -> primary
@@ -452,6 +664,8 @@ for (const [, members] of groups) {
   const ranked = members.slice().sort((a, b) => {
     const la = located[a] ? 0 : 1, lb = located[b] ? 0 : 1;
     if (la !== lb) return la - lb;                       // prefer a placed name
+    const sa = displayScore(a), sb = displayScore(b);
+    if (sa !== sb) return sb - sa;                       // prefer a well-formed name
     if ((freq.get(b) || 0) !== (freq.get(a) || 0)) return (freq.get(b) || 0) - (freq.get(a) || 0);
     return a.length - b.length || a.localeCompare(b);
   });
@@ -471,6 +685,11 @@ if (mergedPairs.length) {
   console.log("stop spellings merged:", mergedPairs.length);
   mergedPairs.slice(0, 30).forEach(([v, p]) => console.log("    " + v + "  ->  " + p));
   if (mergedPairs.length > 30) console.log("    … and " + (mergedPairs.length - 30) + " more");
+  fs.writeFileSync(
+    "tools/cache/merge-report.txt",
+    "variant -> surviving name (" + mergedPairs.length + ")\n" +
+    mergedPairs.map(([v, p]) => v + "  ->  " + p).sort().join("\n") + "\n"
+  );
 }
 
 if (rename.size) {
@@ -482,17 +701,17 @@ if (rename.size) {
     });
     return { ...r, stops: out };
   }).filter((r) => r.stops.length >= 2);
-
-  routes.forEach((r) => new Set(r.stops).forEach((s) => {
-    if (!freq.has(s)) freq.set(s, 1);
-  }));
 }
 
-/* coordinates follow the name they were merged into */
-for (const [variant, primary] of rename) {
-  const c = coords[variant];
-  if (!located[primary] && c) located[primary] = { lat: c.lat, lng: c.lng, src: "geocode" };
-}
+/* Rebuild the vocabulary from the routes as they now stand. The rename pass
+   leaves the old spellings behind in `freq` and `located`, and those stale keys
+   used to be emitted into KOLKATA_STOPS — stops that no longer exist in
+   BUS_STOPS, so nothing could search for them but the map still drew them. */
+freq.clear();
+routes.forEach((r) => new Set(r.stops).forEach((s) => freq.set(s, (freq.get(s) || 0) + 1)));
+
+const surviving = new Set(freq.keys());
+Object.keys(located).forEach((n) => { if (!surviving.has(n)) delete located[n]; });
 
 /* ---- accept geocoded stops only when the geometry agrees ---- */
 const rejected = [];
@@ -518,10 +737,61 @@ const neighbourCheck = (name, cand) => {
   return checks > 0;
 };
 
+/* A merged primary inherits the coordinate of the spelling that had one — but
+   it has to earn it like any other. Copying it in blindly is what put Agarpara,
+   Amta, Bagnan, Machhlandapur, Naihati and Uluberia all on the same point:
+   the geocoder had answered "Naihati Station" with the city's central bus
+   terminal, and the rename carried that answer straight into "Naihati". */
+const inherited = new Map();   // primary -> { coord, from }
+for (const [variant, primary] of rename) {
+  if (located[primary] || inherited.has(primary)) continue;
+  const c = coords[variant];
+  if (c) inherited.set(primary, { coord: c, from: variant });
+}
+
+const candidateFor = (name) => {
+  const own = coords[name];
+  if (own) return own;
+  const inh = inherited.get(name);
+  return inh ? inh.coord : null;
+};
+
+/* One point, many unrelated names.
+   Photon answers far too many of these names with whatever generic feature
+   shares their last word: all 54 "… More" stops in the dataset came back as a
+   feature literally called "More", every "… Bazar" as "Shobha Bazar", every
+   "… Station" as "Kolkata Station Bus Terminal", every "… Bridge" as "Brace
+   Bridge", every "… Chowmatha" as "Chowbagha Road". A point that a crowd of
+   different stops all claim is not a location, it is the geocoder giving up,
+   so none of those answers are plotted. A point only one stop claims is kept —
+   that is how PG Hospital keeps SSKM, IIM Joka keeps IIM Calcutta, and DLF1
+   keeps DLF, all of which are right. */
+const claimCount = new Map();
 for (const name of freq.keys()) {
   if (located[name]) continue;
-  const cand = coords[name];
+  const cand = candidateFor(name);
+  if (!cand) continue;
+  const k = cand.lat.toFixed(4) + "," + cand.lng.toFixed(4);
+  claimCount.set(k, (claimCount.get(k) || 0) + 1);
+}
+
+for (const name of freq.keys()) {
+  if (located[name]) continue;
+
+  const cand = candidateFor(name);
   if (!cand) { rejected.push([name, "not geocoded"]); continue; }
+
+  const ck = cand.lat.toFixed(4) + "," + cand.lng.toFixed(4);
+  const claimants = claimCount.get(ck) || 1;
+  if (claimants > 1) {
+    rejected.push([
+      name,
+      "coordinate is a generic match shared with " + (claimants - 1) +
+        (claimants - 1 === 1 ? " other stop" : " other stops"),
+    ]);
+    continue;
+  }
+
   const clash = Object.entries(located).find(
     ([, p]) => Math.abs(p.lat - cand.lat) < 1e-4 && Math.abs(p.lng - cand.lng) < 1e-4
   );
@@ -583,15 +853,8 @@ if (demoted.length) {
 }
 
 /* ------------------------------------------------------------ */
-/* 4. categories, operators, estimated timings                   */
+/* 4. categories, operators, route length                        */
 /* ------------------------------------------------------------ */
-const KM_EST = { electric: 20, ac: 30, nonac: 15 };
-const SPAN = {
-  nonac: { first: 300, last: 1350 },
-  ac: { first: 360, last: 1320 },
-  electric: { first: 360, last: 1320 },
-};
-
 function categoryOf(r) {
   const no = r.no;
   if (/^EB/i.test(no) || /electric/i.test(r.section || "")) return "electric";
@@ -662,7 +925,6 @@ const outRoutes = routes.map((r) => {
   km = Math.max(1.5, Math.round(km * 10) / 10);
   const duration = Math.max(15, Math.round((km / AVG_KMH) * 60));
   const cat = categoryOf(r);
-  const span = SPAN[cat];
 
   return {
     no: r.no,
@@ -671,13 +933,9 @@ const outRoutes = routes.map((r) => {
     src: r.src,
     cat,
     ac: cat !== "nonac",
-    headway: KM_EST[cat],
-    first: span.first,
-    last: span.last,
     km,
     duration,
     stops: r.stops,
-    est: true,
   };
 });
 
@@ -691,16 +949,29 @@ const AREA_DEFS = {
   "Salt Lake Sector V": [
     "Salt Lake Sector V", "SDF", "College More", "Technopolis", "Wipro",
     "Swastha Bhavan", "Godrej Waterside", "Fire Brigade Sector V", "GP Block",
-    "Tank 10", "Techno India", "Nabadiganta", "Nabadiganta More",
+    "Techno India", "Nabadiganta", "Nabadiganta More",
   ],
   "New Town": [
-    "New Town", "New Town (Sapoorji)", "Eco Space", "Narkel Bagan", "Unitech",
-    "Home Town", "Aliah University", "Axis Mall", "Rabindra Tirtha", "DLF1",
-    "City Centre II", "Chinar Park", "Eco Park", "Hidco Bhavan", "Jatragachi",
-    "Nabadiganta", "Infosys Hatishala", "Sapoorji",
+    "New Town", "Eco Space", "Narkel Bagan", "Unitech", "Home Town",
+    "Aliah University", "Axis Mall", "Rabindra Tirtha", "DLF", "City Centre II",
+    "Chinar Park", "Eco Park", "Hidco Bhavan", "Jatragachi", "Nabadiganta",
+    "Infosys Hatishala", "Sapoorji", "Tata Medical Centre", "Mahishbathan",
   ],
-  // the terminus WBTC calls "Joka" is written out in full in the catalogue
-  "Joka": ["Joka", "Thakurpukur 3A", "Joka ESI hospital"],
+  // Joka is the terminus WBTC names "Joka" but the catalogue spells out as
+  // "Thakurpukur 3A", and the buses that get you there also call at the ESI
+  // hospital, the IIM and Khalpole. Searching "Joka" has to find all of them,
+  // otherwise a route like C8 (which lists Joka) and C37 (which lists only
+  // "Thakurpukur 3A") look like different services.
+  "Joka": [
+    "Joka", "Thakurpukur 3A", "Thakurpukur Bazar", "IIM Joka", "Joka Khalpole",
+    "IIMC Hospital",
+  ],
+  // the DH Road stops either side of Joka, so a search for the locality finds
+  // the buses that call at the market, the cancer hospital or the bus stand
+  "Thakurpukur": [
+    "Thakurpukur", "Thakurpukur Bazar", "Thakurpukur 3A",
+    "Thakurpukur cancer hospital",
+  ],
 };
 
 const vocab = new Set();
@@ -710,14 +981,62 @@ const STOP_AREAS = {};
 Object.entries(AREA_DEFS).forEach(([area, members]) => {
   if (!vocab.has(area)) return;                    // the area name must be a real stop
   const present = members.filter((m) => vocab.has(m));
-  const extraServed = present.length >= 2 && present.length >= members.filter((m) => vocab.has(m)).length;
-  if (present.length >= 2 && extraServed) STOP_AREAS[area] = present;
+  if (present.length >= 2) STOP_AREAS[area] = present;
 });
 
 /* ------------------------------------------------------------ */
 /* 6. emit                                                       */
 /* ------------------------------------------------------------ */
 const allStops = [...vocab].sort((a, b) => a.localeCompare(b));
+
+/* ------------------------------------------------------------
+   STOP_ALIASES
+     Spellings that are no longer stops of their own, mapped onto the
+     name they were merged into. Stage 2 records every spelling a source
+     actually used; this pass follows those through the merge above, so
+     "Sec V" ends up pointing at "Salt Lake Sector V" and "Bekbagan" at
+     "Beckbagan". The app consults this when a typed name misses the stop
+     list, which is what keeps old spellings and abbreviations searchable
+     after a merge has removed them from BUS_STOPS.
+   ------------------------------------------------------------ */
+let aliasSpellings = {};
+try {
+  aliasSpellings = JSON.parse(fs.readFileSync("tools/cache/alias-map.json", "utf8"));
+} catch (e) {
+  console.log("alias map missing — run tools/2-geocode.js first");
+}
+
+const knownStops = new Set(allStops);
+const knownLower = new Set(allStops.map((s) => s.toLowerCase()));
+const aliasOut = new Map();
+const looseOut = new Map();       // punctuation/spaces stripped, collision-checked
+const looseClash = new Set();
+const addAlias = (typed, target) => {
+  const k = String(typed).trim().toLowerCase();
+  if (!k || !target || !knownStops.has(target)) return;
+  if (k === target.toLowerCase()) return;     // same thing, nothing to redirect
+  if (knownLower.has(k)) return;              // still a real stop, don't shadow it
+  if (!aliasOut.has(k)) aliasOut.set(k, target);
+  // "sec v" should also answer to "secv", "behala 14no" to "behala14no"
+  const loose = k.replace(/[^a-z0-9]/g, "");
+  if (!loose || knownLower.has(loose)) return;
+  if (looseOut.has(loose) && looseOut.get(loose) !== target) looseClash.add(loose);
+  else if (!looseOut.has(loose)) looseOut.set(loose, target);
+};
+Object.entries(aliasSpellings).forEach(([typed, canonical]) => {
+  addAlias(typed, rename.get(canonical) || canonical);
+});
+rename.forEach((primary, variant) => addAlias(variant, primary));
+/* names the stage-3 fixes and the anchor renames replaced — e.g. "BKP
+   Chiriamore", "Tata Cancer", the old "Rajarhat New Town" */
+fixRenames.forEach((fixed, raw) => addAlias(raw, rename.get(fixed) || fixed));
+
+// a loose key that could mean two different stops is worse than no alias at all
+looseClash.forEach((k) => looseOut.delete(k));
+looseOut.forEach((target, k) => { if (!aliasOut.has(k)) aliasOut.set(k, target); });
+
+const STOP_ALIASES = {};
+[...aliasOut.keys()].sort().forEach((k) => { STOP_ALIASES[k] = aliasOut.get(k); });
 
 const header = `/* ============================================================
    BusBondhu — Kolkata bus dataset
@@ -739,9 +1058,11 @@ const header = `/* ============================================================
      km        distance through the mapped stops x a road factor
      duration  km at an assumed average city speed of ${AVG_KMH} km/h
 
-   ASSUMED (no source publishes frequencies or departure times)
-     headway, first, last are estimates, flagged est:true and labelled
-     as estimates in the UI. Never present them as official timings.
+   NO TIMETABLE
+     Neither published list carries frequencies or departure times, and no
+     authoritative timetable for these services exists, so this dataset holds
+     no clock times at all. The app shows which buses connect two stops and how
+     long the ride is; it does not claim to know when the next one leaves.
 
    COORDINATES
      Only stops we can vouch for are plotted (verified anchors, plus
@@ -753,6 +1074,10 @@ const header = `/* ============================================================
      A locality people search for by name ("Sector V") mapped to the
      stops inside it, so one bus that reaches any of them answers the
      search while the map still plots the exact stop.
+
+   STOP_ALIASES
+     Spellings that were merged away ("Sec V", "Bekbagan"), mapped onto
+     the surviving name, so the old way of typing a stop still works.
    ============================================================ */
 
 /* stop name -> [lat, lng] — verified positions only */
@@ -765,6 +1090,9 @@ const stopLines = Object.keys(located).sort((a, b) => a.localeCompare(b))
 const body = `${header}\n${stopLines}\n};\n
 /* every stop that appears on a route, with or without coordinates */
 const BUS_STOPS = ${JSON.stringify(allStops, null, 0)};
+
+/* old / misspelled spellings -> the name they were merged into (lowercase keys) */
+const STOP_ALIASES = ${JSON.stringify(STOP_ALIASES, null, 2)};
 
 /* locality -> the stops inside it, for area-wide searches */
 const STOP_AREAS = ${JSON.stringify(STOP_AREAS, null, 2)};
@@ -779,13 +1107,9 @@ const STOP_AREAS = ${JSON.stringify(STOP_AREAS, null, 2)};
      src       "wbtc" | "kolbusopedia" | "manual" — where this route is from
      cat       "ac" | "electric" | "nonac"  (drives the filters)
      ac        whether the service is air-conditioned
-     headway   ESTIMATE: minutes between buses
-     first     ESTIMATE: first departure from the route's first stop
-     last      ESTIMATE: last departure from the route's first stop
      km        derived route length
      duration  derived end-to-end run time in minutes
      stops     ordered stop names
-     est       true => headway/first/last are estimates, not official
    ------------------------------------------------------------ */
 const BUS_ROUTES = [
 `;
@@ -793,7 +1117,7 @@ const BUS_ROUTES = [
 const routeLines = outRoutes.map((r) => {
   const stopList = r.stops.map((s) => JSON.stringify(s)).join(", ");
   const srcs = r.srcs && r.srcs.length > 1 ? `, srcs: ${JSON.stringify(r.srcs)}` : "";
-  return `  { no: ${JSON.stringify(r.no)}, operator: ${JSON.stringify(r.operator)}, type: ${JSON.stringify(r.type)}, src: ${JSON.stringify(r.src)}${srcs}, cat: ${JSON.stringify(r.cat)}, ac: ${r.ac}, headway: ${r.headway}, first: ${r.first}, last: ${r.last}, km: ${r.km}, duration: ${r.duration}, est: true,\n    stops: [${stopList}] }`;
+  return `  { no: ${JSON.stringify(r.no)}, operator: ${JSON.stringify(r.operator)}, type: ${JSON.stringify(r.type)}, src: ${JSON.stringify(r.src)}${srcs}, cat: ${JSON.stringify(r.cat)}, ac: ${r.ac}, km: ${r.km}, duration: ${r.duration},\n    stops: [${stopList}] }`;
 }).join(",\n");
 
 fs.writeFileSync("js/data.js", body + routeLines + "\n];\n");
@@ -807,6 +1131,7 @@ console.log("stops plotted:", locatedCount,
   `(${Math.round((locatedCount / allStops.length) * 100)}%)`,
   "| hand-anchored:", anchored, "| geocoded+checked:", locatedCount - anchored);
 console.log("spelling variants merged:", rename.size);
+console.log("legacy spellings kept searchable:", Object.keys(STOP_ALIASES).length);
 const byType = {};
 outRoutes.forEach((r) => { byType[r.type] = (byType[r.type] || 0) + 1; });
 console.log("by type:", JSON.stringify(byType));
@@ -818,6 +1143,10 @@ console.log("areas:", Object.keys(STOP_AREAS).map((a) => a + "(" + STOP_AREAS[a]
 const reasonTally = {};
 rejected.forEach(([, why]) => { const k = why.split(" with ")[0]; reasonTally[k] = (reasonTally[k] || 0) + 1; });
 console.log("geocode rejections:", JSON.stringify(reasonTally));
+fs.writeFileSync(
+  "tools/cache/geocode-rejections.txt",
+  rejected.map(([n, why]) => n + "\t" + why).sort().join("\n") + "\n"
+);
 
 const plottable = outRoutes.map((r) => {
   const have = r.stops.filter((s) => located[s]).length;

@@ -1,19 +1,24 @@
 /* ============================================================
    BusBondhu — application logic
+
+   There are no departure times anywhere in this file. Neither published route
+   list carries frequencies or timings, and no authoritative timetable exists
+   for these 537 services, so the app answers "which buses run this stretch and
+   how long is the ride" instead of pretending to know when the next one leaves.
    ============================================================ */
 (function () {
   "use strict";
 
   /* ---------------- constants ---------------- */
   const KOLKATA_TZ = "Asia/Kolkata";
-  const WINDOW_MIN = 120;          // search window: next 2 hours
-  const FREQ_THRESHOLD = 20;       // headway <= this => show "every X min" badge
 
   /* category labels for the filters + row tags */
   const CAT_LABEL = { ac: "AC", electric: "Electric", nonac: "Non-AC" };
-  const STEP = 15;                 // time dropdown interval
   const NEARBY_KM = 4;             // radius used for "try this stop instead" hints
-  const TRANSFER_BUFFER = 5;       // minutes needed to change buses at a hub
+  const TRANSFER_BUFFER = 5;       // minutes allowed to change buses at a hub
+  /* No timetable exists for these services, so the app holds no departure
+     times at all. See README: neither published route list carries frequencies
+     or timings, so nothing here claims to know when the next bus leaves. */
 
   // Leaflet is vendored locally (vendor/leaflet/leaflet.js). This CDN copy is
   // only fetched on demand if the local file is missing, so the map still works
@@ -55,9 +60,8 @@
   const form        = $("searchForm");
   const srcInput    = $("source");
   const dstInput    = $("destination");
-  const hourSelect  = $("timeHour");
-  const ampmSelect  = $("ampm");
-  const stopList    = $("stopList");
+  const srcPanel    = $("sourceList");
+  const dstPanel    = $("destinationList");
   const swapBtn     = $("swapBtn");
   const searchBtn   = $("searchBtn");
   const liveClock   = $("liveClock");
@@ -83,7 +87,7 @@
   const mhSub       = $("mhSub");
   const mhKm        = $("mhKm");
   const mhMin       = $("mhMin");
-  const mhArr       = $("mhArr");
+  const mhStopsN    = $("mhStopsN");
   const mhStops     = $("mhStops");
   const mhStopCount = $("mhStopCount");
 
@@ -104,6 +108,12 @@
   // they ask for Sector V. A bus stopping anywhere in an area answers a search
   // for the area, while the map still plots the exact stop it uses.
   const AREAS = (typeof STOP_AREAS === "undefined") ? {} : STOP_AREAS;
+
+  // Old spellings that the merge folded into another stop ("Sec V", "Bekbagan",
+  // "Joka ESI Hospital"). They are no longer stops in their own right, so
+  // without this a search for the name people have always used would come back
+  // empty. Keys are lowercase, values are the surviving stop name.
+  const ALIASES = (typeof STOP_ALIASES === "undefined") ? {} : STOP_ALIASES;
 
   function buildIndexes() {
     STOP_LOOKUP = new Map();
@@ -127,15 +137,22 @@
 
     // Fold each area into the index. The area keeps its own name for search,
     // and points at the position of the member stop the route actually serves,
-    // so segment maths, timings and the plotted line all stay exact.
+    // so segment maths, ride durations and the plotted line all stay exact.
     Object.keys(AREAS).forEach((area) => {
       const members = AREAS[area] || [];
       if (!STOP_LOOKUP.has(area.toLowerCase())) STOP_LOOKUP.set(area.toLowerCase(), area);
 
-      ROUTES_BY_STOP.set(area, []);
+      // An area name is very often also a real stop — "Joka", "Thakurpukur",
+      // "New Town" and "Salt Lake Sector V" all are. Resetting the list here
+      // threw those routes away and the loop below skipped them as "already
+      // covered", so searching "Joka" returned 2 of its 22 buses. Keep what is
+      // already indexed and only add the routes that reach a different member.
+      if (!ROUTES_BY_STOP.has(area)) ROUTES_BY_STOP.set(area, []);
+
       BUS_ROUTES.forEach((route, idx) => {
         const m = ROUTE_STOP_IDX[idx];
-        if (!m || m.has(area)) return;
+        if (!m) return;
+        if (m.has(area)) return;                 // already listed under its own name
         for (let k = 0; k < members.length; k++) {
           const member = members[k];
           if (!m.has(member)) continue;
@@ -172,38 +189,14 @@
     '<span>Fetching street tiles for this stretch.</span>';
   const MSG_TILES_FAILED =
     "<b>Map tiles aren't loading</b>" +
-    "<span>This is usually a network or ad-blocker issue. Your route, stops and timings are all listed below.</span>";
+    "<span>This is usually a network or ad-blocker issue. Your route and stop list are still below.</span>";
   const MSG_LIB_FAILED =
     "<b>Map unavailable</b>" +
     "<span>The map library couldn't be loaded. Check your connection and reload the page \u2014 the stop list below still works.</span>";
 
   /* ============================================================
-     TIME HELPERS (all in Kolkata local time)
+     DURATION HELPERS
      ============================================================ */
-
-  /** Current time in Kolkata as {h, m, minutes} */
-  function kolkataNow() {
-    const parts = new Intl.DateTimeFormat("en-GB", {
-      timeZone: KOLKATA_TZ, hour: "2-digit", minute: "2-digit", hour12: false
-    }).formatToParts(new Date());
-    const get = (t) => (parts.find((p) => p.type === t) || {}).value;
-    const h = parseInt(get("hour"), 10) % 24;
-    const m = parseInt(get("minute"), 10);
-    return { h, m, minutes: h * 60 + m };
-  }
-
-  /** minutes-from-midnight -> "8:15 AM"
-   *  Segment travel times are fractional (a route's duration apportioned along
-   *  its stops), so round first — otherwise ETAs render as "12:23.28571428571422 PM". */
-  function fmtTime(mins) {
-    mins = Math.round(mins);
-    mins = ((mins % 1440) + 1440) % 1440;
-    const h = Math.floor(mins / 60);
-    const m = mins % 60;
-    const mer = h >= 12 ? "PM" : "AM";
-    let h12 = h % 12; if (h12 === 0) h12 = 12;
-    return h12 + ":" + String(m).padStart(2, "0") + " " + mer;
-  }
 
   /** minutes -> "1h 25m" / "45m" */
   function fmtDur(mins) {
@@ -214,7 +207,7 @@
     return m + "m";
   }
 
-  /** live clock ticker */
+  /** live clock ticker — this is the current local time in Kolkata, not a bus time */
   function tickClock() {
     if (!liveClock) return;
     const t = new Intl.DateTimeFormat("en-GB", {
@@ -258,70 +251,269 @@
      BUILD UI
      ============================================================ */
 
-  function buildTimeOptions() {
-    const frag = document.createDocumentFragment();
-    for (let mins = 0; mins < 1440; mins += STEP) {
-      const opt = document.createElement("option");
-      opt.value = String(mins);
-      opt.textContent = fmtTime(mins);
-      frag.appendChild(opt);
-    }
-    hourSelect.appendChild(frag);
-  }
-
-  function buildStopList() {
-    const names = BUS_STOPS.slice().sort((a, b) => a.localeCompare(b));
-    const frag = document.createDocumentFragment();
-    names.forEach((n) => {
-      const o = document.createElement("option");
-      o.value = n;
-      frag.appendChild(o);
-    });
-    stopList.appendChild(frag);
-  }
-
   /* ============================================================
-     RESOLVE SELECTED TIME
+     STOP PICKER
      ============================================================ */
-  function resolveSelectedTime() {
-    const now = kolkataNow();
-    const rawHour = hourSelect.value;
-    const mer = ampmSelect.value;
 
-    // nothing chosen -> current Kolkata time
-    if (rawHour === "" && mer === "") {
-      return { minutes: now.minutes, auto: true };
+  /**
+   * The stop suggestions used to be a native <datalist>. That works on a
+   * desktop browser and does nothing at all on a phone — iOS Safari and several
+   * Android browsers either ignore it or open a sheet that cannot be filtered —
+   * so the list is built in the DOM instead and behaves the same everywhere.
+   *
+   * Deliberate touch details:
+   *   - rows are 46px tall, the smallest comfortable tap target
+   *   - selection listens on `pointerdown`, because a tap outside the input
+   *     blurs it first and the `click` would arrive after the list had closed
+   *   - the list flips above the field when the keyboard leaves no room below
+   *   - an empty field shows the busiest stops, so tapping it visibly does
+   *     something instead of looking broken
+   */
+
+  const COMBO_LIMIT = 8;
+
+  let COMBO_POOL = [];                 // [{ value, lower }] — every searchable name
+  let POPULAR = [];                    // busiest stops, for an empty field
+  const STOP_FREQ = new Map();
+
+  function buildComboPool() {
+    COMBO_POOL = BUS_STOPS.map((value) => ({ value, lower: value.toLowerCase() }));
+
+    STOP_FREQ.clear();
+    BUS_ROUTES.forEach((route) => {
+      new Set(route.stops).forEach((s) => STOP_FREQ.set(s, (STOP_FREQ.get(s) || 0) + 1));
+    });
+    POPULAR = BUS_STOPS.slice()
+      .sort((a, b) => (STOP_FREQ.get(b) || 0) - (STOP_FREQ.get(a) || 0) || a.localeCompare(b))
+      .slice(0, COMBO_LIMIT);
+  }
+
+  /**
+   * How well a name matches, or -1 for no match.
+   * Someone typing "joka" wants Joka before "IIM Joka", so a prefix beats a
+   * word-start, which beats a match buried in the middle.
+   */
+  function comboRank(lower, q) {
+    if (lower === q) return 0;
+    if (lower.startsWith(q)) return 1;
+    const at = lower.indexOf(q);
+    if (at < 0) return -1;
+    return /[^a-z0-9]/.test(lower.charAt(at - 1) || "") ? 2 : 3;
+  }
+
+  /** ranked options for what has been typed (empty query -> popular stops) */
+  function comboMatches(query) {
+    const q = String(query || "").trim().toLowerCase();
+    if (!q) return POPULAR.map((name) => ({ name, note: "" }));
+
+    const hits = [];
+    for (const item of COMBO_POOL) {
+      const rank = comboRank(item.lower, q);
+      if (rank < 0) continue;
+      hits.push({ name: item.value, rank, len: item.lower.length });
+    }
+    hits.sort((a, b) => a.rank - b.rank || a.len - b.len || a.name.localeCompare(b.name));
+
+    const out = hits.slice(0, COMBO_LIMIT).map((h) => ({ name: h.name, note: "" }));
+
+    // A spelling that was merged away is no longer a stop, so it cannot match
+    // the list — give it its own row rather than leaving the user stuck.
+    const target = ALIASES[q] || ALIASES[q.replace(/[^a-z0-9]/g, "")];
+    if (target && !out.some((o) => o.name === target)) {
+      out.unshift({ name: target, note: "was \u201C" + query.trim() + "\u201D", alias: true });
+    }
+    return out;
+  }
+
+  function fillCombo(panel, query) {
+    const items = comboMatches(query);
+    panel.innerHTML = "";
+
+    const head = document.createElement("div");
+    head.className = "combo-head";
+    if (!query.trim()) head.textContent = "Popular stops";
+    else if (items.length) head.textContent = items.length + (items.length === 1 ? " match" : " matches");
+    else head.textContent = "No matching stop";
+    panel.appendChild(head);
+
+    if (!items.length) {
+      const none = document.createElement("div");
+      none.className = "combo-empty";
+      none.textContent =
+        "Nothing matches \u201C" + query.trim() + "\u201D. Try a shorter spelling, " +
+        "or pick the big stop nearest to it.";
+      panel.appendChild(none);
+      return;
     }
 
-    let base;
-    if (rawHour === "") {
-      // only meridiem chosen -> apply to current hour
-      base = now.minutes;
-    } else {
-      base = parseInt(rawHour, 10) || 0;
+    const frag = document.createDocumentFragment();
+    items.forEach((item, i) => {
+      const row = document.createElement("div");
+      row.className = "combo-opt" + (item.alias ? " is-alias" : "");
+      row.id = panel.id + "-opt-" + i;
+      row.setAttribute("role", "option");
+      row.dataset.value = item.name;
+
+      const name = document.createElement("span");
+      name.className = "co-name";
+      name.textContent = item.name;
+      row.appendChild(name);
+
+      if (item.note) {
+        const note = document.createElement("span");
+        note.className = "co-note";
+        note.textContent = item.note;
+        row.appendChild(note);
+      }
+      frag.appendChild(row);
+    });
+    panel.appendChild(frag);
+  }
+
+  function setupCombo(input, panel) {
+    const wrap = panel.parentElement;
+    let active = -1;
+
+    const rows = () => Array.prototype.slice.call(panel.querySelectorAll(".combo-opt"));
+
+    function paintActive() {
+      const list = rows();
+      list.forEach((r, i) => r.classList.toggle("is-active", i === active));
+      if (active >= 0 && list[active]) {
+        input.setAttribute("aria-activedescendant", list[active].id);
+        list[active].scrollIntoView({ block: "nearest" });
+      } else {
+        input.removeAttribute("aria-activedescendant");
+      }
     }
 
-    if (mer) {
-      let h = Math.floor(base / 60);
-      const m = base % 60;
-      const isPM = h >= 12;
-      if (mer === "PM" && !isPM) h += 12;
-      if (mer === "AM" && isPM) h -= 12;
-      base = h * 60 + m;
+    /* The on-screen keyboard can leave no room below the field, so measure the
+       visual viewport (which does shrink with the keyboard) and flip if needed. */
+    function placePanel() {
+      const vv = window.visualViewport;
+      const viewTop = vv ? vv.offsetTop : 0;
+      const viewH = vv ? vv.height : window.innerHeight;
+      const box = wrap.getBoundingClientRect();
+      const below = viewTop + viewH - box.bottom;
+      const above = box.top - viewTop;
+      panel.classList.toggle("flip", below < 300 && above > below);
     }
 
-    return { minutes: ((base % 1440) + 1440) % 1440, auto: false };
+    function open() {
+      fillCombo(panel, input.value);
+      panel.hidden = false;
+      wrap.classList.add("is-open");
+      input.setAttribute("aria-expanded", "true");
+      active = -1;
+      paintActive();
+      placePanel();
+    }
+
+    function close() {
+      panel.hidden = true;
+      wrap.classList.remove("is-open");
+      input.setAttribute("aria-expanded", "false");
+      input.removeAttribute("aria-activedescendant");
+      active = -1;
+    }
+
+    function choose(row) {
+      if (!row) return;
+      input.value = row.dataset.value;
+      close();
+      // hand over to the other box if it is still empty — saves a tap on mobile
+      const other = input === srcInput ? dstInput : srcInput;
+      if (other && !other.value.trim()) other.focus();
+    }
+
+    input.addEventListener("input", open);
+    input.addEventListener("focus", open);
+    // tapping a field that is already focused fires no focus event, so Escape
+    // (or a stray tap) would otherwise leave it with no way back to the list
+    input.addEventListener("click", () => { if (panel.hidden) open(); });
+
+    input.addEventListener("keydown", (e) => {
+      if (panel.hidden) {
+        if (e.key === "ArrowDown" || e.key === "ArrowUp") { e.preventDefault(); open(); }
+        return;
+      }
+      const list = rows();
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        active = Math.min(active + 1, list.length - 1);
+        paintActive();
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        active = Math.max(active - 1, 0);
+        paintActive();
+      } else if (e.key === "Enter") {
+        if (active >= 0) { e.preventDefault(); choose(list[active]); }
+      } else if (e.key === "Escape") {
+        e.preventDefault();
+        close();
+      }
+    });
+
+    /* pointerdown, not click: on a phone the input blurs before a click lands,
+       which would close the panel out from under the tap. The click handler is
+       the fallback for a browser that blurs anyway or lacks Pointer Events —
+       choosing twice with the same row is harmless, and doing nothing is not. */
+    panel.addEventListener("pointerdown", (e) => {
+      const row = e.target.closest(".combo-opt");
+      if (!row) return;
+      e.preventDefault();
+      choose(row);
+    });
+    panel.addEventListener("click", (e) => {
+      choose(e.target.closest(".combo-opt"));
+    });
+
+    // tapping anywhere else closes it (the delay lets pointerdown win first)
+    input.addEventListener("blur", () => { setTimeout(close, 140); });
+
+    /* Deliberately no close-on-scroll: the panel is absolutely positioned inside
+       the field, so it travels with the input rather than detaching. Closing on
+       scroll would break the phone case, where focusing a field makes the
+       browser scroll it above the keyboard. */
+    let lastWidth = window.innerWidth;
+    window.addEventListener("resize", () => {
+      const w = window.innerWidth;
+      // a width change is a rotation; a height change is just the keyboard
+      if (Math.abs(w - lastWidth) > 40) { lastWidth = w; close(); return; }
+      if (!panel.hidden) placePanel();
+    });
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener("resize", () => {
+        if (!panel.hidden) placePanel();
+      });
+    }
   }
 
   /* ============================================================
      ROUTE MATCHING
      ============================================================ */
 
-  /** case-insensitive lookup of a stop name */
+  /** case-insensitive lookup of a stop name, following merged-away spellings */
   function canonicalStop(name) {
     if (!name) return null;
     const key = String(name).trim().toLowerCase();
-    return STOP_LOOKUP.get(key) || null;
+    const hit = STOP_LOOKUP.get(key);
+    if (hit) return hit;
+    // aliases are keyed on the spelling as published; also try it with the
+    // punctuation squeezed out so "Airport Gate No 1" meets "Airport Gate No. 1"
+    return ALIASES[key] || ALIASES[key.replace(/[^a-z0-9]/g, "")] || null;
+  }
+
+  /**
+   * Resolve what someone typed into a box.
+   * `alias` is true when the name only matched because it is an old spelling
+   * that was merged into another stop, so the UI can explain the substitution.
+   */
+  function resolveField(el) {
+    const typed = String((el && el.value) || "").trim();
+    const name = canonicalStop(typed);
+    const key = typed.toLowerCase();
+    return { name, typed, alias: !!name && !STOP_LOOKUP.has(key) };
   }
 
   /**
@@ -331,8 +523,6 @@
    * Buses run a route in BOTH directions, so a route that lists Barasat last
    * still serves Esplanade -> Barasat and Barasat -> Esplanade. Without this,
    * a third of the network was unreachable: every terminus was a one-way door.
-   * For the reverse trip the "already travelled" distance is measured from the
-   * far terminus, since that is what the schedule's first/last departures mean.
    */
   function segmentOf(route, from, to) {
     const idx = ROUTE_STOP_IDX[route.__idx];
@@ -347,9 +537,6 @@
       fromIdx: i,
       toIdx: j,
       reversed: reversed,
-      offsetFrom: reversed
-        ? route.duration * ((n - i) / n)     // mins from the far terminus to the source
-        : route.duration * (i / n),
       segDuration: route.duration * (Math.abs(j - i) / n),
       segKm: route.km * (Math.abs(j - i) / n)
     };
@@ -364,34 +551,16 @@
   }
 
   /**
-   * All departures of a route from the source stop inside the window.
-   * Returns array of minutes-from-midnight.
+   * Every bus that gets you from `from` to `to`, quickest ride first. Pure and
+   * side-effect free: the real search and the "try this stop instead" hints both
+   * use it, so a suggestion can never promise a trip the search then fails to
+   * find.
+   *
+   * There is no time filter because there is no timetable: neither published
+   * route list carries departure times, so the honest question this answers is
+   * "which buses run this stretch", not "which one leaves next".
    */
-  function departuresInWindow(route, seg, startMin, endMin) {
-    const out = [];
-    const hw = route.headway;
-    if (!(hw > 0)) return out;               // guard against bad data
-
-    const firstDep = route.first + seg.offsetFrom;
-    const lastDep = route.last + seg.offsetFrom;
-
-    // first departure at/after startMin
-    let k = Math.ceil((startMin - firstDep) / hw);
-    if (k < 0) k = 0;
-
-    for (let t = firstDep + k * hw; t <= endMin && t <= lastDep; t += hw) {
-      if (t >= startMin) out.push(t);
-    }
-    return out;
-  }
-
-  /**
-   * Every bus that gets you from `from` to `to` with a departure inside
-   * [startMin, endMin], soonest first. Pure and side-effect free: the real
-   * search and the "try this stop instead" hints both use it, so a suggestion
-   * can never promise a trip the search then fails to find.
-   */
-  function computeRows(from, to, startMin, endMin) {
+  function computeRows(from, to) {
     const rows = [];
     // only routes that actually serve `from` can possibly serve both stops
     const ids = ROUTES_BY_STOP.get(from) || [];
@@ -401,20 +570,15 @@
       const seg = segmentOf(route, from, to);
       if (!seg) return;
 
-      const deps = departuresInWindow(route, seg, startMin, endMin);
-      if (!deps.length) return;
-
-      rows.push({
-        route,
-        seg,
-        departures: deps,
-        next: deps[0],
-        last: deps[deps.length - 1],
-        count: deps.length
-      });
+      rows.push({ route, seg, stops: Math.abs(seg.toIdx - seg.fromIdx) + 1 });
     });
 
-    rows.sort((a, b) => a.next - b.next);
+    rows.sort((a, b) =>
+      a.seg.segDuration - b.seg.segDuration ||
+      a.seg.segKm - b.seg.segKm ||
+      a.stops - b.stops ||
+      String(a.route.no).localeCompare(String(b.route.no), undefined, { numeric: true })
+    );
     return rows;
   }
 
@@ -430,8 +594,10 @@
    */
   function runSearch(opts) {
     opts = opts || {};
-    const from = canonicalStop(srcInput.value);
-    const to = canonicalStop(dstInput.value);
+    const f = resolveField(srcInput);
+    const t = resolveField(dstInput);
+    const from = f.name;
+    const to = t.name;
 
     if (!from || !to) {
       if (!opts.silent) showToast("Please pick a valid source and destination from the list.");
@@ -442,17 +608,24 @@
       return false;
     }
 
-    const sel = resolveSelectedTime();
-    const startMin = sel.minutes;
-    const endMin = startMin + WINDOW_MIN;
-
-    const rows = computeRows(from, to, startMin, endMin);
+    const rows = computeRows(from, to);
 
     activeFilter = "all";
     syncFilterButtons();
 
-    renderResults(rows, from, to, startMin, endMin, sel.auto);
-    if (opts.updateUrl) syncUrl(from, to, sel);
+    renderResults(rows, from, to);
+    if (opts.updateUrl) syncUrl(from, to);
+
+    // An old spelling that had to be translated is worth saying out loud —
+    // otherwise "Sec V" silently turning into "Salt Lake Sector V" looks like
+    // the search ignored what was typed.
+    if (!opts.silent) {
+      const swapped = [];
+      if (f.alias) swapped.push('"' + f.typed + '" is now ' + from);
+      if (t.alias) swapped.push('"' + t.typed + '" is now ' + to);
+      if (swapped.length) showToast(swapped.join("  \u00B7  "));
+    }
+
     if (opts.scroll) scrollToResults();
     return true;
   }
@@ -465,13 +638,13 @@
   /* ============================================================
      RENDER
      ============================================================ */
-  function renderResults(rows, from, to, startMin, endMin, auto) {
+  function renderResults(rows, from, to) {
     resultsList.innerHTML = "";
 
     if (!rows.length) {
       resultsHead.hidden = true;
       emptyState.hidden = false;
-      renderEmptyState(from, to, startMin, endMin);
+      renderEmptyState(from, to);
       return;
     }
 
@@ -481,16 +654,16 @@
     rhTitle.textContent = rows.length + (rows.length === 1 ? " bus" : " buses") +
                           " \u00B7 " + from + " \u2192 " + to;
     rhWindow.innerHTML =
-      "Departures between <b>" + fmtTime(startMin) + "</b> and <b>" + fmtTime(endMin) + "</b>" +
-      (auto ? " \u00B7 <b>auto-detected</b> from Kolkata local time" : "") +
-      " \u00B7 sorted by next bus" +
-      "<br><span class=\"est-note\">Route numbers and stops come from WBTC's published " +
-      "city-route list and Kolkata Bus-O-Pedia's catalogue. Frequencies and times are " +
-      "<b>estimates</b>, not official timings.</span>";
+      "Sorted by the shortest ride. " +
+      "<span class=\"est-note\">Route numbers and stops come from WBTC's published " +
+      "city-route list and Kolkata Bus-O-Pedia's catalogue. Neither list carries " +
+      "departure times and no timetable is published for these services, so this " +
+      "page shows <b>which buses run your stretch</b> and how long the ride takes " +
+      "\u2014 not when the next one leaves. Ride times are estimates.</span>";
 
     const frag = document.createDocumentFragment();
     rows.forEach((r, idx) => {
-      frag.appendChild(buildRow(r, idx, startMin));
+      frag.appendChild(buildRow(r, idx));
     });
     resultsList.appendChild(frag);
 
@@ -502,16 +675,15 @@
    * is common, so instead of a shrug we point at the nearest stops that would
    * actually work.
    */
-  function renderEmptyState(from, to, startMin, endMin) {
+  function renderEmptyState(from, to) {
     emptyState.innerHTML =
       '<div class="es-ico">&#128533;</div>' +
       "<h3>No direct bus on this stretch</h3>" +
       "<p>We couldn't find a direct bus from <strong>" + esc(from) + "</strong> to <strong>" + esc(to) +
-      "</strong> between <strong>" + fmtTime(startMin) + "</strong> and <strong>" + fmtTime(endMin) +
       "</strong>. Kolkata routes are heavily interlined, so a stop a few minutes away often does the job.</p>";
 
     // 1) a stop a short walk away is the nicest fix, so try that first
-    const alts = findAlternatives(from, to, startMin, endMin);
+    const alts = findAlternatives(from, to);
     if (alts.length) {
       const wrap = document.createElement("div");
       wrap.className = "suggest";
@@ -542,7 +714,7 @@
 
     // 2) Kolkata's long routes mostly funnel through a handful of hubs, so the
     //    honest answer for a cross-city pair is usually "change once".
-    const plans = findTransferPlans(from, to, startMin, endMin);
+    const plans = findTransferPlans(from, to);
     if (plans.length) {
       const wrap = document.createElement("div");
       wrap.className = "suggest";
@@ -556,10 +728,12 @@
         card.className = "suggest-plan";
         card.innerHTML =
           '<div class="plan-hub">\uD83D\uDD01\uFE0F Change at ' + esc(p.hub) + "</div>" +
-          '<div class="plan-leg"><b>' + esc(p.legA.route.no) + "</b> " + fmtTime(p.legA.next) +
-          " \u2192 " + fmtTime(p.arrive) + "</div>" +
-          '<div class="plan-leg"><b>' + esc(p.legB.route.no) + "</b> " + fmtTime(p.legB.next) +
-          " \u2192 " + fmtTime(p.arriveFinal) + "</div>" +
+          '<div class="plan-leg"><b>' + esc(p.legA.route.no) + "</b> " +
+          esc(p.legA.route.stops[p.legA.seg.fromIdx]) + " \u2192 " + esc(p.hub) +
+          " \u00B7 " + fmtDur(p.legA.seg.segDuration) + "</div>" +
+          '<div class="plan-leg"><b>' + esc(p.legB.route.no) + "</b> " + esc(p.hub) +
+          " \u2192 " + esc(p.legB.route.stops[p.legB.seg.toIdx]) +
+          " \u00B7 " + fmtDur(p.legB.seg.segDuration) + "</div>" +
           '<div class="plan-total">door to door \u00B7 ' + fmtDur(p.total) + "</div>";
         list.appendChild(card);
       });
@@ -570,15 +744,15 @@
     }
 
     emptyState.insertAdjacentHTML("beforeend",
-      '<p class="suggest-none">Nothing connects these two stops in the next 2 hours, even with one change \u2014 try a different time of day, or one of the quick picks.</p>');
+      '<p class="suggest-none">Nothing connects these two stops, even with one change \u2014 try one of the quick picks, or a nearby stop.</p>');
   }
 
   /**
    * Nearest stops that make the trip work, changing only one end. Candidates
-   * are run through the real search for the same time window, so a chip we show
-   * is guaranteed to produce buses when clicked.
+   * are run through the real search, so a chip we show is guaranteed to produce
+   * buses when clicked.
    */
-  function findAlternatives(from, to, startMin, endMin) {
+  function findAlternatives(from, to) {
     const fromC = KOLKATA_STOPS[from];
     const toC = KOLKATA_STOPS[to];
     const out = [];
@@ -587,12 +761,12 @@
       if (stop === from || stop === to) return;
 
       const kmFrom = haversineKm(fromC, KOLKATA_STOPS[stop]);
-      if (kmFrom <= NEARBY_KM && computeRows(stop, to, startMin, endMin).length) {
+      if (kmFrom <= NEARBY_KM && computeRows(stop, to).length) {
         out.push({ kind: "from", stop, km: kmFrom });
       }
 
       const kmTo = haversineKm(toC, KOLKATA_STOPS[stop]);
-      if (kmTo <= NEARBY_KM && computeRows(from, stop, startMin, endMin).length) {
+      if (kmTo <= NEARBY_KM && computeRows(from, stop).length) {
         out.push({ kind: "to", stop, km: kmTo });
       }
     });
@@ -615,32 +789,31 @@
   /**
    * One-change journeys. Most of Kolkata's long routes funnel through the same
    * few hubs, so for a cross-city pair the honest answer is usually "change
-   * once" rather than "no bus". Both legs run through computeRows, so the times
+   * once" rather than "no bus". Both legs run through computeRows, so the buses
    * shown are exactly what the user gets if they search each leg themselves.
    */
-  function findTransferPlans(from, to, startMin, endMin) {
+  function findTransferPlans(from, to) {
     const plans = [];
 
     HUBS.forEach((hub) => {
       if (hub === from || hub === to) return;
 
-      const legA = computeRows(from, hub, startMin, endMin)[0];
+      const legA = computeRows(from, hub)[0];
       if (!legA) return;
-
-      const arrive = legA.next + legA.seg.segDuration;
-      const catchFrom = arrive + TRANSFER_BUFFER;
-      const legB = computeRows(hub, to, catchFrom, catchFrom + WINDOW_MIN)[0];
+      const legB = computeRows(hub, to)[0];
       if (!legB) return;
 
-      const arriveFinal = legB.next + legB.seg.segDuration;
-      plans.push({ hub, legA, legB, arrive, arriveFinal, total: arriveFinal - legA.next });
+      plans.push({
+        hub, legA, legB,
+        total: legA.seg.segDuration + TRANSFER_BUFFER + legB.seg.segDuration
+      });
     });
 
     plans.sort((a, b) => a.total - b.total);
     return plans.slice(0, 2);
   }
 
-  function buildRow(r, idx, startMin) {
+  function buildRow(r, idx) {
     const route = r.route;
     const seg = r.seg;
 
@@ -651,14 +824,11 @@
     el.tabIndex = 0;
     el.setAttribute("role", "button");
 
-    const waitMin = r.next - startMin;
-    const arriveMin = r.next + seg.segDuration;
-
     el.setAttribute(
       "aria-label",
       "Bus " + route.no + " by " + route.operator + ", " + route.stops[seg.fromIdx] +
-      " to " + route.stops[seg.toIdx] + ", next bus at " + fmtTime(r.next) +
-      ", " + fmtDur(seg.segDuration) + " ride. Open route map."
+      " to " + route.stops[seg.toIdx] + ", about " + fmtDur(seg.segDuration) +
+      " for " + seg.segKm.toFixed(1) + " km over " + r.stops + " stops. Open route map."
     );
 
     /* --- bus number badge --- */
@@ -683,30 +853,16 @@
 
     meta.appendChild(tag(CAT_LABEL[route.cat] || "Bus", route.cat));
     meta.appendChild(tag(route.operator, "op"));
-    meta.appendChild(tag(seg.segKm.toFixed(1) + " km", "via"));
-    meta.appendChild(tag(fmtDur(seg.segDuration) + " ride", "via"));
-
-    // frequency highlight (requirement 7)
-    if (route.headway <= FREQ_THRESHOLD) {
-      const fb = document.createElement("span");
-      fb.className = "freq-badge";
-      fb.innerHTML = '<span class="bolt">\u26A1</span> Every ' + route.headway + " min";
-      fb.title = "This bus runs every " + route.headway + " minutes \u2014 " + r.count +
-                 " departures in your 2-hour window, shown once.";
-      meta.appendChild(fb);
-    } else if (r.count > 1) {
-      meta.appendChild(tag(r.count + " trips in window", "via"));
-    }
+    meta.appendChild(tag(r.stops + (r.stops === 1 ? " stop" : " stops"), "via"));
 
     info.appendChild(meta);
 
-    /* --- right timing --- */
+    /* --- right side: how long the ride is, not when it leaves --- */
     const time = document.createElement("div");
     time.className = "bus-time";
     time.innerHTML =
-      '<span class="next">' + fmtTime(r.next) + "</span>" +
-      '<span class="in">' + (waitMin <= 0 ? "leaving now" : "in <b>" + fmtDur(waitMin) + "</b>") + "</span>" +
-      '<span class="eta">reaches ~' + fmtTime(arriveMin) + "</span>" +
+      '<span class="ride">' + fmtDur(seg.segDuration) + "</span>" +
+      '<span class="in"><b>' + seg.segKm.toFixed(1) + " km</b> ride</span>" +
       '<span class="go">View route map \u2192</span>';
 
     el.appendChild(badge);
@@ -769,15 +925,14 @@
   }
 
   /* ============================================================
-     DEEP LINKS  (?from=..&to=..&at=<minutes>)
+     DEEP LINKS  (?from=..&to=..)
      ============================================================ */
-  function syncUrl(from, to, sel) {
+  function syncUrl(from, to) {
     if (!window.history || !history.replaceState) return;
     try {
       const p = new URLSearchParams();
       p.set("from", from);
       p.set("to", to);
-      if (!sel.auto) p.set("at", String(sel.minutes));
       history.replaceState(null, "", location.pathname + "?" + p.toString());
     } catch (err) {
       // file:// origins and sandboxed iframes can refuse this — harmless.
@@ -797,13 +952,6 @@
 
     srcInput.value = from;
     dstInput.value = to;
-
-    const at = parseInt(params.get("at"), 10);
-    if (!isNaN(at) && at >= 0) {
-      const snapped = Math.min(1425, Math.max(0, Math.round(at / STEP) * STEP));
-      hourSelect.value = String(snapped);
-      ampmSelect.value = "";
-    }
 
     return runSearch({ silent: true, updateUrl: false, scroll: false });
   }
@@ -844,10 +992,10 @@
     mhBus.textContent = route.no;
     mhRoute.textContent = route.stops[seg.fromIdx] + " \u2192 " + route.stops[seg.toIdx];
     mhSub.textContent = route.operator + " \u00B7 " + (CAT_LABEL[route.cat] || "Bus") +
-                        " \u00B7 every ~" + route.headway + " min (estimated)";
+                        " \u00B7 " + r.stops + " stops on your stretch";
     mhKm.textContent = seg.segKm.toFixed(1);
     mhMin.textContent = Math.round(seg.segDuration);
-    mhArr.textContent = fmtTime(r.next);
+    mhStopsN.textContent = r.stops;
 
     // stop chain, in the order you ride them
     mhStops.innerHTML = "";
@@ -1149,8 +1297,9 @@
     }
 
     buildIndexes();
-    buildTimeOptions();
-    buildStopList();
+    buildComboPool();
+    setupCombo(srcInput, srcPanel);
+    setupCombo(dstInput, dstPanel);
     syncFilterButtons();
     tickClock();
     setInterval(tickClock, 1000);

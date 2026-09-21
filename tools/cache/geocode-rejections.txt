@@ -1,0 +1,1413 @@
+(Zeeshan Crossing/Darga Road)	not geocoded
+- Chakhna	not geocoded
+- Garh Bhawanipur	coordinate is a generic match shared with 1 other stop
+- Gohalberia	not geocoded
+- Gurjorpur	not geocoded
+- Howrah Station Burrabazar Satyanarayan Park Chitpur Mechua Bazar MG Road Central Avenue Mahajati Sadan Ram Mandir Girish Park Vivekananda Road Maniktala Bagmari Bazar Kankurgachi Ultadanga VIP Road Lake Town Dumdum Park Keshtopur Baguihati Teghoria Kaikhali Airport Birati Gouripur BT College New Barrackpore Doltala Madhyamgram Chowmatha Madhyamgram Station Sajirhat APC College Murragachha Wireless More Mohanpur	not geocoded
+- Ichapur Jaltank	not geocoded
+- Jhikira	not geocoded
+- Joygachhi	not geocoded
+- Kathilabar	not geocoded
+1 no. railgate bazar	coordinate is a generic match shared with 3 other stops
+10 Mile Bazar	fails route-geometry check
+10 No. Majhipara	coordinate is a generic match shared with 1 other stop
+10no. Pole	coordinate is a generic match shared with 1 other stop
+206 Bus Stand	coordinate is a generic match shared with 2 other stops
+4 No Bridge	coordinate is a generic match shared with 1 other stop
+45 bus stand	coordinate is a generic match shared with 2 other stops
+5 no. kalimath	fails route-geometry check
+58 Gate	coordinate is a generic match shared with 1 other stop
+6 Crossing	coordinate is a generic match shared with 3 other stops
+8 No. Kalibari More	coordinate is a generic match shared with 1 other stop
+Abestors More	coordinate is a generic match shared with 46 other stops
+Acharipara	not geocoded
+Achipur	not geocoded
+Adampur	fails route-geometry check
+Addhabazar	not geocoded
+Adharmanik	not geocoded
+Adhata More	coordinate is a generic match shared with 46 other stops
+Adibasi Bhavan	fails route-geometry check
+Agarhati	not geocoded
+Agarpara	coordinate is a generic match shared with 6 other stops
+Agunshi More	coordinate is a generic match shared with 46 other stops
+Akankha More	coordinate is a generic match shared with 1 other stop
+Akta Bazar	coordinate is a generic match shared with 38 other stops
+Al Ameen Mission	not geocoded
+Alambazar	coordinate is a generic match shared with 46 other stops
+Alampur	not geocoded
+Alipur Rd	fails route-geometry check
+Alpan Diary	fails route-geometry check
+Amdanga	not geocoded
+Aminpur	not geocoded
+Amjhara	not geocoded
+Amkola	not geocoded
+Amrabati	coordinate is a generic match shared with 1 other stop
+Amragachhi	not geocoded
+Amratal	coordinate is a generic match shared with 1 other stop
+Amta	fails route-geometry check
+Anantapur	fails route-geometry check
+Anchna	not geocoded
+Andul Bazar	coordinate is a generic match shared with 38 other stops
+Ankurhati	not geocoded
+Antara Mental Hospital	not geocoded
+Antila	not geocoded
+Antila Bridge	coordinate is a generic match shared with 4 other stops
+Anwarsah Road	fails route-geometry check
+Aquatica	not geocoded
+Arabinda Pally	coordinate is a generic match shared with 1 other stop
+Arambag	not geocoded
+Arapanch	not geocoded
+Argori More	coordinate is a generic match shared with 46 other stops
+Arsadmiya Ghat	coordinate is a generic match shared with 3 other stops
+Arupota	not geocoded
+Asharu	fails route-geometry check
+Asharu Bazar	coordinate is a generic match shared with 38 other stops
+Ashokenagar Railgate	coordinate is a generic match shared with 3 other stops
+Ashoknagar 5 No. More	coordinate is a generic match shared with 3 other stops
+Ashoknagar Chowrangi	fails route-geometry check
+Ashoknagar Railgate	coordinate is a generic match shared with 3 other stops
+Ashwini Nagar	fails route-geometry check
+Asuthwatala	not geocoded
+Asuttola	not geocoded
+Atharobanki	coordinate is a generic match shared with 3 other stops
+Atlas More	fails route-geometry check
+Aturia	not geocoded
+Aturia Bazar.)	coordinate is a generic match shared with 38 other stops
+Authpur	fails route-geometry check
+Awalsiddhi	not geocoded
+Awalsiddhi Chowmatha	coordinate is a generic match shared with 5 other stops
+B.E. College	fails route-geometry check
+B.K.Paul More	fails route-geometry check
+B.N.R. Hospital	fails route-geometry check
+BIT College	not geocoded
+BNR	coordinate is a generic match shared with 1 other stop
+BNR More	coordinate is a generic match shared with 1 other stop
+Babanpur	not geocoded
+Bablatala	not geocoded
+Babughat / Esplanade	coordinate is a generic match shared with 1 other stop
+Baburhat	coordinate is a generic match shared with 1 other stop
+Badamtala	coordinate is a generic match shared with 1 other stop
+Badarhat	not geocoded
+Badartala	coordinate is a generic match shared with 1 other stop
+Badir More	coordinate is a generic match shared with 46 other stops
+Badu Bazar	coordinate is a generic match shared with 38 other stops
+Baduria	not geocoded
+Baduria Bazar	coordinate is a generic match shared with 38 other stops
+Baganda	not geocoded
+Bagaria	not geocoded
+Bagdah	not geocoded
+Bagirhat	not geocoded
+Bagjola	not geocoded
+Bagjola Bazar	coordinate is a generic match shared with 38 other stops
+Bagmari Bazar	coordinate is a generic match shared with 2 other stops
+Bagmore	coordinate is a generic match shared with 2 other stops
+Bagna more	coordinate is a generic match shared with 46 other stops
+Bagnan	coordinate is a generic match shared with 2 other stops
+Bagnan Library More	not geocoded
+Bagulakhali	not geocoded
+Baharu	fails route-geometry check
+Bahirsona More	fails route-geometry check
+Baidyapur Kanchkal	fails route-geometry check
+Baikunthapur	not geocoded
+Baisakhi More	coordinate is a generic match shared with 46 other stops
+Bajitpur	not geocoded
+Bajkul	fails route-geometry check
+Bakeshwar	not geocoded
+Bakhrahat	not geocoded
+Bakkhali	not geocoded
+Bakrakpur College	fails route-geometry check
+Bakshara	not geocoded
+Balakhali	not geocoded
+Balia	coordinate is a generic match shared with 1 other stop
+Bally bridge	coordinate is a generic match shared with 4 other stops
+Ballyghat	not geocoded
+Ballygunge Phari	coordinate is a generic match shared with 1 other stop
+Ballykhal	not geocoded
+Balti	coordinate is a generic match shared with 1 other stop
+Baltikuri	coordinate is a generic match shared with 46 other stops
+Bamangachi	fails route-geometry check
+Bamangachi Chowmatha	fails route-geometry check
+Bamanghata	not geocoded
+Bamanpukur	not geocoded
+Bamondanga	not geocoded
+Bamunia	not geocoded
+Bamunmura	not geocoded
+Banamalipur	not geocoded
+Banbania	not geocoded
+Banbania Chowmatha	coordinate is a generic match shared with 5 other stops
+Bandar	fails route-geometry check
+Bandha Ghat	coordinate is a generic match shared with 3 other stops
+Bandha Ghat / Salkia Chowrasta	not geocoded
+Bankra	fails route-geometry check
+Bankra Bazar	coordinate is a generic match shared with 38 other stops
+Banstala	fails route-geometry check
+Bantala Leather Complex	coordinate is a generic match shared with 3 other stops
+Bantul More	coordinate is a generic match shared with 46 other stops
+Banungachi Station Road	fails route-geometry check
+Baragachia	not geocoded
+Barasat Algaria	coordinate is a generic match shared with 1 other stop
+Barasat Champadali	coordinate is a generic match shared with 1 other stop
+Barasat District Hospital	fails route-geometry check
+Barasat Kazipara	coordinate is a generic match shared with 4 other stops
+Barasat Kazipara depot	coordinate is a generic match shared with 4 other stops
+Barasat Moyna Check Post	not geocoded
+Barasat State University	fails route-geometry check
+Barasat Titumir Bus Stand	fails route-geometry check
+Barasat/ Ecospace	coordinate is a generic match shared with 1 other stop
+Barbadia	not geocoded
+Barbaria	not geocoded
+Barda	fails route-geometry check
+Bargachia	not geocoded
+Bargram More	coordinate is a generic match shared with 46 other stops
+Baria	not geocoded
+Barrackpore Chiria More	fails route-geometry check
+Baruipur Fultala Central Terminus	not geocoded
+Baruipur Kachari Bazar	not geocoded
+Baruipur Rabindra Bhawan	fails route-geometry check
+Barunda	not geocoded
+Basanti	coordinate is a generic match shared with 2 other stops
+Basanti Bridge	coordinate is a generic match shared with 2 other stops
+Basanti Chowmatha	coordinate is a generic match shared with 2 other stops
+Bashiram Bazar	coordinate is a generic match shared with 38 other stops
+Bashirhat	not geocoded
+Basirhat	not geocoded
+Basirhat 72 Bus Stand	not geocoded
+Basirhat Chowmatha	coordinate is a generic match shared with 5 other stops
+Basirhat Court	fails route-geometry check
+Basirhat Puratan Bazar	not geocoded
+Basirhat Trimohini	not geocoded
+Basudebpur	not geocoded
+Basundharia	not geocoded
+Bataitala Phari	coordinate is a generic match shared with 1 other stop
+Battala	coordinate is a generic match shared with 2 other stops
+Bazetaraf	not geocoded
+Bazetorof	not geocoded
+Beadon Street	coordinate is a generic match shared with 1 other stop
+Bedon Squre	coordinate is a generic match shared with 1 other stop
+Behala Rabindranagar	fails route-geometry check
+Belari Mollah More	not geocoded
+Beledanga	not geocoded
+Beleghata	fails route-geometry check
+Beleghata Building More	coordinate is a generic match shared with 3 other stops
+Beleghata CIT Building	coordinate is a generic match shared with 3 other stops
+Beleghata CIT More	coordinate is a generic match shared with 3 other stops
+Beleghata ID Hospital	not geocoded
+Beleghata Sales Tax	coordinate is a generic match shared with 1 other stop
+Belgachia/ BBD bag/ Sealdah	not geocoded
+Belgharia Rathtala	fails route-geometry check
+Belgharia Teachers' Colony	not geocoded
+Belgharia expressway	not geocoded
+Belghoria Expressway	not geocoded
+Belghoria Station	not geocoded
+Beliaghata Bazar	coordinate is a generic match shared with 1 other stop
+Beliaghata Bridge	coordinate is a generic match shared with 1 other stop
+Beliaghata Xing	coordinate is a generic match shared with 1 other stop
+Belpukur	not geocoded
+Belsingha	fails route-geometry check
+Beltala	fails route-geometry check
+Benar More	coordinate is a generic match shared with 46 other stops
+Bengal Chemical	fails route-geometry check
+Beraberi	not geocoded
+Beraberia	not geocoded
+Berachampa	coordinate is a generic match shared with 3 other stops
+Bergum	fails route-geometry check
+Beri Gopalpur	fails route-geometry check
+Betai	coordinate is a generic match shared with 1 other stop
+Betai Bandar More	not geocoded
+Betai Bondor More	not geocoded
+Bethpukur	fails route-geometry check
+Betore	coordinate is a generic match shared with 46 other stops
+Bhabani Bhawan	coordinate is a generic match shared with 4 other stops
+Bhabla Station	coordinate is a generic match shared with 6 other stops
+Bhadura	fails route-geometry check
+Bhagabanpur	not geocoded
+Bhagabatipur	not geocoded
+Bhandargacha	not geocoded
+Bhandergacha	not geocoded
+Bhangankhali	not geocoded
+Bhangore	not geocoded
+Bharat Sevashram Hospital	fails route-geometry check
+Bharat Sevasram Hospital	not geocoded
+Bhasa Panchrasta Bazar	coordinate is a generic match shared with 1 other stop
+Bhasa Swami Narayan Temple	not geocoded
+Bhasha 14no	fails route-geometry check
+Bhatpara	not geocoded
+Bhawani Bhawan	fails route-geometry check
+Bhawanipur	coordinate is a generic match shared with 1 other stop
+Bhebia	not geocoded
+Bhebia Chowmatha	coordinate is a generic match shared with 5 other stops
+Bhebia Chowrasta	coordinate is a generic match shared with 3 other stops
+Bhojerhat	not geocoded
+Bhojherhat	not geocoded
+Bhubaneshwari	not geocoded
+Bhushighata	not geocoded
+Bhyabla Halt	fails route-geometry check
+Bibibazar	coordinate is a generic match shared with 1 other stop
+Bibirhat	not geocoded
+Bichali Ghar	not geocoded
+Bidyut Bhawan	coordinate is a generic match shared with 4 other stops
+Bijan Setu (Ballygunge Station)	not geocoded
+Bijaygunge bazar (Lakshmikantapur)	not geocoded
+Bikash Bhaban	not geocoded
+Bikash Bhavan	fails route-geometry check
+Bikash Bhawan	coordinate is a generic match shared with 4 other stops
+Binala	not geocoded
+Bindopur	not geocoded
+Binodpur	not geocoded
+Bira Chowmatha	coordinate is a generic match shared with 1 other stop
+Bira Joypul Chowmatha	coordinate is a generic match shared with 1 other stop
+Biradingi More	coordinate is a generic match shared with 46 other stops
+Biramnagar	not geocoded
+Birati Tantkal	not geocoded
+Birla More	coordinate is a generic match shared with 1 other stop
+Birlapur	not geocoded
+Birshibpur	not geocoded
+Bisalakshmitala	not geocoded
+Bishnu Cotton Mill	not geocoded
+Bishnupur	coordinate is a generic match shared with 1 other stop
+Biswanathpur	not geocoded
+Biswashati Bazar	not geocoded
+Bithari	fails route-geometry check
+Boalghata	not geocoded
+Boardghar	not geocoded
+Bodra	not geocoded
+Bokchora	not geocoded
+Bokunda	not geocoded
+Boldeghata	not geocoded
+Bonchakhali bazar	not geocoded
+Bongaon	not geocoded
+Bongaon 1 No. Railgate Bazar	not geocoded
+Bongaon 78E Bus Stand	not geocoded
+Bongaon Motigunge Bus Stand	not geocoded
+Bongaon Paikpara	not geocoded
+Bonhooghly Tobin Road	not geocoded
+Bonhoogly	not geocoded
+Borali Ghat	coordinate is a generic match shared with 3 other stops
+Boro Kanthalia More	not geocoded
+Boro Talikhola	not geocoded
+Boshirhat boardghat	not geocoded
+Botanical Garden	not geocoded
+Boyermari	not geocoded
+Boyra	not geocoded
+Brace Bridge	coordinate is a generic match shared with 4 other stops
+Brahmaner More	not geocoded
+Bratachari Ashram (Baguiati Big Bazar)	not geocoded
+Bridge 4	not geocoded
+Brindabanpur	not geocoded
+Broad Street	not geocoded
+Bura Bazar	coordinate is a generic match shared with 38 other stops
+Burul Bazar	coordinate is a generic match shared with 38 other stops
+C A Island	coordinate is a generic match shared with 2 other stops
+C.G.O. Complex	fails route-geometry check
+CIT More	coordinate is a generic match shared with 3 other stops
+CR Avenue	coordinate is a generic match shared with 1 other stop
+CTC Depot	not geocoded
+Calcium More	coordinate is a generic match shared with 46 other stops
+Calcutta Leather Complex (Covers All 3 Gates)	not geocoded
+Calcutta Technical School	not geocoded
+Cannel Bridge	coordinate is a generic match shared with 4 other stops
+Canning Station	coordinate is a generic match shared with 1 other stop
+Casurina Avenue	not geocoded
+Central Jail	fails route-geometry check
+Central garage	not geocoded
+Chadni	coordinate is a generic match shared with 1 other stop
+Chaital	fails route-geometry check
+Chaital Ghat	fails route-geometry check
+Chakdulalpur	not geocoded
+Chakhana	not geocoded
+Chakla (	not geocoded
+Chakraberia Road Xing	not geocoded
+Chalki Bazar	coordinate is a generic match shared with 38 other stops
+Champadanga	not geocoded
+Champahati	not geocoded
+Champatala	coordinate is a generic match shared with 1 other stop
+Chamrail	not geocoded
+Chanda	not geocoded
+Chandabazar	not geocoded
+Chandaneshwar	not geocoded
+Chandipur	not geocoded
+Chanditala	fails route-geometry check
+Chandkhali	not geocoded
+Chandmari	not geocoded
+Chandpara B.D.O. Office	fails route-geometry check
+Chandpara Bazar	coordinate is a generic match shared with 38 other stops
+Chandpur	not geocoded
+Changabottala	not geocoded
+Chapa tola	not geocoded
+Chapaberia	fails route-geometry check
+Chapadali More	coordinate is a generic match shared with 1 other stop
+Chapatala	not geocoded
+Chapuria	not geocoded
+Charabidya	not geocoded
+Charapole	not geocoded
+Chatra Bazar	not geocoded
+Chaulkhola	not geocoded
+Chetla Park	not geocoded
+China Mandir	not geocoded
+Chiriamore Dumdum	fails route-geometry check
+Chitpur Bridge	coordinate is a generic match shared with 1 other stop
+Chitrasenpur	not geocoded
+Choatia	not geocoded
+Chouberia Chowrasta	not geocoded
+Chouhati	not geocoded
+Chowalkhola	not geocoded
+Chowdhury Chak	not geocoded
+Chowhati	not geocoded
+Chowmuha	not geocoded
+Chria	coordinate is a generic match shared with 1 other stop
+Chria more Dumdum	not geocoded
+Christopher Road	coordinate is a generic match shared with 1 other stop
+Chunakhali	not geocoded
+Chunavati	not geocoded
+College ghat	fails route-geometry check
+Colony Bazar	coordinate is a generic match shared with 38 other stops
+Companir Thek	not geocoded
+Contai Central bus stand	not geocoded
+Cossipur Udyanbati	not geocoded
+Cotai bypass	not geocoded
+Culture More	fails route-geometry check
+Curzon Park	not geocoded
+Dafarpur	not geocoded
+Dahighat	not geocoded
+Dakbungalow Bazar	coordinate is a generic match shared with 38 other stops
+Dakghar	not geocoded
+Dakshin Akhratala	coordinate is a generic match shared with 1 other stop
+Dakshin Barasat	not geocoded
+Dakshin Battala	not geocoded
+Dakshin Birampur	not geocoded
+Dakshin Durgapur	fails route-geometry check
+Dakshin Ramkrishnapur	coordinate is a generic match shared with 1 other stop
+Dakshinbari	coordinate is a generic match shared with 1 other stop
+Dakshineshwar	not geocoded
+Dalalpukur	not geocoded
+Dalanghata	not geocoded
+Dankuni	fails route-geometry check
+Dargah Road	not geocoded
+Dariapur	not geocoded
+Daripukur	not geocoded
+Dashadrone	not geocoded
+Daspara	not geocoded
+Daulatpur	not geocoded
+Dayarampur Bazar	not geocoded
+Debaloy Hadipur Post Office	not geocoded
+Debipur	not geocoded
+Debpukur	not geocoded
+Decathlon	not geocoded
+Deganga	not geocoded
+Delhi Road	not geocoded
+Deorah More	coordinate is a generic match shared with 46 other stops
+Deular More	coordinate is a generic match shared with 46 other stops
+Deuli	not geocoded
+Deulti	not geocoded
+Dhalai	not geocoded
+Dhamakhali	not geocoded
+Dhamisa	not geocoded
+Dhamua	not geocoded
+Dhankal	not geocoded
+Dhanmath	not geocoded
+Dhanpota	not geocoded
+Dhapa Mathpukur	coordinate is a generic match shared with 1 other stop
+Dharampur	not geocoded
+Dharmapukuria	not geocoded
+Dhibdhiba	not geocoded
+Dhola	not geocoded
+Dholahat More	not geocoded
+Dhopagachi	not geocoded
+Dhrubabazar	not geocoded
+Dhukrijhara	not geocoded
+Dhulagarh	not geocoded
+Dhulagarh Toll Plaza	not geocoded
+Dhulasimla	not geocoded
+Dhuri Bazar	coordinate is a generic match shared with 38 other stops
+Diamond Harbour	fails route-geometry check
+Digha	fails route-geometry check
+Dighirpar	fails route-geometry check
+Dihibhurshut	not geocoded
+Dilakhash	not geocoded
+Dinabandhu Andrews College	not geocoded
+Dockghat	not geocoded
+Dockyard	not geocoded
+Dogachia	not geocoded
+Doltala	fails route-geometry check
+Domjur BDO Office	not geocoded
+Domjur BDO office Dakshin bari	not geocoded
+Domjur bus Stand	not geocoded
+Domjur hospital more	not geocoded
+Dompara	not geocoded
+Dongaria	not geocoded
+Doperia	not geocoded
+Dostipur	not geocoded
+Dukhirampool	not geocoded
+Dulduli.)	not geocoded
+Dumdum Chiria More	not geocoded
+Dumurjola	not geocoded
+Dumurjola Housing Complex	not geocoded
+Durgapur Bridge	not geocoded
+Duttabagan	not geocoded
+Duttabazar	fails route-geometry check
+Duttapara	fails route-geometry check
+Duttaphulia	not geocoded
+Dwariknagar	not geocoded
+EM Byapss	coordinate is a generic match shared with 1 other stop
+EM Bypass	coordinate is a generic match shared with 1 other stop
+EM Bypass New Garia	not geocoded
+Eastern Club	not geocoded
+Eco Tourism Park	not geocoded
+Eksara More	not geocoded
+Entally Market	not geocoded
+Esplanade CTC bus stand	not geocoded
+Esplanade L20	fails route-geometry check
+FCI Godown	not geocoded
+FD Park	not geocoded
+FD island	coordinate is a generic match shared with 2 other stops
+Fakirtala	not geocoded
+Falguni	not geocoded
+Falta	not geocoded
+Falta Sector 1	not geocoded
+Fansitala	not geocoded
+Fariapukur	not geocoded
+Fatehpur	fails route-geometry check
+Fatehpur 28 No	not geocoded
+Fatickgachi	not geocoded
+Ferry Ghat	not geocoded
+Fire Brigade	not geocoded
+Fishery Gate	not geocoded
+Foreshore Road	not geocoded
+Frasergunje	not geocoded
+Frazerganj	not geocoded
+Fulbagan	not geocoded
+Fulbari	not geocoded
+GPO	fails route-geometry check
+GST Bhawan	coordinate is a generic match shared with 4 other stops
+Gabberia	fails route-geometry check
+Gabberia Chotopole	not geocoded
+Gabberia Hospital	not geocoded
+Gabbuni	not geocoded
+Gadamara	not geocoded
+Gadarati	not geocoded
+Gadiara	not geocoded
+Gadkhali	not geocoded
+Gaighata Bazar	coordinate is a generic match shared with 38 other stops
+Gaighata P.S	fails route-geometry check
+Gajar more	not geocoded
+Galiff Street	not geocoded
+Gandharbapur	not geocoded
+Gandhi Colony	not geocoded
+Gangadharpur	not geocoded
+Ganganagar	not geocoded
+Ganganagar Julien Day School	not geocoded
+Gangarampur	not geocoded
+Gangraguri	not geocoded
+Ganjer Bazar	not geocoded
+Ganrapota	not geocoded
+Garapota	not geocoded
+Garchumuk	not geocoded
+Garia 6no. Bus stand	coordinate is a generic match shared with 2 other stops
+Garia Bus Stand	coordinate is a generic match shared with 2 other stops
+Garifa Road	not geocoded
+Gazipur	not geocoded
+Gazna Bazar	not geocoded
+Ghasiara	not geocoded
+Ghatakpukur	not geocoded
+Ghatbaor	not geocoded
+Ghatboar	not geocoded
+Ghatur More	not geocoded
+Gheedah	not geocoded
+Ghola	not geocoded
+Ghola Bazar	coordinate is a generic match shared with 38 other stops
+Ghoradaha	not geocoded
+Ghoraras Beltala	fails route-geometry check
+Ghoshpur	not geocoded
+Ghushighata	not geocoded
+Ghusighata	not geocoded
+Girish Park / College Street	not geocoded
+Goakhali More	coordinate is a generic match shared with 46 other stops
+Goalbagi	not geocoded
+Goalbathan	not geocoded
+Goaldaha	not geocoded
+Gobardanga Bazar	coordinate is a generic match shared with 38 other stops
+Gobardanga Goipur	not geocoded
+Gobinda Khatik Road	not geocoded
+Gobindopur	fails route-geometry check
+Gobra More	not geocoded
+Gocharan	not geocoded
+Gokna	not geocoded
+Gokulpur	fails route-geometry check
+Golabarai PS / Pilkhana More	not geocoded
+Golabari	fails route-geometry check
+Golaknagar	not geocoded
+Gopalnagar	fails route-geometry check
+Gopalpur More	coordinate is a generic match shared with 1 other stop
+Goundia Raghunathpur	not geocoded
+Gourhati More	coordinate is a generic match shared with 46 other stops
+Gouripur	fails route-geometry check
+Greenfield City	not geocoded
+Grey St	coordinate is a generic match shared with 1 other stop
+Gujarpur	not geocoded
+Guma	fails route-geometry check
+Guma Chowmatha	coordinate is a generic match shared with 5 other stops
+Gurdah	not geocoded
+Gurudaspur	not geocoded
+Gurudaspur Hospital More	not geocoded
+Gustia More	not geocoded
+H M Ghosh College	fails route-geometry check
+H.B. Town	not geocoded
+HMG College	coordinate is a generic match shared with 1 other stop
+Habra Deshbandhu Park	not geocoded
+Habra Manasabari	not geocoded
+Habra Mansabari	not geocoded
+Habra Rail station	not geocoded
+Habra WBTC depot	not geocoded
+Hadipur Colony	not geocoded
+Haidarpur	not geocoded
+Hajratala	not geocoded
+Hakimpur	not geocoded
+Haldiram	fails route-geometry check
+Haldirams	fails route-geometry check
+Halisahar	not geocoded
+Haltu	not geocoded
+Hamadama	not geocoded
+Hamidpur	not geocoded
+Hansia	not geocoded
+Hanskhali	not geocoded
+Hanskhali Pole	not geocoded
+Hantal	not geocoded
+Hapania	not geocoded
+Haraharitala	not geocoded
+Haridashpur	not geocoded
+Harindanga	not geocoded
+Haripara	not geocoded
+Harishpur	not geocoded
+Harispur	not geocoded
+Haritala	coordinate is a generic match shared with 1 other stop
+Haroa	not geocoded
+Haroa Bridge	not geocoded
+Haroa Railgate	not geocoded
+Harop Bazar	not geocoded
+Hasnabad	not geocoded
+Hathatgange	not geocoded
+Hathatganj	not geocoded
+Hathatgunge	not geocoded
+Hatishala	not geocoded
+Hatkhola Bazar	not geocoded
+Hatthuba	not geocoded
+Hatuganj	not geocoded
+Hatugunge	not geocoded
+Hela Battala	coordinate is a generic match shared with 2 other stops
+Helencha	not geocoded
+Heria	not geocoded
+High Court	not geocoded
+Hiland Willow/ Picnic Park	fails route-geometry check
+Hind Cinema	coordinate is a generic match shared with 3 other stops
+Hindu Kabristan	not geocoded
+Hingalganj	not geocoded
+Hingalgunge	not geocoded
+Hiranmoypur	not geocoded
+Hirghata	not geocoded
+Hoglashi More	coordinate is a generic match shared with 46 other stops
+Hoglasi	not geocoded
+Hospital More	coordinate is a generic match shared with 1 other stop
+Howrah Fire Station	not geocoded
+Howrah Station/Esplanade	not geocoded
+Howrah bus stand (Executive)	not geocoded
+I.T.C. Infotech	not geocoded
+IIM Joka	coordinate is a generic match shared with 1 other stop
+IIMC Hospital	not geocoded
+Icchapur	not geocoded
+Ichanagari	not geocoded
+Ichapur More	coordinate is a generic match shared with 46 other stops
+Indian Statistical Institute	not geocoded
+Indiranagar	not geocoded
+Indranarayanpur	not geocoded
+Infospace	not geocoded
+Ishwarigacha.)	not geocoded
+Islampur	not geocoded
+Iswarigacha	not geocoded
+J.K.Island	coordinate is a generic match shared with 2 other stops
+Jadu babu r bajar	not geocoded
+Jadurhati	not geocoded
+Jafarpur	not geocoded
+Jagadishpur	not geocoded
+Jagadishpur Hospital	not geocoded
+Jagannathpur	fails route-geometry check
+Jagat Cinema	coordinate is a generic match shared with 3 other stops
+Jagat Cinema Hall	not geocoded
+Jagatballavpur	not geocoded
+Jagatdal	not geocoded
+Jagulgachi	not geocoded
+Jaguli	not geocoded
+Jaguli Anandapur	not geocoded
+Jainpur	not geocoded
+Jala Biswanathpur	coordinate is a generic match shared with 1 other stop
+Jalaberia	not geocoded
+Jalan Complex 1	not geocoded
+Jalan Gate	not geocoded
+Jalan complex	coordinate is a generic match shared with 3 other stops
+Jalilpur	not geocoded
+Jamalpur More	not geocoded
+Jamberia Bridge	not geocoded
+Jamdani	not geocoded
+Jamtala	not geocoded
+Jamtala Boropole	not geocoded
+Jangalpur	not geocoded
+Japani Gate	fails route-geometry check
+Jashoda More	not geocoded
+Jatragachi	not geocoded
+Jayanti	not geocoded
+Jaygram	not geocoded
+Jaynagar Post office	not geocoded
+Jdavpur	not geocoded
+Jharkhali	not geocoded
+Jhautala	not geocoded
+Jhikra Battala	not geocoded
+Jhikra Bazar	not geocoded
+Jhilpar	not geocoded
+Jingira Bazar	coordinate is a generic match shared with 38 other stops
+Jinjira Bajar	coordinate is a generic match shared with 1 other stop
+Jinjira Bazar	coordinate is a generic match shared with 38 other stops
+Jivandeep	not geocoded
+Jodhpur Park	coordinate is a generic match shared with 1 other stop
+Jogi Battala	coordinate is a generic match shared with 2 other stops
+Joka Khalpole	coordinate is a generic match shared with 1 other stop
+Jora Girja	not geocoded
+Jorabattala	not geocoded
+Joygachi	not geocoded
+Joynagar	not geocoded
+Joypul Bazar	coordinate is a generic match shared with 38 other stops
+Joypur	coordinate is a generic match shared with 1 other stop
+Joypur bill	fails route-geometry check
+Julpia	not geocoded
+Jyangra chowmatha	not geocoded
+Jyotishpur	not geocoded
+KWIC	not geocoded
+Kachua More	coordinate is a generic match shared with 46 other stops
+Kachuberia	not geocoded
+Kadambagachi	fails route-geometry check
+Kadamtala	fails route-geometry check
+Kadapara	not geocoded
+Kaijuri Bazar (	not geocoded
+Kajla	not geocoded
+Kajoler More	coordinate is a generic match shared with 46 other stops
+Kakdip	not geocoded
+Kakdwip	not geocoded
+Kakdwip Bus Stand	coordinate is a generic match shared with 2 other stops
+Kalaberia	not geocoded
+Kalagachia	fails route-geometry check
+Kalambagan market	not geocoded
+Kalatala	fails route-geometry check
+Kalatalahat	not geocoded
+Kalibabu Bazar	not geocoded
+Kalidanga	not geocoded
+Kalikapur Avishikta	not geocoded
+Kalinagar More	not geocoded
+Kalipark	coordinate is a generic match shared with 4 other stops
+Kalipur More	not geocoded
+Kalitala Bazar	coordinate is a generic match shared with 2 other stops
+Kalitala Housing	coordinate is a generic match shared with 2 other stops
+Kaltala	coordinate is a generic match shared with 2 other stops
+Kalupur	not geocoded
+Kalur More	not geocoded
+Kalyangarh	fails route-geometry check
+Kalyani (Jagulia)	not geocoded
+Kalyanpur Panchayat	not geocoded
+Kamalpur	not geocoded
+Kamardanga	not geocoded
+Kamarhati Rathtala	not geocoded
+Kamdebpur	not geocoded
+Kamduni More	not geocoded
+Kamina More	not geocoded
+Kampa More	not geocoded
+Kanchantala	not geocoded
+Kanchiara	not geocoded
+Kanchkal	not geocoded
+Kanchrapara	not geocoded
+Kankinara	not geocoded
+Kankpul More	not geocoded
+Kankpul School	not geocoded
+Kanmari Bazar	coordinate is a generic match shared with 38 other stops
+Kanmari More	coordinate is a generic match shared with 46 other stops
+Kantala	not geocoded
+Kantaltala	not geocoded
+Kantamari	not geocoded
+Kanthalberia	fails route-geometry check
+Kanthalberia Hospital More	not geocoded
+Kanthalia	not geocoded
+Kanthalibar	not geocoded
+Kanthi	not geocoded
+Kapathat	coordinate is a generic match shared with 1 other stop
+Kapileshwar	not geocoded
+Karanjali	not geocoded
+Karatberia	not geocoded
+Karbala More	fails route-geometry check
+Karidanga	not geocoded
+Karigari Bhaban	not geocoded
+Kartickpur	not geocoded
+Kartikpur	not geocoded
+Kasba Rathtala	not geocoded
+Kashimpur	not geocoded
+Kashinagar	not geocoded
+Kashipur	not geocoded
+Kashtodanga	not geocoded
+Katakhal	not geocoded
+Katalia	not geocoded
+Katatala	coordinate is a generic match shared with 1 other stop
+Kathgola	fails route-geometry check
+Katiahat	not geocoded
+Katiahat Bazar	coordinate is a generic match shared with 38 other stops
+Katlamari	not geocoded
+Katlia More	coordinate is a generic match shared with 46 other stops
+Kaukepara	not geocoded
+Kautala	not geocoded
+Kayosa Bazar	not geocoded
+Kayrapur	not geocoded
+Kazibari	coordinate is a generic match shared with 4 other stops
+Kazipara	coordinate is a generic match shared with 4 other stops
+Kazipara Depot	coordinate is a generic match shared with 1 other stop
+Kazipara More / Avani Mall	not geocoded
+Kazipara Railgate	fails route-geometry check
+Kedar Ashram	not geocoded
+Kefayetkati	not geocoded
+Kemia More	not geocoded
+Kendua Bazar	coordinate is a generic match shared with 38 other stops
+Kestopur Bazar	not geocoded
+Kestor More	fails route-geometry check
+Keutia	not geocoded
+Khadinan	not geocoded
+Khalisani	not geocoded
+Khalor	not geocoded
+Khalore More	coordinate is a generic match shared with 46 other stops
+Khandalia	not geocoded
+Khanna	not geocoded
+Khanna Cinema	coordinate is a generic match shared with 3 other stops
+Khardaha Municipality	coordinate is a generic match shared with 1 other stop
+Khardha Bazar	coordinate is a generic match shared with 38 other stops
+Kharibari	fails route-geometry check
+Kharuberia	not geocoded
+Khashmallik	not geocoded
+Khasmallick	not geocoded
+Khasnan	not geocoded
+Khaspur	not geocoded
+Khatpool.)	not geocoded
+Khatura Bazar	not geocoded
+Khejurtala	fails route-geometry check
+Khilkapur	not geocoded
+Kholakhali Hat	fails route-geometry check
+Kholapota	not geocoded
+Khorop	not geocoded
+Khosdelpur	not geocoded
+Khotirbazar	not geocoded
+Khudiram Park (Sarsuna)	fails route-geometry check
+Kilkhana	not geocoded
+Kirtonkhola Sashan Bazar	not geocoded
+Kishorimohonpur	not geocoded
+Kokapur	not geocoded
+Kolaghat	not geocoded
+Kolashim Bazar	coordinate is a generic match shared with 38 other stops
+Kolia More	not geocoded
+Kolkata Leather Complex	coordinate is a generic match shared with 3 other stops
+Kolkata Station	coordinate is a generic match shared with 6 other stops
+Kona Expressway Xing (Nibra)	not geocoded
+Kona More	coordinate is a generic match shared with 46 other stops
+Kona Xing	not geocoded
+Kona high road	not geocoded
+Korapara	not geocoded
+Kowgachi	not geocoded
+Krishnachandrapur	not geocoded
+Krishnamati	not geocoded
+Kudghat	fails route-geometry check
+Kulgachia	not geocoded
+Kuliagarh	not geocoded
+Kulpi	fails route-geometry check
+Kulpukur	not geocoded
+Kultali	not geocoded
+Kultali Bazar	coordinate is a generic match shared with 38 other stops
+Kumarchak	not geocoded
+Kumirmari Bazar	not geocoded
+Kumorpally	not geocoded
+Kundubari	not geocoded
+Kurchi	not geocoded
+Kushangra	not geocoded
+Laboni	not geocoded
+Lake Road	not geocoded
+Lake Town Jessore Road	not geocoded
+Lakshmi More	not geocoded
+Lakshmikantapur Station	not geocoded
+Lalbaba College	not geocoded
+Lalbari	not geocoded
+Langalberia	not geocoded
+Langalpota	not geocoded
+Langolpota	not geocoded
+Lauhati	not geocoded
+Laxmi Bazar	not geocoded
+Layalka	not geocoded
+Leather Complex	coordinate is a generic match shared with 3 other stops
+Lebukhali	not geocoded
+Lebutala	not geocoded
+Leninnagar	not geocoded
+Library More	not geocoded
+Lokenath Mandir	fails route-geometry check
+Lords More	coordinate is a generic match shared with 46 other stops
+M.L.Gupta Road	not geocoded
+MG Road Metro	not geocoded
+Machhlandapur	coordinate is a generic match shared with 6 other stops
+Madartala	coordinate is a generic match shared with 1 other stop
+Madhabpur	not geocoded
+Madhusankati	not geocoded
+Madhyamgram Chowrasta	coordinate is a generic match shared with 3 other stops
+Magra Bazar	not geocoded
+Magurkhali	not geocoded
+Magurkhali Bridge	coordinate is a generic match shared with 4 other stops
+Mahabirtala	not geocoded
+Mahamayatala	not geocoded
+Mahisbatan	not geocoded
+Mahisbathan	not geocoded
+Mahishali Jagadishpur More	not geocoded
+Mahishbathan	not geocoded
+Mahishbathan / Technopolis	not geocoded
+Mahishgari	not geocoded
+Mahishrekha	not geocoded
+Maipith	not geocoded
+Maipith Bazar	not geocoded
+Maipith Coastal	not geocoded
+Maiti Para	fails route-geometry check
+Maitrobagan	not geocoded
+Maitypara	not geocoded
+Majlishpur	not geocoded
+Makardah	not geocoded
+Makardaha	not geocoded
+Makrampur	not geocoded
+Malanch More	coordinate is a generic match shared with 46 other stops
+Malancha	not geocoded
+Malancha Cinema	coordinate is a generic match shared with 3 other stops
+Malancha Phari	not geocoded
+Malangapara	not geocoded
+Malapara	not geocoded
+Malapara / Nimtala Ghat	not geocoded
+Malatipur	not geocoded
+Malikbagan	not geocoded
+Malipanchghara	not geocoded
+Malipota	not geocoded
+Mallick Bazar	coordinate is a generic match shared with 1 other stop
+Mallick Fatak	coordinate is a generic match shared with 1 other stop
+Mallick Fatak / Kadamtala	not geocoded
+Mallickbari	not geocoded
+Mallickpur	not geocoded
+Mallickpur Tematha	not geocoded
+Mallikbazar	not geocoded
+Malncha	fails route-geometry check
+Mamudpur	not geocoded
+Manasabari Bazar	not geocoded
+Manashatala	not geocoded
+Mandabtala	not geocoded
+Mandalerhat	not geocoded
+Mandalganthi	not geocoded
+Mandalpur	not geocoded
+Mandir Gate	not geocoded
+Mandirbazar	not geocoded
+Manigaon	not geocoded
+Manikpir	not geocoded
+Manikpir bazar	coordinate is a generic match shared with 38 other stops
+Manikpur	not geocoded
+Manoharpukur	not geocoded
+Marine College	coordinate is a generic match shared with 1 other stop
+Mashat Market	not geocoded
+Masjidbati	not geocoded
+Matapara	not geocoded
+Matgaran	not geocoded
+Matharani More	not geocoded
+Mathbari	not geocoded
+Mathkal	not geocoded
+Mathkol	not geocoded
+Mathpukur	coordinate is a generic match shared with 1 other stop
+Mathrangi	not geocoded
+Mathurapur Station	coordinate is a generic match shared with 6 other stops
+Matia Bridge	not geocoded
+Matiabruz	not geocoded
+Matikumra	not geocoded
+Matla Bridge	fails route-geometry check
+Mayramahal	not geocoded
+Mayukh Bhaban	not geocoded
+Mayukh Bhawan	not geocoded
+Mazompur	not geocoded
+Mecheda	not geocoded
+Meherani	not geocoded
+Metiabruz Rail line more	not geocoded
+Metiabruz Super speciality hospital	not geocoded
+Metiakhali Bazar.)	not geocoded
+Mickelnagar	not geocoded
+Milan More	coordinate is a generic match shared with 46 other stops
+Milk Colony	coordinate is a generic match shared with 1 other stop
+Minakhan	not geocoded
+Mirhati More	coordinate is a generic match shared with 46 other stops
+Mission Pally	not geocoded
+Mistry Gate	not geocoded
+Mitekhali	not geocoded
+Mithpukuria	not geocoded
+Mittirchak	not geocoded
+Mohani more	coordinate is a generic match shared with 46 other stops
+Mohirampur	not geocoded
+Mollarchak	not geocoded
+Mollargate	coordinate is a generic match shared with 1 other stop
+Mondolpara	not geocoded
+Mondongathi	not geocoded
+Mondonkathi	not geocoded
+Mondonpara	not geocoded
+Mondourie	not geocoded
+Morshal	not geocoded
+Motigunge	not geocoded
+Moubesia	not geocoded
+Moulai	not geocoded
+Mourigram	not geocoded
+Moyna	not geocoded
+Moyna Checkpost	not geocoded
+Moynagarh	not geocoded
+Muchibazar	not geocoded
+Muchighata	not geocoded
+Mugkalyan	not geocoded
+Mukundapur/Hiland park	not geocoded
+Mullickbazar	not geocoded
+Municipality	fails route-geometry check
+Munshibazar	not geocoded
+Munshirhat	not geocoded
+Muragacha	not geocoded
+Muragachha	not geocoded
+Murarisha Chowmatha	not geocoded
+Murarishah Chowmatha	coordinate is a generic match shared with 5 other stops
+Muthurapur	not geocoded
+N.S.H.M. Campus	fails route-geometry check
+NH6	not geocoded
+Nababharati. Talikhola	not geocoded
+Nababpur	not geocoded
+Nabagram	not geocoded
+Nabatkati	not geocoded
+Nachinda	not geocoded
+Nadial	not geocoded
+Nafargange	not geocoded
+Nagar Kachua	not geocoded
+Nagarukhra	fails route-geometry check
+Nahata	not geocoded
+Naihati	coordinate is a generic match shared with 6 other stops
+Nainan	not geocoded
+Nakpul	fails route-geometry check
+Nakpul Bazar	not geocoded
+Nalmuri	not geocoded
+Namkhana	fails route-geometry check
+Nandakumar	not geocoded
+Nandi Bagan	not geocoded
+Nandibari	not geocoded
+Nanu Babur Bazar	not geocoded
+Narayanpur	coordinate is a generic match shared with 3 other stops
+Narayantala	fails route-geometry check
+Narendrapur Ramkrishna Mission	coordinate is a generic match shared with 1 other stop
+Narikelabar	not geocoded
+Narit	not geocoded
+Naskarpara	fails route-geometry check
+Nataberia	not geocoded
+Natagachi	not geocoded
+Natunhat	not geocoded
+Natunpukur	not geocoded
+Nawabpur	not geocoded
+Nayabad	fails route-geometry check
+Nazat	fails route-geometry check
+Nazir Gange	not geocoded
+Neelgunge	not geocoded
+Neemdighi	not geocoded
+Nepalgunge	not geocoded
+Netaji Nagar	fails route-geometry check
+New Bus stand	not geocoded
+New Karola	not geocoded
+New Kolora	not geocoded
+New garia metro	not geocoded
+Nibra Crossing	coordinate is a generic match shared with 3 other stops
+Nilganj Bazar	fails route-geometry check
+Nilgaunj Depot	coordinate is a generic match shared with 1 other stop
+Nilgunge Hat	not geocoded
+Nilgunj Depot	not geocoded
+Nima Terasta	not geocoded
+Nimchabari	not geocoded
+Nimchi	not geocoded
+Nimchi Bazar	not geocoded
+Nimdighi	not geocoded
+Nimpith	not geocoded
+Nimta Bazar	not geocoded
+Nimtouri	not geocoded
+Nirdeshkhali	not geocoded
+Nirman	fails route-geometry check
+Nischintapur	not geocoded
+Nischintipur	not geocoded
+Nityanandakati	not geocoded
+Noapara	fails route-geometry check
+Nodakhali	not geocoded
+Nonapukur	not geocoded
+Noongola	not geocoded
+Noorpur	not geocoded
+Norghat	not geocoded
+North Gate	not geocoded
+Notun Rastar More	not geocoded
+Noul Bazar	coordinate is a generic match shared with 38 other stops
+Novotel	not geocoded
+Nunchapota	not geocoded
+Nungi More	coordinate is a generic match shared with 46 other stops
+Nuntia More	coordinate is a generic match shared with 46 other stops
+ONGC More	coordinate is a generic match shared with 46 other stops
+Old Dakghar	not geocoded
+Om Dayal	not geocoded
+P.A Sha Connector	not geocoded
+P.G. Hospital/Rabindra Sadan	not geocoded
+P.T.S. Danersekh Lane	fails route-geometry check
+PNB island	not geocoded
+PTS More	coordinate is a generic match shared with 46 other stops
+Padmalavpur	not geocoded
+Padmerhat Hospital	not geocoded
+Paechar More (Owl More)	not geocoded
+Paglahat	not geocoded
+Pailan	not geocoded
+Pakapole	not geocoded
+Pakdaha	not geocoded
+Palbazar	not geocoded
+Pallagram	not geocoded
+Palta Bazar	not geocoded
+Paltadanga	not geocoded
+Paltapara	not geocoded
+Panchayat Bhawa	coordinate is a generic match shared with 4 other stops
+Panchkari More	coordinate is a generic match shared with 46 other stops
+Panchla	fails route-geometry check
+Panchpara gram Panchayat	not geocoded
+Panchpota	not geocoded
+Panchpota School More	fails route-geometry check
+Panchur College	not geocoded
+Paniarah	not geocoded
+Panikhali	not geocoded
+Panpur More	coordinate is a generic match shared with 46 other stops
+Pantihal	not geocoded
+Par Hasnabad	not geocoded
+Pardankuni	not geocoded
+Park Circus 4 number bridge	not geocoded
+Park Circus 4 number bridge / Park Circus Station	not geocoded
+Park Circus WBTC Depot	not geocoded
+Park Circus Zeeshan ( Return via Chittaranjan Hospital	not geocoded
+Park Circus Zeeshan )	not geocoded
+Park Circus tram Depot	fails route-geometry check
+Paschim Gazipur. On Return Goes Via :- Shanpur	not geocoded
+Pateswari Mandir	coordinate is a generic match shared with 1 other stop
+Patharberia More	not geocoded
+Patharghata	not geocoded
+Patharpratima	not geocoded
+Pathshimuliya bazar	not geocoded
+Patkelpota	not geocoded
+Patshimulia	not geocoded
+Payragacha	not geocoded
+Payragachi	not geocoded
+Peerless Hosital	not geocoded
+Petkulchand Bazar	coordinate is a generic match shared with 38 other stops
+Phillips More	coordinate is a generic match shared with 46 other stops
+Phooltala	not geocoded
+Phuleshwar	not geocoded
+Pifa	not geocoded
+Pifa Bazar	coordinate is a generic match shared with 38 other stops
+Pilan	not geocoded
+Pilkhana More	coordinate is a generic match shared with 46 other stops
+Pirgacha	not geocoded
+Pirnagar	not geocoded
+Pirtala	not geocoded
+Pitambara	fails route-geometry check
+Piyara	not geocoded
+Pk St	coordinate is a generic match shared with 1 other stop
+Podra	fails route-geometry check
+Podra Bazar	coordinate is a generic match shared with 38 other stops
+Polerhat	coordinate is a generic match shared with 46 other stops
+Police Phari	not geocoded
+Post Office	not geocoded
+Power House	not geocoded
+Prabartak Jute Mill	not geocoded
+Prachi Cinema Hall	not geocoded
+Prafullanagar	not geocoded
+Pramodnagar	not geocoded
+Pramodnagar Mathkal	not geocoded
+Prasadpur	not geocoded
+Prince Anwar Sha connector	not geocoded
+Priyor More	coordinate is a generic match shared with 46 other stops
+Pujali CESC Plant	not geocoded
+Pukuria Hat	not geocoded
+Pumlia Bazar	not geocoded
+Purandarpur	not geocoded
+Purash	not geocoded
+Puratan Bazar	coordinate is a generic match shared with 38 other stops
+Purbachal 13no. Tank	not geocoded
+Purbanchal	not geocoded
+Purpat	not geocoded
+Purshura	not geocoded
+Quality	not geocoded
+R G Kar Hospital	not geocoded
+R.N Mukherjee Street	not geocoded
+Rabindra Bharati University	not geocoded
+Rabindra Nagar	not geocoded
+Rabindra Sadan (Diamond Park)	not geocoded
+Rabindra Sadan (Kidderpore)	not geocoded
+Rabindra Sadan (Parnasree)	not geocoded
+Radha Chemical More	not geocoded
+Radhadashi	not geocoded
+Radhanagar	not geocoded
+Radhapur	not geocoded
+Rafipur	not geocoded
+Raghabkati	not geocoded
+Rahana Bazar	fails route-geometry check
+Rahara Bazar	not geocoded
+Raichak More	coordinate is a generic match shared with 3 other stops
+Raigachhi	not geocoded
+Raipur	not geocoded
+Rajabagan	not geocoded
+Rajabazar Science College	not geocoded
+Rajapur	fails route-geometry check
+Rajarhat	fails route-geometry check
+Rajarhat Bishnupur	not geocoded
+Rajarhat bazar	not geocoded
+Rajballavpara	not geocoded
+Rajbari	not geocoded
+Rajberia	not geocoded
+Rajdanga	not geocoded
+Rajendrapur	not geocoded
+Rajgunge	not geocoded
+Rajpur Bazar	coordinate is a generic match shared with 38 other stops
+Rambati	not geocoded
+Ramchandrapur	not geocoded
+Ramchandrapur Bazar	not geocoded
+Ramdhari	not geocoded
+Ramganga	fails route-geometry check
+Ramganga BDO Office	not geocoded
+Ramkrishna Math	fails route-geometry check
+Ramkrishna Mission	coordinate is a generic match shared with 1 other stop
+Ramkrishna Talkies	not geocoded
+Ramlal Bazar	not geocoded
+Ramnagar	fails route-geometry check
+RamnarayanpurRamnarayanpur	not geocoded
+Rampur	fails route-geometry check
+Rampur Quarter	fails route-geometry check
+Ramrajatala	not geocoded
+Ranabelia Ghat	coordinate is a generic match shared with 3 other stops
+Rangapur	not geocoded
+Ranihati	not geocoded
+Ranikhuti	not geocoded
+Rasbehari	not geocoded
+Rashbihari crossing	coordinate is a generic match shared with 3 other stops
+Rashmoni More	fails route-geometry check
+Ratneshwarpur	not geocoded
+Ring Road	not geocoded
+Ripon Street	not geocoded
+Rowland Road Xing	not geocoded
+Rubber Factory	not geocoded
+Rudrapur	not geocoded
+Ruiya Purbapara	not geocoded
+S.M. Nagar	fails route-geometry check
+SDG	fails route-geometry check
+Sabedabagan	not geocoded
+Sadarpur	not geocoded
+Safuipara	not geocoded
+Sahararhat	not geocoded
+Saheb Colony	fails route-geometry check
+Sahebbagan	not geocoded
+Sahebbagan Gate	not geocoded
+Saheed Nagar	coordinate is a generic match shared with 1 other stop
+Sahidnagar	not geocoded
+Saihati	not geocoded
+Sajnaberia	not geocoded
+Sales Tax	coordinate is a generic match shared with 1 other stop
+Salkia Chowrasta	coordinate is a generic match shared with 3 other stops
+Salkia Chowrasta / Bandha Ghat	not geocoded
+Salkia Chowrastha	coordinate is a generic match shared with 3 other stops
+Saltlake 12no. Tank	coordinate is a generic match shared with 5 other stops
+Saltlake 13no. Tank	coordinate is a generic match shared with 5 other stops
+Saltlake 14no. Tank	coordinate is a generic match shared with 5 other stops
+Saltlake 16no. Tank	coordinate is a generic match shared with 5 other stops
+Saltlake 206	not geocoded
+Saltlake 4no. Tank	coordinate is a generic match shared with 5 other stops
+Saltlake 7no. Tank	not geocoded
+Saltlake 9no. Tank	coordinate is a generic match shared with 5 other stops
+Saltlake C.A. Block	coordinate is a generic match shared with 2 other stops
+Saltlake Gate	coordinate is a generic match shared with 2 other stops
+Saltlake Karunamoyee	fails route-geometry check
+Saltlake Stadium	coordinate is a generic match shared with 2 other stops
+Salua	not geocoded
+Salua Bazar	coordinate is a generic match shared with 38 other stops
+Samshernagar (	not geocoded
+Sandhipur	not geocoded
+Sangrampur	not geocoded
+Sankizahan	not geocoded
+Sankrail	not geocoded
+Sankrail Bharat Co-Op	not geocoded
+Sanpukur Bazar	not geocoded
+Santoshpur Rail Station	not geocoded
+Santragachi Bus Terminal	not geocoded
+Sapoorji	not geocoded
+Saptapally More	coordinate is a generic match shared with 3 other stops
+Sarada Park	not geocoded
+Sarapul	fails route-geometry check
+Sarasberia	not geocoded
+Saraswati Press	not geocoded
+Sarat Colony	fails route-geometry check
+Sarberia	not geocoded
+Sarisha 246 more	not geocoded
+Sarisha More	coordinate is a generic match shared with 46 other stops
+Sarkar Bazar	coordinate is a generic match shared with 1 other stop
+Sarkarpool	not geocoded
+Sasati	not geocoded
+Sasthir More	coordinate is a generic match shared with 46 other stops
+Satabharat	not geocoded
+Satyabala	not geocoded
+Satyanarayan Park	fails route-geometry check
+Science City Milan Mela Ground Stoppage	not geocoded
+Science City/Chowbagha	not geocoded
+Sealdah Station Moulali More	not geocoded
+Sech Bhawan	not geocoded
+Sehagori	not geocoded
+Sendanga	not geocoded
+Senerdanga	not geocoded
+Seva Hospital	fails route-geometry check
+Shahidullah College	not geocoded
+Shamali	not geocoded
+Shamukpota	not geocoded
+Shanpur More	coordinate is a generic match shared with 46 other stops
+Shaoraberia	not geocoded
+Shasan Bazar	not geocoded
+Shasati More	coordinate is a generic match shared with 46 other stops
+Sherpur Kalibari	coordinate is a generic match shared with 1 other stop
+Shiakhala	not geocoded
+Shibalaya	not geocoded
+Shibanipith	not geocoded
+Shiberhana	not geocoded
+Shibganj Bazar	not geocoded
+Shibgunge	not geocoded
+Shibpur Bazar	coordinate is a generic match shared with 1 other stop
+Shibpur TD	not geocoded
+Shibpur Toll Plaza	not geocoded
+Shibtala	not geocoded
+Shikharpur	not geocoded
+Shikra More	not geocoded
+Shimulpur Senbari	not geocoded
+Shimultala	not geocoded
+Shipping Corporation	coordinate is a generic match shared with 1 other stop
+Shirakol	not geocoded
+Shirakole	not geocoded
+Shirishtala	not geocoded
+Shishumangal Hospital	not geocoded
+Shonepur	not geocoded
+Shreebhumi	not geocoded
+Shrikole More	not geocoded
+Shrikrishnapur	not geocoded
+Shripur Mallikpur	not geocoded
+Shyamasree	not geocoded
+Shyambazar 5 point	not geocoded
+Shyamnagar	fails route-geometry check
+Sibanagar	not geocoded
+Sibanipith	not geocoded
+Siddhiberia	not geocoded
+Sindrani	fails route-geometry check
+Singa	not geocoded
+Singhabari	not geocoded
+Sinthi	coordinate is a generic match shared with 1 other stop
+Sinthir More	not geocoded
+Sirishbagan	not geocoded
+Siriti More	coordinate is a generic match shared with 46 other stops
+Sishu Mangal (Kasba)	not geocoded
+Situri	not geocoded
+Sobedatala	not geocoded
+Sodepur Traffic more	not geocoded
+Sodpur Traffic More	not geocoded
+Sonakhali	not geocoded
+Sonakhali Bus Stand	coordinate is a generic match shared with 2 other stops
+Sonamukhi Bazar	coordinate is a generic match shared with 38 other stops
+Sondalia Bablatala	not geocoded
+Sondalia Station	not geocoded
+Sonpukur	not geocoded
+South Bishnupur	coordinate is a generic match shared with 1 other stop
+South Calcutta Girls' College	not geocoded
+Sova Bajar Metro	not geocoded
+Sova bajar	coordinate is a generic match shared with 1 other stop
+Sreepally	not geocoded
+Srichanda	not geocoded
+State University	fails route-geometry check
+Subarnapur. )	not geocoded
+Subhash Colony	fails route-geometry check
+Subhash Nagar	not geocoded
+Subhash Sarobar	not geocoded
+Subhasnagar	not geocoded
+Sujapur	not geocoded
+Sukanta Park	fails route-geometry check
+Sukhchar	not geocoded
+Sukiya Street	not geocoded
+Sunderban Chowmatha	not geocoded
+Sundia	not geocoded
+Surkikal	not geocoded
+Suryapur	fails route-geometry check
+Suryasen Nagar	not geocoded
+Suryasen Street	not geocoded
+Sushrut Hospital	coordinate is a generic match shared with 1 other stop
+Susrut Eye Hospital	not geocoded
+Susrut Hospital	not geocoded
+Sutia	not geocoded
+Swapnobhor	not geocoded
+Swarupnagar	not geocoded
+Swarupnagar BDO Office	not geocoded
+T.T.XING	coordinate is a generic match shared with 1 other stop
+TCS Gitanjali	fails route-geometry check
+TCS Gitanjani Park	not geocoded
+Tahelarampur Bazar	coordinate is a generic match shared with 38 other stops
+Taki	not geocoded
+Taki Chowrangee	not geocoded
+Tala bridge	not geocoded
+Taldi	not geocoded
+Tank 4	not geocoded
+Tantipara	not geocoded
+Tantirhat	not geocoded
+Taragunia	not geocoded
+Taranipur	not geocoded
+Tematha	not geocoded
+Tentulia	coordinate is a generic match shared with 1 other stop
+Tentulia Bazar	coordinate is a generic match shared with 38 other stops
+Tentultala	coordinate is a generic match shared with 1 other stop
+Thakdari	not geocoded
+Thakuranichak Kalitala	not geocoded
+Thakurpukur Bazar	not geocoded
+Thakurpukur cancer hospital	not geocoded
+Thaliya	not geocoded
+Titagarh Bajar	not geocoded
+Tollygunj Karunamoyee	coordinate is a generic match shared with 1 other stop
+Tollygunj Metro	coordinate is a generic match shared with 1 other stop
+Tollygunj Tram Depot	fails route-geometry check
+Tona	not geocoded
+Trimohani	not geocoded
+Trimohini	not geocoded
+Tulshiberia	not geocoded
+Tulsighata	not geocoded
+Udainarayanpur	not geocoded
+Udanarayanpur	not geocoded
+Udang Bazar	not geocoded
+Ukilerhat	not geocoded
+Ultadanga 15 No. Bus Stand	fails route-geometry check
+Uluberia	coordinate is a generic match shared with 6 other stops
+Uluberia Checkpost	not geocoded
+Unitech/ Ecospace	not geocoded
+Unsani	not geocoded
+Usthi	not geocoded
+Usti	not geocoded
+Uttar Chandipur	coordinate is a generic match shared with 2 other stops
+Uttar Durgapur	not geocoded
+Uttar Panchannagram	coordinate is a generic match shared with 2 other stops
+Uttar Panchannangram	not geocoded
+Uttar Ramkrishnapur	not geocoded
+Uttar Sonakhali	coordinate is a generic match shared with 2 other stops
+Uttarbhag	not geocoded
+V. I. P. Bazer	not geocoded
+Vaishali	not geocoded
+Vandergacha	not geocoded
+Vandergachha	not geocoded
+Vidhya Sagar Satu	not geocoded
+Vidyasaagar Setu	not geocoded
+Vivekananda Bridge	fails route-geometry check
+Water Gate	coordinate is a generic match shared with 1 other stop
+Watgangemore	not geocoded
+Webel	not geocoded
+Wellington	not geocoded
+Wireless Gate	coordinate is a generic match shared with 1 other stop
+Wireless More	coordinate is a generic match shared with 1 other stop
+Yogendranath High School	fails route-geometry check

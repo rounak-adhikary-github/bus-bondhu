@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>BusBondhu - Kolkata's Bus Companion</title>
-<meta name="description" content="BusBondhu - find Kolkata buses between any two stops with timings, frequency, route maps and travel estimates." />
+<meta name="description" content="BusBondhu - find every Kolkata bus that runs between two stops, with route maps, distance and estimated ride time. No timetables claimed." />
 <meta name="theme-color" content="#070b18" />
 <meta name="color-scheme" content="dark" />
 <meta name="author" content="BusBondhu" />
@@ -13,11 +13,11 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="BusBondhu" />
 <meta property="og:title" content="BusBondhu - Kolkata's Bus Companion" />
-<meta property="og:description" content="Find any bus across Kolkata between two stops. Timings, frequency, route maps and travel estimates for govt + private services." />
+<meta property="og:description" content="Find every bus that runs between two stops across Kolkata. Route maps, distance and estimated ride time for govt + private services." />
 <meta property="og:locale" content="en_IN" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="BusBondhu - Kolkata's Bus Companion" />
-<meta name="twitter:description" content="Find any bus across Kolkata between two stops, with route maps and travel estimates." />
+<meta name="twitter:description" content="Find every bus that runs between two stops across Kolkata, with route maps and estimated ride time." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +34,7 @@
   <noscript>
     <div class="no-script">
       <strong>BusBondhu needs JavaScript.</strong>
-      This tool searches and sorts live departures in your browser, so please enable JavaScript to use it.
+      This tool matches routes and sorts them in your browser, so please enable JavaScript to use it.
     </div>
   </noscript>
 
@@ -66,7 +66,7 @@
     <section class="search-card glassy" aria-label="Bus search">
       <div class="card-head">
         <h2>Where are you headed today?</h2>
-        <span class="mini-note" title="Route numbers, origins, termini and stop sequences come from WBTC's official city bus route list and from Kolkata Bus-O-Pedia's catalogue of private, minibus, SD/DN, K/KB and STA services. Neither source publishes frequencies or departure times, so the headways and next-bus times on this page are clearly-labelled estimates, not official timings. Only stops we can place with confidence are plotted.">route data: WBTC + Kolkata Bus-O-Pedia &middot; times are estimates</span>
+        <span class="mini-note" title="Route numbers, origins, termini and stop sequences come from WBTC's official city bus route list and from Kolkata Bus-O-Pedia's catalogue of private, minibus, SD/DN, K/KB and STA services. Neither source publishes frequencies or departure times, so this page shows no bus timings at all — you get the stop sequence, the total trip length and an estimated ride time for the stretch you actually travel. Only stops we can place with confidence are plotted.">route data: WBTC + Kolkata Bus-O-Pedia &middot; no bus timings published by either source</span>
       </div>
 
       <form id="searchForm" autocomplete="off" novalidate>
@@ -74,9 +74,13 @@
 
           <div class="field">
             <label for="source">From <span class="req-none">(source)</span></label>
-            <div class="input-wrap">
+            <div class="input-wrap has-combo">
               <span class="ico">&#128205;</span>
-              <input id="source" name="source" list="stopList" placeholder="e.g. Howrah Station" spellcheck="false" />
+              <input id="source" name="source" placeholder="e.g. Howrah Station" spellcheck="false"
+                     autocomplete="off" autocapitalize="off" autocorrect="off" enterkeyhint="search"
+                     role="combobox" aria-expanded="false" aria-autocomplete="list"
+                     aria-controls="sourceList" />
+              <div class="combo" id="sourceList" role="listbox" aria-label="Matching stops" hidden></div>
             </div>
           </div>
 
@@ -84,37 +88,17 @@
 
           <div class="field">
             <label for="destination">To <span class="req-none">(destination)</span></label>
-            <div class="input-wrap">
+            <div class="input-wrap has-combo">
               <span class="ico">&#127937;</span>
-              <input id="destination" name="destination" list="stopList" placeholder="e.g. Salt Lake Sector V" spellcheck="false" />
-            </div>
-          </div>
-
-          <div class="field">
-            <label for="timeHour">Time of travel <span class="req-none">(optional)</span></label>
-            <div class="input-wrap">
-              <span class="ico">&#128337;</span>
-              <select id="timeHour">
-                <option value="">Now &middot; auto-detect</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="field">
-            <label for="ampm">AM / PM <span class="req-none">(optional)</span></label>
-            <div class="input-wrap">
-              <span class="ico">&#127749;</span>
-              <select id="ampm">
-                <option value="">Now (auto)</option>
-                <option value="AM">AM</option>
-                <option value="PM">PM</option>
-              </select>
+              <input id="destination" name="destination" placeholder="e.g. Salt Lake Sector V" spellcheck="false"
+                     autocomplete="off" autocapitalize="off" autocorrect="off" enterkeyhint="search"
+                     role="combobox" aria-expanded="false" aria-autocomplete="list"
+                     aria-controls="destinationList" />
+              <div class="combo" id="destinationList" role="listbox" aria-label="Matching stops" hidden></div>
             </div>
           </div>
 
         </div>
-
-        <datalist id="stopList"></datalist>
 
         <button type="submit" class="search-btn" id="searchBtn">
           <span class="sb-ico">&#128269;</span>
@@ -152,7 +136,7 @@
       <div class="empty-state glassy" id="emptyState">
         <div class="es-ico">&#128678;</div>
         <h3>Ready when you are</h3>
-        <p>Pick a source and a destination above, then hit <strong>Search buses</strong>. We'll line up every bus leaving your stop over the next 2 hours &mdash; government, private, minibus and STA services, over 500 real routes.</p>
+        <p>Pick a source and a destination above, then hit <strong>Search buses</strong>. We'll line up every bus that runs your stretch &mdash; government, private, minibus and STA services, across 537 real routes.</p>
       </div>
     </section>
   </main>
@@ -202,7 +186,7 @@
         <div class="mh-stats">
           <div class="stat"><b id="mhKm">&mdash;</b><span>km</span></div>
           <div class="stat"><b id="mhMin">&mdash;</b><span>min</span></div>
-          <div class="stat"><b id="mhArr">&mdash;</b><span>next bus</span></div>
+          <div class="stat"><b id="mhStopsN">&mdash;</b><span>stops</span></div>
         </div>
       </div>
 
